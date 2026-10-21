@@ -1,0 +1,9 @@
+Help people before something goes wrong
+
+If Insurance: prevention challenge
+
+Insurance is usually there after something has gone wrong: a burst pipe, a break-in, a fire, a fall. We would rather help our customers so that it never happens. Moving to a new home is a moment when many risks change at once: a building with unknown wiring and plumbing, new neighbours, new routes, boxes in the hallway, a home that stands empty for a while, an address that burglars can read from a moving notice, and a lot to remember. People are busy and stressed, and rarely think about safety in the middle of a move.
+
+Your challenge is to design a service that reaches people at the moment of a home move and helps them prevent damage and injuries before they happen. It could use the information people already give when they change address and buy a home insurance policy: type and age of the building, floor, region, household composition, whether the home is empty during renovation, and season. The service should explain, in plain language, the three or four things this particular household should do this week, and make doing them easy and rewarding. We care about behaviour: nudges that people actually follow, not another list of tips nobody reads.
+
+Think about how to personalise the advice to the likely risk without being creepy, how to measure whether the advice reduced claims or near-misses, and how to keep the tone friendly rather than frightening.

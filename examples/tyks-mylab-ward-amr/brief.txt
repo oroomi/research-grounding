@@ -1,0 +1,11 @@
+Antibiotic resistance on the ward: spot it early
+
+Tyks Laboratories and Mylab
+
+Antibiotic resistance is one of the biggest threats to hospital care. Every day the clinical microbiology laboratory produces hundreds of culture results with susceptibility tests: which bacteria grew from which sample, on which ward, and which antibiotics they were resistant to. Today this information is summarised in a hospital-wide antibiogram once a year. Clinicians on a ward cannot see that, for example, ESBL-producing E. coli in urine samples from one surgical ward has been rising over the last six weeks.
+
+Your challenge is to build a rolling, ward-level antibiogram and a resistance trend detection tool for infection control nurses and antimicrobial stewardship teams. The tool should show, per ward and per bacterium-antibiotic combination, the current share of resistant isolates, how it compares with the ward's own history and with the rest of the hospital, and raise an alert when a resistance trend or a cluster of cases looks unusual. Results should be shown in a form clinicians can act on during the ward round: which empirical antibiotic is likely to work on this ward today.
+
+Partner data: anonymised culture and susceptibility results (species, specimen type, ward, date, antibiotic, S/I/R interpretation), with small numbers per ward and per month. Expect missing values, duplicate isolates from the same patient and changes in testing standards over time.
+
+Think about statistical reliability with small samples, alert fatigue, and how to explain why an alert fired.

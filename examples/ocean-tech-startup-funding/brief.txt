@@ -1,0 +1,11 @@
+Predict which early-stage ocean-tech startups will raise funding
+
+Illustrative brief written for this kit (not an official partner text).
+
+The ocean economy is full of young companies: autonomous survey vessels, seaweed farming, marine biotech, port electrification, fisheries analytics. Investors say they cannot see them early, and founders say investors do not understand the sector. A regional ocean-innovation network wants a tool that tells its mentors and the investors it works with which early-stage startups are most likely to raise their next funding round in the next twelve months, so that scarce mentoring time and introductions go where they matter.
+
+Your challenge is to build a ranked watch-list of early-stage ocean-tech startups with an explainable probability of raising funding. Show, for each startup, the few signals behind its score (team, traction, grants and public funding received, patents and publications, hiring, partner and customer announcements, time since the last round) and what the network could do to improve its odds.
+
+Partner data: a table of around 200 startups with founding year, sector, country, team size over time, grants received with dates and amounts, previous funding rounds with dates, patent and paper counts, and news mentions. Expect missing values, very few observed rounds per sector, and many startups that never raise money at all and are not failures.
+
+Think about small samples and class imbalance, avoiding leakage from information that only appears after a round, calibration of the probabilities, and how to explain a score to a founder without discouraging them.

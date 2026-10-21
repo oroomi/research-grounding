@@ -1,0 +1,139 @@
+/* "Based on: Author (Year)" badge.  Drop-in, no dependencies.
+ *
+ * Theming: every colour is a custom property on .based-on. Light is the default, dark follows
+ *   [data-theme="dark"] on the badge or ANY ancestor, a .dark ancestor, or the OS (unless an ancestor says data-theme="light").
+ * Override on the badge or any ancestor, e.g.  .my-hero { --bo-accent: #22d3ee; }
+ * If the page uses the glass kit, --g-accent-text is picked up as the accent automatically.
+ */
+.based-on {
+  --bo-accent: var(--g-accent-text, #0e7490);         /* cyan-700: 5.4:1 on white */
+  --bo-fg: #0b1220;
+  --bo-muted: #475569;                                 /* 7.6:1 on white */
+  --bo-bg: rgb(14 116 144 / .08);
+  --bo-border: rgb(14 116 144 / .38);
+  --bo-divider: rgb(14 116 144 / .28);
+  --bo-card-bg: #ffffff;
+  --bo-card-fg: #0b1220;
+  --bo-card-muted: #475569;
+  --bo-card-border: rgb(15 23 42 / .14);
+  --bo-shadow: 0 12px 32px rgb(15 23 42 / .16), 0 2px 6px rgb(15 23 42 / .08);
+  --bo-warn-fg: #7c2d12;  --bo-warn-bg: #ffedd5;       /* "implements": amber, 8:1 */
+  --bo-ok-fg: #14532d;    --bo-ok-bg: #dcfce7;         /* "validated": green, 9:1 */
+  --bo-warn-dot: #d97706; --bo-ok-dot: #16a34a;        /* decorative; the card and aria-label carry the meaning in words */
+  --bo-radius: 1.1rem;                                 /* a capsule on one line, a soft rounded box if the name wraps */
+  --bo-font: inherit;
+
+  position: relative;
+  display: inline-flex;
+  align-items: stretch;
+  max-width: 100%;
+  vertical-align: middle;
+  font: 500 .8125rem/1.2 var(--bo-font);
+  color: var(--bo-fg);
+  background: var(--bo-bg);
+  border: 1px solid var(--bo-border);
+  border-radius: var(--bo-radius);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---- dark: navy surfaces, cyan accent ---- */
+.based-on[data-theme="dark"], [data-theme="dark"] .based-on, .dark .based-on {
+  --bo-accent: var(--g-accent-text, #22d3ee);
+  --bo-fg: #e6f1ff;
+  --bo-muted: #a5b8cf;
+  --bo-bg: rgb(34 211 238 / .10);
+  --bo-border: rgb(34 211 238 / .42);
+  --bo-divider: rgb(34 211 238 / .30);
+  --bo-card-bg: #0f1b2e;
+  --bo-card-fg: #e6f1ff;
+  --bo-card-muted: #a5b8cf;
+  --bo-card-border: rgb(148 197 255 / .24);
+  --bo-shadow: 0 16px 40px rgb(2 8 23 / .6), 0 2px 8px rgb(2 8 23 / .4);
+  --bo-warn-fg: #fcd34d;  --bo-warn-bg: rgb(251 191 36 / .14);
+  --bo-ok-fg: #86efac;    --bo-ok-bg: rgb(74 222 128 / .14);
+  --bo-warn-dot: #fbbf24; --bo-ok-dot: #4ade80;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .based-on:not([data-theme="light"], [data-theme="light"] .based-on) {
+    --bo-accent: var(--g-accent-text, #22d3ee);
+    --bo-fg: #e6f1ff;
+    --bo-muted: #a5b8cf;
+    --bo-bg: rgb(34 211 238 / .10);
+    --bo-border: rgb(34 211 238 / .42);
+    --bo-divider: rgb(34 211 238 / .30);
+    --bo-card-bg: #0f1b2e;
+    --bo-card-fg: #e6f1ff;
+    --bo-card-muted: #a5b8cf;
+    --bo-card-border: rgb(148 197 255 / .24);
+    --bo-shadow: 0 16px 40px rgb(2 8 23 / .6), 0 2px 8px rgb(2 8 23 / .4);
+    --bo-warn-fg: #fcd34d;  --bo-warn-bg: rgb(251 191 36 / .14);
+    --bo-ok-fg: #86efac;    --bo-ok-bg: rgb(74 222 128 / .14);
+    --bo-warn-dot: #fbbf24; --bo-ok-dot: #4ade80;
+  }
+}
+
+/* ---- the chip ---- */
+.based-on__link {
+  display: inline-flex; align-items: center; gap: .4rem;
+  min-height: 1.875rem; padding: .25rem .6rem .25rem .7rem;
+  color: inherit; text-decoration: none;
+  border-radius: var(--bo-radius) 0 0 var(--bo-radius);
+  min-width: 0;
+}
+.based-on__icon { flex: none; width: .95rem; height: .95rem; color: var(--bo-accent); }
+.based-on__i { flex: none; width: .95rem; height: .95rem; }
+.based-on__label { flex: none; color: var(--bo-muted); font-weight: 500; }
+.based-on__ref { min-width: 0; overflow-wrap: break-word; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; overflow: hidden; color: var(--bo-accent); font-weight: 650; text-decoration: underline; text-decoration-color: transparent; text-underline-offset: 3px; transition: text-decoration-color .15s; }
+.based-on__link:hover .based-on__ref { text-decoration-color: currentColor; }
+
+.based-on__info {
+  appearance: none; display: inline-flex; align-items: center; justify-content: center; gap: .3rem;
+  min-width: 1.875rem; min-height: 1.875rem; padding: 0 .55rem 0 .5rem; margin: 0;
+  font: inherit; color: var(--bo-muted); background: transparent; cursor: pointer;
+  border: 0; border-left: 1px solid var(--bo-divider); border-radius: 0 var(--bo-radius) var(--bo-radius) 0;
+}
+.based-on__info:hover, .based-on[data-open] .based-on__info { color: var(--bo-accent); background: rgb(127 127 127 / .10); }
+.based-on__dot { width: .5rem; height: .5rem; border-radius: 50%; background: var(--bo-warn-dot); flex: none; }
+.based-on[data-level="validated"] .based-on__dot { background: var(--bo-ok-dot); }
+.based-on__link:focus-visible, .based-on__info:focus-visible { outline: 2px solid var(--bo-accent); outline-offset: 2px; }
+
+@media (max-width: 26rem) {
+  .based-on { font-size: .78rem; }
+  .based-on__link { gap: .3rem; padding: .2rem .4rem .2rem .6rem; }
+  .based-on__link > .based-on__icon { display: none; }
+  .based-on__info { padding: 0 .4rem; min-width: 1.75rem; gap: .2rem; }
+}
+
+/* ---- the card (hover / focus / tap) ---- */
+.based-on__card {
+  display: none; position: absolute; z-index: 2147483000; top: calc(100% + .5rem); left: 0;
+  width: min(21rem, calc(100vw - 1rem)); box-sizing: border-box; padding: .8rem .9rem .85rem;
+  color: var(--bo-card-fg); background: var(--bo-card-bg);
+  border: 1px solid var(--bo-card-border); border-radius: .85rem; box-shadow: var(--bo-shadow);
+  font: 400 .8125rem/1.5 var(--bo-font); text-align: left; white-space: normal; text-transform: none; letter-spacing: normal;
+}
+/* no JS: CSS-only hover/focus still works */
+.based-on:not([data-js]):hover .based-on__card, .based-on:not([data-js]):focus-within .based-on__card { display: block; }
+/* JS: position:fixed so overflow:hidden ancestors cannot clip it; the script sets top/left */
+.based-on[data-js] .based-on__card { position: fixed; top: 0; left: 0; }
+.based-on[data-open] .based-on__card { display: block; }
+
+.based-on__kicker { display: block; font-size: .6875rem; font-weight: 650; letter-spacing: .06em; text-transform: uppercase; color: var(--bo-card-muted); margin-bottom: .2rem; }
+.based-on__title { display: block; font-weight: 650; font-size: .875rem; line-height: 1.35; margin-bottom: .15rem; }
+.based-on__authors { display: block; color: var(--bo-card-muted); margin-bottom: .55rem; }
+.based-on__method { display: block; margin-bottom: .65rem; }
+.based-on__level {
+  display: inline-flex; align-items: flex-start; gap: .4rem; padding: .35rem .6rem; border-radius: .6rem;
+  font-weight: 600; font-size: .78rem; line-height: 1.35;
+  color: var(--bo-warn-fg); background: var(--bo-warn-bg);
+}
+.based-on[data-level="validated"] .based-on__level { color: var(--bo-ok-fg); background: var(--bo-ok-bg); }
+.based-on__more { display: block; margin-top: .65rem; color: var(--bo-accent); font-weight: 650; text-decoration: none; }
+.based-on__more:hover { text-decoration: underline; text-underline-offset: 3px; }
+.based-on__more:focus-visible { outline: 2px solid var(--bo-accent); outline-offset: 2px; border-radius: 4px; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .based-on[data-open] .based-on__card { animation: bo-in .14s ease-out; }
+  @keyframes bo-in { from { opacity: 0; transform: translateY(3px); } to { opacity: 1; transform: none; } }
+}
+@media print { .based-on__card, .based-on__info { display: none !important; } .based-on { border: 0; background: none; } }

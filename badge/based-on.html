@@ -1,0 +1,31 @@
+<!-- Paste once per page (head): -->
+<link rel="stylesheet" href="based-on.css">
+<script src="based-on.js" defer></script>
+
+<!-- 1) One badge per signal, next to the number it explains. The script builds the rest. -->
+<span class="based-on"
+      data-author="Unkel et al." data-year="2011"
+      data-url="https://doi.org/10.1111/j.1467-985X.2011.00714.x"
+      data-title="Statistical methods for the prospective detection of infectious disease outbreaks: a review"
+      data-method="Flags a ward when its resistant share runs above what its own recent history predicts."
+      data-level="implements"></span>
+
+<!-- 2) After you tested it on the partner's sample: say what you tested, and only that. -->
+<span class="based-on"
+      data-author="Unkel et al." data-year="2011" data-url="https://doi.org/10.1111/j.1467-985X.2011.00714.x"
+      data-method="Flags a ward when its resistant share runs above what its own recent history predicts."
+      data-level="validated" data-sample="2,310 isolates, 6 wards, Jan-Jun 2026 (we replayed the history, not the future)"></span>
+
+<!-- 3) Dark section on a light page (or the other way round): set the theme on the badge or any ancestor. -->
+<section data-theme="dark"> ... <span class="based-on" data-author="..." data-year="..." data-url="..."></span> ... </section>
+
+<!-- 4) No JavaScript (static page, slide export): same classes, the card still opens on hover/focus. -->
+<span class="based-on" data-level="implements">
+  <a class="based-on__link" href="https://doi.org/10.1111/j.1467-985X.2011.00714.x" target="_blank" rel="noopener noreferrer">
+    <span class="based-on__label">Based on:</span> <span class="based-on__ref">Unkel et al. (2011)</span>
+  </a>
+  <span class="based-on__card"><span class="based-on__method">Flags a ward when its resistant share runs above what its own recent history predicts.</span>
+    <span class="based-on__level">Implements the method. Not yet validated on our data.</span></span>
+</span>
+
+<!-- 5) From code: BasedOn.create({author, year, url, title, method, level, sample}) returns the element. -->

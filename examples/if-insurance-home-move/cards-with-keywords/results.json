@@ -1,0 +1,3260 @@
+{
+ "meta": {
+  "version": "0.1.0",
+  "date": "2026-10-21",
+  "plan_method": "keyword extraction",
+  "years": "2010-2026",
+  "queries": [
+   {
+    "kind": "user",
+    "text": "residential relocation"
+   },
+   {
+    "kind": "user",
+    "text": "home injury prevention"
+   },
+   {
+    "kind": "user",
+    "text": "household safety behaviour"
+   },
+   {
+    "kind": "phrase",
+    "text": "home insurance policy"
+   },
+   {
+    "kind": "phrase",
+    "text": "household composition"
+   },
+   {
+    "kind": "phrase",
+    "text": "plain language"
+   }
+  ],
+  "semantic": "A service that reaches people at the moment of a home move and helps them prevent damage and injuries before they happen. It could use the information people already give when they change address and buy a home insurance policy: type and age of the building, floor, region, household composition, whether the home is empty during renovation, and season.",
+  "candidates": 480,
+  "unique": 424,
+  "sources": {
+   "openalex": {
+    "calls": 12,
+    "cached": 12,
+    "errors": [],
+    "budget": ""
+   },
+   "semantic_scholar": {
+    "skipped": true
+   }
+  },
+  "llm": false
+ },
+ "top": [
+  {
+   "title": "Home safety education and provision of safety equipment for injury prevention",
+   "year": 2012,
+   "authors": [
+    "Denise Kendrick",
+    "Ben Young",
+    "Amanda J. Mason‐Jones",
+    "Nohaid Ilyas",
+    "Felix A. Achana",
+    "Nicola J. Cooper",
+    "Stephanie Hubbard",
+    "Alex J. Sutton",
+    "Sherie J. Smith",
+    "Persephone M. Wynn",
+    "Caroline A. Mulvaney",
+    "Michael Craig Watson",
+    "Carol A. C. Coupland"
+   ],
+   "venue": "Cochrane Database of Systematic Reviews",
+   "doi": "10.1002/14651858.cd005014.pub3",
+   "url": "https://doi.org/10.1002/14651858.cd005014.pub3",
+   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9758703",
+   "abstract": "BACKGROUND: In industrialised countries injuries (including burns, poisoning or drowning) are the leading cause of childhood death and steep social gradients exist in child injury mortality and morbidity. The majority of injuries in pre-school children occur at home but there is little meta-analytic evidence that child home safety interventions reduce injury rates or improve a range of safety practices, and little evidence on their effect by social group. OBJECTIVES: We evaluated the effectiveness of home safety education, with or without the provision of low cost, discounted or free equipment (hereafter referred to as home safety interventions), in reducing child injury rates or increasing home safety practices and whether the effect varied by social group. SEARCH METHODS: We searched the Cochrane Central Register of Controlled Trials (CENTRAL) (2009, Issue 2) in The Cochrane Library, MEDLINE (Ovid), EMBASE (Ovid), PsycINFO (Ovid), ISI Web of Science: Science Citation Index Expanded (SCI-EXPANDED), ISI Web of Science: Social Sciences Citation Index (SSCI), ISI Web of Science: Conference Proceedings Citation Index- Science (CPCI-S), CINAHL (EBSCO) and DARE (2009, Issue 2) in The Cochrane Library. We also searched websites and conference proceedings and searched the bibliographies of relevant studies and previously published reviews. We contacted authors of included studies as well as relevant organisations. The most recent search for trials was May 2009. [...]",
+   "cited_by": 278,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "user",
+     "rank": 14,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.0,
+     "sim": 1.0,
+     "raw": 1.0263981607717605
+    }
+   ],
+   "ids": {
+    "openalex": "W2032721210"
+   },
+   "sim": 1.0,
+   "raw_score": 71.77763,
+   "rrf": 0.05035445281346921,
+   "coverage": 0.4039120908494245,
+   "relevance": 0.7077813053282721,
+   "score": 0.948027392437994
+  },
+  {
+   "title": "Moving to an active lifestyle? A systematic review of the effects of residential relocation on walking, physical activity and travel behaviour",
+   "year": 2018,
+   "authors": [
+    "Ding Ding",
+    "Binh Nguyen",
+    "Vincent Learnihan",
+    "Adrian Ernest Bauman",
+    "Rachel Davey",
+    "Bin Badrudin Jalaludin",
+    "Klaus Gebel"
+   ],
+   "venue": "British Journal of Sports Medicine",
+   "doi": "10.1136/bjsports-2017-098833",
+   "url": "https://doi.org/10.1136/bjsports-2017-098833",
+   "oa_url": "",
+   "abstract": "OBJECTIVE: To synthesise the literature on the effects of neighbourhood environmental change through residential relocation on physical activity, walking and travel behaviour. DESIGN: Systematic review following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines (PROSPERO registration number CRD42017077681). DATA SOURCES: Electronic databases for peer-reviewed and grey literature were systematically searched to March 2017, followed by forward and backward citation tracking. ELIGIBILITY CRITERIA: A study was eligible for inclusion if it (1) measured changes in neighbourhood built environment attributes as a result of residential relocation (either prospectively or retrospectively); (2) included a measure of physical activity, walking, cycling or travel modal change as an outcome; (3) was quantitative and (4) included an English abstract or summary. RESULTS: A total of 23 studies was included in the review. Among the eight retrospective longitudinal studies, there was good evidence for the relationship between relocation and walking (consistency score (CS)>90%). For the 15 prospective longitudinal studies, the evidence for the effects of environmental change/relocation on physical activity or walking was weak to moderate (CS mostly <45%), even weaker for effects on other outcomes, including physical activity, cycling, public transport use and driving. Results from risk of bias analyses support the robustness of the findings. [...]",
+   "cited_by": 66,
+   "kind": "review",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "user",
+     "rank": 38,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "semantic",
+     "rank": 11,
+     "weight": 2.0,
+     "sim": 0.529,
+     "raw": 0.9038129286153336
+    },
+    {
+     "source": "openalex",
+     "query": "effectiveness of behavioural interventions and nudges for residential relocation",
+     "kind": "semantic",
+     "rank": 2,
+     "weight": 2.0,
+     "sim": 0.853,
+     "raw": 0.9375975058478131
+    }
+   ],
+   "ids": {
+    "openalex": "W2805573977"
+   },
+   "sim": 0.853,
+   "raw_score": 101.10072,
+   "rrf": 0.07369238472308505,
+   "coverage": 0.2739654460949954,
+   "relevance": 0.6964849419199315,
+   "score": 0.7746913060187627
+  },
+  {
+   "title": "Modelling the duration of residence and plans for future residential relocation: a multilevel analysis",
+   "year": 2016,
+   "authors": [
+    "Michael J. Thomas",
+    "John Stillwell",
+    "Myles I. Gould"
+   ],
+   "venue": "Transactions of the Institute of British Geographers",
+   "doi": "10.1111/tran.12123",
+   "url": "https://doi.org/10.1111/tran.12123",
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/tran.12123",
+   "abstract": "Among the multitude of studies of factors that determine residential (im)mobility, relatively little attention has been paid to the length of time that people spend in a particular location and the importance of duration of stay for future relocation propensities. This study uses a large and detailed commercial survey sample of individuals in England and Wales and an appropriately tailored statistical approach to uncover new insights into the multilevel and spatially heterogeneous interactions that exist between residential duration, place attachment and plans for future residential relocation. We demonstrate how an individual's residential duration, as an essential ingredient for the accumulation of social capital and place‐based attachment, is critical for informing plans for future (im)mobility. After controlling for a range of individual and contextual covariates, the predicted probability of planning a residential relocation is found to increase initially with duration of stay, to a peak after 4–5 years, and then to decline as the length of duration increases. However, there is evidence of strong geographical variation in this relationship, with some neighbourhoods being characterised by stable or even increasing propensities for movement with duration. [...]",
+   "cited_by": 45,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "user",
+     "rank": 11,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "semantic",
+     "rank": 21,
+     "weight": 2.0,
+     "sim": 0.403,
+     "raw": 0.8823116652828152
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for residential relocation",
+     "kind": "semantic",
+     "rank": 2,
+     "weight": 2.0,
+     "sim": 0.778,
+     "raw": 0.8873187292688668
+    }
+   ],
+   "ids": {
+    "openalex": "W2343160145"
+   },
+   "sim": 0.778,
+   "raw_score": 112.61075,
+   "rrf": 0.07525928169574997,
+   "coverage": 0.2789178911061392,
+   "relevance": 0.6737774112631505,
+   "score": 0.7411119885079216
+  },
+  {
+   "title": "Home safety education and provision of safety equipment for injury prevention (Review)",
+   "year": 2013,
+   "authors": [
+    "Denise Kendrick",
+    "Ben Young",
+    "Amanda J. Mason‐Jones",
+    "Nohaid Ilyas",
+    "Felix A. Achana",
+    "Nicola J. Cooper",
+    "Stephanie Hubbard",
+    "Alex J. Sutton",
+    "Sherie J. Smith",
+    "Persephone M. Wynn",
+    "Caroline A. Mulvaney",
+    "Michael Craig Watson",
+    "Carol A. C. Coupland"
+   ],
+   "venue": "Evidence-Based Child Health A Cochrane Review Journal",
+   "doi": "10.1002/ebch.1911",
+   "url": "https://doi.org/10.1002/ebch.1911",
+   "oa_url": "",
+   "abstract": "Background In industrialised countries injuries (including burns, poisoning or drowning) are the leading cause of childhood death and steep social gradients exist in child injury mortality and morbidity. The majority of injuries in pre‐school children occur at home but there is little meta‐analytic evidence that child home safety interventions reduce injury rates or improve a range of safety practices, and little evidence on their effect by social group. Objectives We evaluated the effectiveness of home safety education, with or without the provision of low cost, discounted or free equipment (hereafter referred to as home safety interventions), in reducing child injury rates or increasing home safety practices and whether the effect varied by social group. Search methods We searched the Cochrane Central Register of Controlled Trials (CENTRAL) (2009, Issue 2) in The Cochrane Library, MEDLINE (Ovid), EMBASE (Ovid), PsycINFO (Ovid), ISI Web of Science: Science Citation Index Expanded (SCI‐EXPANDED), ISI Web of Science: Social Sciences Citation Index (SSCI), ISI Web of Science: Conference Proceedings Citation Index‐ Science (CPCI‐S), CINAHL (EBSCO) and DARE (2009, Issue 2) in The Cochrane Library. We also searched websites and conference proceedings and searched the bibliographies of relevant studies and previously published reviews. We contacted authors of included studies as well as relevant organisations. The most recent search for trials was May 2009. [...]",
+   "cited_by": 142,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "user",
+     "rank": 18,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "semantic",
+     "rank": 3,
+     "weight": 2.0,
+     "sim": 0.784,
+     "raw": 0.9861452535463615
+    }
+   ],
+   "ids": {
+    "openalex": "W4210544525"
+   },
+   "sim": 0.784,
+   "raw_score": 67.27731,
+   "rrf": 0.04841269841269841,
+   "coverage": 0.5680835814950579,
+   "relevance": 0.6634368391543998,
+   "score": 0.714905288685927
+  },
+  {
+   "title": "Changes in residential satisfaction after home relocation: A longitudinal study in Beijing, China",
+   "year": 2019,
+   "authors": [
+    "Fenglong Wang",
+    "Donggen Wang"
+   ],
+   "venue": "Urban Studies",
+   "doi": "10.1177/0042098019866378",
+   "url": "https://doi.org/10.1177/0042098019866378",
+   "oa_url": "",
+   "abstract": "The literature on residential mobility pays little attention to the outcomes of residential relocation and their determinants. This study aims to address this shortfall by examining the link between home relocation and change in residential satisfaction based on data from a two-wave sample survey in Beijing, China. The data is collected through interviews with a sample of 537 participants who planned to move and eventually did move in Beijing. A multi-level structural equation model is developed to analyse the determinants of change in residential satisfaction after home relocation. The results show that people generally become more satisfied with their residence after relocation. The major determinants of residential satisfaction changes are adjustments in housing conditions (including housing tenure and dwelling space) and neighbourhood environment (including physical design, absence of nuisance, social interaction and accessibility to various facilities). The findings of this research not only enrich the literature on residential satisfaction and residential mobility, but may also help to improve urban planning and public housing policies.",
+   "cited_by": 74,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "semantic",
+     "rank": 3,
+     "weight": 2.0,
+     "sim": 0.68,
+     "raw": 0.929801906041252
+    },
+    {
+     "source": "openalex",
+     "query": "effectiveness of behavioural interventions and nudges for residential relocation",
+     "kind": "semantic",
+     "rank": 4,
+     "weight": 2.0,
+     "sim": 0.776,
+     "raw": 0.9267891736232686
+    }
+   ],
+   "ids": {
+    "openalex": "W2972148066"
+   },
+   "sim": 0.776,
+   "raw_score": 0.929801906041252,
+   "rrf": 0.06299603174603174,
+   "coverage": 0.36861819124527967,
+   "relevance": 0.6544413397265252,
+   "score": 0.7045068681929822
+  },
+  {
+   "title": "Residential Relocation in Later Life: A Comparison of Proactive and Reactive Moves",
+   "year": 2010,
+   "authors": [
+    "Natalie D. Pope",
+    "Byungdeok Kang"
+   ],
+   "venue": "Journal of Housing for the Elderly",
+   "doi": "10.1080/02763891003757122",
+   "url": "https://doi.org/10.1080/02763891003757122",
+   "oa_url": "",
+   "abstract": "Proactive coping involves anticipating future events or stressors and preparing for them in advance. Housing is an important consideration in preparing for later life. This study examines residential relocation among older adults, comparing those who moved proactively with those who moved reactively. Data from the Longitudinal Study of Aging included a final sample of individuals who had relocated at Wave 2 (n = 736) and Wave 3 (n = 713). The proactive group of movers was younger, more educated, and had higher incomes. Results provide support for proactive coping theory and its application to residential relocation in later life.",
+   "cited_by": 78,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "user",
+     "rank": 3,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "semantic",
+     "rank": 10,
+     "weight": 2.0,
+     "sim": 0.558,
+     "raw": 0.9088027183589464
+    },
+    {
+     "source": "openalex",
+     "query": "effectiveness of behavioural interventions and nudges for residential relocation",
+     "kind": "semantic",
+     "rank": 3,
+     "weight": 2.0,
+     "sim": 0.848,
+     "raw": 0.9368802516211819
+    }
+   ],
+   "ids": {
+    "openalex": "W1981479648"
+   },
+   "sim": 0.848,
+   "raw_score": 124.66113,
+   "rrf": 0.08095238095238094,
+   "coverage": 0.15823901753966713,
+   "relevance": 0.6866717052619001,
+   "score": 0.6988873648727684
+  },
+  {
+   "title": "Individual relocation decisions after tornadoes: a multi‐level analysis",
+   "year": 2017,
+   "authors": [
+    "Zhen Cong",
+    "Ali Nejat",
+    "Daan Liang",
+    "Yaolin Pei",
+    "Roxana J. Javid"
+   ],
+   "venue": "Disasters",
+   "doi": "10.1111/disa.12241",
+   "url": "https://doi.org/10.1111/disa.12241",
+   "oa_url": "",
+   "abstract": "This study examines how multi-level factors affected individuals' relocation decisions after EF4 and EF5 (Enhanced Fujita Tornado Intensity Scale) tornadoes struck the United States in 2013. A telephone survey was conducted with 536 respondents, including oversampled older adults, one year after these two disaster events. Respondents' addresses were used to associate individual information with block group-level variables recorded by the American Community Survey. Logistic regression revealed that residential damage and homeownership are important predictors of relocation. There was also significant interaction between these two variables, indicating less difference between homeowners and renters at higher damage levels. Homeownership diminished the likelihood of relocation among younger respondents. Random effects logistic regression found that the percentage of homeownership and of higher income households in the community buffered the effect of damage on relocation; the percentage of older adults reduced the likelihood of this group relocating. The findings are assessed from the standpoint of age difference, policy implications, and social capital and vulnerability.",
+   "cited_by": 34,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A service that reaches people at the moment of a home move and helps them preven",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.5,
+     "sim": 1.0,
+     "raw": 0.8067229464289015
+    }
+   ],
+   "ids": {
+    "openalex": "W2742587269"
+   },
+   "sim": 1.0,
+   "raw_score": 0.8067229464289015,
+   "rrf": 0.040983606557377046,
+   "coverage": 0.3263656289915934,
+   "relevance": 0.6497901129983459,
+   "score": 0.6149994046029784
+  },
+  {
+   "title": "Forced Relocation and Residential Instability among Urban Renters",
+   "year": 2015,
+   "authors": [
+    "Matthew Desmond",
+    "Carl E. Gershenson",
+    "Barbara Kiviat"
+   ],
+   "venue": "Social Service Review",
+   "doi": "10.1086/681091",
+   "url": "https://doi.org/10.1086/681091",
+   "oa_url": "",
+   "abstract": "Residential instability often brings about other forms of instability in families, schools, and communities that compromise the life chances of adults and children. Social scientists have found that low-income families move frequently without fully understanding why. Drawing on novel data of more than 1,000 Milwaukee renters, this article explores the relationship between forced relocation and residential instability. It finds that low incomes are associated with higher rates of mobility due to poorer renters’ greater exposure to forced displacement. Not only do higher rates of formal and informal eviction, landlord foreclosure, and building condemnation directly increase the mobility of poorer renters, but forced displacement also increases subsequent unforced mobility. A forced move often compels renters to accept substandard housing, which drives them to soon move again. This article reveals mechanisms of residential mobility among low-income renters, identifies previously undocumented consequences of forced displacement, and develops a more comprehensive model of residential instability and urban inequality.",
+   "cited_by": 264,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.0,
+     "sim": 1.0,
+     "raw": 0.9845692434081907
+    }
+   ],
+   "ids": {
+    "openalex": "W1584332822"
+   },
+   "sim": 1.0,
+   "raw_score": 0.9845692434081907,
+   "rrf": 0.03278688524590164,
+   "coverage": 0.15823901753966713,
+   "relevance": 0.5689760447025944,
+   "score": 0.5726822828753289
+  },
+  {
+   "title": "Change in Walking and Body Mass Index Following Residential Relocation: The Multi-Ethnic Study of Atherosclerosis",
+   "year": 2014,
+   "authors": [
+    "Jana A. Hirsch",
+    "Ana Victoria Diez Roux",
+    "Kari Moore",
+    "Kelly R. Evenson",
+    "Daniel A. Rodrı́guez"
+   ],
+   "venue": "American Journal of Public Health",
+   "doi": "10.2105/ajph.2013.301773",
+   "url": "https://doi.org/10.2105/ajph.2013.301773",
+   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3953773",
+   "abstract": "OBJECTIVES: We investigated whether moving to neighborhoods with closer proximity of destinations and greater street connectivity was associated with more walking, a greater probability of meeting the \"Every Body Walk!\" campaign goals (≥ 150 minutes/week of walking), and reductions in body mass index (BMI). METHODS: We linked longitudinal data from 701 participants, who moved between 2 waves of the Multi-Ethnic Study of Atherosclerosis (2004-2012), to a neighborhood walkability measure (Street Smart Walk Score) for each residential location. We used fixed-effects models to estimate if changes in walkability resulting from relocation were associated with simultaneous changes in walking behaviors and BMI. RESULTS: Moving to a location with a 10-point higher Walk Score was associated with a 16.04 minutes per week (95% confidence interval [CI] = 5.13, 29.96) increase in transport walking, 11% higher odds of meeting Every Body Walk! goals through transport walking (adjusted odds ratio = 1.11; 95% CI = 1.02, 1.21), and a 0.06 kilogram per meters squared (95% CI = -0.12, -0.01) reduction in BMI. Change in walkability was not associated with change in leisure walking. CONCLUSIONS: Our findings illustrated the potential for neighborhood infrastructure to support health-enhancing behaviors and overall health of people in the United States.",
+   "cited_by": 142,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "user",
+     "rank": 19,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "semantic",
+     "rank": 2,
+     "weight": 2.0,
+     "sim": 0.801,
+     "raw": 0.9504370769672327
+    }
+   ],
+   "ids": {
+    "openalex": "W1963520202"
+   },
+   "sim": 0.801,
+   "raw_score": 108.711006,
+   "rrf": 0.04871376071866068,
+   "coverage": 0.15823901753966713,
+   "relevance": 0.548399171454584,
+   "score": 0.5432333426736367
+  },
+  {
+   "title": "Intentions to Move and Actual Moving Behaviour in The Netherlands",
+   "year": 2011,
+   "authors": [
+    "Carola de Groot",
+    "Clara H. Mulder",
+    "Dorien Manting"
+   ],
+   "venue": "Housing Studies",
+   "doi": "10.1080/02673037.2011.542094",
+   "url": "https://doi.org/10.1080/02673037.2011.542094",
+   "oa_url": "",
+   "abstract": "This study examines how anticipated triggers for moving and individual, household and regional characteristics hamper or stimulate actual moving behaviour of people who intend to move. It uses a longitudinal dataset from the Netherlands, in which survey data from the Housing Demand Survey 2002 are combined with register data from the Social Statistical Database. The study finds that people with a strong intention to move are almost four times as likely to move as people with a less strong intention to move. Homeowners are more likely to realise a strong intention to move than renters who want to move within the rental sector of the housing market. The probability of actually moving is particularly great for those wishing to move from owner-occupied to rented housing and those with more resources, whereas it is small for people whose search location is in the Randstad.",
+   "cited_by": 106,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "effectiveness of behavioural interventions and nudges for residential relocation",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.0,
+     "sim": 1.0,
+     "raw": 0.9581668341614836
+    }
+   ],
+   "ids": {
+    "openalex": "W2097403344"
+   },
+   "sim": 1.0,
+   "raw_score": 0.9581668341614836,
+   "rrf": 0.03278688524590164,
+   "coverage": 0.2156658775979368,
+   "relevance": 0.5862041027200754,
+   "score": 0.530966590601558
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Home safety education and provision of safety equipment for injury prevention",
+   "year": 2012,
+   "authors": [
+    "Denise Kendrick",
+    "Ben Young",
+    "Amanda J. Mason‐Jones",
+    "Nohaid Ilyas",
+    "Felix A. Achana",
+    "Nicola J. Cooper",
+    "Stephanie Hubbard",
+    "Alex J. Sutton",
+    "Sherie J. Smith",
+    "Persephone M. Wynn",
+    "Caroline A. Mulvaney",
+    "Michael Craig Watson",
+    "Carol A. C. Coupland"
+   ],
+   "venue": "Cochrane Database of Systematic Reviews",
+   "doi": "10.1002/14651858.cd005014.pub3",
+   "url": "https://doi.org/10.1002/14651858.cd005014.pub3",
+   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9758703",
+   "abstract": "BACKGROUND: In industrialised countries injuries (including burns, poisoning or drowning) are the leading cause of childhood death and steep social gradients exist in child injury mortality and morbidity. The majority of injuries in pre-school children occur at home but there is little meta-analytic evidence that child home safety interventions reduce injury rates or improve a range of safety practices, and little evidence on their effect by social group. OBJECTIVES: We evaluated the effectiveness of home safety education, with or without the provision of low cost, discounted or free equipment (hereafter referred to as home safety interventions), in reducing child injury rates or increasing home safety practices and whether the effect varied by social group. SEARCH METHODS: We searched the Cochrane Central Register of Controlled Trials (CENTRAL) (2009, Issue 2) in The Cochrane Library, MEDLINE (Ovid), EMBASE (Ovid), PsycINFO (Ovid), ISI Web of Science: Science Citation Index Expanded (SCI-EXPANDED), ISI Web of Science: Social Sciences Citation Index (SSCI), ISI Web of Science: Conference Proceedings Citation Index- Science (CPCI-S), CINAHL (EBSCO) and DARE (2009, Issue 2) in The Cochrane Library. We also searched websites and conference proceedings and searched the bibliographies of relevant studies and previously published reviews. We contacted authors of included studies as well as relevant organisations. The most recent search for trials was May 2009. [...]",
+   "cited_by": 278,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "user",
+     "rank": 14,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.0,
+     "sim": 1.0,
+     "raw": 1.0263981607717605
+    }
+   ],
+   "ids": {
+    "openalex": "W2032721210"
+   },
+   "sim": 1.0,
+   "raw_score": 71.77763,
+   "rrf": 0.05035445281346921,
+   "coverage": 0.4039120908494245,
+   "relevance": 0.7077813053282721,
+   "score": 0.948027392437994
+  },
+  {
+   "title": "Moving to an active lifestyle? A systematic review of the effects of residential relocation on walking, physical activity and travel behaviour",
+   "year": 2018,
+   "authors": [
+    "Ding Ding",
+    "Binh Nguyen",
+    "Vincent Learnihan",
+    "Adrian Ernest Bauman",
+    "Rachel Davey",
+    "Bin Badrudin Jalaludin",
+    "Klaus Gebel"
+   ],
+   "venue": "British Journal of Sports Medicine",
+   "doi": "10.1136/bjsports-2017-098833",
+   "url": "https://doi.org/10.1136/bjsports-2017-098833",
+   "oa_url": "",
+   "abstract": "OBJECTIVE: To synthesise the literature on the effects of neighbourhood environmental change through residential relocation on physical activity, walking and travel behaviour. DESIGN: Systematic review following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines (PROSPERO registration number CRD42017077681). DATA SOURCES: Electronic databases for peer-reviewed and grey literature were systematically searched to March 2017, followed by forward and backward citation tracking. ELIGIBILITY CRITERIA: A study was eligible for inclusion if it (1) measured changes in neighbourhood built environment attributes as a result of residential relocation (either prospectively or retrospectively); (2) included a measure of physical activity, walking, cycling or travel modal change as an outcome; (3) was quantitative and (4) included an English abstract or summary. RESULTS: A total of 23 studies was included in the review. Among the eight retrospective longitudinal studies, there was good evidence for the relationship between relocation and walking (consistency score (CS)>90%). For the 15 prospective longitudinal studies, the evidence for the effects of environmental change/relocation on physical activity or walking was weak to moderate (CS mostly <45%), even weaker for effects on other outcomes, including physical activity, cycling, public transport use and driving. Results from risk of bias analyses support the robustness of the findings. [...]",
+   "cited_by": 66,
+   "kind": "review",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "user",
+     "rank": 38,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "semantic",
+     "rank": 11,
+     "weight": 2.0,
+     "sim": 0.529,
+     "raw": 0.9038129286153336
+    },
+    {
+     "source": "openalex",
+     "query": "effectiveness of behavioural interventions and nudges for residential relocation",
+     "kind": "semantic",
+     "rank": 2,
+     "weight": 2.0,
+     "sim": 0.853,
+     "raw": 0.9375975058478131
+    }
+   ],
+   "ids": {
+    "openalex": "W2805573977"
+   },
+   "sim": 0.853,
+   "raw_score": 101.10072,
+   "rrf": 0.07369238472308505,
+   "coverage": 0.2739654460949954,
+   "relevance": 0.6964849419199315,
+   "score": 0.7746913060187627
+  },
+  {
+   "title": "Modelling the duration of residence and plans for future residential relocation: a multilevel analysis",
+   "year": 2016,
+   "authors": [
+    "Michael J. Thomas",
+    "John Stillwell",
+    "Myles I. Gould"
+   ],
+   "venue": "Transactions of the Institute of British Geographers",
+   "doi": "10.1111/tran.12123",
+   "url": "https://doi.org/10.1111/tran.12123",
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/tran.12123",
+   "abstract": "Among the multitude of studies of factors that determine residential (im)mobility, relatively little attention has been paid to the length of time that people spend in a particular location and the importance of duration of stay for future relocation propensities. This study uses a large and detailed commercial survey sample of individuals in England and Wales and an appropriately tailored statistical approach to uncover new insights into the multilevel and spatially heterogeneous interactions that exist between residential duration, place attachment and plans for future residential relocation. We demonstrate how an individual's residential duration, as an essential ingredient for the accumulation of social capital and place‐based attachment, is critical for informing plans for future (im)mobility. After controlling for a range of individual and contextual covariates, the predicted probability of planning a residential relocation is found to increase initially with duration of stay, to a peak after 4–5 years, and then to decline as the length of duration increases. However, there is evidence of strong geographical variation in this relationship, with some neighbourhoods being characterised by stable or even increasing propensities for movement with duration. [...]",
+   "cited_by": 45,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "user",
+     "rank": 11,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "semantic",
+     "rank": 21,
+     "weight": 2.0,
+     "sim": 0.403,
+     "raw": 0.8823116652828152
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for residential relocation",
+     "kind": "semantic",
+     "rank": 2,
+     "weight": 2.0,
+     "sim": 0.778,
+     "raw": 0.8873187292688668
+    }
+   ],
+   "ids": {
+    "openalex": "W2343160145"
+   },
+   "sim": 0.778,
+   "raw_score": 112.61075,
+   "rrf": 0.07525928169574997,
+   "coverage": 0.2789178911061392,
+   "relevance": 0.6737774112631505,
+   "score": 0.7411119885079216
+  },
+  {
+   "title": "Home safety education and provision of safety equipment for injury prevention (Review)",
+   "year": 2013,
+   "authors": [
+    "Denise Kendrick",
+    "Ben Young",
+    "Amanda J. Mason‐Jones",
+    "Nohaid Ilyas",
+    "Felix A. Achana",
+    "Nicola J. Cooper",
+    "Stephanie Hubbard",
+    "Alex J. Sutton",
+    "Sherie J. Smith",
+    "Persephone M. Wynn",
+    "Caroline A. Mulvaney",
+    "Michael Craig Watson",
+    "Carol A. C. Coupland"
+   ],
+   "venue": "Evidence-Based Child Health A Cochrane Review Journal",
+   "doi": "10.1002/ebch.1911",
+   "url": "https://doi.org/10.1002/ebch.1911",
+   "oa_url": "",
+   "abstract": "Background In industrialised countries injuries (including burns, poisoning or drowning) are the leading cause of childhood death and steep social gradients exist in child injury mortality and morbidity. The majority of injuries in pre‐school children occur at home but there is little meta‐analytic evidence that child home safety interventions reduce injury rates or improve a range of safety practices, and little evidence on their effect by social group. Objectives We evaluated the effectiveness of home safety education, with or without the provision of low cost, discounted or free equipment (hereafter referred to as home safety interventions), in reducing child injury rates or increasing home safety practices and whether the effect varied by social group. Search methods We searched the Cochrane Central Register of Controlled Trials (CENTRAL) (2009, Issue 2) in The Cochrane Library, MEDLINE (Ovid), EMBASE (Ovid), PsycINFO (Ovid), ISI Web of Science: Science Citation Index Expanded (SCI‐EXPANDED), ISI Web of Science: Social Sciences Citation Index (SSCI), ISI Web of Science: Conference Proceedings Citation Index‐ Science (CPCI‐S), CINAHL (EBSCO) and DARE (2009, Issue 2) in The Cochrane Library. We also searched websites and conference proceedings and searched the bibliographies of relevant studies and previously published reviews. We contacted authors of included studies as well as relevant organisations. The most recent search for trials was May 2009. [...]",
+   "cited_by": 142,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "user",
+     "rank": 18,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "semantic",
+     "rank": 3,
+     "weight": 2.0,
+     "sim": 0.784,
+     "raw": 0.9861452535463615
+    }
+   ],
+   "ids": {
+    "openalex": "W4210544525"
+   },
+   "sim": 0.784,
+   "raw_score": 67.27731,
+   "rrf": 0.04841269841269841,
+   "coverage": 0.5680835814950579,
+   "relevance": 0.6634368391543998,
+   "score": 0.714905288685927
+  },
+  {
+   "title": "Changes in residential satisfaction after home relocation: A longitudinal study in Beijing, China",
+   "year": 2019,
+   "authors": [
+    "Fenglong Wang",
+    "Donggen Wang"
+   ],
+   "venue": "Urban Studies",
+   "doi": "10.1177/0042098019866378",
+   "url": "https://doi.org/10.1177/0042098019866378",
+   "oa_url": "",
+   "abstract": "The literature on residential mobility pays little attention to the outcomes of residential relocation and their determinants. This study aims to address this shortfall by examining the link between home relocation and change in residential satisfaction based on data from a two-wave sample survey in Beijing, China. The data is collected through interviews with a sample of 537 participants who planned to move and eventually did move in Beijing. A multi-level structural equation model is developed to analyse the determinants of change in residential satisfaction after home relocation. The results show that people generally become more satisfied with their residence after relocation. The major determinants of residential satisfaction changes are adjustments in housing conditions (including housing tenure and dwelling space) and neighbourhood environment (including physical design, absence of nuisance, social interaction and accessibility to various facilities). The findings of this research not only enrich the literature on residential satisfaction and residential mobility, but may also help to improve urban planning and public housing policies.",
+   "cited_by": 74,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "semantic",
+     "rank": 3,
+     "weight": 2.0,
+     "sim": 0.68,
+     "raw": 0.929801906041252
+    },
+    {
+     "source": "openalex",
+     "query": "effectiveness of behavioural interventions and nudges for residential relocation",
+     "kind": "semantic",
+     "rank": 4,
+     "weight": 2.0,
+     "sim": 0.776,
+     "raw": 0.9267891736232686
+    }
+   ],
+   "ids": {
+    "openalex": "W2972148066"
+   },
+   "sim": 0.776,
+   "raw_score": 0.929801906041252,
+   "rrf": 0.06299603174603174,
+   "coverage": 0.36861819124527967,
+   "relevance": 0.6544413397265252,
+   "score": 0.7045068681929822
+  },
+  {
+   "title": "Residential Relocation in Later Life: A Comparison of Proactive and Reactive Moves",
+   "year": 2010,
+   "authors": [
+    "Natalie D. Pope",
+    "Byungdeok Kang"
+   ],
+   "venue": "Journal of Housing for the Elderly",
+   "doi": "10.1080/02763891003757122",
+   "url": "https://doi.org/10.1080/02763891003757122",
+   "oa_url": "",
+   "abstract": "Proactive coping involves anticipating future events or stressors and preparing for them in advance. Housing is an important consideration in preparing for later life. This study examines residential relocation among older adults, comparing those who moved proactively with those who moved reactively. Data from the Longitudinal Study of Aging included a final sample of individuals who had relocated at Wave 2 (n = 736) and Wave 3 (n = 713). The proactive group of movers was younger, more educated, and had higher incomes. Results provide support for proactive coping theory and its application to residential relocation in later life.",
+   "cited_by": 78,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "user",
+     "rank": 3,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "semantic",
+     "rank": 10,
+     "weight": 2.0,
+     "sim": 0.558,
+     "raw": 0.9088027183589464
+    },
+    {
+     "source": "openalex",
+     "query": "effectiveness of behavioural interventions and nudges for residential relocation",
+     "kind": "semantic",
+     "rank": 3,
+     "weight": 2.0,
+     "sim": 0.848,
+     "raw": 0.9368802516211819
+    }
+   ],
+   "ids": {
+    "openalex": "W1981479648"
+   },
+   "sim": 0.848,
+   "raw_score": 124.66113,
+   "rrf": 0.08095238095238094,
+   "coverage": 0.15823901753966713,
+   "relevance": 0.6866717052619001,
+   "score": 0.6988873648727684
+  },
+  {
+   "title": "Individual relocation decisions after tornadoes: a multi‐level analysis",
+   "year": 2017,
+   "authors": [
+    "Zhen Cong",
+    "Ali Nejat",
+    "Daan Liang",
+    "Yaolin Pei",
+    "Roxana J. Javid"
+   ],
+   "venue": "Disasters",
+   "doi": "10.1111/disa.12241",
+   "url": "https://doi.org/10.1111/disa.12241",
+   "oa_url": "",
+   "abstract": "This study examines how multi-level factors affected individuals' relocation decisions after EF4 and EF5 (Enhanced Fujita Tornado Intensity Scale) tornadoes struck the United States in 2013. A telephone survey was conducted with 536 respondents, including oversampled older adults, one year after these two disaster events. Respondents' addresses were used to associate individual information with block group-level variables recorded by the American Community Survey. Logistic regression revealed that residential damage and homeownership are important predictors of relocation. There was also significant interaction between these two variables, indicating less difference between homeowners and renters at higher damage levels. Homeownership diminished the likelihood of relocation among younger respondents. Random effects logistic regression found that the percentage of homeownership and of higher income households in the community buffered the effect of damage on relocation; the percentage of older adults reduced the likelihood of this group relocating. The findings are assessed from the standpoint of age difference, policy implications, and social capital and vulnerability.",
+   "cited_by": 34,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A service that reaches people at the moment of a home move and helps them preven",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.5,
+     "sim": 1.0,
+     "raw": 0.8067229464289015
+    }
+   ],
+   "ids": {
+    "openalex": "W2742587269"
+   },
+   "sim": 1.0,
+   "raw_score": 0.8067229464289015,
+   "rrf": 0.040983606557377046,
+   "coverage": 0.3263656289915934,
+   "relevance": 0.6497901129983459,
+   "score": 0.6149994046029784
+  },
+  {
+   "title": "Forced Relocation and Residential Instability among Urban Renters",
+   "year": 2015,
+   "authors": [
+    "Matthew Desmond",
+    "Carl E. Gershenson",
+    "Barbara Kiviat"
+   ],
+   "venue": "Social Service Review",
+   "doi": "10.1086/681091",
+   "url": "https://doi.org/10.1086/681091",
+   "oa_url": "",
+   "abstract": "Residential instability often brings about other forms of instability in families, schools, and communities that compromise the life chances of adults and children. Social scientists have found that low-income families move frequently without fully understanding why. Drawing on novel data of more than 1,000 Milwaukee renters, this article explores the relationship between forced relocation and residential instability. It finds that low incomes are associated with higher rates of mobility due to poorer renters’ greater exposure to forced displacement. Not only do higher rates of formal and informal eviction, landlord foreclosure, and building condemnation directly increase the mobility of poorer renters, but forced displacement also increases subsequent unforced mobility. A forced move often compels renters to accept substandard housing, which drives them to soon move again. This article reveals mechanisms of residential mobility among low-income renters, identifies previously undocumented consequences of forced displacement, and develops a more comprehensive model of residential instability and urban inequality.",
+   "cited_by": 264,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.0,
+     "sim": 1.0,
+     "raw": 0.9845692434081907
+    }
+   ],
+   "ids": {
+    "openalex": "W1584332822"
+   },
+   "sim": 1.0,
+   "raw_score": 0.9845692434081907,
+   "rrf": 0.03278688524590164,
+   "coverage": 0.15823901753966713,
+   "relevance": 0.5689760447025944,
+   "score": 0.5726822828753289
+  },
+  {
+   "title": "Change in Walking and Body Mass Index Following Residential Relocation: The Multi-Ethnic Study of Atherosclerosis",
+   "year": 2014,
+   "authors": [
+    "Jana A. Hirsch",
+    "Ana Victoria Diez Roux",
+    "Kari Moore",
+    "Kelly R. Evenson",
+    "Daniel A. Rodrı́guez"
+   ],
+   "venue": "American Journal of Public Health",
+   "doi": "10.2105/ajph.2013.301773",
+   "url": "https://doi.org/10.2105/ajph.2013.301773",
+   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3953773",
+   "abstract": "OBJECTIVES: We investigated whether moving to neighborhoods with closer proximity of destinations and greater street connectivity was associated with more walking, a greater probability of meeting the \"Every Body Walk!\" campaign goals (≥ 150 minutes/week of walking), and reductions in body mass index (BMI). METHODS: We linked longitudinal data from 701 participants, who moved between 2 waves of the Multi-Ethnic Study of Atherosclerosis (2004-2012), to a neighborhood walkability measure (Street Smart Walk Score) for each residential location. We used fixed-effects models to estimate if changes in walkability resulting from relocation were associated with simultaneous changes in walking behaviors and BMI. RESULTS: Moving to a location with a 10-point higher Walk Score was associated with a 16.04 minutes per week (95% confidence interval [CI] = 5.13, 29.96) increase in transport walking, 11% higher odds of meeting Every Body Walk! goals through transport walking (adjusted odds ratio = 1.11; 95% CI = 1.02, 1.21), and a 0.06 kilogram per meters squared (95% CI = -0.12, -0.01) reduction in BMI. Change in walkability was not associated with change in leisure walking. CONCLUSIONS: Our findings illustrated the potential for neighborhood infrastructure to support health-enhancing behaviors and overall health of people in the United States.",
+   "cited_by": 142,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "user",
+     "rank": 19,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "semantic",
+     "rank": 2,
+     "weight": 2.0,
+     "sim": 0.801,
+     "raw": 0.9504370769672327
+    }
+   ],
+   "ids": {
+    "openalex": "W1963520202"
+   },
+   "sim": 0.801,
+   "raw_score": 108.711006,
+   "rrf": 0.04871376071866068,
+   "coverage": 0.15823901753966713,
+   "relevance": 0.548399171454584,
+   "score": 0.5432333426736367
+  },
+  {
+   "title": "Intentions to Move and Actual Moving Behaviour in The Netherlands",
+   "year": 2011,
+   "authors": [
+    "Carola de Groot",
+    "Clara H. Mulder",
+    "Dorien Manting"
+   ],
+   "venue": "Housing Studies",
+   "doi": "10.1080/02673037.2011.542094",
+   "url": "https://doi.org/10.1080/02673037.2011.542094",
+   "oa_url": "",
+   "abstract": "This study examines how anticipated triggers for moving and individual, household and regional characteristics hamper or stimulate actual moving behaviour of people who intend to move. It uses a longitudinal dataset from the Netherlands, in which survey data from the Housing Demand Survey 2002 are combined with register data from the Social Statistical Database. The study finds that people with a strong intention to move are almost four times as likely to move as people with a less strong intention to move. Homeowners are more likely to realise a strong intention to move than renters who want to move within the rental sector of the housing market. The probability of actually moving is particularly great for those wishing to move from owner-occupied to rented housing and those with more resources, whereas it is small for people whose search location is in the Randstad.",
+   "cited_by": 106,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "effectiveness of behavioural interventions and nudges for residential relocation",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.0,
+     "sim": 1.0,
+     "raw": 0.9581668341614836
+    }
+   ],
+   "ids": {
+    "openalex": "W2097403344"
+   },
+   "sim": 1.0,
+   "raw_score": 0.9581668341614836,
+   "rrf": 0.03278688524590164,
+   "coverage": 0.2156658775979368,
+   "relevance": 0.5862041027200754,
+   "score": 0.530966590601558
+  },
+  {
+   "title": "Joint Determination of Residential Relocation and Commuting: A Forecasting Experiment for Sustainable Land Use and Transportation Planning",
+   "year": 2019,
+   "authors": [
+    "Jaewon Lim",
+    "Jae Hong Kim"
+   ],
+   "venue": "Sustainability",
+   "doi": "10.3390/su11010182",
+   "url": "https://doi.org/10.3390/su11010182",
+   "oa_url": "https://www.mdpi.com/2071-1050/11/1/182/pdf?version=1546936292",
+   "abstract": "This article applies matrix forecasting methods to the investigation of residential relocation and commuting patterns that are highly interconnected, but often analyzed separately. More specifically, using recent inter-county migration and commuting pattern data for the three largest metropolitan areas in California, it examines how residential relocation and commuting are associated in the regions and whether a unified framework—in which household relocation and commuting flow matrices are jointly determined—can improve the forecasting performance. The relocation–commuting association is found to differ substantially by region, suggesting the importance of region-specific factors in shaping the interrelationship. Joint forecasting, however, can attain a higher accuracy compared to the two separate projections, although the forecasting performance varies based on the method employed.",
+   "cited_by": 11,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for residential relocation",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.0,
+     "sim": 1.0,
+     "raw": 0.9087184263096486
+    }
+   ],
+   "ids": {
+    "openalex": "W2907016373"
+   },
+   "sim": 1.0,
+   "raw_score": 0.9087184263096486,
+   "rrf": 0.03278688524590164,
+   "coverage": 0.2581784665822756,
+   "relevance": 0.598957879415377,
+   "score": 0.5158051946391943
+  },
+  {
+   "title": "Unintentional Home Injuries Across the Life Span: Problems and Solutions",
+   "year": 2015,
+   "authors": [
+    "Andrea Carlson Gielen",
+    "Eileen M. McDonald",
+    "Wendy C. Shields"
+   ],
+   "venue": "Annual Review of Public Health",
+   "doi": "10.1146/annurev-publhealth-031914-122722",
+   "url": "https://doi.org/10.1146/annurev-publhealth-031914-122722",
+   "oa_url": "",
+   "abstract": "Home injuries cause more than 30,000 deaths and 12 million nonfatal injuries annually in the United States. They generate an estimated $222 billion in lifetime costs annually. Despite some data limitations in documenting home as the location of an injury, much progress has been made in identifying effective prevention strategies that reduce injury or mitigate risk behaviors. The current interest in public health in the role of housing in health offers unparalleled opportunities for injury prevention professionals concerned with home injuries. Sharing the science of injury prevention with the wide array of professionals-such as architects, home builders, home visitors, and fire and emergency medical services providers-who create home environments and interact with residents could be a useful approach. A collaborative national effort to reduce the burden of home injuries is needed.",
+   "cited_by": 67,
+   "kind": "review",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "semantic",
+     "rank": 2,
+     "weight": 2.0,
+     "sim": 0.922,
+     "raw": 1.0119194099378943
+    }
+   ],
+   "ids": {
+    "openalex": "W2145176602"
+   },
+   "sim": 0.922,
+   "raw_score": 1.0119194099378943,
+   "rrf": 0.03225806451612903,
+   "coverage": 0.3043496961205658,
+   "relevance": 0.5796495008665303,
+   "score": 0.5149900148670806
+  },
+  {
+   "title": "Urban households’ food safety knowledge and behaviour: Choice of food markets and cooking practices",
+   "year": 2023,
+   "authors": [
+    "Makafui Isaac Dzudzor",
+    "Nicolas Gerber"
+   ],
+   "venue": "Journal of Agriculture and Food Research",
+   "doi": "10.1016/j.jafr.2023.100728",
+   "url": "https://doi.org/10.1016/j.jafr.2023.100728",
+   "oa_url": "https://doi.org/10.1016/j.jafr.2023.100728",
+   "abstract": "Food safety is a public health issue and a shared responsibility of everyone. Traditional food markets can be high-risk locations for the spread of foodborne diseases, especially in developing countries. The focus has been to improve institutional food handlers' food safety knowledge and behaviour. However, the household is the last barrier to preventing the transmission of foodborne diseases. Households' knowledge and proper behaviour towards food safety in the home can improve their protection against foodborne diseases. Using household data from the NOURICITY project on urban households in Ghana, the study sought to answer the primary research questions, including; the main factors that influence urban households' choice of a food market and the effect of household food safety knowledge and wealth status on food safety cooking practices/behaviour. Structural Equation Modelling (SEM) was applied to address these questions. The study results show that convenience (proximity and availability of all products at one location) is the primary consideration for choosing a food market, not food safety. Only 18% of respondents considered food safety one of their topmost priorities in choosing a market. In addition, although households are food safety knowledgeable and have a positive attitude towards food safety, neither food safety knowledge nor attitude has a statistically significant effect on food safety cooking practices/behaviour. [...]",
+   "cited_by": 15,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "household safety behaviour",
+     "kind": "user",
+     "rank": 1,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "household safety behaviour",
+     "kind": "semantic",
+     "rank": 7,
+     "weight": 2.0,
+     "sim": 0.63,
+     "raw": 0.8274684180954099
+    }
+   ],
+   "ids": {
+    "openalex": "W4385612943"
+   },
+   "sim": 0.63,
+   "raw_score": 52.36537,
+   "rrf": 0.051162221678492784,
+   "coverage": 0.3936505725176739,
+   "relevance": 0.559696346210893,
+   "score": 0.5091232524551296
+  },
+  {
+   "title": "Home Safety Practices in an Urban Low-Income Population",
+   "year": 2012,
+   "authors": [
+    "Lois Kaye Lee",
+    "Taranjeev Walia",
+    "Peter W. Forbes",
+    "Stavroula K. Osganian",
+    "Ronald C. Samuels",
+    "Joanne E. Cox",
+    "David Patrick Mooney"
+   ],
+   "venue": "Clinical Pediatrics",
+   "doi": "10.1177/0009922812460083",
+   "url": "https://doi.org/10.1177/0009922812460083",
+   "oa_url": "",
+   "abstract": "Home-related injuries are overrepresented in children from low-income households. The objectives of this study were to determine frequencies of home safety behaviors and the level of agreement between parental self-report and observed safety practices in low-income homes. In a prospective, interventional home injury prevention study of 49 low-income families with children <5 years old, a trained home visitor administered baseline parental home safety behavior questionnaires and assessments. There was high agreement between caregiver self-report and home visitor observation for lack of cabinet latch (99%, 95% confidence interval [CI] = 88%-99%) and stair gate use (100%, 95% CI = 88-100%). There was lower agreement for the safe storage of cleaning supplies (62%, 95% CI = 46%-75%), sharps (74%, 95% CI = 59%-85%), and medicines/vitamins (83%, 95% CI = 69%-92%) because of the overreporting of safe practices. Self-reports of some home safety behaviors are relatively accurate, but certain practices may need to be verified by direct assessment.",
+   "cited_by": 15,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "household safety behaviour",
+     "kind": "semantic",
+     "rank": 2,
+     "weight": 2.0,
+     "sim": 0.884,
+     "raw": 0.8404350902555878
+    }
+   ],
+   "ids": {
+    "openalex": "W2103768667"
+   },
+   "sim": 0.884,
+   "raw_score": 0.8404350902555878,
+   "rrf": 0.03225806451612903,
+   "coverage": 0.503851539892033,
+   "relevance": 0.6243000539979704,
+   "score": 0.4832754647805619
+  },
+  {
+   "title": "Decisions About the “If,” “When,” and “How” of Moving Home: Can a Relocation Service Help? A Welsh Case Study",
+   "year": 2019,
+   "authors": [
+    "Sarah Hillcoat‐Nallétamby",
+    "Alexandra Vanta Sardani"
+   ],
+   "venue": "Journal of Housing for the Elderly",
+   "doi": "10.1080/02763893.2018.1561594",
+   "url": "https://doi.org/10.1080/02763893.2018.1561594",
+   "oa_url": "",
+   "abstract": "This small-scale, Welsh qualitative study explores how a new “moving on” service empowered older people to move voluntarily from their home to an extra-care facility. Eighteen older people were interviewed about their experiences of the service, which offered in-person, bespoke information, advice, financial, practical, brokerage, and emotional support about moving. Findings indicate three service use patterns: continuous, partial, and discontinued. It was instrumental in empowering clients to exercise decisional, executional, delegated, and/or consumer autonomies. Recommendations for future developments of a prototype “moving on” service include a multipartner approach and caseworker case management training modeled on social work practice.",
+   "cited_by": 12,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A service that reaches people at the moment of a home move and helps them preven",
+     "kind": "semantic",
+     "rank": 2,
+     "weight": 2.5,
+     "sim": 0.938,
+     "raw": 0.8037775130272501
+    }
+   ],
+   "ids": {
+    "openalex": "W2913016309"
+   },
+   "sim": 0.938,
+   "raw_score": 0.8037775130272501,
+   "rrf": 0.04032258064516129,
+   "coverage": 0.24175440602515352,
+   "relevance": 0.5971570618454967,
+   "score": 0.47136036475658544
+  },
+  {
+   "title": "Barriers to, and facilitators of, the prevention of unintentional injury in children in the home: a systematic review and synthesis of qualitative research",
+   "year": 2010,
+   "authors": [
+    "Janet Smithson",
+    "Ruth Garside",
+    "Mark Pearson"
+   ],
+   "venue": "Injury Prevention",
+   "doi": "10.1136/ip.2010.026989",
+   "url": "https://doi.org/10.1136/ip.2010.026989",
+   "oa_url": "https://injuryprevention.bmj.com/content/injuryprev/17/2/119.full.pdf",
+   "abstract": "BACKGROUND: This review considers barriers to, and facilitators of, success for interventions to reduce unintentional injury to children in the home through supply and/or installation of home safety equipment, and looks at risk assessments. METHODS: A systematic review of qualitative research. Bibliographic databases were searched for studies on interventions to reduce unintentional child injury in the home, or on related attitudes and behaviours. Studies were quality appraised, findings extracted, and a conceptual framework was developed to assess factors affecting the success of interventions. RESULTS: Nine peer-reviewed journal articles were included. Barriers and facilitators were highlighted at organisational, environmental and personal levels. Effective provision of safety equipment involves ongoing support with installation and maintenance. Take up and success of interventions depends on adjusting interventions according to practical limitations and parents' cultural expectations. A particular barrier was parents' inability to modify rented or shared accommodation. CONCLUSIONS: The review highlights ways in which health inequalities affect the take up and success of home safety interventions, and how health workers can use this knowledge to facilitate future interventions.",
+   "cited_by": 77,
+   "kind": "review",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "user",
+     "rank": 37,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "semantic",
+     "rank": 4,
+     "weight": 2.0,
+     "sim": 0.563,
+     "raw": 0.945059596744764
+    }
+   ],
+   "ids": {
+    "openalex": "W2145594136"
+   },
+   "sim": 0.563,
+   "raw_score": 53.72051,
+   "rrf": 0.044652061855670104,
+   "coverage": 0.4765807547479154,
+   "relevance": 0.5336495144777402,
+   "score": 0.46365709428785673
+  },
+  {
+   "title": "Linking residential relocation desires and behaviour with life domain satisfaction",
+   "year": 2016,
+   "authors": [
+    "Beata Nowok",
+    "Allan M Findlay",
+    "David McCollum"
+   ],
+   "venue": "Urban Studies",
+   "doi": "10.1177/0042098016665972",
+   "url": "https://doi.org/10.1177/0042098016665972",
+   "oa_url": "https://doi.org/10.1177/0042098016665972",
+   "abstract": "Life satisfaction and motives for moving home are complex entanglements, reflecting multiple desires and experiences. The aim of this paper is to show that a focused analysis of satisfaction with particular life domains can prove that changing a place of residence is not only a life stressor, but also a positive means leading to enduring improvements in individual satisfaction. Using the British Household Panel Survey we examine overall life satisfaction and satisfaction in various life domains such as housing, job, social life, household income, spouse/partner and health, both prior to and after moving. A temporal pattern of movers’ satisfaction for a number of years before and after the move is derived employing a fixed-effects panel data model. Our results reveal that residential relocation increases housing satisfaction considerably. The positive effect of moving on housing satisfaction is much stronger and endures longer for those with a sustained desire to relocate ahead of movement. Despite some decrease over time, five years after moving survey respondents still had significantly higher housing satisfaction than before their move. Changes in satisfaction with other life domains are much less pronounced and no lasting improvements in satisfaction are observed for them.",
+   "cited_by": 62,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "user",
+     "rank": 7,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "semantic",
+     "rank": 13,
+     "weight": 2.0,
+     "sim": 0.506,
+     "raw": 0.8999827306207586
+    }
+   ],
+   "ids": {
+    "openalex": "W2521522879"
+   },
+   "sim": 0.506,
+   "raw_score": 119.51095,
+   "rrf": 0.046800245348599466,
+   "coverage": 0.48765850417463985,
+   "relevance": 0.5221337546030842,
+   "score": 0.4616517669872945
+  },
+  {
+   "title": "Exploring changes in public transport use and walking following residential relocation: a British case study",
+   "year": 2015,
+   "authors": [
+    "Paulus Teguh Aditjandra",
+    "Xinyu Cao",
+    "Corinne Mulley"
+   ],
+   "venue": "Journal of Transport and Land Use",
+   "doi": "10.5198/jtlu.2015.588",
+   "url": "https://doi.org/10.5198/jtlu.2015.588",
+   "oa_url": "https://www.jtlu.org/index.php/jtlu/article/download/588/820",
+   "abstract": "The promotion of local sustainable travel is ever prominent within local transport plans, although it is still not well understood how the change to more sustainable and less carbon-based travel can be achieved. The objective of this study is to gain a better understanding of the travel choice mechanism following residential relocation. This paper uses a structural equations model and an ordered model to explore the drivers of public transport and walking use within an urban environment, using a quasi-longitudinal dataset from 10 communities in the metropolitan area of Tyne and Wear, in northeast England. The results show that changes in public transport use are determined by accessibility features of the built environment, alongside socio-demographic and travel attitude characteristics. Changes in walking, on the other hand, are determined mostly by built-environment characteristics. These findings suggest that a different approach is needed for the promotion of public transport use than for increasing walking trips (aside from walking to access public transport). The provision of public transport services needs to take into account the importance of the value of transport to users, to sufficiently attract and retain them. To promote walking, policy must focus on changes to the built environment (such as safety, travel accessibility, and the sociability of the environment), since it is changes in these characteristics that drive walking in the urban area.",
+   "cited_by": 80,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "user",
+     "rank": 28,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "semantic",
+     "rank": 6,
+     "weight": 2.0,
+     "sim": 0.596,
+     "raw": 0.9153599033679823
+    }
+   ],
+   "ids": {
+    "openalex": "W1954281170"
+   },
+   "sim": 0.596,
+   "raw_score": 105.17518,
+   "rrf": 0.045075757575757575,
+   "coverage": 0.30607609573207184,
+   "relevance": 0.4972682832650761,
+   "score": 0.4251746465841071
+  },
+  {
+   "title": "Residential relocation and change in social capital: A natural experiment from the 2011 Great East Japan Earthquake and Tsunami",
+   "year": 2017,
+   "authors": [
+    "Hiroyuki Hikichi",
+    "Yasuyuki Sawada",
+    "Toru Tsuboya",
+    "Jun Aida",
+    "Katsunori Kondo",
+    "Shihoko Koyama",
+    "Ichiro I. Kawachi"
+   ],
+   "venue": "Science Advances",
+   "doi": "10.1126/sciadv.1700426",
+   "url": "https://doi.org/10.1126/sciadv.1700426",
+   "oa_url": "https://advances.sciencemag.org/content/advances/3/7/e1700426.full.pdf",
+   "abstract": "Social connections in the community (\"social capital\") represent an important source of resilience in the aftermath of major disasters. However, little is known about how residential relocation due to housing destruction affects survivors' social capital. We examined changes in social capital among survivors of the 2011 Great East Japan Earthquake and Tsunami. People who lost their homes were resettled to new locations by two primary means: (i) group relocation to public temporary trailer housing or (ii) individual relocation, in which victims moved into government-provided housing by lottery or arranged for their own accommodation (market rental housing or private purchase/new construction). The baseline for our natural experiment was established 7 months before the 11 March 2011 disaster, when we conducted a survey of older community-dwelling adults who lived 80-km west of the earthquake epicenter. Approximately 2.5 years after the disaster, the follow-up survey gathered information about personal experiences of disaster as well as health status and social capital. Among 3421 people in our study, 79 people moved via group relocation to public temporary trailer housing, whereas 96 people moved on their own. The individual fixed-effects model showed that group relocation was associated with improved informal socializing and social participation (β coefficient = 0.053, 95% confidence interval: 0.011 to 0.095). [...]",
+   "cited_by": 98,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "user",
+     "rank": 37,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "semantic",
+     "rank": 4,
+     "weight": 2.0,
+     "sim": 0.669,
+     "raw": 0.9278066423870712
+    }
+   ],
+   "ids": {
+    "openalex": "W2738971320"
+   },
+   "sim": 0.669,
+   "raw_score": 101.26346,
+   "rrf": 0.044652061855670104,
+   "coverage": 0.15823901753966713,
+   "relevance": 0.48054699331526585,
+   "score": 0.41713505600836864
+  },
+  {
+   "title": "Housing Type and Neighbourhood Safety Behaviour Predicts Self-rated Health, Psychological Well-being and Frequency of Recent Unhealthy Days: A Comparative Cross-sectional Study of the General Population in Sweden",
+   "year": 2017,
+   "authors": [
+    "Erik Berglund",
+    "Rag­nar Westerling",
+    "Per Lytsy"
+   ],
+   "venue": "Planning Practice and Research",
+   "doi": "10.1080/02697459.2017.1374706",
+   "url": "https://doi.org/10.1080/02697459.2017.1374706",
+   "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/02697459.2017.1374706?needAccess=true",
+   "abstract": "This study aimed at analysing associations among housing type, neighbourhood safety behaviour, self-rated health (SRH), psychological well-being and unhealthy days in the general population. From 2004 to 2013, 90,845 Swedes completed a questionnaire about their health, number of days with poor health, psychological well-being, housing type, and whether they refrained from going out based on perception of neighbourhood safety. People not living in private housing and those who did not go out for safety reasons reported lower SRH and psychological well-being and higher frequency of recent unhealthy days and days without work capacity due to poor health.",
+   "cited_by": 25,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "household safety behaviour",
+     "kind": "semantic",
+     "rank": 3,
+     "weight": 2.0,
+     "sim": 0.83,
+     "raw": 0.83768398971125
+    }
+   ],
+   "ids": {
+    "openalex": "W2756784144"
+   },
+   "sim": 0.83,
+   "raw_score": 0.83768398971125,
+   "rrf": 0.031746031746031744,
+   "coverage": 0.215288823284187,
+   "relevance": 0.5142337058087856,
+   "score": 0.40825125489097125
+  },
+  {
+   "title": "Neighbourhood Restructuring and Residential Relocation: Towards a Balanced Perspective on Relocation Processes and Outcomes",
+   "year": 2013,
+   "authors": [
+    "Reinout Kleinhans",
+    "Ade Kearns"
+   ],
+   "venue": "Housing Studies",
+   "doi": "10.1080/02673037.2013.768001",
+   "url": "https://doi.org/10.1080/02673037.2013.768001",
+   "oa_url": "",
+   "abstract": "This introductory paper to this special issue of Housing Studies questions whether various characteristics of the debate and research on gentrification, displacement and restructuring justify a largely negative perspective on the processes and outcomes of ‘forced’ residential relocation. We argue that a proper and fuller consideration of issues around policy, context, process and outcomes enable researchers and commentators to avoid ready characterisations and self-fulfilling investigations of restructuring which serve to present it as a singular (and somewhat suspicious or conspiratorial) phenomenon. For this purpose, we present a broad conceptual framework for restructuring and relocation studies, based on these four themes. Subsequently, we review major issues in restructuring and gentrification discourses, and briefly reflect upon some of the factors underlying the negative loading of the term displacement. We also identify caveats in the evidence base of relocation studies, both in the United States and in Europe. Finally, we introduce the papers in this special issue. The overall aim of this issue is to offer a more open, balanced starting position for analysis of urban restructuring processes and relocation outcomes, particularly in relation to areas of social housing.",
+   "cited_by": 87,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "user",
+     "rank": 2,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "semantic",
+     "rank": 5,
+     "weight": 2.0,
+     "sim": 0.626,
+     "raw": 0.9204850311993718
+    }
+   ],
+   "ids": {
+    "openalex": "W2115704387"
+   },
+   "sim": 0.626,
+   "raw_score": 126.85608,
+   "rrf": 0.05173697270471464,
+   "coverage": 0.22642617994898487,
+   "relevance": 0.5100589881256968,
+   "score": 0.4011197588138809
+  },
+  {
+   "title": "[Relative factors in home safety evaluated by multilevel statistical models].",
+   "year": 2010,
+   "authors": [
+    "Shumei Wang",
+    "Jin Liang Zou",
+    "Wenyan Xu",
+    "Ming-min Yin"
+   ],
+   "venue": "PubMed",
+   "doi": "",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21162858",
+   "oa_url": "",
+   "abstract": "OBJECTIVE: To understand the situations of home establishments and the related domestic behaviors that causing injuries. METHODS: A total of 9760 families with regular residents in a community in Shanghai were investigated. Questionnaire was designed based on the Guidelines for Conducting Community Surveys on Injuries and Violence and International Classification of External Causes of Injuries. RESULTS: Inside the home settings, relative factors were found on issues as fire protection and using of electricity. In terms of household settings, 14.85% of the families had smoke alarm systems in the kitchen; 40.75% had no windows set for emergence. 50% to 70% of the residents had the idea of safe behaviors, including 35.93% of the families stored cleaning products, other chemicals or medical substances in alternative containers, such as used drinking bottle. Only 1.81% of the people being investigated thought that home was also a high risk place where injury might occur and it was placed number 9 in a multiple choice questionnaire. Data from the multiple level model analysis showed that factors as number of family members, space, education, profession etc. were closely related to the situation of home settings and their resident's behaviors. CONCLUSION: Many injury related factors were found related to home establishments and people's daily behaviors at home which called for interventions to be taken.",
+   "cited_by": 2,
+   "kind": "other",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "household safety behaviour",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.0,
+     "sim": 1.0,
+     "raw": 0.8463844201643704
+    }
+   ],
+   "ids": {
+    "openalex": "W2299161047"
+   },
+   "sim": 1.0,
+   "raw_score": 0.8463844201643704,
+   "rrf": 0.03278688524590164,
+   "coverage": 0.4312821082977619,
+   "relevance": 0.6508889719300229,
+   "score": 0.3990889390840696
+  },
+  {
+   "title": "To move or not to move: A review of residential relocation trends after COVID-19",
+   "year": 2024,
+   "authors": [
+    "Mostafa Ayman Ilham",
+    "Achille Fonzone",
+    "Grigorios Fountas",
+    "Luca Mora"
+   ],
+   "venue": "Cities",
+   "doi": "10.1016/j.cities.2024.105078",
+   "url": "https://doi.org/10.1016/j.cities.2024.105078",
+   "oa_url": "https://doi.org/10.1016/j.cities.2024.105078",
+   "abstract": "The restrictions imposed during the COVID-19 pandemic have led to significant changes in travel behaviour and public activities, and they might have contributed to changes in residential location choices. However, research examining the relationship between residential location choice and COVID-19 is very limited. To that end, this paper focuses on how pandemic-induced changes in work patterns, travel preferences and daily activity patterns have altered residential preferences and potentially, relocation trends. The main determinants of residential location choice have been established in the literature over the past 30 years: physical attributes of the dwelling; surrounding built environment; affordability; and accessibility to transportation, workplaces, and services. However, each of these determinants are prioritised differently depending on the circumstances. Therefore, exploring how these priorities have shifted after the pandemic can pave the way for understanding how preferences for residential location choice shift as a consequence. From the review, the key findings include the decreasing importance of transport and workplace accessibility in residential location choice after the pandemic. Firstly, teleworking is becoming more prevalent within office jobs than before the pandemic, leading to less frequent trips to conventional workplaces, reducing the need to live within a commutable distance to a workplace. [...]",
+   "cited_by": 53,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "user",
+     "rank": 15,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "semantic",
+     "rank": 17,
+     "weight": 2.0,
+     "sim": 0.455,
+     "raw": 0.8911985864485745
+    }
+   ],
+   "ids": {
+    "openalex": "W4396820566"
+   },
+   "sim": 0.455,
+   "raw_score": 110.91605,
+   "rrf": 0.04330735930735931,
+   "coverage": 0.3645737694209656,
+   "relevance": 0.4518641094359154,
+   "score": 0.3963529847194316
+  },
+  {
+   "title": "Identifying facilitators and barriers for home injury prevention interventions for pre-school children: a systematic review of the quantitative literature",
+   "year": 2011,
+   "authors": [
+    "Jenny C Ingram",
+    "Toity Deave",
+    "Elizabeth L Towner",
+    "G. Errington",
+    "B. Kay",
+    "Denise Kendrick"
+   ],
+   "venue": "Health Education Research",
+   "doi": "10.1093/her/cyr066",
+   "url": "https://doi.org/10.1093/her/cyr066",
+   "oa_url": "https://academic.oup.com/her/article-pdf/27/2/258/1585046/cyr066.pdf",
+   "abstract": "Injuries are the leading cause of childhood death internationally; steep social gradients exist in mortality and morbidity. The majority of pre-school injuries occur in the home, but implementing research into practice for injury prevention has received little attention. This systematic review describes key facilitators and barriers when implementing injury prevention interventions. The review used articles included in a Cochrane systematic review of the effectiveness of home safety education, with or without the provision of safety equipment. Each paper was screened to ensure that children under 5 years, intervention details and process measures and/or barriers and facilitators were included. Two authors independently reviewed each paper and extracted data. Themes were identified and framework analysis used in an iterative process. Ninety-nine papers were identified, 42 excluded and 57 included in the analysis. Seven facilitators and six barriers were identified. Facilitators related to the approach used, focused messages, minimal changes, deliverer characteristics, equipment accessibility, behaviour change and including incentives. The barriers included complex interventions, cultural, socio-economic, physical and behavioural barriers and deliverer constraints. Barriers and facilitators should be addressed when implementing injury prevention interventions and studies should explicitly explore factors that help or hinder the process.",
+   "cited_by": 44,
+   "kind": "review",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "user",
+     "rank": 3,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "semantic",
+     "rank": 8,
+     "weight": 2.0,
+     "sim": 0.435,
+     "raw": 0.9212833269950871
+    }
+   ],
+   "ids": {
+    "openalex": "W2129764433"
+   },
+   "sim": 0.435,
+   "raw_score": 97.43794,
+   "rrf": 0.05004668534080299,
+   "coverage": 0.4765807547479154,
+   "relevance": 0.5024413544520563,
+   "score": 0.38901758329790553
+  },
+  {
+   "title": "Effects of Residential Relocation on Household and Commuting Expenditures in Shanghai, China",
+   "year": 2010,
+   "authors": [
+    "Jennifer Eve Day",
+    "Robert Cervero"
+   ],
+   "venue": "International Journal of Urban and Regional Research",
+   "doi": "10.1111/j.1468-2427.2010.00916.x",
+   "url": "https://doi.org/10.1111/j.1468-2427.2010.00916.x",
+   "oa_url": "",
+   "abstract": "Over the past three decades, China's cities have undergone massive spatial restructuring in the wake of market reforms and economic growth. One consequence has been a rapid migration of urban residents to the periphery. Some movers have been forced out either by rising urban rents or government reclamation of their residences. Others have relocated willingly to modernized housing or for other lifestyle reasons. This article examines the effects of relocation to the urban edge on household well‐being. It explores the factors underlying changes in housing and transportation costs as households move to the periphery. The research also examines whether those who moved involuntarily are affected differently from those who moved by choice. Results show that, relative to those who moved by choice, involuntary movers are disproportionately and adversely affected in terms of job accessibility, commute time, housing consumption and disposable income. The findings also show that, compared with higher‐income households, lower‐income groups are disproportionately affected in relation to housing costs, accessibility losses, disposable income and household worker composition. These results indicate that relocation compensation for involuntarily relocated households should be expanded to include more than just housing value: it should encompass urban location changes, household needs and relocation costs. [...]",
+   "cited_by": 77,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "user",
+     "rank": 8,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "semantic",
+     "rank": 8,
+     "weight": 2.0,
+     "sim": 0.583,
+     "raw": 0.9130393249067962
+    }
+   ],
+   "ids": {
+    "openalex": "W1827200777"
+   },
+   "sim": 0.583,
+   "raw_score": 117.63008,
+   "rrf": 0.04852941176470588,
+   "coverage": 0.32792858418940224,
+   "relevance": 0.5114228659142601,
+   "score": 0.38712593737897294
+  },
+  {
+   "title": "Parental perceptions of barriers and facilitators to preventing child unintentional injuries within the home: a qualitative study",
+   "year": 2015,
+   "authors": [
+    "Joanne Ablewhite",
+    "Isabel Peel",
+    "Lisa McDaid",
+    "Adrian Hawkins",
+    "Trudy Goodenough",
+    "Toity Deave",
+    "Jane A Stewart",
+    "Denise Kendrick"
+   ],
+   "venue": "BMC Public Health",
+   "doi": "10.1186/s12889-015-1547-2",
+   "url": "https://doi.org/10.1186/s12889-015-1547-2",
+   "oa_url": "https://bmcpublichealth.biomedcentral.com/counter/pdf/10.1186/s12889-015-1547-2",
+   "abstract": "BACKGROUND: Childhood unintentional injury represents an important global health problem. Most of these injuries occur at home, and many are preventable. The main aim of this study was to identify key facilitators and barriers for parents in keeping their children safe from unintentional injury within their homes. A further aim was to develop an understanding of parents' perceptions of what might help them to implement injury prevention activities. METHODS: Semi-structured interviews were conducted with sixty-four parents with a child aged less than five years at parent's homes. Interview data was transcribed verbatim, and thematic analysis was undertaken. This was a Multi-centre qualitative study conducted in four study centres in England (Nottingham, Bristol, Norwich and Newcastle). RESULTS: Barriers to injury prevention included parents' not anticipating injury risks nor the consequences of some risk-taking behaviours, a perception that some injuries were an inevitable part of child development, interrupted supervision due to distractions, maternal fatigue and the presence of older siblings, difficulties in adapting homes, unreliability and cost of safety equipment and provision of safety information later than needed in relation to child age and development. Facilitators for injury prevention included parental supervision and teaching children about injury risks. [...]",
+   "cited_by": 84,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "semantic",
+     "rank": 5,
+     "weight": 2.0,
+     "sim": 0.536,
+     "raw": 0.9401810978048211
+    }
+   ],
+   "ids": {
+    "openalex": "W1970516169"
+   },
+   "sim": 0.536,
+   "raw_score": 0.9401810978048211,
+   "rrf": 0.03076923076923077,
+   "coverage": 0.4765807547479154,
+   "relevance": 0.4714013757456416,
+   "score": 0.3841381244699788
+  },
+  {
+   "title": "The impact of telecommuting on residential relocation and residential preferences: A latent class modelling approach",
+   "year": 2010,
+   "authors": [
+    "Dick Ettema"
+   ],
+   "venue": "Journal of Transport and Land Use",
+   "doi": "10.5198/jtlu.v3i1.61",
+   "url": "https://doi.org/10.5198/jtlu.v3i1.61",
+   "oa_url": "https://www.jtlu.org/index.php/jtlu/article/download/61/103",
+   "abstract": "The advance of information and communication technologies (ICTs) has changed travellers’ appreciation of travel distance in various ways. In the context of telecommuting, ICT increasingly allows us to work from home one or more days per week. One hypothesis that has been put forward is that because ICTs reduce the frequency of commuting, it allows workers to accept longer commute distances, implying that telecommuters have a different valuation of travel distance than regular commuters and would also favour more peripheral residential locations. The question can be raised, however, whether telecommuters can be regarded as a homogeneous group with respect to their valuation of commute distance and residential preferences. To investigate the heterogeneity of commuters’ and telecommuters’ preferences, latent class discrete choice models of workers’ intended relocation probability and preferred residential environment were estimated. The results suggest that telecommuting is not a factor that can be used to identify segments with different residential preferences. However, within the group of telecommuters, two different classes can be identified, which can be characterised as being sensitive and insensitive to commute distance.",
+   "cited_by": 72,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "user",
+     "rank": 6,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "semantic",
+     "rank": 9,
+     "weight": 2.0,
+     "sim": 0.559,
+     "raw": 0.9089918043349601
+    }
+   ],
+   "ids": {
+    "openalex": "W2148237723"
+   },
+   "sim": 0.559,
+   "raw_score": 119.79679,
+   "rrf": 0.048682476943346514,
+   "coverage": 0.271992626576703,
+   "relevance": 0.4856093201748245,
+   "score": 0.381097688720344
+  },
+  {
+   "title": "Parental Neighborhood Safety Perceptions and Their Children's Health Behaviors: Associations by Child Age, Gender and Household Income",
+   "year": 2013,
+   "authors": [
+    "Tracy Westley",
+    "Andrew T. Kaczynski",
+    "Sonja A. Wilhelm Stanis",
+    "Gina M. Besenyi"
+   ],
+   "venue": "Children Youth and Environments",
+   "doi": "10.7721/chilyoutenvi.23.3.0118",
+   "url": "https://doi.org/10.7721/chilyoutenvi.23.3.0118",
+   "oa_url": "https://doi.org/10.7721/chilyoutenvi.23.3.0118",
+   "abstract": "Tracy Westley, Andrew T. Kaczynski, Sonja A. Wilhelm Stanis, Gina M. Besenyi, Parental Neighborhood Safety Perceptions and Their Children's Health Behaviors: Associations by Child Age, Gender and Household Income, Children, Youth and Environments, Vol. 23, No. 3, Collected Papers (2013), pp. 118-147",
+   "cited_by": 14,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "household safety behaviour",
+     "kind": "semantic",
+     "rank": 5,
+     "weight": 2.0,
+     "sim": 0.78,
+     "raw": 0.8351323529462098
+    }
+   ],
+   "ids": {
+    "openalex": "W2674819454"
+   },
+   "sim": 0.78,
+   "raw_score": 0.8351323529462098,
+   "rrf": 0.03076923076923077,
+   "coverage": 0.2244867060321194,
+   "relevance": 0.49337316113090285,
+   "score": 0.33241444838501605
+  },
+  {
+   "title": "Fertility Intentions and Residential Relocations",
+   "year": 2017,
+   "authors": [
+    "Sergi Vidal",
+    "Johannes J. Huinink",
+    "Michael Feldhaus"
+   ],
+   "venue": "Demography",
+   "doi": "10.1007/s13524-017-0592-0",
+   "url": "https://doi.org/10.1007/s13524-017-0592-0",
+   "oa_url": "https://read.dukeupress.edu/demography/article-pdf/54/4/1305/838970/1305vidal.pdf",
+   "abstract": "This research addresses the question of whether fertility intentions (before conception) are associated with residential relocations and the distance of the relocation. We empirically tested this using data from two birth cohorts (aged 24-28 and 34-38 in the first survey wave) of the German Family Panel (pairfam) and event history analysis. Bivariate analyses showed that coupled individuals relocated at a higher rate if they intended to have a(nother) child. We found substantial heterogeneity according to individuals' age and parental status, particularly for outside-town relocations. Childless individuals of average age at family formation-a highly mobile group-relocated at a lower rate if they intended to have a child. In contrast, older individuals who already had children-the least-mobile group-relocated at a higher rate if they intended to have another child. Multivariate analyses show that these associations are largely due to adjustments in housing and other living conditions. Our results suggest that anticipatory relocations (before conception) to adapt to growing household size are importantly nuanced by the opportunities and rationales of couples to adjust their living conditions over the life course. Our research contributes to the understanding of residential mobility as a by-product of fertility decisions and, more broadly, evidences that intentions matter and need to be considered in the analysis of family life courses.",
+   "cited_by": 55,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "user",
+     "rank": 1,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "semantic",
+     "rank": 15,
+     "weight": 2.0,
+     "sim": 0.467,
+     "raw": 0.8932769793018569
+    }
+   ],
+   "ids": {
+    "openalex": "W2736179794"
+   },
+   "sim": 0.467,
+   "raw_score": 143.32808,
+   "rrf": 0.047978142076502736,
+   "coverage": 0.2581784665822756,
+   "relevance": 0.4420548900228987,
+   "score": 0.3311257067597056
+  },
+  {
+   "title": "Older Adults’ Expectations to Move: Do They Predict Actual Community-Based or Nursing Facility Moves Within 2 Years?",
+   "year": 2010,
+   "authors": [
+    "Julie F. Sergeant",
+    "David J. Ekerdt",
+    "Rosemary Kennedy Chapin"
+   ],
+   "venue": "Journal of Aging and Health",
+   "doi": "10.1177/0898264310368296",
+   "url": "https://doi.org/10.1177/0898264310368296",
+   "oa_url": "",
+   "abstract": "OBJECTIVE: This study examined the relationship between older adults' expectations to move and actual residential relocation in the community or to a nursing facility within 2 years. METHOD: Two waves of data (2000, 2002) from the Health and Retirement Study were used to compare expectations with subsequent moves. Logistic regression techniques were used to analyze the association between decision outcomes and expectations to move, health and functioning, physical environment, informal supports, and formal services. RESULTS: Findings indicated that expectations to move did predict community-based moves but did not predict moves to nursing facilities. Additional factors had significant effects but did not diminish relationships between expectations and actual moves. DISCUSSION: Results support the residential decision process as a dynamic one based on the cumulative effect of factors from an ecological model. Findings will inform policy makers and practitioners as they work to support older adults' preferences to remain living in their homes.",
+   "cited_by": 41,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for residential relocation",
+     "kind": "semantic",
+     "rank": 3,
+     "weight": 2.0,
+     "sim": 0.757,
+     "raw": 0.8853269570580565
+    }
+   ],
+   "ids": {
+    "openalex": "W2147958152"
+   },
+   "sim": 0.757,
+   "raw_score": 0.8853269570580565,
+   "rrf": 0.031746031746031744,
+   "coverage": 0.22642617994898487,
+   "relevance": 0.48837491280822487,
+   "score": 0.32863476822921645
+  },
+  {
+   "title": "A realistic framework for modelling residential relocation behaviour considering past, present, and future using DDCM: A Sydney case study",
+   "year": 2024,
+   "authors": [
+    "Maryam Bostanara",
+    "Amarin Siripanich",
+    "Taha Hossein Rashidi"
+   ],
+   "venue": "Cities",
+   "doi": "10.1016/j.cities.2024.105245",
+   "url": "https://doi.org/10.1016/j.cities.2024.105245",
+   "oa_url": "https://doi.org/10.1016/j.cities.2024.105245",
+   "abstract": "Residential relocation plays a crucial role in shaping land-use planning and is significant for policymakers in planning sustainable and liveable communities. This research delves into the intricate questions of ‘when,’ ‘why,’ and ‘where’ households choose to relocate, employing a methodological approach. Conventional models in this field fail to capture the full dynamic nature of household decision-making over the life course. This article introduces a methodologically advanced framework for modelling residential relocation using dynamic discrete choice modelling (DDCM) that combines the forward-looking nature of DDCM with the capabilities of classical models, allowing for the integration of past, present, and future factors in decision-making processes. The DDCM framework is a crucial asset for understanding household relocation trends over time, particularly during evolving economic, household, and city characteristics. Furthermore, this framework addresses the critical yet frequently overlooked interplay between residential and job relocations, offering a more complete picture of real-world decision-making dynamics. The efficacy of the framework is demonstrated using data from the Household, Income, and Labor Dynamics in Australia (HILDA) survey in Sydney. [...]",
+   "cited_by": 9,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "semantic",
+     "rank": 28,
+     "weight": 2.0,
+     "sim": 0.107,
+     "raw": 0.8315541362236872
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for residential relocation",
+     "kind": "semantic",
+     "rank": 13,
+     "weight": 2.0,
+     "sim": 0.331,
+     "raw": 0.844303493607689
+    }
+   ],
+   "ids": {
+    "openalex": "W4400986812"
+   },
+   "sim": 0.331,
+   "raw_score": 0.8315541362236872,
+   "rrf": 0.05012453300124533,
+   "coverage": 0.4420920575469217,
+   "relevance": 0.45078323956280925,
+   "score": 0.3170558409203262
+  },
+  {
+   "title": "Do assistive devices, training, and workload affect injury incidence? Prevention efforts by nursing homes and back injuries among nursing assistants",
+   "year": 2011,
+   "authors": [
+    "Laura P. D’Arcy",
+    "Yasuko Sasai",
+    "Sally Clark Stearns"
+   ],
+   "venue": "Journal of Advanced Nursing",
+   "doi": "10.1111/j.1365-2648.2011.05785.x",
+   "url": "https://doi.org/10.1111/j.1365-2648.2011.05785.x",
+   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3203326",
+   "abstract": "AIMS: This paper is a report of a study of association between workplace injuries experienced by nursing assistants in nursing homes in the United States and four factors that may affect injury rates: initial nursing assistant training, training at the current facility, lifting devices, and time to execute daily duties. BACKGROUND: High injury rates among nursing personnel have been reported in multiple settings across countries. The existing literature is divided on the effectiveness of training and assistive devices in reducing injury rates among nursing assistants. METHODS: We examined associations between whether or not the nursing assistant has experienced an injury and four key factors: quality of initial injury prevention training, injury prevention training at current facility, lift availability and whether or not the nursing assistant has sufficient time to complete resident activities of daily living. We estimated a survey-weighted logit model using 2004 National Nursing Assistant Survey data. RESULTS/FINDINGS: The odds of an injury in the past year were lower among nursing assistants who reported always having a lift available when needed (41% lower odds), available facility training to reduce workplace injuries (39%), and sufficient time to complete resident activities of daily living (35%). Quality of initial training to prevent work injuries was not significantly associated with injury status. [...]",
+   "cited_by": 70,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "user",
+     "rank": 39,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "semantic",
+     "rank": 6,
+     "weight": 2.0,
+     "sim": 0.529,
+     "raw": 0.9387610354215147
+    }
+   ],
+   "ids": {
+    "openalex": "W1961044094"
+   },
+   "sim": 0.529,
+   "raw_score": 53.581272,
+   "rrf": 0.043434343434343436,
+   "coverage": 0.22278945545264126,
+   "relevance": 0.43939940348071216,
+   "score": 0.3136498746698632
+  },
+  {
+   "title": "Home Safety, Safe Behaviors of Elderly People, and Fall Accidents at Home",
+   "year": 2010,
+   "authors": [
+    "Sibel Erkal"
+   ],
+   "venue": "Educational Gerontology",
+   "doi": "10.1080/03601277.2010.482482",
+   "url": "https://doi.org/10.1080/03601277.2010.482482",
+   "oa_url": "",
+   "abstract": "The present study analyzed home safety and safe behaviors against fall accidents of elderly people living at home. The study group comprised 121 people aged 65+ living in the catchment area of Ankara Mamak Halil Ulgen Health Center. Data were collected via a personal information form and Home-Screen Scale. Statistical analysis used an independent samples t test and one-way ANOVA; the Tukey test was also applied. According to the average score of the issues of Home Screen Scale of elderly people, the issue of “sufficient illumination of rooms and corridors at nights” (= 7.47) had the highest average in the Home-Safe subscale. The highest-scoring issue in the Safe-Behaviors subscale was “the individual puts on his/her shoes/slippers properly” (= 7.49). It was found that the opinions of elderly people regarding the Home-Safe subscale and the Safe-Behaviors subscale differed significantly according to age and health security (p <.05). Recommendations are to eliminate the situations that result in falling risks in the houses in which old people live, to improve the overall environmental conditions in such houses, and to inform elderly people of relevant safety risks in a way that will help them develop safer behaviors.",
+   "cited_by": 17,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "household safety behaviour",
+     "kind": "semantic",
+     "rank": 4,
+     "weight": 2.0,
+     "sim": 0.784,
+     "raw": 0.8353661868082832
+    }
+   ],
+   "ids": {
+    "openalex": "W2051709291"
+   },
+   "sim": 0.784,
+   "raw_score": 0.8353661868082832,
+   "rrf": 0.03125,
+   "coverage": 0.24175440602515352,
+   "relevance": 0.5019351453369578,
+   "score": 0.3118826105776025
+  },
+  {
+   "title": "How well can we predict climate migration? A review of forecasting models",
+   "year": 2024,
+   "authors": [
+    "Kerilyn Schewel",
+    "Sarah Dickerson",
+    "B. Madson",
+    "Gabriela Nagle Alverio"
+   ],
+   "venue": "Frontiers in Climate",
+   "doi": "10.3389/fclim.2023.1189125",
+   "url": "https://doi.org/10.3389/fclim.2023.1189125",
+   "oa_url": "https://doi.org/10.3389/fclim.2023.1189125",
+   "abstract": "Climate change will have significant impacts on all aspects of human society, including population movements. In some cases, populations will be displaced by natural disasters and sudden-onset climate events, such as tropical storms. In other cases, climate change will gradually influence the economic, social, and political realities of a place, which will in turn influence how and where people migrate. Planning for the wide spectrum of future climate-related mobility is a key challenge facing development planners and policy makers. This article reviews the state of climate-related migration forecasting models, based on an analysis of thirty recent models. We present the key characteristics, strengths, and weaknesses of different modeling approaches, including gravity, radiation, agent-based, systems dynamics and statistical extrapolation models, and consider five illustrative models in depth. We show why, at this stage of development, forecasting models are not yet able to provide reliable numerical estimates of future climate-related migration. Rather, models are best used as tools to consider a range of possible futures, to explore systems dynamics, to test theories or potential policy effects. We consider the policy and research implications of our findings, including the need for improved migration data collection, enhanced interdisciplinary collaboration, and scenarios-based planning.",
+   "cited_by": 39,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for residential relocation",
+     "kind": "semantic",
+     "rank": 4,
+     "weight": 2.0,
+     "sim": 0.664,
+     "raw": 0.8763432561308501
+    }
+   ],
+   "ids": {
+    "openalex": "W4390583932"
+   },
+   "sim": 0.664,
+   "raw_score": 0.8763432561308501,
+   "rrf": 0.03125,
+   "coverage": 0.06818716240931776,
+   "relevance": 0.4018649722522071,
+   "score": 0.302545175216508
+  },
+  {
+   "title": "Strategies for Home Modification and Repair*",
+   "year": 2019,
+   "authors": [
+    "Jon Pynoos"
+   ],
+   "venue": "Routledge eBooks",
+   "doi": "10.4324/9781315227603-4",
+   "url": "https://doi.org/10.4324/9781315227603-4",
+   "oa_url": "",
+   "abstract": "Home modification and repair have emerged as public policy and service delivery issues because they can help older people age in place. In order to increase the incidence of home modification and repair, improvements need to be made in assessing homes, expanding public awareness, and developing programs. An important element in creating a home environment that is safe and supportive is an assessment of its condition and suitability, but very few dwelling units are systematically assessed. Strategies to increase the incidence of home modification and repair include more widespread and systematic home assessments, increased public awareness about the role of the environment, and the creation of more programs that provide affordable home modification and repair services. In reality, however, many homes of even very frail elderly go unassessed, and the supportive qualities of the dwelling units of the rest of the population receive scant attention.",
+   "cited_by": 10,
+   "kind": "book-chapter",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A service that reaches people at the moment of a home move and helps them preven",
+     "kind": "semantic",
+     "rank": 4,
+     "weight": 2.5,
+     "sim": 0.688,
+     "raw": 0.7918767411782728
+    }
+   ],
+   "ids": {
+    "openalex": "W2958170519"
+   },
+   "sim": 0.688,
+   "raw_score": 0.7918767411782728,
+   "rrf": 0.0390625,
+   "coverage": 0.2103791737056126,
+   "relevance": 0.4830747815234485,
+   "score": 0.30127731881303454
+  },
+  {
+   "title": "Residential mobility responses to home damage caused by floods, cyclones and bushfires in Australia",
+   "year": 2024,
+   "authors": [
+    "Aude Bernard",
+    "Francisco Perales",
+    "Elin Charles‐Edwards",
+    "Sasha Bacquet-Carlier"
+   ],
+   "venue": "Population and Environment",
+   "doi": "10.1007/s11111-024-00470-7",
+   "url": "https://doi.org/10.1007/s11111-024-00470-7",
+   "oa_url": "https://link.springer.com/content/pdf/10.1007/s11111-024-00470-7.pdf",
+   "abstract": "Recent climate disasters serve as a reminder of the growing—yet overlooked—risk of climate-driven displacement in the Global North. This paper contributes to a nascent literature on disaster-induced mobility in high-income countries by extending the evidence to a new context: Australia. Applying propensity score matching to panel data from the Household, Income and Labour Dynamics in Australia (HILDA) Survey, we conduct the first causal assessment of the impact of home damage caused by extreme weather events on residential mobility in Australia. Our findings suggest that from 2009 to 2022, an annual average of 1.6% of Australians aged 15 + (or ~ 308,000 people a year) experienced home damage caused by floods, cyclones or bushfires. Such damage increases the probability of changing address within 1 year by 56%, displacing an annual average of 22,261 Australians. Cumulatively, this amounts to ~ 312,000 people displaced by climate-induced home damage between 2009 and 2022. Importantly, this type of climate-induced mobility is not evenly spread across the population. Contrary to findings from the Global South, we find no evidence of “entrapment effects”, except for uninsured homeowners. Instead, our results indicate that over 80% of climate-displaced Australians come from the bottom two income quartiles, with the poorest 3% accounting for 14% of the displaced population. [...]",
+   "cited_by": 11,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A service that reaches people at the moment of a home move and helps them preven",
+     "kind": "semantic",
+     "rank": 6,
+     "weight": 2.5,
+     "sim": 0.411,
+     "raw": 0.7786913162826945
+    }
+   ],
+   "ids": {
+    "openalex": "W4405155973"
+   },
+   "sim": 0.411,
+   "raw_score": 0.7786913162826945,
+   "rrf": 0.03787878787878788,
+   "coverage": 0.4085549999439463,
+   "relevance": 0.42734083153398605,
+   "score": 0.29245767122809463
+  },
+  {
+   "title": "Understanding sharps injuries in home healthcare: The Safe Home Care qualitative methods study to identify pathways for injury prevention",
+   "year": 2015,
+   "authors": [
+    "Pia K. Markkanen",
+    "Catherine J. Galligan",
+    "Angela K. Laramie",
+    "June M. Fisher",
+    "Susan R Sama",
+    "Margaret Quinn"
+   ],
+   "venue": "BMC Public Health",
+   "doi": "10.1186/s12889-015-1673-x",
+   "url": "https://doi.org/10.1186/s12889-015-1673-x",
+   "oa_url": "https://bmcpublichealth.biomedcentral.com/counter/pdf/10.1186/s12889-015-1673-x",
+   "abstract": "BACKGROUND: Home healthcare is one of the fastest growing sectors in the United States. Percutaneous injuries from sharp medical devices (sharps) are a source of bloodborne pathogen infections among home healthcare workers and community members. Sharps use and disposal practices in the home are highly variable and there is no comprehensive analysis of the system of sharps procurement, use and disposal in home healthcare. This gap is a barrier to effective public health interventions. The objectives of this study were to i) identify the full range of pathways by which sharps enter and exit the home, stakeholders involved, and barriers for using sharps with injury prevention features; and ii) assess the leverage points for preventive interventions. METHODS: This study employed qualitative research methods to develop two systems maps of the use of sharps and prevention of sharps injuries in home healthcare. Twenty-six in-depth interview sessions were conducted including home healthcare agency clinicians, public health practitioners, sharps device manufacturers, injury prevention advocates, pharmacists and others. Interview transcripts were audio-recorded and analyzed thematically using NVIVO qualitative research analysis software. Analysis of supporting archival material also was conducted. All findings guided development of the two maps. RESULTS: Sharps enter the home via multiple complex pathways involving home healthcare providers and home users. [...]",
+   "cited_by": 36,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "user",
+     "rank": 20,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "semantic",
+     "rank": 12,
+     "weight": 2.0,
+     "sim": 0.315,
+     "raw": 0.8989451299138308
+    }
+   ],
+   "ids": {
+    "openalex": "W2024542958"
+   },
+   "sim": 0.315,
+   "raw_score": 61.30694,
+   "rrf": 0.04402777777777778,
+   "coverage": 0.46933569192703584,
+   "relevance": 0.4299624722839931,
+   "score": 0.2901936395341952
+  },
+  {
+   "title": "Perceptions as drivers of residential mobility: A resonance analysis",
+   "year": 2022,
+   "authors": [
+    "Petrus Te Braak",
+    "Pascal Verhoest",
+    "Jo Renate Bauwens",
+    "Joeri Minnen",
+    "Ignace Glorieux"
+   ],
+   "venue": "Cities",
+   "doi": "10.1016/j.cities.2022.103819",
+   "url": "https://doi.org/10.1016/j.cities.2022.103819",
+   "oa_url": "https://doi.org/10.1016/j.cities.2022.103819",
+   "abstract": "Studies that analyse people's perceptions of their living environment as an explanatory factor for residential mobility are scarce at best. The study presented in this article addresses this deficit by investigating how people's perceptions of cities as living environments influence their relocation behaviour within metropolitan areas. After gathering information on relocation behaviour from 1,056 survey respondents in the Brussels Capital Region, we analysed the data using our self-developed ‘resonance analysis’ methodology. Our findings indicate that the variability of residential mobility is greatly influenced by people's perceptions of the city. They also demonstrate the ways in which qualitative data on people's perceptions and subjective experiences can be combined with quantitative data to improve statistical predictions of relocation behaviour.",
+   "cited_by": 9,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "effectiveness of behavioural interventions and nudges for residential relocation",
+     "kind": "semantic",
+     "rank": 15,
+     "weight": 2.0,
+     "sim": 0.176,
+     "raw": 0.842630812280312
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for residential relocation",
+     "kind": "semantic",
+     "rank": 10,
+     "weight": 2.0,
+     "sim": 0.399,
+     "raw": 0.8508732960607739
+    }
+   ],
+   "ids": {
+    "openalex": "W4283582285"
+   },
+   "sim": 0.399,
+   "raw_score": 0.842630812280312,
+   "rrf": 0.05523809523809524,
+   "coverage": 0.25082016038392974,
+   "relevance": 0.43955193046812013,
+   "score": 0.287260158825207
+  },
+  {
+   "title": "Effects of Involuntary Residential Relocation on Household Satisfaction in Shanghai, China",
+   "year": 2013,
+   "authors": [
+    "Jennifer Eve Day"
+   ],
+   "venue": "Urban Policy and Research",
+   "doi": "10.1080/08111146.2012.757736",
+   "url": "https://doi.org/10.1080/08111146.2012.757736",
+   "oa_url": "",
+   "abstract": "Classical theories of urban relocation in market economies frame a household residential move as a way for a household to reset itself to a desired level of satisfaction—that is, to make itself as happy as possible given a set of constraints. In Chinese cities, where not all who relocate are willing movers, the picture is more complicated. Currently, Shanghai's development policies encourage population migration to the urban edge. This includes not only housing for those that made a choice to move, but also housing designated as resettlement housing for those involuntarily resettled. Urban policy in China continues to resettle unwilling denizens at the edges of the city, without an understanding of how these policies affect the well-being of that population. Very little research focuses on the actual outcomes for displaced households. This research attempts to fill this knowledge gap. Using a household survey, data were collected on relative mover satisfaction with a variety of aspects of the old and new locations. Models were developed to test the hypothesis that socio-economic and choice factors play a role in the satisfaction that a household derives from moving. The results suggest that a suburban move produces less happiness for involuntary movers.",
+   "cited_by": 49,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "user",
+     "rank": 10,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "semantic",
+     "rank": 18,
+     "weight": 2.0,
+     "sim": 0.43,
+     "raw": 0.8868744133981211
+    }
+   ],
+   "ids": {
+    "openalex": "W2060937041"
+   },
+   "sim": 0.43,
+   "raw_score": 114.82245,
+   "rrf": 0.04421245421245421,
+   "coverage": 0.35135049125224554,
+   "relevance": 0.44125130122182754,
+   "score": 0.2815114091281886
+  },
+  {
+   "title": "Pressure Injury Prevention: Outcomes and Challenges to Use of Resident Monitoring Technology in a Nursing Home",
+   "year": 2019,
+   "authors": [
+    "Tracey L. Yap",
+    "Susan M. Kennerly",
+    "Kao Ly"
+   ],
+   "venue": "Journal of Wound Ostomy and Continence Nursing",
+   "doi": "10.1097/won.0000000000000523",
+   "url": "https://doi.org/10.1097/won.0000000000000523",
+   "oa_url": "https://doi.org/10.1097/won.0000000000000523",
+   "abstract": "PURPOSE: We examined the usability, user perceptions, and nursing occupational subculture associated with introduction of a patient monitoring system to facilitate nursing staff implementation of standard care for pressure ulcer/injury prevention in the nursing home setting. DESIGN: Mixed methods, pre-/posttest design. SUBJECTS AND SETTING: Resident (n = 44) and staff (n = 38) participants were recruited from a 120-bed nursing home in the Southeast United States. METHODS: Digital data on frequency and position of residents were transmitted wirelessly from sensors worn on each resident's anterior chest to estimate nursing staff compliance with repositioning standard of care before and after visual monitors were activated to cue staff. The validated Nursing Culture Assessment Tool was used to determine changes in nursing culture. Benefits and challenges of implementation were assessed by 2 focus groups composed of 8 and 5 female members of the nursing staff (RN, LPN, CNA), respectively, and led by the three authors. Descriptive statistics were used for all quantitative variables, and inferential statistics were applied to categorical variables (χ test or Fisher exact test) and continuous variables (analyses of variance or equivalent nonparametric tests), respectively, where a 2-sided P value of <.05 was considered statistically significant. RESULTS: System use significantly (P =.0003) improved compliance with every 2-hour repositioning standards. [...]",
+   "cited_by": 46,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "user",
+     "rank": 32,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "semantic",
+     "rank": 10,
+     "weight": 2.0,
+     "sim": 0.388,
+     "raw": 0.9125807139918046
+    }
+   ],
+   "ids": {
+    "openalex": "W2946165871"
+   },
+   "sim": 0.388,
+   "raw_score": 54.448227,
+   "rrf": 0.042701863354037264,
+   "coverage": 0.3043496961205658,
+   "relevance": 0.40475299067760195,
+   "score": 0.2809003449635218
+  },
+  {
+   "title": "Perceptions of drinking water cleanliness and health-seeking behaviours: A qualitative assessment of household water safety in Lesotho, Africa",
+   "year": 2019,
+   "authors": [
+    "Cassandra L. Workman"
+   ],
+   "venue": "Global Public Health",
+   "doi": "10.1080/17441692.2019.1566483",
+   "url": "https://doi.org/10.1080/17441692.2019.1566483",
+   "oa_url": "",
+   "abstract": "Despite the increased availability of improved water sources globally, enteric illnesses remain a source of significant morbidity and mortality. While the MDGs goal for safe water, i.e. improved sources, was met, substantial numbers of people still rely on unimproved sources for at least some of their water needs and contamination can occur between the source and consumption. Reviews and meta-analyses point to the need for better understanding of the cultural context for (HWT) technologies. Qualitative interviews (n = 56) conducted in the Maseru District of Lesotho (2011) addressed how people decided if their water was safe, their understanding of the linkage between water and enteric illness, and health-seeking behaviour. Respondents overwhelmingly relied on visual inspections to determine if their water was clean and not all participants linked consuming unsafe water with diarrheal disease. More than half of all respondents did not boil their water, despite believing that their primary source was not clean. People often have the knowledge necessary to ensure safe water but do not for myriad reasons, including financial constraints or habit. Data such as these are critical as the literature reveals often conflicting findings about the effectiveness of HWT and water safety takes on increasing importance in syndemic settings.",
+   "cited_by": 11,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "household safety behaviour",
+     "kind": "user",
+     "rank": 3,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "household safety behaviour",
+     "kind": "semantic",
+     "rank": 9,
+     "weight": 2.0,
+     "sim": 0.485,
+     "raw": 0.820063176510927
+    }
+   ],
+   "ids": {
+    "openalex": "W2908708668"
+   },
+   "sim": 0.485,
+   "raw_score": 43.41647,
+   "rrf": 0.049620427881297446,
+   "coverage": 0.27989696348063803,
+   "relevance": 0.46185655707488193,
+   "score": 0.2788140718083363
+  },
+  {
+   "title": "Home safety practices to prevent child injury and its association with family and children's daily routines in Japan: A cross‐sectional study",
+   "year": 2019,
+   "authors": [
+    "Chikako Honda",
+    "Takashi Naruse",
+    "Rumiko Tsuchiya‐Ito",
+    "Natsuki Yamamoto",
+    "Satoko Nagata"
+   ],
+   "venue": "Japan Journal of Nursing Science",
+   "doi": "10.1111/jjns.12274",
+   "url": "https://doi.org/10.1111/jjns.12274",
+   "oa_url": "",
+   "abstract": "AIM: To investigate the association between children and their families' daily life routines and the implementation of safety practices in their homes. METHODS: A cross-sectional study was conducted using a self-administered questionnaire among parents of 3-year-old children, who visited a public health center in Tokyo for their health checkups. Associations between the implementation of safety practices and family and children's basic daily routines were assessed using a multivariate logistic regression. RESULTS: Data from 336 parents were analyzed. Three items were found to be significantly related to the non-implementation of safety practices, such as \"television-watching behavior: after 8:00 p.m.\" (adjusted odds ratio = 1.88, p =.02), \"washing hands: not every time after getting home\" (adjusted odds ratio = 2.24, p =.02), and \"Family Routines Inventory: lower score\" (a measurement of the routinization of a family's daily life; adjusted odds ratio =.83, p =.01). CONCLUSION: The cumulative results suggest that the lack of safety practices implementation signify nonadherence to daily routine practices by parents.",
+   "cited_by": 6,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "household safety behaviour",
+     "kind": "semantic",
+     "rank": 6,
+     "weight": 2.0,
+     "sim": 0.631,
+     "raw": 0.8275216087250995
+    }
+   ],
+   "ids": {
+    "openalex": "W2952730097"
+   },
+   "sim": 0.631,
+   "raw_score": 0.8275216087250995,
+   "rrf": 0.030303030303030304,
+   "coverage": 0.35373972256265335,
+   "relevance": 0.47082138200943774,
+   "score": 0.267716291522831
+  },
+  {
+   "title": "Primary Care Opportunities to Prevent Unintentional Home Injuries: A Focus on Children and Older Adults",
+   "year": 2016,
+   "authors": [
+    "Eileen M. McDonald",
+    "Karin Ann Mack",
+    "Wendy C. Shields",
+    "Robin P. Lee",
+    "ANDREA CARLSON GIELEN"
+   ],
+   "venue": "American Journal of Lifestyle Medicine",
+   "doi": "10.1177/1559827616629924",
+   "url": "https://doi.org/10.1177/1559827616629924",
+   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/4850836",
+   "abstract": "Unintentional injuries are a persistent public health problem in the United States. A new health care landscape has the potential to create a clinical environment that fosters greater involvement by health care providers in injury prevention. The aim of this article is to provide evidence supporting the need for engagement by primary care providers in unintentional home injury prevention along with examples of how this could be accomplished. We know a great deal about what population groups are at risk for certain types of injuries. We also know that many injuries can be prevented through policies, programs, and resources that ensure safe environments and promote safe behaviors. For example, the Centers for Disease Control and Prevention's STEADI (Stopping Elderly Accidents, Deaths, and Injuries) initiative comprises clinical decision support tools and educational materials for health care providers. Two effective interventions that have demonstrated a reduction in falls among children are the redesign of baby walkers (engineering) and the mandated use of window guards (enforcement). Primary care clinicians can play a key role in promoting their patient's safety. Taken collectively, a focused attention on preventing unintentional home injuries by primary care providers can contribute to the reduction of injuries and result in optimal health for all.",
+   "cited_by": 22,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "semantic",
+     "rank": 16,
+     "weight": 2.0,
+     "sim": 0.272,
+     "raw": 0.8909507074798915
+    },
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "semantic",
+     "rank": 35,
+     "weight": 2.0,
+     "sim": 0.012,
+     "raw": 0.8427485
+    }
+   ],
+   "ids": {
+    "openalex": "W6964220080"
+   },
+   "sim": 0.272,
+   "raw_score": 0.8909507074798915,
+   "rrf": 0.047368421052631574,
+   "coverage": 0.45218677431297055,
+   "relevance": 0.41999782795952584,
+   "score": 0.2643013480440363
+  },
+  {
+   "title": "Mobility-based disadvantage in older age: insecure housing and the risks of moving house",
+   "year": 2020,
+   "authors": [
+    "Emma R Power"
+   ],
+   "venue": "Ageing and Society",
+   "doi": "10.1017/s0144686x20000768",
+   "url": "https://doi.org/10.1017/s0144686x20000768",
+   "oa_url": "",
+   "abstract": "This paper develops knowledge of the logistics of moving house amongst older people living in insecure housing. These people typically do not move once and settle into a new house, but face ongoing moves driven by factors including housing affordability, tenure conditions and eviction. The paper identifies four domains of experience faced by people undergoing cumulative, involuntary residential moves: the material (process of relocating oneself and possessions), economic (costs of moving house), embodied (physical experience) and affective (how relocation is experienced and felt). The logistics of relocation are examined through the experiences of single older women living in insecure housing in the greater Sydney region of Australia. The accounts of these women foreground the costs and challenges of insecure housing that are a consequence of relocation. Conceptually this work contributes to understandings of mobility-based disadvantage in older age through drawing out the ways that the logistics of moving house – of relocating oneself and possessions – contribute in distinct ways to mobility-based disadvantage through risks to identity and senses of home. Empirically it addresses gaps in gerontological and housing scholarship through developing knowledge of the logistics and experiences of ongoing, involuntary residential moves.",
+   "cited_by": 11,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A service that reaches people at the moment of a home move and helps them preven",
+     "kind": "semantic",
+     "rank": 5,
+     "weight": 2.5,
+     "sim": 0.55,
+     "raw": 0.7853143610579333
+    }
+   ],
+   "ids": {
+    "openalex": "W3038904609"
+   },
+   "sim": 0.55,
+   "raw_score": 0.7853143610579333,
+   "rrf": 0.038461538461538464,
+   "coverage": 0.271992626576703,
+   "relevance": 0.44413172462459466,
+   "score": 0.2625825890736179
+  },
+  {
+   "title": "Child injuries at home : Prevention, Precautions and Intervention with focus on scalds",
+   "year": 2010,
+   "authors": [
+    "Anna Carlsson"
+   ],
+   "venue": "Malmö University Publications (Malmö University)",
+   "doi": "",
+   "url": "http://hdl.handle.net/2043/9999",
+   "oa_url": "http://hdl.handle.net/2043/9999",
+   "abstract": "Note: The papers are not included in the fulltext online. Paper III and V in dissertation as manuscript.",
+   "cited_by": 46,
+   "kind": "dissertation",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "user",
+     "rank": 23,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "semantic",
+     "rank": 9,
+     "weight": 2.0,
+     "sim": 0.388,
+     "raw": 0.9125807139918046
+    }
+   ],
+   "ids": {
+    "openalex": "W1524762655"
+   },
+   "sim": 0.388,
+   "raw_score": 60.914154,
+   "rrf": 0.04464815784878645,
+   "coverage": 0.3043496961205658,
+   "relevance": 0.4119657290993195,
+   "score": 0.260698005500541
+  },
+  {
+   "title": "The effect of neighborhood deprivation and residential relocation on long-term injection cessation among injection drug users (IDUs) in Baltimore, Maryland",
+   "year": 2011,
+   "authors": [
+    "Becky L. Genberg",
+    "Stephen J. Gange",
+    "Vivian Fei-ling Go",
+    "David D. Celentano",
+    "Gregory Dale Kirk",
+    "Carl Asher Latkin",
+    "Shruti H. Mehta"
+   ],
+   "venue": "Addiction",
+   "doi": "10.1111/j.1360-0443.2011.03501.x",
+   "url": "https://doi.org/10.1111/j.1360-0443.2011.03501.x",
+   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3189272",
+   "abstract": "AIMS: To determine the incidence of long-term injection cessation and its association with residential relocation and neighborhood deprivation. DESIGN: ALIVE (AIDS Linked to the Intravenous Experience) is a prospective cohort with semi-annual follow-up since 1988. Multi-level discrete time-to-event models were constructed to investigate individual and neighborhood-level predictors of long-term injection cessation. SETTING: Baltimore, USA. PARTICIPANTS: A total of 1697 active injectors from ALIVE with at least eight semi-annual study visits. MEASUREMENTS: Long-term injection cessation was defined as 3 consecutive years without self-reported injection drug use. FINDINGS: A total of 706 (42%) injectors achieved long-term cessation (incidence=7.6 per 100 person-years). After adjusting for individual-level factors, long-term injection cessation was 29% less likely in neighborhoods in the third quartile of deprivation [hazard ratio (HR)=0.71, 95% CI: 0.53, 0.95) and 43% less likely in the highest quartile of deprivation (HR=0.57, 95% CI: 0.43, 0.76) compared to the first quartile. Residential relocation was associated with increased likelihood of long-term injection cessation (HR=1.55, 95% CI: 1.31, 1.82); however, the impact of relocation varied depending on the deprivation in the destination neighborhood. [...]",
+   "cited_by": 79,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "semantic",
+     "rank": 7,
+     "weight": 2.0,
+     "sim": 0.592,
+     "raw": 0.9145950199645745
+    }
+   ],
+   "ids": {
+    "openalex": "W2095879740"
+   },
+   "sim": 0.592,
+   "raw_score": 0.9145950199645745,
+   "rrf": 0.029850746268656716,
+   "coverage": 0.15823901753966713,
+   "relevance": 0.3948950590810397,
+   "score": 0.25674116262430347
+  },
+  {
+   "title": "Unintentional Home Injury Prevention in Preschool Children; a Study of Contributing Factors.",
+   "year": 2016,
+   "authors": [
+    "Somaye Younesian",
+    "Soad Mahfoozpour‌",
+    "Ensieh Ghaffari Shad",
+    "Hamid Kariman",
+    "Hamidreza Hatamabadi"
+   ],
+   "venue": "Archives of Academic Emergency Medicine",
+   "doi": "10.22037/aaem.v4i2.223",
+   "url": "https://doi.org/10.22037/aaem.v4i2.223",
+   "oa_url": "https://journals.sbmu.ac.ir/aaem/index.php/AAEM/article/download/223/223",
+   "abstract": "INTRODUCTION: Different factors such as parents' knowledge and attitudes regarding preventive measures (PM) have a great role in reducing children unintentional home injuries. The present study aims to evaluate the contributing factors of unintentional home injury prevention in preschool victims presented to the emergency department. METHODS: The subjects consisted of all the mothers of preschool children who were presented to the emergency department of Imam Hossein and Shohadaie-Hafte-Tir Hospitals, with unintentional home injuries, from March 2011 to February 2012. The participants were divided into two groups according to implementation of preventive measures status. The significant confounding factors of PM application was determined by chi-squared test and entered into the backward multivariate logistic regression model. RESULTS: 230 mothers with the mean age of 29.4 ± 5.2 years were evaluated. 225 (97.83%) of them were still married, 74 (32.17%) had high school education or higher, 122 (53.04%) were homemakers, and 31 (13.49%) worked outside the home for at least 8 hours daily. [...]",
+   "cited_by": 25,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "user",
+     "rank": 1,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "semantic",
+     "rank": 11,
+     "weight": 2.0,
+     "sim": 0.338,
+     "raw": 0.9033134184092478
+    }
+   ],
+   "ids": {
+    "openalex": "W1831111824"
+   },
+   "sim": 0.338,
+   "raw_score": 112.31,
+   "rrf": 0.04948048949434311,
+   "coverage": 0.3043496961205658,
+   "relevance": 0.40987378166814714,
+   "score": 0.2556997687348509
+  },
+  {
+   "title": "Predicting population displacements after earthquakes",
+   "year": 2020,
+   "authors": [
+    "Rodrigo Tusi Costa",
+    "Terje Haukaas",
+    "Stephanie E. Chang"
+   ],
+   "venue": "Sustainable and Resilient Infrastructure",
+   "doi": "10.1080/23789689.2020.1746047",
+   "url": "https://doi.org/10.1080/23789689.2020.1746047",
+   "oa_url": "",
+   "abstract": "An agent-based object-oriented model for household displacements is presented and used to analyze household decision-making after a hypothetical earthquake in the City of Vancouver, Canada. Temporary displacements and permanent relocation are accounted for. The model for households include considerations of socioeconomic demographics, social networks, and disaster preparedness. The analysis results indicate that nearly 70,000 persons are expected to be displaced by the earthquake. Of those, close to 19,000 will need public sheltering. In addition, nearly 40,000 persons are expected to relocate in the years following the earthquake. Among the displaced persons, occupants of multi-family pre-code and low-code buildings are over-represented. Among those needing public shelter or relocation, there is a disproportionately high number of renters and low-income households. The models in this paper can help the development of pre-disaster plans by suggesting optimal location of public shelters, and by identifying decisions that reduce the number of households relocating.",
+   "cited_by": 34,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for residential relocation",
+     "kind": "semantic",
+     "rank": 5,
+     "weight": 2.0,
+     "sim": 0.591,
+     "raw": 0.8693441245945825
+    }
+   ],
+   "ids": {
+    "openalex": "W3018443836"
+   },
+   "sim": 0.591,
+   "raw_score": 0.8693441245945825,
+   "rrf": 0.03076923076923077,
+   "coverage": 0.17958936482569549,
+   "relevance": 0.4043039587689756,
+   "score": 0.25045235505977925
+  },
+  {
+   "title": "Preventing Unintentional Injuries to Young Children in the Home: Understanding and Influencing Parents’ Safety Practices",
+   "year": 2018,
+   "authors": [
+    "Barbara A. Morrongiello"
+   ],
+   "venue": "Child Development Perspectives",
+   "doi": "10.1111/cdep.12287",
+   "url": "https://doi.org/10.1111/cdep.12287",
+   "oa_url": "",
+   "abstract": "Unintentional injuries are the leading cause of preventable deaths for children in most industrialized countries. In this article, I consider research on how parents prevent home injuries to children under 6 years and discuss an intervention aimed at improving parents’ home-safety practices. Parents of young children use three types of home-safety practices: teaching about safety, modifying the environment, and supervising. Relying predominantly on teaching increases young children's risk of injury, whereas modifying the environment and supervising protect children and predict fewer injuries. Drawing on evidence about factors that motivate parents’ safety practices, an intervention was developed to improve supervision: The Supervising for Home Safety program positively changed parents’ appraisals about injury and supervision practices. Developing evidence-based injury-prevention programs is an effective way to address this national public-health issue.",
+   "cited_by": 40,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "semantic",
+     "rank": 7,
+     "weight": 2.0,
+     "sim": 0.465,
+     "raw": 0.9268942085531429
+    }
+   ],
+   "ids": {
+    "openalex": "W2796425527"
+   },
+   "sim": 0.465,
+   "raw_score": 0.9268942085531429,
+   "rrf": 0.029850746268656716,
+   "coverage": 0.35373972256265335,
+   "relevance": 0.40274527058793563,
+   "score": 0.24459897959350174
+  },
+  {
+   "title": "Residential relocation and travel behavior change: Investigating the effects of changes in the built environment, activity space dispersion, car and bike ownership, and travel attitudes",
+   "year": 2021,
+   "authors": [
+    "Samira Ramezani",
+    "Kamyar Hasanzadeh",
+    "Tiina E. Rinne",
+    "Anna Kajosaari",
+    "Marketta Kyttä"
+   ],
+   "venue": "Transportation Research Part A Policy and Practice",
+   "doi": "10.1016/j.tra.2021.02.016",
+   "url": "https://doi.org/10.1016/j.tra.2021.02.016",
+   "oa_url": "https://www.sciencedirect.com/science/article/pii/S0965856421000501/pdf",
+   "abstract": "The influence of residential relocation, as a life event, on travel behavior has become the focus of research on determinants of travel behavior in recent years. Although several studies have investigated the influence of changes in the built environment of the residential environment, the complex relationships between the built environment, travel attitudes and travel behavior has remained controversial. One crucial research gap in this area is the paucity of longitudinal and semi-longitudinal research designs that could capture the influence of changes in the built environment, activity space dispersion, car and bike ownership, latent attitudes towards travel, as well as travel behavior, and the interrelationships between these factors. This study attempts to fill this gap by collecting retrospective travel behavior and attitudinal data in Helsinki Metropolitan Area using an online map-based survey tool. In total, 1321 residents who had relocated to a new residential location between three to eleven months prior to the survey date participated in the study. The study collected data related to common home-based trips during a typical week in September 2017 and September 2018, stated change in the use of different modes of transport after the move, as well as socio-demographic, and attitudinal data before and after the move. Based on residential location and the visited destinations during a typical week, respondents’ activity space dispersion was measured. [...]",
+   "cited_by": 64,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "semantic",
+     "rank": 12,
+     "weight": 2.0,
+     "sim": 0.518,
+     "raw": 0.9020024273474966
+    }
+   ],
+   "ids": {
+    "openalex": "W3139528323"
+   },
+   "sim": 0.518,
+   "raw_score": 0.9020024273474966,
+   "rrf": 0.027777777777777776,
+   "coverage": 0.15823901753966713,
+   "relevance": 0.3576128817324884,
+   "score": 0.2365344642673172
+  },
+  {
+   "title": "A competing survival analysis for housing relocation behaviour and risk aversion in a resilient housing market",
+   "year": 2017,
+   "authors": [
+    "Taha Hossein Rashidi",
+    "Milad Ghasri"
+   ],
+   "venue": "Environment and Planning B Urban Analytics and City Science",
+   "doi": "10.1177/2399808317703381",
+   "url": "https://doi.org/10.1177/2399808317703381",
+   "oa_url": "https://unsworks.unsw.edu.au/bitstreams/620a2dea-86dc-4472-adfb-bcd82fd407c4/download",
+   "abstract": "Residential relocation decision making is a complicated process, and modelling this complex course of actions requires careful scrutinisation of different aspects. The relocation decision comprises several different decisions, including the reason for the relocation, relocation timing, and attributes of the desired residence. Among these decisions needing to be taken, the reason for relocation and its timing are decided earlier than others. Depending on the variant reasons and motivations for relocating, its timing may be accelerated or decelerated. Relocation usually occurs because of a multiplicity of reasons, which necessitates using a multivariate model for relocation decision making that is jointly modelled with the timing decision. A competing accelerated failure model to jointly formulate these decisions. The housing search literature emphasizes on the importance of considering financial risk acceptance level of decision makers in residential relocation decision models. Therefore, a binary logit model is used to model whether the decision maker is financially risk averse or not. This paper used longitudinal data collected in Australia from the Household, Income, and Labour Dynamics in Australia Survey. Further, the impact of group decision making on residential relocation is captured in this paper through the information provided in Household, Income, and Labour Dynamics in Australia Survey regarding the manner in which decisions are made within households.",
+   "cited_by": 23,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for residential relocation",
+     "kind": "semantic",
+     "rank": 9,
+     "weight": 2.0,
+     "sim": 0.411,
+     "raw": 0.8520284897870478
+    }
+   ],
+   "ids": {
+    "openalex": "W2607327235"
+   },
+   "sim": 0.411,
+   "raw_score": 0.8520284897870478,
+   "rrf": 0.028985507246376812,
+   "coverage": 0.3739048951376039,
+   "relevance": 0.3839883483366776,
+   "score": 0.22531964879253508
+  },
+  {
+   "title": "A probabilistic predictive model for residential mobility in Australia",
+   "year": 2024,
+   "authors": [
+    "Mohammad Reza Namazi Rad",
+    "Nagesh Shukla",
+    "Albert Munoz Aneiros (19584037)",
+    "Payam Mokhtariandehkordi (20125854)",
+    "Jun Ma (20121735)"
+   ],
+   "venue": "Figshare",
+   "doi": "",
+   "url": "https://figshare.com/articles/conference_contribution/A_probabilistic_predictive_model_for_residential_mobility_in_Australia/27697671",
+   "oa_url": "",
+   "abstract": "Household relocation modelling is an integral part of the planning process as residential movements influence the demand for community facilities and services. Department of Families, Housing, Community Services and Indigenous Affairs (FaHCSIA) created the Household, Income and Labour Dynamics in Australia (HILDA) program to collect reliable longitudinal data on family and household dynamics. Socio-demographic information (such as general health situation and well-being, lifestyle changes, residential mobility, income and welfare dynamics, and labour market dynamics) is collected from the sampled individuals and households. The data shows that approximately 17% of Australian households and 13% of couple families in the HILDA sample relocate residence each year. Yet, little is known on how this information can be utilised to develop a predictive model of household relocation. This study links changes in employment status and household types to a reliable estimate of the residential relocation probability by developing a Logit model to explain the residential relocation in Sydney metropolitan area using the HILDA dataset. Citation: Namazi-Rad, M-R., Shukla, N., Munoz, A., Mokhtarian, P. & Ma, J. (2014). A Probabilistic Predictive Model for Residential Mobility in Australia. In: Campbell P. and Perez P. (Eds), Proceedings of the International Symposium of Next Generation Infrastructure, 1-4 October 2013, SMART Infrastructure Facility, University of Wollongong, Australia.",
+   "cited_by": 0,
+   "kind": "conference-paper",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "semantic",
+     "rank": 36,
+     "weight": 2.0,
+     "sim": 0.014,
+     "raw": 0.81554735
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for residential relocation",
+     "kind": "semantic",
+     "rank": 6,
+     "weight": 2.0,
+     "sim": 0.545,
+     "raw": 0.8648729
+    }
+   ],
+   "ids": {
+    "openalex": "W7051986609"
+   },
+   "sim": 0.545,
+   "raw_score": 0.81554735,
+   "rrf": 0.05113636363636363,
+   "coverage": 0.2581784665822756,
+   "relevance": 0.4849588875682656,
+   "score": 0.22239557361145004
+  },
+  {
+   "title": "Home-related injuries among under-five-year children and mothers' care regarding injury prevention in rural areas",
+   "year": 2016,
+   "authors": [
+    "Forouzan Rezapur‐Shahkolai",
+    "Maryam Afshari",
+    "Abbas Moghimbeigi",
+    "Seyed Mohammad Mahdi Hazavehei"
+   ],
+   "venue": "International Journal of Injury Control and Safety Promotion",
+   "doi": "10.1080/17457300.2016.1200628",
+   "url": "https://doi.org/10.1080/17457300.2016.1200628",
+   "oa_url": "",
+   "abstract": "This cross-sectional study was conducted in rural areas of Twiserkan (Toyserkan) County, in Iran, to assess factors associated with home-related injuries among under-five-year children and their mothers' care regarding injury prevention. Mothers who had their under-five-year-old children injured within a 12-month period were identified from recorded information in Twiserkan Health Center. Then, data were gathered using pre-tested questionnaire and through interview with injured children's mothers. The questions were about characteristics of the children's injuries and their mothers' care regarding injury prevention, using PRECEDE (Predisposing, Reinforcing, and Enabling Constructs in Educational/Environmental Diagnosis and Evaluation) model with focus on knowledge and attitude; enabling and reinforcing factors; and mothers' preventive behaviours. The study results showed that 197 out of 210 total identified mothers took part in the study. The reported injuries were 11.68%, 39.09%, and 49.24%, respectively, for severe, moderate, and mild cases. Fall was the most frequent injury with 35%. Among PRECEDE model constructs, there was a statistically significant correlation between mothers' knowledge and injury severity among children. Home-related injuries are an important health problem among study population and their prediction and prevention are necessary. Enhancement of mothers' knowledge can be helpful to improve child injury prevention.",
+   "cited_by": 34,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "user",
+     "rank": 38,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "semantic",
+     "rank": 13,
+     "weight": 2.0,
+     "sim": 0.299,
+     "raw": 0.8959737936819141
+    }
+   ],
+   "ids": {
+    "openalex": "W2468147092"
+   },
+   "sim": 0.299,
+   "raw_score": 53.69939,
+   "rrf": 0.04066256639642158,
+   "coverage": 0.31537059829690384,
+   "relevance": 0.36490186672286873,
+   "score": 0.19120721490179662
+  },
+  {
+   "title": "The effects of the Fire Safety at Home programme on four fire safety behaviours among older adults",
+   "year": 2025,
+   "authors": [
+    "Margo Karemaker",
+    "Gill A. ten Hoor",
+    "René R. Hagen",
+    "Carine H.M. van Schie",
+    "Robert A. C. Ruiter"
+   ],
+   "venue": "Fire Safety Journal",
+   "doi": "10.1016/j.firesaf.2025.104337",
+   "url": "https://doi.org/10.1016/j.firesaf.2025.104337",
+   "oa_url": "https://doi.org/10.1016/j.firesaf.2025.104337",
+   "abstract": "Older adults face an increased risk of injury or fatality in domestic home fires, emphasizing the need to focus on promoting fire safety behaviours within this demographic group. Therefore, the Fire Safety at Home programme was developed. In the effect evaluation, 433 participants (>65 years) participated. Participants in the intervention group received a systematically developed fire safety programme, while the control group received a fire safety programme as is given by the Dutch fire service. Outcome measures assessed four fire safety behaviours (i.e., staying in the kitchen while cooking, not connecting power strips to each other, charging electronic devices, and cleaning the dryer lint filter after every cycle) and key behavioural determinants (attitude, self-efficacy, and risk perception). A measure of behavioural intention was added as a proxy indicator of future fire safety behaviours. Where improvements over time were found for all behaviours in both groups (control- and intervention-group), compared to the control group, the new intervention yielded significant improvement in three out of the four fire safety behaviours. Additionally, the intervention positively influenced the social cognitive determinants attitude and risk perception. [...]",
+   "cited_by": 1,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "household safety behaviour",
+     "kind": "semantic",
+     "rank": 11,
+     "weight": 2.0,
+     "sim": 0.388,
+     "raw": 0.8150920337843324
+    }
+   ],
+   "ids": {
+    "openalex": "W4406062392"
+   },
+   "sim": 0.388,
+   "raw_score": 0.8150920337843324,
+   "rrf": 0.028169014084507043,
+   "coverage": 0.4470690878104817,
+   "relevance": 0.3937117785386706,
+   "score": 0.19057362072081344
+  },
+  {
+   "title": "A Machine Learning Approach to the Residential Relocation Distance of Households in the Seoul Metropolitan Region",
+   "year": 2018,
+   "authors": [
+    "Changhyo Yi",
+    "Kijung Kim"
+   ],
+   "venue": "Sustainability",
+   "doi": "10.3390/su10092996",
+   "url": "https://doi.org/10.3390/su10092996",
+   "oa_url": "https://www.mdpi.com/2071-1050/10/9/2996/pdf",
+   "abstract": "This study aimed to evaluate the applicability of a machine learning approach to the description of residential mobility patterns of households in the Seoul metropolitan region (SMR). The spatial range and temporal scope of the empirical study were set to 2015 to review the most recent residential mobility patterns in the SMR. The analysis data used in this study included the Internal Migration Statistics microdata provided by the Microdata Integrated Service of Statistics Korea. We analysed the residential relocation distance of households in the SMR using machine learning techniques, such as ordinary least squares regression and decision tree regression. The results of this study showed that a decision tree model can be more advantageous than ordinary least squares regression in terms of explanatory power and estimation of moving distance. A large number of residential movements are mainly related to the accessibility to employment markets and some household characteristics. The shortest movements occur when households with two or more members move into densely populated districts. In contrast, job-based residential movements are relatively farther. Furthermore, we derived knowledge on residential relocation distance, which can provide significant information for the urban management of metropolitan residential districts and the construction of reasonable housing policies.",
+   "cited_by": 12,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for residential relocation",
+     "kind": "semantic",
+     "rank": 11,
+     "weight": 2.0,
+     "sim": 0.386,
+     "raw": 0.8495482674520901
+    }
+   ],
+   "ids": {
+    "openalex": "W3122185384"
+   },
+   "sim": 0.386,
+   "raw_score": 0.8495482674520901,
+   "rrf": 0.028169014084507043,
+   "coverage": 0.35135049125224554,
+   "relevance": 0.36419619957119975,
+   "score": 0.18963826569571943
+  },
+  {
+   "title": "Structural housing elements associated with injuries in older adults in the USA",
+   "year": 2024,
+   "authors": [
+    "Wendy C. Shields",
+    "Elise C. Omaki",
+    "Mia Aassar",
+    "Taneka Blue",
+    "Brianna Brooks",
+    "J. A. O'Hara",
+    "Rica Yssabel Perona"
+   ],
+   "venue": "Injury Prevention",
+   "doi": "10.1136/ip-2024-045252",
+   "url": "https://doi.org/10.1136/ip-2024-045252",
+   "oa_url": "",
+   "abstract": "OBJECTIVE: To quantify the unintentional injuries associated with housing elements among older adults treated in US hospital emergency departments (EDs). To identify modifiable home hazards. METHODS: The National Electronic Injury Surveillance System (NEISS) coding manual was reviewed to identify all codes associated with housing elements that were permanently attached to a home. We queried the 2020 NEISS data for older adults (aged 65 and older) to determine the number of injuries associated with each element. The 10 elements involved in the most hospitalisations and the most ED visits were each tabulated by the number of records in the NEISS sample and national estimate, yielding two separate lists of 10 housing elements. A review of case narratives was conducted on a random selection constituting 10% of all records or a minimum of 100 records to determine common precipitating factors and prevention recommendations. RESULTS: From the two lists, we identified 11 housing elements most commonly associated with housing-related injuries, resulting in ED visits or hospitalisations. The housing element most associated with housing-related injuries was floor, leading to 929 937 ED visits. Subsequent case narrative review yielded prevention recommendations, including modifications that support balance and fall recovery, reduce the need to reach and improve visibility. CONCLUSIONS: Housing element-related injuries affect hundreds of thousands of older adults. [...]",
+   "cited_by": 5,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A service that reaches people at the moment of a home move and helps them preven",
+     "kind": "semantic",
+     "rank": 8,
+     "weight": 2.5,
+     "sim": 0.374,
+     "raw": 0.7769109751951296
+    }
+   ],
+   "ids": {
+    "openalex": "W4401406705"
+   },
+   "sim": 0.374,
+   "raw_score": 0.7769109751951296,
+   "rrf": 0.03676470588235294,
+   "coverage": 0.29198517339914887,
+   "relevance": 0.3734412267602291,
+   "score": 0.18318364912850557
+  },
+  {
+   "title": "The relocation bump: Memories of middle adulthood are organized around residential moves.",
+   "year": 2016,
+   "authors": [
+    "Karalyn F. Enz",
+    "David B. Pillemer",
+    "Kenneth M. Johnson"
+   ],
+   "venue": "Journal of Experimental Psychology General",
+   "doi": "10.1037/xge0000188",
+   "url": "https://doi.org/10.1037/xge0000188",
+   "oa_url": "",
+   "abstract": "The lifetime temporal distribution of older adults' autobiographical memories peaks during the transitional period of late adolescence and early adulthood, a phenomenon known as the reminiscence bump. This age-specific memory enhancement suggests that transitions may provide a more general organizing structure for autobiographical memory. To test this hypothesis, we examined how older adults' memories of events that occurred between the ages of 40 and 60 were distributed around residential relocations occurring within this same time frame. The temporal distribution of memories showed a marked relocation bump around the age of the most important residential move. Although previous research has focused on the negative effects of relocation, the current findings suggest that transitions could have a positive effect on autobiographical memory. (PsycINFO Database Record",
+   "cited_by": 58,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "residential relocation",
+     "kind": "semantic",
+     "rank": 14,
+     "weight": 2.0,
+     "sim": 0.485,
+     "raw": 0.8962959106931753
+    }
+   ],
+   "ids": {
+    "openalex": "W2425440593"
+   },
+   "sim": 0.485,
+   "raw_score": 0.8962959106931753,
+   "rrf": 0.02702702702702703,
+   "coverage": 0.15823901753966713,
+   "relevance": 0.3416306877738238,
+   "score": 0.1783213294221236
+  },
+  {
+   "title": "Fertility expectations and residential mobility in Britain",
+   "year": 2016,
+   "authors": [
+    "John Ermisch",
+    "Fiona Steele"
+   ],
+   "venue": "Demographic Research",
+   "doi": "10.4054/demres.2016.35.54",
+   "url": "https://doi.org/10.4054/demres.2016.35.54",
+   "oa_url": "https://www.demographic-research.org/volumes/vol35/54/35-54.pdf",
+   "abstract": "It is plausible that people take into account anticipated changes in family size in choosing where to live. But estimation of the impact of anticipated events on current transitions in an event history framework is challenging because expectations must be",
+   "cited_by": 23,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for residential relocation",
+     "kind": "semantic",
+     "rank": 7,
+     "weight": 2.0,
+     "sim": 0.508,
+     "raw": 0.8613372757532012
+    }
+   ],
+   "ids": {
+    "openalex": "W2564508074"
+   },
+   "sim": 0.508,
+   "raw_score": 0.8613372757532012,
+   "rrf": 0.029850746268656716,
+   "coverage": 0.0982363771957252,
+   "relevance": 0.3432942669778572,
+   "score": 0.17754959353540536
+  },
+  {
+   "title": "Design, Usability and Unsafe Behaviour in the Home",
+   "year": 2020,
+   "authors": [
+    "Hilary J. McDermott",
+    "Roger A. Haslam",
+    "Alistair Gibb"
+   ],
+   "venue": "Taylor & Francis eBooks",
+   "doi": "10.1201/9781003072072-97",
+   "url": "https://doi.org/10.1201/9781003072072-97",
+   "oa_url": "https://api.taylorfrancis.com/content/chapters/edit/download?identifierName=doi&identifierValue=10.1201/9781003072072-97&type=chapterpdf",
+   "abstract": "Unintentional home injuries are a serious public health and safety problem worldwide. Legislation aims to protect the health and safety of individuals within their home through the application of national standards, codes and Building Regulations. Forty face-to-face, semi-structured interviews were conducted within the participant’s home to collect information on the personal experiences of individuals inhabiting a new-build home. The behaviours and problems identified arose as a direct result of the occupant’s interaction with the features and systems within their home, and are amenable to prevention through alternative design. The findings reported are based on self-report data gathered during retrospective interviews with occupiers and the limitations of this methodology should be acknowledged. The findings should be of interest to those responsible for the development of building standards, procedures and guidelines, informing them of the impact of occupier behaviour.",
+   "cited_by": 0,
+   "kind": "book-chapter",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "household safety behaviour",
+     "kind": "semantic",
+     "rank": 10,
+     "weight": 2.0,
+     "sim": 0.438,
+     "raw": 0.8176569
+    }
+   ],
+   "ids": {
+    "openalex": "W1924931555"
+   },
+   "sim": 0.438,
+   "raw_score": 0.8176569,
+   "rrf": 0.02857142857142857,
+   "coverage": 0.499726040458981,
+   "relevance": 0.4310001650788708,
+   "score": 0.1766788787904692
+  },
+  {
+   "title": "Effect of Varying Repositioning Frequency on Pressure Injury Prevention in Nursing Home Residents: TEAM-UP Trial Results",
+   "year": 2022,
+   "authors": [
+    "Tracey L. Yap",
+    "Susan D. Horn",
+    "Phoebe D. Sharkey",
+    "Tianyu Zheng",
+    "Nancy Bergstrom",
+    "Cathleen S Colon-Emeric",
+    "Valerie K. Sabol",
+    "Jenny Alderden",
+    "Winston Yap",
+    "Susan M. Kennerly"
+   ],
+   "venue": "Advances in Skin & Wound Care",
+   "doi": "10.1097/01.asw.0000817840.68588.04",
+   "url": "https://doi.org/10.1097/01.asw.0000817840.68588.04",
+   "oa_url": "https://doi.org/10.1097/01.asw.0000817840.68588.04",
+   "abstract": "OBJECTIVE To investigate the clinical effectiveness of three nursing-home-wide repositioning intervals (2-, 3-, or 4-hour) without compromising pressure injury (PrI) incidence in 4 weeks. METHODS An embedded pragmatic cluster randomized controlled trial was conducted in nine nursing homes (NHs) that were randomly assigned to one of three repositioning intervals. Baseline (12 months) and 4-week intervention data were provided during the TEAM-UP (Turn Everyone And Move for Ulcer Prevention) study. Intervention residents were without current PrIs, had PrI risk (Braden Scale score) ≥10 (not severe risk), and used viable 7-inch high-density foam mattresses. Each arm includes three NHs with an assigned single repositioning interval (2-, 3-, or 4-hour) as standard care during the intervention. A wireless patient monitoring system, using wearable single-use patient sensors, cued nursing staff by displaying resident repositioning needs on conveniently placed monitors. The primary outcome was PrI incidence; the secondary outcome was staff repositioning compliance fidelity. RESULTS From May 2017 to October 2019, 1,100 residents from nine NHs were fitted with sensors; 108 of these were ineligible for some analyses because of missing baseline data. The effective sample size included 992 residents (mean age, 78 ± 13 years; 63% women). [...]",
+   "cited_by": 34,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home injury prevention",
+     "kind": "semantic",
+     "rank": 14,
+     "weight": 2.0,
+     "sim": 0.299,
+     "raw": 0.8959737936819141
+    }
+   ],
+   "ids": {
+    "openalex": "W4206589336"
+   },
+   "sim": 0.299,
+   "raw_score": 0.8959737936819141,
+   "rrf": 0.02702702702702703,
+   "coverage": 0.3043496961205658,
+   "relevance": 0.3110638913480934,
+   "score": 0.16995541675043524
+  }
+ ]
+}

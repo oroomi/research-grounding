@@ -1,0 +1,484 @@
+{
+ "_note": "trimmed real Semantic Scholar Graph API response for query 'antibiotic resistance', recorded 2026-10-18; the last record is hand-written to cover a missing title and null fields.",
+ "total": 2764076,
+ "offset": 0,
+ "data": [
+  {
+   "paperId": "bae4f1a8fdc5f3aefe69db3c0e7c57018e35cede",
+   "externalIds": {
+    "PubMedCentral": "9825576",
+    "DBLP": "journals/nar/AlcockHCSRWEPSTBDMMNGIJKKLNSYGHJBCF23",
+    "DOI": "10.1093/nar/gkac920",
+    "CorpusId": 253020200,
+    "PubMed": "36263822"
+   },
+   "url": "https://www.semanticscholar.org/paper/bae4f1a8fdc5f3aefe69db3c0e7c57018e35cede",
+   "title": "CARD 2023: expanded curation, support for machine learning, and resistome prediction at the Comprehensive Antibiotic Resistance Database",
+   "venue": "Nucleic Acids Res.",
+   "year": 2022,
+   "citationCount": 2158,
+   "influentialCitationCount": 327,
+   "isOpenAccess": true,
+   "openAccessPdf": {
+    "url": "https://academic.oup.com/nar/article-pdf/51/D1/D690/48441073/gkac920.pdf",
+    "status": "GOLD",
+    "license": "CCBY",
+    "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC9825576, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "tldr": {
+    "model": "tldr@v2.0.0",
+    "text": "The Comprehensive Antibiotics Resistance Database (CARD) combines the Antibiotic Resistance Ontology with curated AMR gene (ARG) sequences and resistance-conferring mutations to provide an informatics framework for annotation and interpretation of resistomes."
+   },
+   "publicationTypes": [
+    "JournalArticle"
+   ],
+   "authors": [
+    {
+     "authorId": "40643490",
+     "name": "Brian P. Alcock"
+    },
+    {
+     "authorId": "2090954006",
+     "name": "W. Huynh"
+    },
+    {
+     "authorId": "2188367735",
+     "name": "Romeo Chalil"
+    },
+    {
+     "authorId": "2188356826",
+     "name": "Keaton W. Smith"
+    },
+    {
+     "authorId": "9691651",
+     "name": "A. Raphenya"
+    },
+    {
+     "authorId": "2188360341",
+     "name": "Mateusz A. Wlodarski"
+    },
+    {
+     "authorId": "1390169737",
+     "name": "Arman Edalatmand"
+    },
+    {
+     "authorId": "47186073",
+     "name": "A. Petkau"
+    },
+    {
+     "authorId": "2267198763",
+     "name": "S. Syed"
+    },
+    {
+     "authorId": "2174749603",
+     "name": "Kara K. Tsang"
+    },
+    {
+     "authorId": "2188361539",
+     "name": "Sheridan J. C. Baker"
+    },
+    {
+     "authorId": "2188360447",
+     "name": "Mugdha Dave"
+    },
+    {
+     "authorId": "1785373271",
+     "name": "Madeline C. McCarthy"
+    },
+    {
+     "authorId": "2188367708",
+     "name": "Karyn M. Mukiri"
+    },
+    {
+     "authorId": "1390169823",
+     "name": "Jalees A. Nasir"
+    },
+    {
+     "authorId": "2141778253",
+     "name": "Bahar Golbon"
+    },
+    {
+     "authorId": "2188355647",
+     "name": "Hamna Imtiaz"
+    },
+    {
+     "authorId": "2291076450",
+     "name": "Xingjian Jiang"
+    },
+    {
+     "authorId": "2187309364",
+     "name": "Komal Kaur"
+    },
+    {
+     "authorId": "2488904457",
+     "name": "Megan Kwong"
+    },
+    {
+     "authorId": "2483186450",
+     "name": "Zi-Cheng Liang"
+    },
+    {
+     "authorId": "2266603906",
+     "name": "Ke Niu"
+    },
+    {
+     "authorId": "2188360734",
+     "name": "Prabakar Shan"
+    },
+    {
+     "authorId": "2438291952",
+     "name": "Jasmine Y. J. Yang"
+    },
+    {
+     "authorId": "1510826040",
+     "name": "Kristen L. Gray"
+    },
+    {
+     "authorId": "2321513",
+     "name": "Gemma Hoad"
+    },
+    {
+     "authorId": "5440043",
+     "name": "Baofeng Jia"
+    },
+    {
+     "authorId": "46845463",
+     "name": "Timsy Bhando"
+    },
+    {
+     "authorId": "13985424",
+     "name": "L. Carfrae"
+    },
+    {
+     "authorId": "4411587",
+     "name": "Maya A. Farha"
+    },
+    {
+     "authorId": "40132679",
+     "name": "S. French"
+    },
+    {
+     "authorId": "2188367726",
+     "name": "R. Gordzevich"
+    },
+    {
+     "authorId": "2101732869",
+     "name": "K. Rachwalski"
+    },
+    {
+     "authorId": "2188360462",
+     "name": "Megan M. Tu"
+    },
+    {
+     "authorId": "49569220",
+     "name": "E. Bordeleau"
+    },
+    {
+     "authorId": "34820117",
+     "name": "Damion M. Dooley"
+    },
+    {
+     "authorId": "2061651887",
+     "name": "E. Griffiths"
+    },
+    {
+     "authorId": "35430062",
+     "name": "Haley L. Zubyk"
+    },
+    {
+     "authorId": "2197879",
+     "name": "E. Brown"
+    },
+    {
+     "authorId": "48332298",
+     "name": "F. Maguire"
+    },
+    {
+     "authorId": "2708164",
+     "name": "R. Beiko"
+    },
+    {
+     "authorId": "145426479",
+     "name": "W. Hsiao"
+    },
+    {
+     "authorId": "1772445",
+     "name": "F. Brinkman"
+    },
+    {
+     "authorId": "116351273",
+     "name": "G. Van Domselaar"
+    },
+    {
+     "authorId": "3049787",
+     "name": "A. McArthur"
+    }
+   ],
+   "abstract": "Abstract The Comprehensive Antibiotic Resistance Database (CARD; card.mcmaster.ca) combines the Antibiotic Resistance Ontology (ARO) with curated AMR gene (ARG) sequences and resistance-conferring mutations to provide an informatics framework for annotation and interpretation of resistomes. As of version 3.2.4, CARD encompasses 6627 ontology terms, 5010 reference sequences, 1933 mutations, 3004 publications, and 5057 AMR detection models that can be used by the accompanying Resistance Gene Identifier (RGI) software to annotate genomic or metagenomic sequences. Focused curation enhancements since 2020 include expanded β-lactamase curation, incorporation of likelihood-based AMR mutations for Mycobacterium tuberculosis, addition of disinfectants and antiseptics plus their associated ARGs, and systematic curation of resistance-modifying agents. This expanded curation includes 180 new AMR gene families, 15 new drug classes, 1 new resistance mechanism, and two new ontological relationships: evolutionary_variant_of and is_small_molecule_inhibitor. In silico prediction of resistomes and prevalence statistics of ARGs has been expanded to 377 pathogens, 21,079 chromosomes, 2,662 genomic islands, 41,828 plasmids and 155,606 whole-genome shotgun assemblies, resulting in collation of 322,710 unique ARG allele sequences. New features include the CARD:Live collection of community submitted isolate resistome data and the introduction of standardized 15 character CARD Short Names for ARGs to support machine learning efforts."
+  },
+  {
+   "paperId": "7b1d8dfb9e6260685d9fbb8c41bfc0a35710fe41",
+   "externalIds": {
+    "MAG": "2982531601",
+    "PubMedCentral": "7145624",
+    "DBLP": "journals/nar/AlcockRLTBEHNCL20",
+    "DOI": "10.1093/nar/gkz935",
+    "CorpusId": 204966823,
+    "PubMed": "31665441"
+   },
+   "url": "https://www.semanticscholar.org/paper/7b1d8dfb9e6260685d9fbb8c41bfc0a35710fe41",
+   "title": "CARD 2020: antibiotic resistome surveillance with the comprehensive antibiotic resistance database",
+   "venue": "Nucleic Acids Res.",
+   "year": 2019,
+   "citationCount": 3084,
+   "influentialCitationCount": 443,
+   "isOpenAccess": true,
+   "openAccessPdf": {
+    "url": "https://academic.oup.com/nar/article-pdf/48/D1/D517/31697411/gkz935.pdf",
+    "status": "GOLD",
+    "license": "CCBY",
+    "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC7145624, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "tldr": {
+    "model": "tldr@v2.0.0",
+    "text": "A new Resistomes & Variants module provides analysis and statistical summary of in silico predicted resistance variants from 82 pathogens and over 100 000 genomes, able to summarize predicted resistance using the information included in CARD, identify trends in AMR mobility and determine previously undescribed and novel resistance variants."
+   },
+   "publicationTypes": [
+    "JournalArticle"
+   ],
+   "authors": [
+    {
+     "authorId": "40643490",
+     "name": "Brian P. Alcock"
+    },
+    {
+     "authorId": "9691651",
+     "name": "A. Raphenya"
+    },
+    {
+     "authorId": "1388853110",
+     "name": "Tammy T. Y. Lau"
+    },
+    {
+     "authorId": "9695572",
+     "name": "Kara K. Tsang"
+    },
+    {
+     "authorId": "2243076992",
+     "name": "M. Bouchard"
+    },
+    {
+     "authorId": "1390169737",
+     "name": "Arman Edalatmand"
+    },
+    {
+     "authorId": "5227767",
+     "name": "W. Huynh"
+    },
+    {
+     "authorId": "90135336",
+     "name": "Anna-Lisa V. Nguyen"
+    },
+    {
+     "authorId": "1389995130",
+     "name": "Annie A. Cheng"
+    },
+    {
+     "authorId": "2108639303",
+     "name": "Sihan Liu"
+    },
+    {
+     "authorId": "1388817541",
+     "name": "Sally Y Min"
+    },
+    {
+     "authorId": "119976741",
+     "name": "A. Miroshnichenko"
+    },
+    {
+     "authorId": "1388739874",
+     "name": "Hiu-Ki Tran"
+    },
+    {
+     "authorId": "83103121",
+     "name": "R. Werfalli"
+    },
+    {
+     "authorId": "1390169823",
+     "name": "Jalees A. Nasir"
+    },
+    {
+     "authorId": "1390169705",
+     "name": "Martins Oloni"
+    },
+    {
+     "authorId": "46907501",
+     "name": "D. Speicher"
+    },
+    {
+     "authorId": "153334178",
+     "name": "Alexandra Florescu"
+    },
+    {
+     "authorId": "144567826",
+     "name": "Bhavya Singh"
+    },
+    {
+     "authorId": "150208494",
+     "name": "Mateusz Faltyn"
+    },
+    {
+     "authorId": "1412689666",
+     "name": "Anastasia Hernández-Koutoucheva"
+    },
+    {
+     "authorId": "1390556637",
+     "name": "Arjun N. Sharma"
+    },
+    {
+     "authorId": "49569220",
+     "name": "E. Bordeleau"
+    },
+    {
+     "authorId": "32288781",
+     "name": "A. Pawlowski"
+    },
+    {
+     "authorId": "35430062",
+     "name": "Haley L. Zubyk"
+    },
+    {
+     "authorId": "34820117",
+     "name": "Damion M. Dooley"
+    },
+    {
+     "authorId": "40009975",
+     "name": "Emma J. Griffiths"
+    },
+    {
+     "authorId": "48332298",
+     "name": "F. Maguire"
+    },
+    {
+     "authorId": "1778364",
+     "name": "Geoffrey L. Winsor"
+    },
+    {
+     "authorId": "2708164",
+     "name": "R. Beiko"
+    },
+    {
+     "authorId": "1772445",
+     "name": "F. Brinkman"
+    },
+    {
+     "authorId": "145426479",
+     "name": "W. Hsiao"
+    },
+    {
+     "authorId": "2361373",
+     "name": "G. Domselaar"
+    },
+    {
+     "authorId": "3049787",
+     "name": "A. McArthur"
+    }
+   ],
+   "abstract": "Abstract The Comprehensive Antibiotic Resistance Database (CARD; https://card.mcmaster.ca) is a curated resource providing reference DNA and protein sequences, detection models and bioinformatics tools on the molecular basis of bacterial antimicrobial resistance (AMR). CARD focuses on providing high-quality reference data and molecular sequences within a controlled vocabulary, the Antibiotic Resistance Ontology (ARO), designed by the CARD biocuration team to integrate with software development efforts for resistome analysis and prediction, such as CARD’s Resistance Gene Identifier (RGI) software. Since 2017, CARD has expanded through extensive curation of reference sequences, revision of the ontological structure, curation of over 500 new AMR detection models, development of a new classification paradigm and expansion of analytical tools. Most notably, a new Resistomes & Variants module provides analysis and statistical summary of in silico predicted resistance variants from 82 pathogens and over 100 000 genomes. By adding these resistance variants to CARD, we are able to summarize predicted resistance using the information included in CARD, identify trends in AMR mobility and determine previously undescribed and novel resistance variants. Here, we describe updates and recent expansions to CARD and its biocuration process, including new resources for community biocuration of AMR molecular reference data."
+  },
+  {
+   "paperId": "7a2bfd5490d3e4026a8f97d03e9141e08f671660",
+   "externalIds": {
+    "PubMedCentral": "8567979",
+    "DOI": "10.1038/s41579-021-00649-x",
+    "CorpusId": 243761783,
+    "PubMed": "34737424"
+   },
+   "url": "https://www.semanticscholar.org/paper/7a2bfd5490d3e4026a8f97d03e9141e08f671660",
+   "title": "Antibiotic resistance in the environment",
+   "venue": "Nature Reviews Microbiology",
+   "year": 2021,
+   "citationCount": 2401,
+   "influentialCitationCount": 27,
+   "isOpenAccess": true,
+   "openAccessPdf": {
+    "url": "https://www.nature.com/articles/s41579-021-00649-x.pdf",
+    "status": "BRONZE",
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC8567979, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "tldr": {
+    "model": "tldr@v2.0.0",
+    "text": "This Review presents the current understanding of the roles of the environment, including antibiotic pollution, in resistance evolution, in transmission and as a mere reflection of the regional antibiotic resistance situation in the clinic."
+   },
+   "publicationTypes": [
+    "Review",
+    "JournalArticle"
+   ],
+   "authors": [
+    {
+     "authorId": "2463298411",
+     "name": "D. G. Joakim Larsson"
+    },
+    {
+     "authorId": "31162626",
+     "name": "C. Flach"
+    }
+   ],
+   "abstract": "Antibiotic resistance is a global health challenge, involving the transfer of bacteria and genes between humans, animals and the environment. Although multiple barriers restrict the flow of both bacteria and genes, pathogens recurrently acquire new resistance factors from other species, thereby reducing our ability to prevent and treat bacterial infections. Evolutionary events that lead to the emergence of new resistance factors in pathogens are rare and challenging to predict, but may be associated with vast ramifications. Transmission events of already widespread resistant strains are, on the other hand, common, quantifiable and more predictable, but the consequences of each event are limited. Quantifying the pathways and identifying the drivers of and bottlenecks for environmental evolution and transmission of antibiotic resistance are key components to understand and manage the resistance crisis as a whole. In this Review, we present our current understanding of the roles of the environment, including antibiotic pollution, in resistance evolution, in transmission and as a mere reflection of the regional antibiotic resistance situation in the clinic. We provide a perspective on current evidence, describe risk scenarios, discuss methods for surveillance and the assessment of potential drivers, and finally identify some actions to mitigate risks. In this Review, Larsson and Flach discuss the drivers of and bottlenecks for environmental evolution and transmission of antibiotic resistance, and they explore environmental surveillance strategies that could complement clinical surveillance systems."
+  },
+  {
+   "paperId": "3194b1c3bcd62b8135eb85a9724b41b9c5941e2e",
+   "externalIds": {
+    "PubMedCentral": "11852044",
+    "DOI": "10.3390/antibiotics14020207",
+    "CorpusId": 276470690,
+    "PubMed": "40001450"
+   },
+   "url": "https://www.semanticscholar.org/paper/3194b1c3bcd62b8135eb85a9724b41b9c5941e2e",
+   "title": "Nanomaterial-Based Strategies to Combat Antibiotic Resistance: Mechanisms and Applications",
+   "venue": "Antibiotics",
+   "year": 2025,
+   "citationCount": 167,
+   "influentialCitationCount": 4,
+   "isOpenAccess": false,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11852044, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "tldr": {
+    "model": "tldr@v2.0.0",
+    "text": "A comprehensive overview of how nanomaterials are reshaping the future of antibacterial therapies is provided, to guide the development of safer, more effective nanomaterial-based antibacterial treatments."
+   },
+   "publicationTypes": [
+    "Review",
+    "JournalArticle"
+   ],
+   "authors": [
+    {
+     "authorId": "9243057",
+     "name": "N. Parvin"
+    },
+    {
+     "authorId": "2241834441",
+     "name": "S. Joo"
+    },
+    {
+     "authorId": "2252798325",
+     "name": "T. K. Mandal"
+    }
+   ],
+   "abstract": "The rapid rise of antibiotic resistance has become a global health crisis, necessitating the development of innovative strategies to combat multidrug-resistant (MDR) pathogens. Nanomaterials have emerged as promising tools in this fight, offering unique physicochemical properties that enhance antibiotic efficacy, overcome resistance mechanisms, and provide alternative therapeutic approaches. This review explores the diverse nanomaterial-based strategies used to combat antibiotic resistance, focusing on their mechanisms of action and practical applications. Nanomaterials such as metal nanoparticles, carbon-based nanomaterials, and polymeric nanostructures exhibit antibacterial properties through various pathways, including the generation of reactive oxygen species (ROS), disruption of bacterial membranes, and enhancement of antibiotic delivery. Additionally, the ability of nanomaterials to bypass traditional resistance mechanisms, such as biofilm formation and efflux pumps, has been demonstrated in numerous studies. This review also discusses the synergistic effects observed when nanomaterials are combined with conventional antibiotics, leading to increased bacterial susceptibility and reduced required dosages. By highlighting the recent advancements and clinical applications of nanomaterial–antibiotic combinations, this paper provides a comprehensive overview of how nanomaterials are reshaping the future of antibacterial therapies. Future research directions and challenges, including toxicity and scalability, are also addressed to guide the development of safer, more effective nanomaterial-based antibacterial treatments."
+  },
+  {
+   "paperId": "zzz",
+   "title": "",
+   "year": null,
+   "externalIds": null,
+   "authors": [],
+   "citationCount": 0
+  }
+ ]
+}

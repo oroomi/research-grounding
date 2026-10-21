@@ -1,0 +1,3356 @@
+{
+ "meta": {
+  "version": "0.1.0",
+  "date": "2026-10-21",
+  "plan_method": "keyword extraction",
+  "years": "2010-2026",
+  "queries": [
+   {
+    "kind": "phrase",
+    "text": "antibiotic resistance"
+   },
+   {
+    "kind": "phrase",
+    "text": "resistance trend detection"
+   },
+   {
+    "kind": "phrase",
+    "text": "clinical microbiology laboratory"
+   },
+   {
+    "kind": "combo",
+    "text": "antibiotic resistance resistance trend detection"
+   },
+   {
+    "kind": "facet",
+    "text": "antibiotic resistance surveillance trend detection"
+   },
+   {
+    "kind": "facet",
+    "text": "antibiotic resistance small sample uncertainty"
+   },
+   {
+    "kind": "prf",
+    "text": "antimicrobial resistance"
+   },
+   {
+    "kind": "prf",
+    "text": "antibiotic susceptibility"
+   }
+  ],
+  "semantic": "Every day the clinical microbiology laboratory produces hundreds of culture results with susceptibility tests: which bacteria grew from which sample, on which ward, and which antibiotics they were resistant to. A rolling, ward-level antibiogram and a resistance trend detection tool for infection control nurses and antimicrobial stewardship teams.",
+  "candidates": 557,
+  "unique": 493,
+  "sources": {
+   "openalex": {
+    "calls": 11,
+    "cached": 11,
+    "errors": [],
+    "budget": ""
+   },
+   "semantic_scholar": {
+    "calls": 3,
+    "cached": 3,
+    "errors": [],
+    "disabled": ""
+   }
+  },
+  "llm": false
+ },
+ "top": [
+  {
+   "title": "Hospital antibiogram: A necessity",
+   "year": 2010,
+   "authors": [
+    "S Joshi"
+   ],
+   "venue": "Indian Journal of Medical Microbiology",
+   "doi": "10.4103/0255-0857.71802",
+   "url": "https://doi.org/10.4103/0255-0857.71802",
+   "oa_url": "https://www.sciencedirect.com/science/article/pii/S0255085721013244/pdf",
+   "abstract": "The hospital antibiogram is a periodic summary of antimicrobial susceptibilities of local bacterial isolates submitted to the hospital's clinical microbiology laboratory. Antibiograms are often used by clinicians to assess local susceptibility rates, as an aid in selecting empiric antibiotic therapy, and in monitoring resistance trends over time within an institution. Antibiograms can also used to compare susceptibility rates across institutions and track resistance trends. Some hospitals have adequate support from the computer department to be able to extract data from their reporting module. The WHONET software can be freely downloaded and used for analysis. Consensus guidelines have been developed by the Clinical and Laboratory Standards Institute (CLSI) to standardise methods used in constructing antibiograms. These guidelines can be incorporated into the WHONET software for analysis. Only the first isolate from the patient is to be included in the analysis. The analysis should be done on the basis of patient location and specimen type. The percentage susceptibility of the most frequently isolated bacteria should be presented in the antibiogram, preferably in a tabular form. The antibiogram must be printed or put up in the intranet for easy access to all clinicians. Antibiotic policy is one of the mandatory requirements for accreditation, and making an antibiogram is the first step before framing the antibiotic policy. [...]",
+   "cited_by": 81,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "Every day the clinical microbiology laboratory produces hundreds of culture resu",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.5,
+     "sim": 1.0,
+     "raw": 0.9818516477864417
+    }
+   ],
+   "ids": {
+    "openalex": "W1982908682"
+   },
+   "sim": 1.0,
+   "raw_score": 0.9818516477864417,
+   "rrf": 0.040983606557377046,
+   "coverage": 0.8522466692531465,
+   "relevance": 0.8006609044729922,
+   "score": 1.0495392767579674
+  },
+  {
+   "title": "Stochastic bacterial population dynamics restrict the establishment of antibiotic resistance from single cells",
+   "year": 2020,
+   "authors": [
+    "Helen K. Alexander",
+    "R. Craig MacLean"
+   ],
+   "venue": "Proceedings of the National Academy of Sciences",
+   "doi": "10.1073/pnas.1919672117",
+   "url": "https://doi.org/10.1073/pnas.1919672117",
+   "oa_url": "https://www.pnas.org/content/pnas/117/32/19455.full.pdf",
+   "abstract": "strains carrying resistance plasmids, we show that single resistant cells have <5% probability of detectable outgrowth at antibiotic concentrations as low as one-eighth of the resistant strain's minimum inhibitory concentration (MIC). This low probability of establishment is due to detrimental effects of antibiotics on resistant cells, coupled with the inherently stochastic nature of cell division and death on the single-cell level, which leads to loss of many nascent resistant lineages. Our findings suggest that moderate doses of antibiotics, well below the MIC of resistant strains, may effectively restrict de novo emergence of resistance even though they cannot clear already-large resistant populations.",
+   "cited_by": 75,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in antibiotic resistance",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.0,
+     "sim": 1.0,
+     "raw": 0.9187318559783582
+    }
+   ],
+   "ids": {
+    "openalex": "W3043863276"
+   },
+   "sim": 1.0,
+   "raw_score": 0.9187318559783582,
+   "rrf": 0.03278688524590164,
+   "coverage": 0.3563015685913095,
+   "relevance": 0.6228799935350314,
+   "score": 0.716030154484233
+  },
+  {
+   "title": "Statistical Methods for the Prospective Detection of Infectious Disease Outbreaks: A Review",
+   "year": 2011,
+   "authors": [
+    "Steffen Unkel",
+    "Paddy Farrington",
+    "Paul H. Garthwaite",
+    "Chris Robertson",
+    "Nick J Andrews"
+   ],
+   "venue": "Journal of the Royal Statistical Society Series A (Statistics in Society)",
+   "doi": "10.1111/j.1467-985x.2011.00714.x",
+   "url": "https://doi.org/10.1111/j.1467-985x.2011.00714.x",
+   "oa_url": "",
+   "abstract": "Unusual clusters of disease must be detected rapidly for effective public health interventions to be introduced. Over the past decade there has been a surge in interest in statistical methods for the early detection of infectious disease outbreaks. This growth in interest has given rise to much new methodological work, ranging across the spectrum of statistical methods. The paper presents a comprehensive review of the statistical approaches that have been proposed. Applications to both laboratory and syndromic surveillance data are provided to illustrate the various methods.",
+   "cited_by": 337,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "statistical methods for early detection of unusual trends and clusters in antibi",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.0,
+     "sim": 1.0,
+     "raw": 1.043565064852094
+    }
+   ],
+   "ids": {
+    "openalex": "W2137203085"
+   },
+   "sim": 1.0,
+   "raw_score": 1.043565064852094,
+   "rrf": 0.03278688524590164,
+   "coverage": 0.3114052583952613,
+   "relevance": 0.609411100476217,
+   "score": 0.6449794960237953
+  },
+  {
+   "title": "Analysis of Microbial Resistance and Prescription Preferences using Antibiograms",
+   "year": 2016,
+   "authors": [
+    "Inderpal Kaur",
+    "Inderpal Singh Grover",
+    "Jasmeet Singh",
+    "Kunwar Harsh Upveja",
+    "Sukrita Paul"
+   ],
+   "venue": "Journal of Infectious Diseases and Therapy",
+   "doi": "10.4172/2332-0877.1000302",
+   "url": "https://doi.org/10.4172/2332-0877.1000302",
+   "oa_url": "https://doi.org/10.4172/2332-0877.1000302",
+   "abstract": "\\n\\tIntroduction: Hospital antibiogram is a periodic summary of antimicrobial susceptibilities of local bacterial isolates submitted to the hospital’s clinical microbiology laboratory. It not only aids clinicians to select the most appropriate empiric therapy, but also in monitoring resistance trends within an institution, thereby optimizing treatment. \\n\\tAims: To analyze the susceptibility trends of microbes by using antibiograms; assess the modification in prescribing empirical therapy and examine application of the susceptibility report in clinical practice. \\n\\tSettings and Design: A retrospective study of culture sensitivity reports and indoor prescriptions from departments of Medicine, Pulmonary medicine, Surgery, Orthopaedics, Obstetrics & Gynaecology & Intensive Care Unit. \\n\\tMethods and Material: Culture sensitivity reports of samples collected from these specialties were analyzed for the susceptibility pattern of antibiotics. In addition, prescriptions were analysed for the prescribing patterns for antimicrobials. \\n\\tStatistical analysis used: The data was tabulated using Microsoft Office Excel 2010 and were later compiled to make an antibiogram. Chi-square values were calculated using online software Graphpad Quickcalcs. \\n\\tResults: After analysing the data it was found that the most common infecting organisms were Pseudomonas aeruginosa, Escherichia coli and Staphylococcus aureus susceptible to amikacin, piperacillin/tazobactam and linezolid. [...]",
+   "cited_by": 6,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "Every day the clinical microbiology laboratory produces hundreds of culture resu",
+     "kind": "semantic",
+     "rank": 5,
+     "weight": 2.5,
+     "sim": 0.263,
+     "raw": 0.8749537425039227
+    },
+    {
+     "source": "openalex",
+     "query": "Every day the clinical microbiology laboratory produces hundreds of culture resu",
+     "kind": "semantic",
+     "rank": 9,
+     "weight": 2.5,
+     "sim": 0.156,
+     "raw": 0.859399423363361
+    }
+   ],
+   "ids": {
+    "openalex": "W2589203777"
+   },
+   "sim": 0.263,
+   "raw_score": 0.8749537425039227,
+   "rrf": 0.07469342251950947,
+   "coverage": 0.8741039170925899,
+   "relevance": 0.63167263573417,
+   "score": 0.5059692255243576
+  },
+  {
+   "title": "A hierarchical Bayesian latent class mixture model with censorship for detection of linear temporal changes in antibiotic resistance",
+   "year": 2020,
+   "authors": [
+    "Min Zhang",
+    "Chong Wang",
+    "Annette M. Cormier O'Connor"
+   ],
+   "venue": "PLoS ONE",
+   "doi": "10.1371/journal.pone.0220427",
+   "url": "https://doi.org/10.1371/journal.pone.0220427",
+   "oa_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0220427&type=printable",
+   "abstract": "Identifying and controlling the emergence of antimicrobial resistance (AMR) is a high priority for researchers and public health officials. One critical component of this control effort is timely detection of emerging or increasing resistance using surveillance programs. Currently, detection of temporal changes in AMR relies mainly on analysis of the proportion of resistant isolates based on the dichotomization of minimum inhibitory concentration (MIC) values. In our work, we developed a hierarchical Bayesian latent class mixture model that incorporates a linear trend for the mean log2MIC of the non-resistant population. By introducing latent variables, our model addressed the challenges associated with the AMR MIC values, compensating for the censored nature of the MIC observations as well as the mixed components indicated by the censored MIC distributions. Inclusion of linear regression with time as a covariate in the hierarchical structure allowed modelling of the linear creep of the mean log2MIC in the non-resistant population. The hierarchical Bayesian model was accurate and robust as assessed in simulation studies. The proposed approach was illustrated using Salmonella enterica I,4,[5],12:i:- treated with chloramphenicol and ceftiofur in human and veterinary samples, revealing some significant linearly increasing patterns from the applications. [...]",
+   "cited_by": 14,
+   "kind": "article",
+   "tldr": "A hierarchical Bayesian latent class mixture model that incorporates a linear trend for the mean log2MIC of the non-resistant population could serve as a timely indicator of a need for antibiotic intervention before an outbreak of resistance, highlighting the relevance of this work for public health.",
+   "sources": [
+    "openalex",
+    "s2"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "resistance trend detection",
+     "kind": "phrase",
+     "rank": 21,
+     "weight": 1.0
+    },
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance resistance trend detection",
+     "kind": "combo",
+     "rank": 24,
+     "weight": 1.2
+    },
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance surveillance trend detection",
+     "kind": "facet",
+     "rank": 8,
+     "weight": 1.2
+    },
+    {
+     "source": "openalex",
+     "query": "statistical methods for early detection of unusual trends and clusters in antibi",
+     "kind": "semantic",
+     "rank": 8,
+     "weight": 2.0,
+     "sim": 0.201,
+     "raw": 0.8760458490610957
+    },
+    {
+     "source": "s2",
+     "query": "resistance trend detection",
+     "kind": "phrase",
+     "rank": 30,
+     "weight": 1.0
+    }
+   ],
+   "ids": {
+    "openalex": "W3004310990",
+    "s2": "c05a6ce004c30c16f57e6be8f7f21f3b1aef0071"
+   },
+   "sim": 0.201,
+   "raw_score": 24.703377,
+   "rrf": 0.08480132793858283,
+   "coverage": 0.629483681051695,
+   "relevance": 0.5692451043155086,
+   "score": 0.4894308572452948
+  },
+  {
+   "title": "CARD 2020: antibiotic resistome surveillance with the comprehensive antibiotic resistance database",
+   "year": 2019,
+   "authors": [
+    "Brian P. Alcock",
+    "Amogelang R. Raphenya",
+    "Tammy T. Y. Lau",
+    "Kara K. Tsang",
+    "Mégane Bouchard",
+    "Arman Edalatmand",
+    "William Huynh",
+    "Anna‐Lisa V. Nguyen",
+    "Annie A. Cheng",
+    "Sihan Liu",
+    "Sally Y Min",
+    "Anatoly Miroshnichenko",
+    "Hiu‐Ki R. Tran",
+    "Rafik El Werfalli",
+    "Jalees A. Nasir",
+    "Martins Oloni",
+    "David J. Speicher",
+    "Alexandra Florescu",
+    "Bhavya Singh",
+    "Mateusz Faltyn",
+    "Anastasia Hernández-Koutoucheva",
+    "Arjun N. Sharma",
+    "Emily Bordeleau",
+    "Andrew C. Pawlowski",
+    "Haley L. Zubyk",
+    "Damion Dooley",
+    "Emma Griffiths",
+    "Finlay Maguire",
+    "Geoffrey L. Winsor",
+    "Robert Gerald Beiko",
+    "Fiona S. L. Brinkman",
+    "William Hsiao",
+    "Gary Van Domselaar",
+    "Andrew G. McArthur"
+   ],
+   "venue": "Nucleic Acids Research",
+   "doi": "10.1093/nar/gkz935",
+   "url": "https://doi.org/10.1093/nar/gkz935",
+   "oa_url": "https://academic.oup.com/nar/article-pdf/48/D1/D517/31697411/gkz935.pdf",
+   "abstract": "Abstract The Comprehensive Antibiotic Resistance Database (CARD; https://card.mcmaster.ca) is a curated resource providing reference DNA and protein sequences, detection models and bioinformatics tools on the molecular basis of bacterial antimicrobial resistance (AMR). CARD focuses on providing high-quality reference data and molecular sequences within a controlled vocabulary, the Antibiotic Resistance Ontology (ARO), designed by the CARD biocuration team to integrate with software development efforts for resistome analysis and prediction, such as CARD’s Resistance Gene Identifier (RGI) software. Since 2017, CARD has expanded through extensive curation of reference sequences, revision of the ontological structure, curation of over 500 new AMR detection models, development of a new classification paradigm and expansion of analytical tools. Most notably, a new Resistomes & Variants module provides analysis and statistical summary of in silico predicted resistance variants from 82 pathogens and over 100 000 genomes. By adding these resistance variants to CARD, we are able to summarize predicted resistance using the information included in CARD, identify trends in AMR mobility and determine previously undescribed and novel resistance variants. Here, we describe updates and recent expansions to CARD and its biocuration process, including new resources for community biocuration of AMR molecular reference data.",
+   "cited_by": 3193,
+   "kind": "article",
+   "tldr": "A new Resistomes & Variants module provides analysis and statistical summary of in silico predicted resistance variants from 82 pathogens and over 100 000 genomes, able to summarize predicted resistance using the information included in CARD, identify trends in AMR mobility and determine previously undescribed and novel resistance variants.",
+   "sources": [
+    "openalex",
+    "s2"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance resistance trend detection",
+     "kind": "combo",
+     "rank": 3,
+     "weight": 1.2
+    },
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance surveillance trend detection",
+     "kind": "facet",
+     "rank": 1,
+     "weight": 1.2
+    },
+    {
+     "source": "s2",
+     "query": "antibiotic resistance",
+     "kind": "phrase",
+     "rank": 3,
+     "weight": 1.0
+    }
+   ],
+   "ids": {
+    "openalex": "W2982531601",
+    "s2": "7b1d8dfb9e6260685d9fbb8c41bfc0a35710fe41"
+   },
+   "sim": 0.0,
+   "raw_score": 65.58434,
+   "rrf": 0.054592766068175896,
+   "coverage": 0.629483681051695,
+   "relevance": 0.38197686555767174,
+   "score": 0.3750048335812456
+  },
+  {
+   "title": "The Role of Big Data in Combatting Antibiotic Resistance Predictive Models for Global Surveillance",
+   "year": 2025,
+   "authors": [
+    "Mia Md Tofayel Gonee Manik"
+   ],
+   "venue": "Journal of Information Systems Engineering & Management",
+   "doi": "10.52783/jisem.v10i21s.3462",
+   "url": "https://doi.org/10.52783/jisem.v10i21s.3462",
+   "oa_url": "https://doi.org/10.52783/jisem.v10i21s.3462",
+   "abstract": "The worldwide health emergency of antibiotic resistance makes medical treatments less effective and leads to higher death statistics. The widespread problem of antibiotic resistance stems from the extreme and improper use of antibiotics in medical practices, livestock operations, and agricultural farms. Big data analytics integration serves as an innovative method to predict, monitor, and reduce antibiotic resistance by implementing big data analytics systems. This research adopts a methodical approach to scrutinize the WHO Global Antimicrobial Resistance and Use Surveillance System alongside different national healthcare records available to the public. The assessment of resistance trends region-based predictions and outbreak forecasts is performed using machine learning algorithms with supporting artificial intelligence models. The prediction accuracy gets boosted the application of regression analysis, clustering and neural networks as statistical methods. The evaluation section of the study demonstrates how big data performs in healthcare facilities to monitor systems and make on-the-spot decisions. The presented research demonstrates how big data maintains its essential position for the surveillance and early detection of antibiotic resistance. The predictive models reveal important patterns about antibiotic resistance, which helps leaders and healthcare experts with researchers, to create focused strategies to fight antimicrobial resistance. [...]",
+   "cited_by": 6,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance resistance trend detection",
+     "kind": "combo",
+     "rank": 28,
+     "weight": 1.2
+    },
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance resistance trend detection",
+     "kind": "combo",
+     "rank": 34,
+     "weight": 1.2
+    },
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance surveillance trend detection",
+     "kind": "facet",
+     "rank": 9,
+     "weight": 1.2
+    },
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance surveillance trend detection",
+     "kind": "facet",
+     "rank": 10,
+     "weight": 1.2
+    },
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance surveillance trend detection",
+     "kind": "facet",
+     "rank": 11,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W4409565675"
+   },
+   "sim": 0.0,
+   "raw_score": 42.878098,
+   "rrf": 0.0778378910245596,
+   "coverage": 0.629483681051695,
+   "relevance": 0.464210689678512,
+   "score": 0.327575339973147
+  },
+  {
+   "title": "Surveillance of Resistance in the Intensive Care Units Using a Cumulative Antibiogram",
+   "year": 2018,
+   "authors": [
+    "Caner Yürüyen",
+    "Şölen Daldaban Dinçer",
+    "Özgür Yanılmaz",
+    "Efe Serkan Boz",
+    "Sebahat Aksaray"
+   ],
+   "venue": "Mikrobiyoloji Bulteni",
+   "doi": "10.5578/mb.67408",
+   "url": "https://doi.org/10.5578/mb.67408",
+   "oa_url": "https://doi.org/10.5578/mb.67408",
+   "abstract": "Empiric treatment with broad-spectrum antibiotics exerts condensed pressure in intensive care units (ICUs) for the selection of multidrug-resistant bacteria. Multidrug-resistant gram-negative bacteria became the focus of interest owing to limited treatment options and negative effects on patient survival. Cumulative antibiograms can guide selection of correct empiric treatment, de-escalation treatment according to antibiogram results and development of policies in fight against antibiotic resistance. In this study, we aimed to determine the antibiotic resistance rates of gram-negative bacilli in the intensive care units of the public hospitals in the region where we are connected by using the cumulative antibiogram result and to show the change of resistance over the years and to determine whether there is any difference between the hospitals. Gram-negative bacilli were isolated from ICUs of state hospitals in the second Istanbul State Hospitals Association area during 2014-2016. Isolates were identified using Vitek MS (bioMérieux, France) system and tested for antibiotic susceptibility with Vitek 2 (bioMérieux, France) system according to the Clinical and Laboratory Standards Institute (CLSI) criteria followed during those years. Cumulative antibiogram reports for these strains were prepared according to the CLSI M39-A4 guide. Gram-negative bacilli were divided into three groups: non-fermentative, urinary enteric, and non-urinary enteric bacilli. [...]",
+   "cited_by": 11,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "Every day the clinical microbiology laboratory produces hundreds of culture resu",
+     "kind": "semantic",
+     "rank": 3,
+     "weight": 2.5,
+     "sim": 0.28,
+     "raw": 0.8774431373384147
+    }
+   ],
+   "ids": {
+    "openalex": "W2908260730"
+   },
+   "sim": 0.28,
+   "raw_score": 0.8774431373384147,
+   "rrf": 0.03968253968253968,
+   "coverage": 0.7254605292823285,
+   "relevance": 0.4700223036342215,
+   "score": 0.3123321094378057
+  },
+  {
+   "title": "Hierarchical clustering as a rapid tool for surveillance of emerging antibiotic-resistance phenotypes in Klebsiella pneumoniae strains",
+   "year": 2013,
+   "authors": [
+    "Meryem Berrazeg",
+    "Mourad Drissi",
+    "Lakhdar Medjahed",
+    "Jean‐Marc Rolain"
+   ],
+   "venue": "Journal of Medical Microbiology",
+   "doi": "10.1099/jmm.0.049437-0",
+   "url": "https://doi.org/10.1099/jmm.0.049437-0",
+   "oa_url": "",
+   "abstract": "Antimicrobial resistance is on the rise, and its early detection and surveillance are critical to implement effective control measures. The aim of this study was to develop a rapid hierarchical clustering bioinformatic tool for application on antibiotic susceptibility testing (AST) results (resistant, intermediate, sensitive) of a series of Klebsiella pneumoniae clinical isolates from Algeria and from France for surveillance of antibiotic-resistance phenotypes. A total of 1011 K. pneumoniae strains were collected from August 2008 to December 2012: 221 clinical isolates from western Algeria and 790 clinical isolates from Marseille, France. AST against a panel of 16 antibiotics was done for all isolates. Results of AST were introduced into MultiExperiment Viewer (MeV) software to perform hierarchical clustering, with resistant, intermediate and sensitive being translated to 1, 0 and -1 values, respectively. Hierarchical clustering results were compared to standard resistance phenotypes to evaluate the accuracy of the method. Based on the AST results, the 221 K. pneumoniae strains from Algeria could be separated into six phenotype groups as regards their resistance to β-lactam compounds: extended spectrum β-lactamase (ESBL) (68.3 %), ESBL associated with cephalosporinase (13.1 %), cephalosporinase (0.9 %), penicillinase (3.6 %) and wild-type (14.0 %). [...]",
+   "cited_by": 25,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "statistical methods for early detection of unusual trends and clusters in antibi",
+     "kind": "semantic",
+     "rank": 3,
+     "weight": 2.0,
+     "sim": 0.267,
+     "raw": 0.889782872835122
+    }
+   ],
+   "ids": {
+    "openalex": "W2098437935"
+   },
+   "sim": 0.267,
+   "raw_score": 0.889782872835122,
+   "rrf": 0.031746031746031744,
+   "coverage": 0.8527139704470243,
+   "relevance": 0.4749215070137256,
+   "score": 0.3010746471028706
+  },
+  {
+   "title": "Statistical detection of geographic clusters of resistantEscherichia coliin a regional network with WHONET and SaTScan",
+   "year": 2016,
+   "authors": [
+    "Rachel Yoonjo Park",
+    "Thomas F. O’Brien",
+    "Susan S. Huang",
+    "Meghan A. Baker",
+    "Deborah S. Yokoe",
+    "Martin Kulldorff",
+    "Craig Barrett",
+    "Jamie Swift",
+    "John M. Stelling",
+    "for the Centers for Disease Control and Prevention Epicenters Program"
+   ],
+   "venue": "Expert Review of Anti-infective Therapy",
+   "doi": "10.1080/14787210.2016.1220303",
+   "url": "https://doi.org/10.1080/14787210.2016.1220303",
+   "oa_url": "https://escholarship.org/uc/item/8bh4k51w",
+   "abstract": "BACKGROUND: While antimicrobial resistance threatens the prevention, treatment, and control of infectious diseases, systematic analysis of routine microbiology laboratory test results worldwide can alert new threats and promote timely response. This study explores statistical algorithms for recognizing geographic clustering of multi-resistant microbes within a healthcare network and monitoring the dissemination of new strains over time. METHODS: Escherichia coli antimicrobial susceptibility data from a three-year period stored in WHONET were analyzed across ten facilities in a healthcare network utilizing SaTScan's spatial multinomial model with two models for defining geographic proximity. We explored geographic clustering of multi-resistance phenotypes within the network and changes in clustering over time. RESULTS: Geographic clustering identified from both latitude/longitude and non-parametric facility groupings geographic models were similar, while the latter was offers greater flexibility and generalizability. Iterative application of the clustering algorithms suggested the possible recognition of the initial appearance of invasive E. coli ST131 in the clinical database of a single hospital and subsequent dissemination to others. [...]",
+   "cited_by": 21,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "statistical methods for early detection of unusual trends and clusters in antibi",
+     "kind": "semantic",
+     "rank": 2,
+     "weight": 2.0,
+     "sim": 0.268,
+     "raw": 0.8900363559962922
+    }
+   ],
+   "ids": {
+    "openalex": "W2509801702"
+   },
+   "sim": 0.268,
+   "raw_score": 0.8900363559962922,
+   "rrf": 0.03225806451612903,
+   "coverage": 0.7601490588979438,
+   "relevance": 0.44936344186964045,
+   "score": 0.30081506586278284
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Hospital antibiogram: A necessity",
+   "year": 2010,
+   "authors": [
+    "S Joshi"
+   ],
+   "venue": "Indian Journal of Medical Microbiology",
+   "doi": "10.4103/0255-0857.71802",
+   "url": "https://doi.org/10.4103/0255-0857.71802",
+   "oa_url": "https://www.sciencedirect.com/science/article/pii/S0255085721013244/pdf",
+   "abstract": "The hospital antibiogram is a periodic summary of antimicrobial susceptibilities of local bacterial isolates submitted to the hospital's clinical microbiology laboratory. Antibiograms are often used by clinicians to assess local susceptibility rates, as an aid in selecting empiric antibiotic therapy, and in monitoring resistance trends over time within an institution. Antibiograms can also used to compare susceptibility rates across institutions and track resistance trends. Some hospitals have adequate support from the computer department to be able to extract data from their reporting module. The WHONET software can be freely downloaded and used for analysis. Consensus guidelines have been developed by the Clinical and Laboratory Standards Institute (CLSI) to standardise methods used in constructing antibiograms. These guidelines can be incorporated into the WHONET software for analysis. Only the first isolate from the patient is to be included in the analysis. The analysis should be done on the basis of patient location and specimen type. The percentage susceptibility of the most frequently isolated bacteria should be presented in the antibiogram, preferably in a tabular form. The antibiogram must be printed or put up in the intranet for easy access to all clinicians. Antibiotic policy is one of the mandatory requirements for accreditation, and making an antibiogram is the first step before framing the antibiotic policy. [...]",
+   "cited_by": 81,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "Every day the clinical microbiology laboratory produces hundreds of culture resu",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.5,
+     "sim": 1.0,
+     "raw": 0.9818516477864417
+    }
+   ],
+   "ids": {
+    "openalex": "W1982908682"
+   },
+   "sim": 1.0,
+   "raw_score": 0.9818516477864417,
+   "rrf": 0.040983606557377046,
+   "coverage": 0.8522466692531465,
+   "relevance": 0.8006609044729922,
+   "score": 1.0495392767579674
+  },
+  {
+   "title": "Stochastic bacterial population dynamics restrict the establishment of antibiotic resistance from single cells",
+   "year": 2020,
+   "authors": [
+    "Helen K. Alexander",
+    "R. Craig MacLean"
+   ],
+   "venue": "Proceedings of the National Academy of Sciences",
+   "doi": "10.1073/pnas.1919672117",
+   "url": "https://doi.org/10.1073/pnas.1919672117",
+   "oa_url": "https://www.pnas.org/content/pnas/117/32/19455.full.pdf",
+   "abstract": "strains carrying resistance plasmids, we show that single resistant cells have <5% probability of detectable outgrowth at antibiotic concentrations as low as one-eighth of the resistant strain's minimum inhibitory concentration (MIC). This low probability of establishment is due to detrimental effects of antibiotics on resistant cells, coupled with the inherently stochastic nature of cell division and death on the single-cell level, which leads to loss of many nascent resistant lineages. Our findings suggest that moderate doses of antibiotics, well below the MIC of resistant strains, may effectively restrict de novo emergence of resistance even though they cannot clear already-large resistant populations.",
+   "cited_by": 75,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in antibiotic resistance",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.0,
+     "sim": 1.0,
+     "raw": 0.9187318559783582
+    }
+   ],
+   "ids": {
+    "openalex": "W3043863276"
+   },
+   "sim": 1.0,
+   "raw_score": 0.9187318559783582,
+   "rrf": 0.03278688524590164,
+   "coverage": 0.3563015685913095,
+   "relevance": 0.6228799935350314,
+   "score": 0.716030154484233
+  },
+  {
+   "title": "Statistical Methods for the Prospective Detection of Infectious Disease Outbreaks: A Review",
+   "year": 2011,
+   "authors": [
+    "Steffen Unkel",
+    "Paddy Farrington",
+    "Paul H. Garthwaite",
+    "Chris Robertson",
+    "Nick J Andrews"
+   ],
+   "venue": "Journal of the Royal Statistical Society Series A (Statistics in Society)",
+   "doi": "10.1111/j.1467-985x.2011.00714.x",
+   "url": "https://doi.org/10.1111/j.1467-985x.2011.00714.x",
+   "oa_url": "",
+   "abstract": "Unusual clusters of disease must be detected rapidly for effective public health interventions to be introduced. Over the past decade there has been a surge in interest in statistical methods for the early detection of infectious disease outbreaks. This growth in interest has given rise to much new methodological work, ranging across the spectrum of statistical methods. The paper presents a comprehensive review of the statistical approaches that have been proposed. Applications to both laboratory and syndromic surveillance data are provided to illustrate the various methods.",
+   "cited_by": 337,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "statistical methods for early detection of unusual trends and clusters in antibi",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.0,
+     "sim": 1.0,
+     "raw": 1.043565064852094
+    }
+   ],
+   "ids": {
+    "openalex": "W2137203085"
+   },
+   "sim": 1.0,
+   "raw_score": 1.043565064852094,
+   "rrf": 0.03278688524590164,
+   "coverage": 0.3114052583952613,
+   "relevance": 0.609411100476217,
+   "score": 0.6449794960237953
+  },
+  {
+   "title": "Analysis of Microbial Resistance and Prescription Preferences using Antibiograms",
+   "year": 2016,
+   "authors": [
+    "Inderpal Kaur",
+    "Inderpal Singh Grover",
+    "Jasmeet Singh",
+    "Kunwar Harsh Upveja",
+    "Sukrita Paul"
+   ],
+   "venue": "Journal of Infectious Diseases and Therapy",
+   "doi": "10.4172/2332-0877.1000302",
+   "url": "https://doi.org/10.4172/2332-0877.1000302",
+   "oa_url": "https://doi.org/10.4172/2332-0877.1000302",
+   "abstract": "\\n\\tIntroduction: Hospital antibiogram is a periodic summary of antimicrobial susceptibilities of local bacterial isolates submitted to the hospital’s clinical microbiology laboratory. It not only aids clinicians to select the most appropriate empiric therapy, but also in monitoring resistance trends within an institution, thereby optimizing treatment. \\n\\tAims: To analyze the susceptibility trends of microbes by using antibiograms; assess the modification in prescribing empirical therapy and examine application of the susceptibility report in clinical practice. \\n\\tSettings and Design: A retrospective study of culture sensitivity reports and indoor prescriptions from departments of Medicine, Pulmonary medicine, Surgery, Orthopaedics, Obstetrics & Gynaecology & Intensive Care Unit. \\n\\tMethods and Material: Culture sensitivity reports of samples collected from these specialties were analyzed for the susceptibility pattern of antibiotics. In addition, prescriptions were analysed for the prescribing patterns for antimicrobials. \\n\\tStatistical analysis used: The data was tabulated using Microsoft Office Excel 2010 and were later compiled to make an antibiogram. Chi-square values were calculated using online software Graphpad Quickcalcs. \\n\\tResults: After analysing the data it was found that the most common infecting organisms were Pseudomonas aeruginosa, Escherichia coli and Staphylococcus aureus susceptible to amikacin, piperacillin/tazobactam and linezolid. [...]",
+   "cited_by": 6,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "Every day the clinical microbiology laboratory produces hundreds of culture resu",
+     "kind": "semantic",
+     "rank": 5,
+     "weight": 2.5,
+     "sim": 0.263,
+     "raw": 0.8749537425039227
+    },
+    {
+     "source": "openalex",
+     "query": "Every day the clinical microbiology laboratory produces hundreds of culture resu",
+     "kind": "semantic",
+     "rank": 9,
+     "weight": 2.5,
+     "sim": 0.156,
+     "raw": 0.859399423363361
+    }
+   ],
+   "ids": {
+    "openalex": "W2589203777"
+   },
+   "sim": 0.263,
+   "raw_score": 0.8749537425039227,
+   "rrf": 0.07469342251950947,
+   "coverage": 0.8741039170925899,
+   "relevance": 0.63167263573417,
+   "score": 0.5059692255243576
+  },
+  {
+   "title": "A hierarchical Bayesian latent class mixture model with censorship for detection of linear temporal changes in antibiotic resistance",
+   "year": 2020,
+   "authors": [
+    "Min Zhang",
+    "Chong Wang",
+    "Annette M. Cormier O'Connor"
+   ],
+   "venue": "PLoS ONE",
+   "doi": "10.1371/journal.pone.0220427",
+   "url": "https://doi.org/10.1371/journal.pone.0220427",
+   "oa_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0220427&type=printable",
+   "abstract": "Identifying and controlling the emergence of antimicrobial resistance (AMR) is a high priority for researchers and public health officials. One critical component of this control effort is timely detection of emerging or increasing resistance using surveillance programs. Currently, detection of temporal changes in AMR relies mainly on analysis of the proportion of resistant isolates based on the dichotomization of minimum inhibitory concentration (MIC) values. In our work, we developed a hierarchical Bayesian latent class mixture model that incorporates a linear trend for the mean log2MIC of the non-resistant population. By introducing latent variables, our model addressed the challenges associated with the AMR MIC values, compensating for the censored nature of the MIC observations as well as the mixed components indicated by the censored MIC distributions. Inclusion of linear regression with time as a covariate in the hierarchical structure allowed modelling of the linear creep of the mean log2MIC in the non-resistant population. The hierarchical Bayesian model was accurate and robust as assessed in simulation studies. The proposed approach was illustrated using Salmonella enterica I,4,[5],12:i:- treated with chloramphenicol and ceftiofur in human and veterinary samples, revealing some significant linearly increasing patterns from the applications. [...]",
+   "cited_by": 14,
+   "kind": "article",
+   "tldr": "A hierarchical Bayesian latent class mixture model that incorporates a linear trend for the mean log2MIC of the non-resistant population could serve as a timely indicator of a need for antibiotic intervention before an outbreak of resistance, highlighting the relevance of this work for public health.",
+   "sources": [
+    "openalex",
+    "s2"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "resistance trend detection",
+     "kind": "phrase",
+     "rank": 21,
+     "weight": 1.0
+    },
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance resistance trend detection",
+     "kind": "combo",
+     "rank": 24,
+     "weight": 1.2
+    },
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance surveillance trend detection",
+     "kind": "facet",
+     "rank": 8,
+     "weight": 1.2
+    },
+    {
+     "source": "openalex",
+     "query": "statistical methods for early detection of unusual trends and clusters in antibi",
+     "kind": "semantic",
+     "rank": 8,
+     "weight": 2.0,
+     "sim": 0.201,
+     "raw": 0.8760458490610957
+    },
+    {
+     "source": "s2",
+     "query": "resistance trend detection",
+     "kind": "phrase",
+     "rank": 30,
+     "weight": 1.0
+    }
+   ],
+   "ids": {
+    "openalex": "W3004310990",
+    "s2": "c05a6ce004c30c16f57e6be8f7f21f3b1aef0071"
+   },
+   "sim": 0.201,
+   "raw_score": 24.703377,
+   "rrf": 0.08480132793858283,
+   "coverage": 0.629483681051695,
+   "relevance": 0.5692451043155086,
+   "score": 0.4894308572452948
+  },
+  {
+   "title": "CARD 2020: antibiotic resistome surveillance with the comprehensive antibiotic resistance database",
+   "year": 2019,
+   "authors": [
+    "Brian P. Alcock",
+    "Amogelang R. Raphenya",
+    "Tammy T. Y. Lau",
+    "Kara K. Tsang",
+    "Mégane Bouchard",
+    "Arman Edalatmand",
+    "William Huynh",
+    "Anna‐Lisa V. Nguyen",
+    "Annie A. Cheng",
+    "Sihan Liu",
+    "Sally Y Min",
+    "Anatoly Miroshnichenko",
+    "Hiu‐Ki R. Tran",
+    "Rafik El Werfalli",
+    "Jalees A. Nasir",
+    "Martins Oloni",
+    "David J. Speicher",
+    "Alexandra Florescu",
+    "Bhavya Singh",
+    "Mateusz Faltyn",
+    "Anastasia Hernández-Koutoucheva",
+    "Arjun N. Sharma",
+    "Emily Bordeleau",
+    "Andrew C. Pawlowski",
+    "Haley L. Zubyk",
+    "Damion Dooley",
+    "Emma Griffiths",
+    "Finlay Maguire",
+    "Geoffrey L. Winsor",
+    "Robert Gerald Beiko",
+    "Fiona S. L. Brinkman",
+    "William Hsiao",
+    "Gary Van Domselaar",
+    "Andrew G. McArthur"
+   ],
+   "venue": "Nucleic Acids Research",
+   "doi": "10.1093/nar/gkz935",
+   "url": "https://doi.org/10.1093/nar/gkz935",
+   "oa_url": "https://academic.oup.com/nar/article-pdf/48/D1/D517/31697411/gkz935.pdf",
+   "abstract": "Abstract The Comprehensive Antibiotic Resistance Database (CARD; https://card.mcmaster.ca) is a curated resource providing reference DNA and protein sequences, detection models and bioinformatics tools on the molecular basis of bacterial antimicrobial resistance (AMR). CARD focuses on providing high-quality reference data and molecular sequences within a controlled vocabulary, the Antibiotic Resistance Ontology (ARO), designed by the CARD biocuration team to integrate with software development efforts for resistome analysis and prediction, such as CARD’s Resistance Gene Identifier (RGI) software. Since 2017, CARD has expanded through extensive curation of reference sequences, revision of the ontological structure, curation of over 500 new AMR detection models, development of a new classification paradigm and expansion of analytical tools. Most notably, a new Resistomes & Variants module provides analysis and statistical summary of in silico predicted resistance variants from 82 pathogens and over 100 000 genomes. By adding these resistance variants to CARD, we are able to summarize predicted resistance using the information included in CARD, identify trends in AMR mobility and determine previously undescribed and novel resistance variants. Here, we describe updates and recent expansions to CARD and its biocuration process, including new resources for community biocuration of AMR molecular reference data.",
+   "cited_by": 3193,
+   "kind": "article",
+   "tldr": "A new Resistomes & Variants module provides analysis and statistical summary of in silico predicted resistance variants from 82 pathogens and over 100 000 genomes, able to summarize predicted resistance using the information included in CARD, identify trends in AMR mobility and determine previously undescribed and novel resistance variants.",
+   "sources": [
+    "openalex",
+    "s2"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance resistance trend detection",
+     "kind": "combo",
+     "rank": 3,
+     "weight": 1.2
+    },
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance surveillance trend detection",
+     "kind": "facet",
+     "rank": 1,
+     "weight": 1.2
+    },
+    {
+     "source": "s2",
+     "query": "antibiotic resistance",
+     "kind": "phrase",
+     "rank": 3,
+     "weight": 1.0
+    }
+   ],
+   "ids": {
+    "openalex": "W2982531601",
+    "s2": "7b1d8dfb9e6260685d9fbb8c41bfc0a35710fe41"
+   },
+   "sim": 0.0,
+   "raw_score": 65.58434,
+   "rrf": 0.054592766068175896,
+   "coverage": 0.629483681051695,
+   "relevance": 0.38197686555767174,
+   "score": 0.3750048335812456
+  },
+  {
+   "title": "The Role of Big Data in Combatting Antibiotic Resistance Predictive Models for Global Surveillance",
+   "year": 2025,
+   "authors": [
+    "Mia Md Tofayel Gonee Manik"
+   ],
+   "venue": "Journal of Information Systems Engineering & Management",
+   "doi": "10.52783/jisem.v10i21s.3462",
+   "url": "https://doi.org/10.52783/jisem.v10i21s.3462",
+   "oa_url": "https://doi.org/10.52783/jisem.v10i21s.3462",
+   "abstract": "The worldwide health emergency of antibiotic resistance makes medical treatments less effective and leads to higher death statistics. The widespread problem of antibiotic resistance stems from the extreme and improper use of antibiotics in medical practices, livestock operations, and agricultural farms. Big data analytics integration serves as an innovative method to predict, monitor, and reduce antibiotic resistance by implementing big data analytics systems. This research adopts a methodical approach to scrutinize the WHO Global Antimicrobial Resistance and Use Surveillance System alongside different national healthcare records available to the public. The assessment of resistance trends region-based predictions and outbreak forecasts is performed using machine learning algorithms with supporting artificial intelligence models. The prediction accuracy gets boosted the application of regression analysis, clustering and neural networks as statistical methods. The evaluation section of the study demonstrates how big data performs in healthcare facilities to monitor systems and make on-the-spot decisions. The presented research demonstrates how big data maintains its essential position for the surveillance and early detection of antibiotic resistance. The predictive models reveal important patterns about antibiotic resistance, which helps leaders and healthcare experts with researchers, to create focused strategies to fight antimicrobial resistance. [...]",
+   "cited_by": 6,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance resistance trend detection",
+     "kind": "combo",
+     "rank": 28,
+     "weight": 1.2
+    },
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance resistance trend detection",
+     "kind": "combo",
+     "rank": 34,
+     "weight": 1.2
+    },
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance surveillance trend detection",
+     "kind": "facet",
+     "rank": 9,
+     "weight": 1.2
+    },
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance surveillance trend detection",
+     "kind": "facet",
+     "rank": 10,
+     "weight": 1.2
+    },
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance surveillance trend detection",
+     "kind": "facet",
+     "rank": 11,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W4409565675"
+   },
+   "sim": 0.0,
+   "raw_score": 42.878098,
+   "rrf": 0.0778378910245596,
+   "coverage": 0.629483681051695,
+   "relevance": 0.464210689678512,
+   "score": 0.327575339973147
+  },
+  {
+   "title": "Surveillance of Resistance in the Intensive Care Units Using a Cumulative Antibiogram",
+   "year": 2018,
+   "authors": [
+    "Caner Yürüyen",
+    "Şölen Daldaban Dinçer",
+    "Özgür Yanılmaz",
+    "Efe Serkan Boz",
+    "Sebahat Aksaray"
+   ],
+   "venue": "Mikrobiyoloji Bulteni",
+   "doi": "10.5578/mb.67408",
+   "url": "https://doi.org/10.5578/mb.67408",
+   "oa_url": "https://doi.org/10.5578/mb.67408",
+   "abstract": "Empiric treatment with broad-spectrum antibiotics exerts condensed pressure in intensive care units (ICUs) for the selection of multidrug-resistant bacteria. Multidrug-resistant gram-negative bacteria became the focus of interest owing to limited treatment options and negative effects on patient survival. Cumulative antibiograms can guide selection of correct empiric treatment, de-escalation treatment according to antibiogram results and development of policies in fight against antibiotic resistance. In this study, we aimed to determine the antibiotic resistance rates of gram-negative bacilli in the intensive care units of the public hospitals in the region where we are connected by using the cumulative antibiogram result and to show the change of resistance over the years and to determine whether there is any difference between the hospitals. Gram-negative bacilli were isolated from ICUs of state hospitals in the second Istanbul State Hospitals Association area during 2014-2016. Isolates were identified using Vitek MS (bioMérieux, France) system and tested for antibiotic susceptibility with Vitek 2 (bioMérieux, France) system according to the Clinical and Laboratory Standards Institute (CLSI) criteria followed during those years. Cumulative antibiogram reports for these strains were prepared according to the CLSI M39-A4 guide. Gram-negative bacilli were divided into three groups: non-fermentative, urinary enteric, and non-urinary enteric bacilli. [...]",
+   "cited_by": 11,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "Every day the clinical microbiology laboratory produces hundreds of culture resu",
+     "kind": "semantic",
+     "rank": 3,
+     "weight": 2.5,
+     "sim": 0.28,
+     "raw": 0.8774431373384147
+    }
+   ],
+   "ids": {
+    "openalex": "W2908260730"
+   },
+   "sim": 0.28,
+   "raw_score": 0.8774431373384147,
+   "rrf": 0.03968253968253968,
+   "coverage": 0.7254605292823285,
+   "relevance": 0.4700223036342215,
+   "score": 0.3123321094378057
+  },
+  {
+   "title": "Hierarchical clustering as a rapid tool for surveillance of emerging antibiotic-resistance phenotypes in Klebsiella pneumoniae strains",
+   "year": 2013,
+   "authors": [
+    "Meryem Berrazeg",
+    "Mourad Drissi",
+    "Lakhdar Medjahed",
+    "Jean‐Marc Rolain"
+   ],
+   "venue": "Journal of Medical Microbiology",
+   "doi": "10.1099/jmm.0.049437-0",
+   "url": "https://doi.org/10.1099/jmm.0.049437-0",
+   "oa_url": "",
+   "abstract": "Antimicrobial resistance is on the rise, and its early detection and surveillance are critical to implement effective control measures. The aim of this study was to develop a rapid hierarchical clustering bioinformatic tool for application on antibiotic susceptibility testing (AST) results (resistant, intermediate, sensitive) of a series of Klebsiella pneumoniae clinical isolates from Algeria and from France for surveillance of antibiotic-resistance phenotypes. A total of 1011 K. pneumoniae strains were collected from August 2008 to December 2012: 221 clinical isolates from western Algeria and 790 clinical isolates from Marseille, France. AST against a panel of 16 antibiotics was done for all isolates. Results of AST were introduced into MultiExperiment Viewer (MeV) software to perform hierarchical clustering, with resistant, intermediate and sensitive being translated to 1, 0 and -1 values, respectively. Hierarchical clustering results were compared to standard resistance phenotypes to evaluate the accuracy of the method. Based on the AST results, the 221 K. pneumoniae strains from Algeria could be separated into six phenotype groups as regards their resistance to β-lactam compounds: extended spectrum β-lactamase (ESBL) (68.3 %), ESBL associated with cephalosporinase (13.1 %), cephalosporinase (0.9 %), penicillinase (3.6 %) and wild-type (14.0 %). [...]",
+   "cited_by": 25,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "statistical methods for early detection of unusual trends and clusters in antibi",
+     "kind": "semantic",
+     "rank": 3,
+     "weight": 2.0,
+     "sim": 0.267,
+     "raw": 0.889782872835122
+    }
+   ],
+   "ids": {
+    "openalex": "W2098437935"
+   },
+   "sim": 0.267,
+   "raw_score": 0.889782872835122,
+   "rrf": 0.031746031746031744,
+   "coverage": 0.8527139704470243,
+   "relevance": 0.4749215070137256,
+   "score": 0.3010746471028706
+  },
+  {
+   "title": "Statistical detection of geographic clusters of resistantEscherichia coliin a regional network with WHONET and SaTScan",
+   "year": 2016,
+   "authors": [
+    "Rachel Yoonjo Park",
+    "Thomas F. O’Brien",
+    "Susan S. Huang",
+    "Meghan A. Baker",
+    "Deborah S. Yokoe",
+    "Martin Kulldorff",
+    "Craig Barrett",
+    "Jamie Swift",
+    "John M. Stelling",
+    "for the Centers for Disease Control and Prevention Epicenters Program"
+   ],
+   "venue": "Expert Review of Anti-infective Therapy",
+   "doi": "10.1080/14787210.2016.1220303",
+   "url": "https://doi.org/10.1080/14787210.2016.1220303",
+   "oa_url": "https://escholarship.org/uc/item/8bh4k51w",
+   "abstract": "BACKGROUND: While antimicrobial resistance threatens the prevention, treatment, and control of infectious diseases, systematic analysis of routine microbiology laboratory test results worldwide can alert new threats and promote timely response. This study explores statistical algorithms for recognizing geographic clustering of multi-resistant microbes within a healthcare network and monitoring the dissemination of new strains over time. METHODS: Escherichia coli antimicrobial susceptibility data from a three-year period stored in WHONET were analyzed across ten facilities in a healthcare network utilizing SaTScan's spatial multinomial model with two models for defining geographic proximity. We explored geographic clustering of multi-resistance phenotypes within the network and changes in clustering over time. RESULTS: Geographic clustering identified from both latitude/longitude and non-parametric facility groupings geographic models were similar, while the latter was offers greater flexibility and generalizability. Iterative application of the clustering algorithms suggested the possible recognition of the initial appearance of invasive E. coli ST131 in the clinical database of a single hospital and subsequent dissemination to others. [...]",
+   "cited_by": 21,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "statistical methods for early detection of unusual trends and clusters in antibi",
+     "kind": "semantic",
+     "rank": 2,
+     "weight": 2.0,
+     "sim": 0.268,
+     "raw": 0.8900363559962922
+    }
+   ],
+   "ids": {
+    "openalex": "W2509801702"
+   },
+   "sim": 0.268,
+   "raw_score": 0.8900363559962922,
+   "rrf": 0.03225806451612903,
+   "coverage": 0.7601490588979438,
+   "relevance": 0.44936344186964045,
+   "score": 0.30081506586278284
+  },
+  {
+   "title": "Quantifying uncertainty about future antimicrobial resistance: Comparing structured expert judgment and statistical forecasting methods",
+   "year": 2019,
+   "authors": [
+    "Abigail R. Colson",
+    "Itamar Megiddo",
+    "Gerardo Alvarez‐Uria",
+    "Sumanth Gandra",
+    "Tim Bedford",
+    "Alec Morton",
+    "Roger M. Cooke",
+    "Ramanan Laxminarayan"
+   ],
+   "venue": "PLoS ONE",
+   "doi": "10.1371/journal.pone.0219190",
+   "url": "https://doi.org/10.1371/journal.pone.0219190",
+   "oa_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0219190&type=printable",
+   "abstract": "The increase of multidrug resistance and resistance to last-line antibiotics is a major global public health threat. Although surveillance programs provide useful current and historical information on the scale of the problem, the future emergence and spread of antibiotic resistance is uncertain, and quantifying this uncertainty is crucial for guiding decisions about investment in antibiotics and resistance control strategies. Mathematical and statistical models capable of projecting future rates are challenged by the paucity of data and the complexity of the emergence and spread of resistance, but experts have relevant knowledge. We use the Classical Model of structured expert judgment to elicit projections with uncertainty bounds of resistance rates through 2026 for nine pathogen-antibiotic pairs in four European countries and empirically validate the assessments against data on a set of calibration questions. The performance-weighted combination of experts in France, Spain, and the United Kingdom projected that resistance for five pairs on the World Health Organization's priority pathogens list (E. coli and K. pneumoniae resistant to third-generation cephalosporins and carbapenems and MRSA) would remain below 50% in 2026. In Italy, although upper bounds of 90% credible ranges exceed 50% resistance for some pairs, the medians suggest Italy will sustain or improve its current rates. [...]",
+   "cited_by": 25,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in antibiotic resistance",
+     "kind": "semantic",
+     "rank": 2,
+     "weight": 2.0,
+     "sim": 0.531,
+     "raw": 0.8643794149314937
+    }
+   ],
+   "ids": {
+    "openalex": "W2955072202"
+   },
+   "sim": 0.531,
+   "raw_score": 0.8643794149314937,
+   "rrf": 0.03225806451612903,
+   "coverage": 0.3563015685913095,
+   "relevance": 0.4334091947776502,
+   "score": 0.2995307772258835
+  },
+  {
+   "title": "Confidence interval methods for antimicrobial resistance surveillance data",
+   "year": 2021,
+   "authors": [
+    "Erta Kalanxhi",
+    "Gilbert Osena",
+    "Geetanjali Kapoor",
+    "Eili Y. Klein"
+   ],
+   "venue": "Antimicrobial Resistance and Infection Control",
+   "doi": "10.1186/s13756-021-00960-5",
+   "url": "https://doi.org/10.1186/s13756-021-00960-5",
+   "oa_url": "https://aricjournal.biomedcentral.com/counter/pdf/10.1186/s13756-021-00960-5",
+   "abstract": "BACKGROUND: Antimicrobial resistance (AMR) is one of the greatest global health challenges today, but burden assessment is hindered by uncertainty of AMR prevalence estimates. Geographical representation of AMR estimates typically pools data collected from several laboratories; however, these aggregations may introduce bias by not accounting for the heterogeneity of the population that each laboratory represents. METHODS: We used AMR data from up to 381 laboratories in the United States from The Surveillance Network to evaluate methods for estimating uncertainty of AMR prevalence estimates. We constructed confidence intervals for the proportion of resistant isolates using (1) methods that account for the clustered structure of the data, and (2) standard methods that assume data independence. Using samples of the full dataset with increasing facility coverage levels, we examined how likely the estimated confidence intervals were to include the population mean. RESULTS: Methods constructing 95% confidence intervals while accounting for possible within-cluster correlations (Survey and standard methods adjusted to employ cluster-robust errors), were more likely to include the sample mean than standard methods (Logit, Wilson score and Jeffreys interval) operating under the assumption of independence. [...]",
+   "cited_by": 10,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in antibiotic resistance",
+     "kind": "semantic",
+     "rank": 7,
+     "weight": 2.0,
+     "sim": 0.343,
+     "raw": 0.8426184102144024
+    },
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in antibiotic resistance",
+     "kind": "semantic",
+     "rank": 17,
+     "weight": 2.0,
+     "sim": 0.132,
+     "raw": 0.81819177
+    }
+   ],
+   "ids": {
+    "openalex": "W6921339132"
+   },
+   "sim": 0.343,
+   "raw_score": 0.8426184102144024,
+   "rrf": 0.05582477224268269,
+   "coverage": 0.3828899406067846,
+   "relevance": 0.4495571875822869,
+   "score": 0.29816287791413365
+  },
+  {
+   "title": "A Cumulative Antibiogram for a Period of one year and its Analysis in a Tertiary Care Hospital",
+   "year": 2019,
+   "authors": [
+    "Dr D. Ratna Harika"
+   ],
+   "venue": "Journal of Medical Science And clinical Research",
+   "doi": "10.18535/jmscr/v7i6.166",
+   "url": "https://doi.org/10.18535/jmscr/v7i6.166",
+   "oa_url": "https://doi.org/10.18535/jmscr/v7i6.166",
+   "abstract": "Hospital antibiogram is a periodic summary of antimicrobial susceptibilities of local bacterial strains given to the hospital's clinical microbiology laboratory.It not only helps the clinicians to select the most appropriate empiric therapy, but also in monitoring resistance trends within an institution, thereby optimizing treatment.The current study is mainly designed to know the susceptibility rates and resistance trends of microorganisms isolated from various clinical samples.To monitor antimicrobial resistance trends in this period with emphasis on inpatient and outpatient data.To prepare a cumulative antibiogram of our institution as a part of antibiotic stewardship program.It is a Tertiary care health institution which delivers its services to the rural and urban population with departments like Medicine, Pulmonary medicine, Surgery, Orthopedics, and Obstetrics and Gynecology.Data was gathered from all outpatient and inpatient specimens received for Culture and sensitivity.The organisms and their susceptibility patterns isolated in the Department of Microbiology were collected and cumulative antibiogram is prepared and from the 6239 specimens received in the Microbiology laboratory during this one year period, most of them from urine followed by sputum, pus and blood.Urine samples (36.5%) from OPD (19.1%) and IPD (80.9%) showed a culture positivity of 46.7% and 42.6% respectively.E.coli (40.4%) was the predominant isolate in urine samples from OPD and Klebsiella [...]",
+   "cited_by": 1,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "Every day the clinical microbiology laboratory produces hundreds of culture resu",
+     "kind": "semantic",
+     "rank": 2,
+     "weight": 2.5,
+     "sim": 0.302,
+     "raw": 0.8805375931803627
+    }
+   ],
+   "ids": {
+    "openalex": "W2955732257"
+   },
+   "sim": 0.302,
+   "raw_score": 0.8805375931803627,
+   "rrf": 0.04032258064516129,
+   "coverage": 0.8522466692531465,
+   "relevance": 0.5191224060262656,
+   "score": 0.28954743474483463
+  },
+  {
+   "title": "MALDI-TOF MS: A Reliable Tool in the Real Life of the Clinical Microbiology Laboratory",
+   "year": 2024,
+   "authors": [
+    "Adriana Calderaro",
+    "Carlo Chezzi"
+   ],
+   "venue": "Microorganisms",
+   "doi": "10.3390/microorganisms12020322",
+   "url": "https://doi.org/10.3390/microorganisms12020322",
+   "oa_url": "https://www.mdpi.com/2076-2607/12/2/322/pdf?version=1706950776",
+   "abstract": "Matrix-Assisted Desorption/Ionization-Time of Flight Mass Spectrometry (MALDI-TOF MS) in the last decade has revealed itself as a valid support in the workflow in the clinical microbiology laboratory for the identification of bacteria and fungi, demonstrating high reliability and effectiveness in this application. Its use has reduced, by 24 h, the time to obtain a microbiological diagnosis compared to conventional biochemical automatic systems. MALDI-TOF MS application to the detection of pathogens directly in clinical samples was proposed but requires a deeper investigation, whereas its application to positive blood cultures for the identification of microorganisms and the detection of antimicrobial resistance are now the most useful applications. Thanks to its rapidity, accuracy, and low price in reagents and consumables, MALDI-TOF MS has also been applied to different fields of clinical microbiology, such as the detection of antibiotic susceptibility/resistance biomarkers, the identification of aminoacidic sequences and the chemical structure of protein terminal groups, and as an emerging method in microbial typing. Some of these applications are waiting for an extensive evaluation before confirming a transfer to the routine. MALDI-TOF MS has not yet been used for the routine identification of parasites; nevertheless, studies have been reported in the last few years on its use in the identification of intestinal protozoa, Plasmodium falciparum, or ectoparasites. [...]",
+   "cited_by": 191,
+   "kind": "article",
+   "tldr": "MALDI-TOF MS application to the detection of pathogens directly in clinical samples was proposed but requires a deeper investigation, whereas its application to positive blood cultures for the identification of microorganisms and the detection of antimicrobial resistance are now the most useful applications.",
+   "sources": [
+    "openalex",
+    "s2"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "clinical microbiology laboratory",
+     "kind": "phrase",
+     "rank": 35,
+     "weight": 1.0
+    },
+    {
+     "source": "s2",
+     "query": "clinical microbiology laboratory",
+     "kind": "phrase",
+     "rank": 1,
+     "weight": 1.0
+    }
+   ],
+   "ids": {
+    "openalex": "W4391541380",
+    "s2": "9620ea49f97d4a23de103a278c51dabc1a3805be"
+   },
+   "sim": 0.0,
+   "raw_score": 120.47127,
+   "rrf": 0.026919758412424506,
+   "coverage": 0.8527139704470243,
+   "relevance": 0.35104769419406323,
+   "score": 0.2745300254690219
+  },
+  {
+   "title": "Review of Antibiogram Preparation and Susceptibility Testing Systems",
+   "year": 2010,
+   "authors": [
+    "Rebecca Thayer Horvat"
+   ],
+   "venue": "Hospital Pharmacy",
+   "doi": "10.1310/hpj4511-s6",
+   "url": "https://doi.org/10.1310/hpj4511-s6",
+   "oa_url": "",
+   "abstract": "The overall rate of antibiotic resistance within health care institutions is dependent on data accumulated from antimicrobial testing performed on individual isolates. The type of testing method may vary depending on the bacterial species. A consensus document entitled “Analysis and Presentation of Cumulative Antimicrobial Susceptibility Test Data, M39-A2,” produced by the Clinical and Laboratory Standards Institute, presents a guideline for clinical laboratories when preparing a cumulative antibiogram. This document includes detailed recommendations for the collection, storage, analysis, and presentation of data. The antibiogram should also state the methods used to measure antibiotic resistance, the number of isolates tested in the analysis period, and the time period of analysis. Thus this cumulative report assists the health care institution by identifying trends or unusual patterns in microorganisms.",
+   "cited_by": 15,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "Every day the clinical microbiology laboratory produces hundreds of culture resu",
+     "kind": "semantic",
+     "rank": 4,
+     "weight": 2.5,
+     "sim": 0.268,
+     "raw": 0.8756066130867423
+    }
+   ],
+   "ids": {
+    "openalex": "W2016602128"
+   },
+   "sim": 0.268,
+   "raw_score": 0.8756066130867423,
+   "rrf": 0.0390625,
+   "coverage": 0.703603281442885,
+   "relevance": 0.4564716270191146,
+   "score": 0.25388962011343125
+  },
+  {
+   "title": "Bayesian network modeling of patterns of antibiotic cross-resistance by bacterial sample source",
+   "year": 2023,
+   "authors": [
+    "Stacey Shawn Cherny",
+    "Michal Chowers",
+    "Uri Obolski"
+   ],
+   "venue": "Communications Medicine",
+   "doi": "10.1038/s43856-023-00289-7",
+   "url": "https://doi.org/10.1038/s43856-023-00289-7",
+   "oa_url": "https://www.nature.com/articles/s43856-023-00289-7.pdf",
+   "abstract": "BACKGROUND: Antimicrobial resistance is a major healthcare burden, aggravated when it extends to multiple drugs. While cross-resistance is well-studied experimentally, it is not the case in clinical settings, and especially not while considering confounding. Here, we estimated patterns of cross-resistance from clinical samples, while controlling for multiple clinical confounders and stratifying by sample sources. METHODS: We employed additive Bayesian network (ABN) modelling to examine antibiotic cross- resistance in five major bacterial species, obtained from different sources (urine, wound, blood, and sputum) in a clinical setting, collected in a large hospital in Israel over a 4-year period. Overall, the number of samples available were 3525 for E coli, 1125 for K pneumoniae, 1828 for P aeruginosa, 701 for P mirabilis, and 835 for S aureus. RESULTS: Patterns of cross-resistance differ across sample sources. All identified links between resistance to different antibiotics are positive. However, in 15 of 18 instances, the magnitudes of the links are significantly different between sources. For example, E coli exhibits adjusted odds ratios of gentamicin-ofloxacin cross-resistance ranging from 3.0 (95%CI [2.3,4.0]) in urine samples to 11.0 (95%CI [5.2,26.1]) in blood samples. [...]",
+   "cited_by": 17,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in antibiotic resistance",
+     "kind": "semantic",
+     "rank": 6,
+     "weight": 2.0,
+     "sim": 0.371,
+     "raw": 0.8458719408741564
+    }
+   ],
+   "ids": {
+    "openalex": "W4367693902"
+   },
+   "sim": 0.371,
+   "raw_score": 0.8458719408741564,
+   "rrf": 0.030303030303030304,
+   "coverage": 0.42960365692821495,
+   "relevance": 0.3844835349635547,
+   "score": 0.24409116559190047
+  },
+  {
+   "title": "Antimicrobial Resistance and Current Methods for its Detection",
+   "year": 2023,
+   "authors": [
+    "Olga I. Guliy",
+    "С. С. Евстигнеева",
+    "Olga A. Karavaeva"
+   ],
+   "venue": "Frontiers in Bioscience-Elite",
+   "doi": "10.31083/j.fbe1503019",
+   "url": "https://doi.org/10.31083/j.fbe1503019",
+   "oa_url": "https://www.imrpress.com/journal/FBE/15/3/10.31083/j.fbe1503019/pdf",
+   "abstract": "Infection diagnosis and antibiotic sensitivity testing are important aspects of clinical microbiology that are in dire need of improvement owing to the inadequate current standards in the early detection of bacterial response to antibiotics. The increasing antimicrobial resistance is a serious global threat to human health. Current resistance-detecting methods, using the phenotypic antibiotic sensitivity test, which measures bacterial growth as affected by antibiotics, have long analysis times. Therefore, new and rapid methods are needed to detect antibiotic resistance. Here, we review the methods used to detect antibiotic resistance in bacteria, including that caused by biofilm development, and we look at the development of rapid methods for evaluating antimicrobial resistance (AMR).",
+   "cited_by": 14,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "statistical methods for early detection of unusual trends and clusters in antibi",
+     "kind": "semantic",
+     "rank": 15,
+     "weight": 2.0,
+     "sim": 0.134,
+     "raw": 0.8619428040535699
+    }
+   ],
+   "ids": {
+    "openalex": "W4385281196"
+   },
+   "sim": 0.134,
+   "raw_score": 0.8619428040535699,
+   "rrf": 0.02666666666666667,
+   "coverage": 0.7847959560114868,
+   "relevance": 0.3833769321423254,
+   "score": 0.23678497791796652
+  },
+  {
+   "title": "Empirical Mode Decomposition and k-Nearest Embedding Vectors for Timely Analyses of Antibiotic Resistance Trends",
+   "year": 2013,
+   "authors": [
+    "Douglas Teodoro",
+    "Christian Lovis"
+   ],
+   "venue": "PLoS ONE",
+   "doi": "10.1371/journal.pone.0061180",
+   "url": "https://doi.org/10.1371/journal.pone.0061180",
+   "oa_url": "https://doi.org/10.1371/journal.pone.0061180",
+   "abstract": "BACKGROUND: Antibiotic resistance is a major worldwide public health concern. In clinical settings, timely antibiotic resistance information is key for care providers as it allows appropriate targeted treatment or improved empirical treatment when the specific results of the patient are not yet available. OBJECTIVE: To improve antibiotic resistance trend analysis algorithms by building a novel, fully data-driven forecasting method from the combination of trend extraction and machine learning models for enhanced biosurveillance systems. METHODS: We investigate a robust model for extraction and forecasting of antibiotic resistance trends using a decade of microbiology data. Our method consists of breaking down the resistance time series into independent oscillatory components via the empirical mode decomposition technique. The resulting waveforms describing intrinsic resistance trends serve as the input for the forecasting algorithm. The algorithm applies the delay coordinate embedding theorem together with the k-nearest neighbor framework to project mappings from past events into the future dimension and estimate the resistance levels. RESULTS: The algorithms that decompose the resistance time series and filter out high frequency components showed statistically significant performance improvements in comparison with a benchmark random walk model. [...]",
+   "cited_by": 10,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "statistical methods for early detection of unusual trends and clusters in antibi",
+     "kind": "semantic",
+     "rank": 7,
+     "weight": 2.0,
+     "sim": 0.21,
+     "raw": 0.8778583117348892
+    }
+   ],
+   "ids": {
+    "openalex": "W2044187040"
+   },
+   "sim": 0.21,
+   "raw_score": 0.8778583117348892,
+   "rrf": 0.029850746268656716,
+   "coverage": 0.7842118295191395,
+   "relevance": 0.42486595035448743,
+   "score": 0.23605447044729344
+  },
+  {
+   "title": "The Importance of Sample Size in the Determination of a Flock-Level Antimicrobial Resistance Profile for Escherichia coli in Broilers",
+   "year": 2011,
+   "authors": [
+    "Davy Persoons",
+    "Kaatje Bollaerts",
+    "Annemieke Smet",
+    "Lieve Herman",
+    "Marc Heyndrickx",
+    "An Martel",
+    "Patrick Butaye",
+    "Boudewijn Catry",
+    "Freddy Haesebrouck",
+    "Jeroen Dewulf"
+   ],
+   "venue": "Microbial Drug Resistance",
+   "doi": "10.1089/mdr.2011.0048",
+   "url": "https://doi.org/10.1089/mdr.2011.0048",
+   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3223426",
+   "abstract": "Determining herd- or flock-specific antimicrobial resistance profiles is important to guide therapeutic use of antimicrobials and to assess risk factors for the development and spread of antimicrobial resistance. As such, it is of utmost importance to optimize the sampling strategy for the determination of herd-specific antimicrobial resistance profiles. However, the multitude of prevalences measured at the same time as well as the presence of variation both at the level of the animal and the bacterial population of concern make it impossible to use conventional sample size determination methods. In this article, the use of bootstrapping techniques for sample size determination was explored. In particular, one-stage and two-stage bootstrap samplings were used to determine the optimal number of animals and the optimal number of isolates within one animal. Results show that focus should be on the number of animals sampled rather than on the number of isolates tested within one animal.",
+   "cited_by": 33,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in antibiotic resistance",
+     "kind": "semantic",
+     "rank": 3,
+     "weight": 2.0,
+     "sim": 0.519,
+     "raw": 0.8630156323787368
+    }
+   ],
+   "ids": {
+    "openalex": "W2024547103"
+   },
+   "sim": 0.519,
+   "raw_score": 0.8630156323787368,
+   "rrf": 0.031746031746031744,
+   "coverage": 0.25617634564509006,
+   "relevance": 0.39676021957314533,
+   "score": 0.23449651959250797
+  },
+  {
+   "title": "Staphylococcus aureus antimicrobial susceptibility trends and cluster detection in Vermont: 2012-2018",
+   "year": 2020,
+   "authors": [
+    "John M. Stelling",
+    "Jennifer S. Read",
+    "Rob Peters",
+    "Adam Clark",
+    "Marissa Bokhari",
+    "Thomas F. O’Brien"
+   ],
+   "venue": "Expert Review of Anti-infective Therapy",
+   "doi": "10.1080/14787210.2021.1845653",
+   "url": "https://doi.org/10.1080/14787210.2021.1845653",
+   "oa_url": "",
+   "abstract": "Objectives: This study presents demographic and temporal trends in the isolation of Staphylococcus aureus in Vermont clinical microbiology laboratories and explores the use of statistical algorithms and multi-resistance phenotypes to improve outbreak detection.Methods: Routine microbiology test results downloaded from Vermont clinical laboratory information systems were used to monitor S. aureus antimicrobial resistance trends. The integrated WHONET-SaTScan software used multi-resistance phenotypes to identify possible acute outbreaks with the space-time permutation model and slowly emerging geographic clusters using the spatial-only multinomial model.Results: Data were provided from seven hospital laboratories from 2012 to 2018 for 19,224 S. aureus isolates from 14,939 patients. Statistically significant differences (p ≤ 0.05) in methicillin-resistant S. aureus (MRSA) isolation were seen by age group, specimen type, and health-care setting. Among MRSA, multi-resistance profiles permitted the recognition and tracking of 6 common and 21 rare ‘phenotypic clones.’ We identified 43 acute MRSA clusters and 7 significant geographic clusters (p ≤ 0.05).Conclusions: There was significant heterogeneity in MRSA strains between facilities and the use of multi-resistance phenotypes facilitated the recognition of possible outbreaks. [...]",
+   "cited_by": 6,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "statistical methods for early detection of unusual trends and clusters in antibi",
+     "kind": "semantic",
+     "rank": 11,
+     "weight": 2.0,
+     "sim": 0.156,
+     "raw": 0.8665471223596912
+    }
+   ],
+   "ids": {
+    "openalex": "W3097170989"
+   },
+   "sim": 0.156,
+   "raw_score": 0.8665471223596912,
+   "rrf": 0.028169014084507043,
+   "coverage": 0.870496755764206,
+   "relevance": 0.42320199715765555,
+   "score": 0.22029251151047524
+  },
+  {
+   "title": "Recent advances in environmental antibiotic resistance genes detection and research focus: From genes to ecosystems",
+   "year": 2024,
+   "authors": [
+    "Bowei Ouyang",
+    "Cong Yang",
+    "Ziyue Lv",
+    "Baowei Chen",
+    "Lei Tong",
+    "Jianbo Shi"
+   ],
+   "venue": "Environment International",
+   "doi": "10.1016/j.envint.2024.108989",
+   "url": "https://doi.org/10.1016/j.envint.2024.108989",
+   "oa_url": "https://doi.org/10.1016/j.envint.2024.108989",
+   "abstract": "Antibiotic resistance genes (ARGs) persistence and potential harm have become more widely recognized in the environment due to its fast-paced research. However, the bibliometric review on the detection, research hotspot, and development trend of environmental ARGs has not been widely conducted. It is essential to provide a comprehensive overview of the last 30 years of research on environmental ARGs to clarify the changes in the research landscape and ascertain future prospects. This study presents a visualized analysis of data from the Web of Science to enhance our understanding of ARGs. The findings indicate that solid-phase extraction provides a reliable method for extracting ARG. Technological advancements in commercial kits and microfluidics have facilitated the efficacy of ARGs extraction with significantly reducing processing times. PCR and its derivatives, DNA sequencing, and multi-omics technology are the prevalent methodologies for ARGs detection, enabling the expansion of ARG research from individual strains to more intricate microbial communities in the environment. Furthermore, due to the development of combination, hybridization and mass spectrometer technologies, considerable advancements have been achieved in terms of sensitivity and accuracy as well as lowering the cost of ARGs detection. Currently, high-frequency terms such as \"Antibiotic Resistance, Antibiotics, and Metagenomics\" are the center of attention for study in this area. [...]",
+   "cited_by": 39,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex",
+    "s2"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance resistance trend detection",
+     "kind": "combo",
+     "rank": 20,
+     "weight": 1.2
+    },
+    {
+     "source": "s2",
+     "query": "resistance trend detection",
+     "kind": "phrase",
+     "rank": 3,
+     "weight": 1.0
+    }
+   ],
+   "ids": {
+    "openalex": "W4402023114",
+    "s2": "deabbc1ba99f765b9c615c817e44d6eac418b958"
+   },
+   "sim": 0.0,
+   "raw_score": 43.65561,
+   "rrf": 0.03087301587301587,
+   "coverage": 0.7781270688619566,
+   "relevance": 0.3426569853515158,
+   "score": 0.21996273144818806
+  },
+  {
+   "title": "Trends in antimicrobial resistance in bloodstream infection isolates at a large urban hospital in Malawi (1998–2016): a surveillance study",
+   "year": 2017,
+   "authors": [
+    "Patrick Musicha",
+    "Jennifer Cornick",
+    "Naor Bar‐Zeev",
+    "Neil French",
+    "Clemens Masesa",
+    "Brigitte Denis",
+    "Neil Kennedy",
+    "Jane Mallewa",
+    "Melita A. Gordon",
+    "Chisomo Lawrence Msefula",
+    "Robert S. Heyderman",
+    "Dean Everett",
+    "Nicholas Feasey"
+   ],
+   "venue": "The Lancet Infectious Diseases",
+   "doi": "10.1016/s1473-3099(17)30394-8",
+   "url": "https://doi.org/10.1016/s1473-3099(17)30394-8",
+   "oa_url": "http://www.thelancet.com/article/S1473309917303948/pdf",
+   "abstract": "BACKGROUND: Bacterial bloodstream infection is a common cause of morbidity and mortality in sub-Saharan Africa, yet few facilities are able to maintain long-term surveillance. The Malawi-Liverpool-Wellcome Trust Clinical Research Programme has done sentinel surveillance of bacteraemia since 1998. We report long-term trends in bloodstream infection and antimicrobial resistance from this surveillance. METHODS: In this surveillance study, we analysed blood cultures that were routinely taken from adult and paediatric patients with fever or suspicion of sepsis admitted to Queen Elizabeth Central Hospital, Blantyre, Malawi from 1998 to 2016. The hospital served an urban population of 920 000 in 2016, with 1000 beds, although occupancy often exceeds capacity. The hospital admits about 10 000 adults and 30 000 children each year. Antimicrobial susceptibility tests were done by the disc diffusion method according to British Society of Antimicrobial Chemotherapy guidelines. We used the Cochran-Armitage test for trend to examine trends in rates of antimicrobial resistance, and negative binomial regression to examine trends in icidence of bloodstream infection over time. FINDINGS: Between Jan 1, 1998, and Dec 31, 2016, we isolated 29 183 pathogens from 194 539 blood cultures. Pathogen detection decreased significantly from 327·1/100 000 in 1998 to 120·2/100 000 in 2016 (p<0·0001). [...]",
+   "cited_by": 298,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "resistance trend detection",
+     "kind": "phrase",
+     "rank": 28,
+     "weight": 1.0
+    },
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance surveillance trend detection",
+     "kind": "facet",
+     "rank": 6,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W2748706728"
+   },
+   "sim": 0.0,
+   "raw_score": 23.197372,
+   "rrf": 0.029545454545454545,
+   "coverage": 0.7246430172280439,
+   "relevance": 0.3219152821063761,
+   "score": 0.20968168230357984
+  },
+  {
+   "title": "Capturing the Resistome: a Targeted Capture Method To Reveal Antibiotic Resistance Determinants in Metagenomes",
+   "year": 2019,
+   "authors": [
+    "Allison K. Guitor",
+    "Amogelang R. Raphenya",
+    "Jennifer Klunk",
+    "Melanie Kuch",
+    "Brian P. Alcock",
+    "Michael Gordon Surette",
+    "Andrew G. McArthur",
+    "Hendrik N. Poinar",
+    "Gerard D. Wright"
+   ],
+   "venue": "Antimicrobial Agents and Chemotherapy",
+   "doi": "10.1128/aac.01324-19",
+   "url": "https://doi.org/10.1128/aac.01324-19",
+   "oa_url": "https://doi.org/10.1128/aac.01324-19",
+   "abstract": "Identification of the nucleotide sequences encoding antibiotic resistance elements and determination of their association with antibiotic resistance are critical to improve surveillance and monitor trends in antibiotic resistance. Current methods to study antibiotic resistance in various environments rely on extensive deep sequencing or laborious culturing of fastidious organisms, both of which are heavily time-consuming operations. An accurate and sensitive method to identify both rare and common resistance elements in complex metagenomic samples is needed. Referencing the sequences in the Comprehensive Antibiotic Resistance Database, we designed a set of 37,826 probes to specifically target over 2,000 nucleotide sequences associated with antibiotic resistance in clinically relevant bacteria. Testing of this probe set on DNA libraries generated from multidrug-resistant bacteria to selectively capture resistance genes reproducibly produced higher numbers of reads on target at a greater length of coverage than shotgun sequencing. We also identified additional resistance gene sequences from human gut microbiome samples that sequencing alone was not able to detect. Our method to capture the resistome enables a sensitive means of gene detection in diverse environments where genes encoding antibiotic resistance represent less than 0.1% of the metagenome.",
+   "cited_by": 114,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance resistance trend detection",
+     "kind": "combo",
+     "rank": 27,
+     "weight": 1.2
+    },
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance surveillance trend detection",
+     "kind": "facet",
+     "rank": 5,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W2980278798"
+   },
+   "sim": 0.0,
+   "raw_score": 42.88689,
+   "rrf": 0.03225464190981432,
+   "coverage": 0.7246430172280439,
+   "relevance": 0.3314995212812222,
+   "score": 0.20836481232244403
+  },
+  {
+   "title": "Hospital Antibiogram- A Tool for Safe Antimicrobial Therapy",
+   "year": 2020,
+   "authors": [
+    "Rekha Rai",
+    "U. Pratibha Bhat"
+   ],
+   "venue": "Journal of Evolution of Medical and Dental Sciences",
+   "doi": "10.14260/jemds/2020/28",
+   "url": "https://doi.org/10.14260/jemds/2020/28",
+   "oa_url": "https://doi.org/10.14260/jemds/2020/28",
+   "abstract": "Monitoring emerging trends in antimicrobial resistance at local levels is a very important aspect for clinical decision making and infection control interventions in this era of rising superbugs.The hospital antibiogram constructed by standardized methods is a summary of antimicrobial susceptibilities of local bacterial isolates, with periodic review. METHODSThis antibiogram was prepared based on the Clinical and Laboratory Standards Institute (CLSI) M39 -A4 guidelines.The data was collected for a period of three years from May 2016 to April 2019.All the samples which were received in the microbiology laboratory for aerobic bacterial culture and sensitivity testing were considered.Antibiotic susceptibility data of the bacterial isolates processed by VITEK2 system was considered.A hospital antibiotic policy was formulated and implemented. RESULTSA total of 15,135 samples were analysed from different clinical departments for a period of three years, of which 5,638 were culture positive.A comparative analysis of the three years' data during the introduction of antibiotic protocol showed a gradual decrease in the rate of infection with multidrug resistant organisms.The prevalence of Methicillin Resistant Staphylococcus aureus (MRSA) showed a decrease from 15% to 7%.Extended spectrum beta-lactamase (ESBL) producing Escherichia coli in urine decreased from 42.4% to 27%. [...]",
+   "cited_by": 2,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "Every day the clinical microbiology laboratory produces hundreds of culture resu",
+     "kind": "semantic",
+     "rank": 16,
+     "weight": 2.5,
+     "sim": 0.12,
+     "raw": 0.8541556166073851
+    }
+   ],
+   "ids": {
+    "openalex": "W3010379135"
+   },
+   "sim": 0.12,
+   "raw_score": 0.8541556166073851,
+   "rrf": 0.03289473684210526,
+   "coverage": 0.8522466692531465,
+   "relevance": 0.4200450682169958,
+   "score": 0.20784463159085184
+  },
+  {
+   "title": "Resistance Trend Estimation Using Regression Analysis to Enhance Antimicrobial Surveillance: A Multi-Centre Study in London 2009–2016",
+   "year": 2021,
+   "authors": [
+    "Bernard Hernandez",
+    "Pau Herrero",
+    "Timothy M. Rawson",
+    "Luke S. P. Moore",
+    "Alison Helen Holmes",
+    "Pantelis Georgiou"
+   ],
+   "venue": "Antibiotics",
+   "doi": "10.3390/antibiotics10101267",
+   "url": "https://doi.org/10.3390/antibiotics10101267",
+   "oa_url": "https://www.mdpi.com/2079-6382/10/10/1267/pdf?version=1634705249",
+   "abstract": "In the last years, there has been an increase of antimicrobial resistance rates around the world with the misuse and overuse of antimicrobials as one of the main leading drivers. In response to this threat, a variety of initiatives have arisen to promote the efficient use of antimicrobials. These initiatives rely on antimicrobial surveillance systems to promote appropriate prescription practices and are provided by national or global health care institutions with limited consideration of the variations within hospitals. As a consequence, physicians’ adherence to these generic guidelines is still limited. To fill this gap, this work presents an automated approach to performing local antimicrobial surveillance from microbiology data. Moreover, in addition to the commonly reported resistance rates, this work estimates secular resistance trends through regression analysis to provide a single value that effectively communicates the resistance trend to a wider audience. The methods considered for trend estimation were ordinary least squares regression, weighted least squares regression with weights inversely proportional to the number of microbiology records available and autoregressive integrated moving average. Among these, weighted least squares regression was found to be the most robust against changes in the granularity of the time series and presented the best performance. [...]",
+   "cited_by": 12,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "statistical methods for early detection of unusual trends and clusters in antibi",
+     "kind": "semantic",
+     "rank": 6,
+     "weight": 2.0,
+     "sim": 0.215,
+     "raw": 0.8790146020287307
+    }
+   ],
+   "ids": {
+    "openalex": "W3205624689"
+   },
+   "sim": 0.215,
+   "raw_score": 0.8790146020287307,
+   "rrf": 0.030303030303030304,
+   "coverage": 0.5889272703965711,
+   "relevance": 0.36988061900406155,
+   "score": 0.20665458371543807
+  },
+  {
+   "title": "Four-year antibiogram analysis of priority pathogens: guiding empirical therapy and monitoring resistance trends",
+   "year": 2026,
+   "authors": [
+    "Krisha Panchal",
+    "Nasiruddin Shaikh",
+    "Tanmay Mehta",
+    "Jayshri D Pethani"
+   ],
+   "venue": "Microbiology Spectrum",
+   "doi": "10.1128/spectrum.03457-25",
+   "url": "https://doi.org/10.1128/spectrum.03457-25",
+   "oa_url": "https://doi.org/10.1128/spectrum.03457-25",
+   "abstract": "Antibiograms are essential surveillance tools for monitoring institutional antimicrobial resistance (AMR) patterns and supporting antimicrobial stewardship programs (AMS). This study analyzed 4 years (2020–2023) of cumulative and subtraction antibiograms to describe local susceptibility trends among priority bacterial pathogens in a tertiary-care teaching hospital in western India. A retrospective observational study was conducted using the first-isolate-per-patient-per-year methodology in accordance with Clinical and Laboratory Standards Institute (CLSI) M39 guidelines. Antimicrobial susceptibility testing was performed using disk diffusion and automated minimum inhibitory concentration (MIC)-based systems, with colistin tested exclusively by broth microdilution. Cumulative and subtraction antibiograms were generated for Escherichia coli, Klebsiella pneumoniae, Pseudomonas aeruginosa, Acinetobacter baumannii, Staphylococcus aureus, and Enterococcus species. Data were analyzed descriptively. A total of 5,530 priority pathogen isolates were included. Gram-negative organisms demonstrated high resistance to fluoroquinolones, third-generation cephalosporins, and carbapenems, particularly K. pneumoniae, consistent with a substantial carbapenem-resistant Enterobacterales burden. Non-fermenters showed persistently low β-lactam susceptibility. Glycopeptides and linezolid retained high in vitro activity against gram-positive organisms. [...]",
+   "cited_by": 1,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "Every day the clinical microbiology laboratory produces hundreds of culture resu",
+     "kind": "semantic",
+     "rank": 12,
+     "weight": 2.5,
+     "sim": 0.131,
+     "raw": 0.8557570620363689
+    }
+   ],
+   "ids": {
+    "openalex": "W7161582222"
+   },
+   "sim": 0.131,
+   "raw_score": 0.8557570620363689,
+   "rrf": 0.034722222222222224,
+   "coverage": 0.7622820366705725,
+   "relevance": 0.40392073774450427,
+   "score": 0.20647965760838358
+  },
+  {
+   "title": "A Bayesian Model Based on Local Phenotypic Resistance Data to Inform Empiric Antibiotic Escalation Decisions",
+   "year": 2024,
+   "authors": [
+    "Ranjeet Bamber",
+    "Brian Sullivan",
+    "Léo Gorman",
+    "Winnie W. Y. Lee",
+    "Matthew B. Avison",
+    "Andrew W. Dowsey",
+    "Philip B. Williams"
+   ],
+   "venue": "Infectious Diseases and Therapy",
+   "doi": "10.1007/s40121-024-01011-3",
+   "url": "https://doi.org/10.1007/s40121-024-01011-3",
+   "oa_url": "https://doi.org/10.1007/s40121-024-01011-3",
+   "abstract": "INTRODUCTION: Clinicians commonly escalate empiric antibiotic therapy due to poor clinical progress without microbiology guidance. When escalating, they should take account of how resistance to an initial antibiotic affects the probability of resistance to subsequent options. The term \"escalation antibiogram\" (EA) has been coined to describe this concept. One difficulty when applying the EA concept to clinical practice is understanding the uncertainty in results and how this changes for specific patient subgroups. METHODS: A Bayesian model was developed to estimate antibiotic resistance rates in Gram-negative bloodstream infections based on phenotypic resistance data. The model generates a series of \"credible\" curves to fit the resistance data, each with the same probability of representing the true rate given the inherent uncertainty. To avoid overfitting, an integrated penalisation term adaptively smooths the curves given the level of evidence. RESULTS: Rates of resistance to empiric first-choice and potential escalation antibiotics were calculated for the whole hospitalised population based on 10,486 individual bloodstream infections, and for a range of specific patient groups, including ICU (intensive care unit), haematolo-oncology, and paediatric patients. The model generated an expected value (posterior mean) with 95% credible interval to illustrate uncertainty, based on the size of the patient subgroup. [...]",
+   "cited_by": 8,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in antibiotic resistance",
+     "kind": "semantic",
+     "rank": 9,
+     "weight": 2.0,
+     "sim": 0.207,
+     "raw": 0.8269076181226971
+    }
+   ],
+   "ids": {
+    "openalex": "W4400796211"
+   },
+   "sim": 0.207,
+   "raw_score": 0.8269076181226971,
+   "rrf": 0.028985507246376812,
+   "coverage": 0.60010429257792,
+   "relevance": 0.3653727500982449,
+   "score": 0.20511500605314714
+  },
+  {
+   "title": "Clinical Uncertainty Influences Antibiotic Prescribing for Upper Respiratory Tract Infections: A Qualitative Study of Township Hospital Physicians and Village Doctors in Rural Shandong Province, China",
+   "year": 2023,
+   "authors": [
+    "Liyan Shen",
+    "Ting Wang",
+    "Jia Yin",
+    "Qiang Sun",
+    "Oliver James Dyar"
+   ],
+   "venue": "Antibiotics",
+   "doi": "10.3390/antibiotics12061027",
+   "url": "https://doi.org/10.3390/antibiotics12061027",
+   "oa_url": "https://www.mdpi.com/2079-6382/12/6/1027/pdf?version=1686211269",
+   "abstract": "OBJECTIVE: This study aimed to explore how clinical uncertainty influences antibiotic prescribing practices among township hospital physicians and village doctors in rural Shandong Province, China. METHODS: Qualitative semi-structured interviews were conducted with 30 township hospital physicians and 6 village doctors from rural Shandong Province, China. A multi-stage random sampling method was used to identify respondents. Conceptual content analysis together with Colaizzi's method were used to generate qualitative codes and identify themes. RESULTS: Three final thematic categories emerged during the data analysis: (1) Incidence and treatment of Upper Respiratory Tract Infections (URTIs) in township hospitals and village clinics; (2) Antibiotic prescribing practices based on the clinical experience of clinicians; (3) Influence of clinical uncertainty on antibiotic prescribing. Respondents from both township hospitals and village clinics reported that URTIs were the most common reason for antibiotic prescriptions at their facilities and that clinical uncertainty appears to be an important driver for the overuse of antibiotics for URTIs. Clinical uncertainty was primarily due to: (1) Diagnostic uncertainty (establishing a relevant diagnosis is hindered by limited diagnostic resources and capacities, as well as limited willingness of patients to pay for investigations), and (2) Insufficient prognostic evidence. [...]",
+   "cited_by": 16,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in antibiotic resistance",
+     "kind": "semantic",
+     "rank": 5,
+     "weight": 2.0,
+     "sim": 0.391,
+     "raw": 0.8481416187020453
+    }
+   ],
+   "ids": {
+    "openalex": "W4380086640"
+   },
+   "sim": 0.391,
+   "raw_score": 0.8481416187020453,
+   "rrf": 0.03076923076923077,
+   "coverage": 0.2808282255151786,
+   "relevance": 0.34950017381479903,
+   "score": 0.2001552053307556
+  },
+  {
+   "title": "mNGS in clinical microbiology laboratories: on the road to maturity",
+   "year": 2019,
+   "authors": [
+    "Dongsheng Han",
+    "Ziyang Li",
+    "Rui P. Li",
+    "Ping Tan",
+    "Rui Zhang",
+    "Jinming Li"
+   ],
+   "venue": "Critical Reviews in Microbiology",
+   "doi": "10.1080/1040841x.2019.1681933",
+   "url": "https://doi.org/10.1080/1040841x.2019.1681933",
+   "oa_url": "https://figshare.com/articles/dataset/mNGS_in_clinical_microbiology_laboratories_on_the_road_to_maturity/10260365",
+   "abstract": "Metagenomic next-generation sequencing (mNGS) is increasingly being applied in clinical laboratories for unbiased culture-independent diagnosis. Whether it can be a next routine pathogen identification tool has become a topic of concern. We review the current implementation of this new technology for infectious disease diagnostics and discuss the feasibility of transforming mNGS into a routine diagnostic test. Since 2008, numerous studies from over 20 countries have revealed the practicality of mNGS in the work-up of undiagnosed infectious diseases. mNGS performs well in identifying rare, novel, difficult-to-detect and coinfected pathogens directly from clinical samples and presents great potential in resistance prediction by sequencing the antibiotic resistance genes, providing new diagnostic evidence that can be used to guide treatment options and improve antibiotic stewardship. Many physicians recognized mNGS as a last resort method to address clinical infection problems. Although several hurdles, such as workflow validation, quality control, method standardisation, and data interpretation, remain before mNGS can be implemented routinely in clinical laboratories, they are temporary and can be overcome by rapidly evolving technologies. With more validated workflows, lower cost and turnaround time, and simplified interpretation criteria, mNGS will be widely accepted in clinical practice. [...]",
+   "cited_by": 361,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "clinical microbiology laboratory",
+     "kind": "phrase",
+     "rank": 2,
+     "weight": 1.0
+    },
+    {
+     "source": "openalex",
+     "query": "clinical microbiology laboratory",
+     "kind": "phrase",
+     "rank": 36,
+     "weight": 1.0
+    }
+   ],
+   "ids": {
+    "openalex": "W4394262237"
+   },
+   "sim": 0.0,
+   "raw_score": 167.35957,
+   "rrf": 0.02654569892473118,
+   "coverage": 0.7049606397001709,
+   "relevance": 0.30539839203317964,
+   "score": 0.19853323315531315
+  },
+  {
+   "title": "Identifying hospital antimicrobial resistance targets via robust ranking",
+   "year": 2017,
+   "authors": [
+    "J. Paul Brooks",
+    "José H. Dulá",
+    "Amy L. Pakyz",
+    "Ronald E. Polk"
+   ],
+   "venue": "IISE Transactions on Healthcare Systems Engineering",
+   "doi": "10.1080/24725579.2017.1339148",
+   "url": "https://doi.org/10.1080/24725579.2017.1339148",
+   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6516864",
+   "abstract": "We develop a robust ranking procedure to uncover trends in variation in antibiotic resistance (AR) rates across hospitals for some antibiotic-bacterium pairs over several years. We illustrate how the method can be used to detect potentially dangerous trends and to direct attention to hospitals' management practices. A robust method is indicated due to the fact that some unusual reported resistance rates may be due to measurement protocol differences and not any real difference in AR rates. Our proposed method is less sensitive to outlier observations than other robust methods. The application on real AR data shows how a dangerous trend in a particular AR rate would be detected. Our results indicate the potential benefits of systematic AR rate collection and AR reporting systems across hospitals.",
+   "cited_by": 3,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "statistical methods for early detection of unusual trends and clusters in antibi",
+     "kind": "semantic",
+     "rank": 9,
+     "weight": 2.0,
+     "sim": 0.157,
+     "raw": 0.8667702452908271
+    },
+    {
+     "source": "openalex",
+     "query": "statistical methods for early detection of unusual trends and clusters in antibi",
+     "kind": "semantic",
+     "rank": 16,
+     "weight": 2.0,
+     "sim": 0.126,
+     "raw": 0.86028296
+    }
+   ],
+   "ids": {
+    "openalex": "W6958469930"
+   },
+   "sim": 0.157,
+   "raw_score": 0.8667702452908271,
+   "rrf": 0.055301296720061024,
+   "coverage": 0.503587598144285,
+   "relevance": 0.40951459572099597,
+   "score": 0.1972764329871854
+  },
+  {
+   "title": "Measurement uncertainty estimation based on multiple regression analysis (MRA) and Monte Carlo (MC) simulations – Application to agar diffusion method",
+   "year": 2017,
+   "authors": [
+    "Alessandro Morais Saviano",
+    "Felipe Rebello Lourenço"
+   ],
+   "venue": "Measurement",
+   "doi": "10.1016/j.measurement.2017.10.057",
+   "url": "https://doi.org/10.1016/j.measurement.2017.10.057",
+   "oa_url": "https://doi.org/10.1016/j.measurement.2017.10.057",
+   "abstract": "The agar diffusion method is well known in the scientific literature, but it presents as a disadvantage the high variability. Despite of this, as far as we know, the main sources of uncertainty associated with inhibition zone sizes have not been studied previously. The aim of this work was to evaluate the main sources of uncertainty related to the formation of inhibition zone size. Using four cephalosporins antibiotics (cefazolin, cefuroxime, ceftriaxone and cefepime), multiple regression analyses (MRA) were performed by varying the components of the MHA culture medium, proportion of the inoculum and preincubation time for different antibiotic concentrations. It was possible to obtain a mathematical model for each cephalosporins. In addition, Monte Carlo simulations estimated that the proportion of the inoculum was the source that most contributed to the final uncertainty (67.8–80.4%). Therefore, it is important to have a strict control of this parameter, in order to allow the uncertainty to assume low values, and with this guarantee the quality, safety and efficacy of antibiotics.",
+   "cited_by": 31,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in antibiotic resistance",
+     "kind": "semantic",
+     "rank": 4,
+     "weight": 2.0,
+     "sim": 0.505,
+     "raw": 0.8613472346380672
+    }
+   ],
+   "ids": {
+    "openalex": "W2766451811"
+   },
+   "sim": 0.505,
+   "raw_score": 0.8613472346380672,
+   "rrf": 0.03125,
+   "coverage": 0.12950324423579399,
+   "relevance": 0.3514034873397375,
+   "score": 0.1956761390455814
+  },
+  {
+   "title": "Clustering of Antimicrobial Resistance Outbreaks Across Bacterial Species in the Intensive Care Unit",
+   "year": 2013,
+   "authors": [
+    "Anne L. M. Vlek",
+    "Ben Symons Cooper",
+    "Theodore Kypraios",
+    "Andy Cox",
+    "Jonathan D. Edgeworth",
+    "Olga Tosas Auguet"
+   ],
+   "venue": "Clinical Infectious Diseases",
+   "doi": "10.1093/cid/cit192",
+   "url": "https://doi.org/10.1093/cid/cit192",
+   "oa_url": "https://academic.oup.com/cid/article-pdf/57/1/65/17854310/cit192.pdf",
+   "abstract": "BACKGROUND: There are frequent reports of intensive care unit (ICU) outbreaks due to transmission of particular antibiotic-resistant bacteria. Less is known about the burden of outbreaks of resistance due to horizontal transfer of mobile genetic elements between species. Moreover, the potential of existing statistical software as a preliminary means for detecting such events has never been assessed. This study uses a software package to determine the burden of species and resistance outbreaks in 2 adjacent ICUs and to look for evidence of clustering of resistance outbreaks consistent with interspecies transmission of resistance elements. METHODS: A retrospective analysis of data from 2 adjacent 15-bed adult ICUs between 2002 and 2009 was undertaken. Detection of bacterial species-groups and resistance outbreaks was conducted using SaTScan and WHONet-SaTScan software. Resampling and permutation methods were applied to investigate temporal clustering of outbreaks. RESULTS: Outbreaks occurred for 69% of bacterial species-groups (18/26), and resistance outbreaks were detected against 63% of antibiotics (10/16). Resistance outbreaks against 7 of 10 antibiotics were observed in multiple species-groups simultaneously and there was evidence of inter-species-group dependence for 4 of 7 antibiotics; background temporal changes in resistance did not explain the temporal aggregation of outbreaks in 3 of 7 antibiotics. [...]",
+   "cited_by": 25,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "statistical methods for early detection of unusual trends and clusters in antibi",
+     "kind": "semantic",
+     "rank": 4,
+     "weight": 2.0,
+     "sim": 0.258,
+     "raw": 0.8880802371083519
+    }
+   ],
+   "ids": {
+    "openalex": "W2160762564"
+   },
+   "sim": 0.258,
+   "raw_score": 0.8880802371083519,
+   "rrf": 0.03125,
+   "coverage": 0.5040548993381629,
+   "relevance": 0.3649689838704482,
+   "score": 0.19558480595179828
+  },
+  {
+   "title": "Creating reasonable antibiograms for antibiotic stewardship programs in nursing homes: Analysis of 260 facilities in a large geographic region, 2016–2017",
+   "year": 2019,
+   "authors": [
+    "Scott K. Fridkin",
+    "Jacob Pack",
+    "Giancarlo Licitra",
+    "Ziduo Zheng",
+    "Russell Watkins",
+    "Steve Price",
+    "Mayfield Camp",
+    "Reneé H. Moore"
+   ],
+   "venue": "Infection Control and Hospital Epidemiology",
+   "doi": "10.1017/ice.2019.112",
+   "url": "https://doi.org/10.1017/ice.2019.112",
+   "oa_url": "",
+   "abstract": "OBJECTIVE: To determine the best nursing home facility characteristics for aggregating antibiotic susceptibility testing results across nursing homes to produce a useful annual antibiogram that nursing homes can use in their antimicrobial stewardship programs. DESIGN: Derivation cohort study. SETTING: Center for Medicare and Medicaid Services (CMS) certified skilled nursing facilities in Georgia (N = 231). PARTICIPANTS: All residents of eligible facilities submitting urine culture specimens for microbiologic testing at a regional referral laboratory. METHODS: Crude and adjusted metrics of antibiotic resistance prevalence (percent of isolates testing susceptible) for 5 bacterial species commonly recovered from urine specimens were calculated using mixed linear models to determine which facility characteristics were predictive of testing antibiotic susceptibility. RESULTS: In a single year, most facilities had an insufficient number of isolates tested to create facility-specific antibiograms: 49% of facilities had sufficient Escherichia coli isolates tested, but only about 1 in 10 had sufficient isolates of Klebsiella pneumoniae, Proteus mirabilis, Enterococcus faecalis, or Pseudomonas aeruginosa. After accounting for antibiotic tested and age of the patient, facility characteristics predictive of susceptibility were: E. coli, region, year, average length of stay; K. pneumoniae, region, bed size; P. mirabilis, region; and for E. faecalis or P. [...]",
+   "cited_by": 17,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "Every day the clinical microbiology laboratory produces hundreds of culture resu",
+     "kind": "semantic",
+     "rank": 6,
+     "weight": 2.5,
+     "sim": 0.255,
+     "raw": 0.8737609010803061
+    }
+   ],
+   "ids": {
+    "openalex": "W2947042685"
+   },
+   "sim": 0.255,
+   "raw_score": 0.8737609010803061,
+   "rrf": 0.03787878787878788,
+   "coverage": 0.4611579157135605,
+   "relevance": 0.3743504220704309,
+   "score": 0.19364630416024559
+  },
+  {
+   "title": "Combating the menace of antimicrobial resistance in Africa: a review on stewardship, surveillance and diagnostic strategies",
+   "year": 2022,
+   "authors": [
+    "Bashar Haruna Gulumbe",
+    "Usman Abubakar Haruna",
+    "Joseph U. Almazan",
+    "Ibrahim Haruna Ibrahim",
+    "Abdullahi Adamu Faggo",
+    "Abbas Yusuf Bazata"
+   ],
+   "venue": "Biological Procedures Online",
+   "doi": "10.1186/s12575-022-00182-y",
+   "url": "https://doi.org/10.1186/s12575-022-00182-y",
+   "oa_url": "https://biologicalproceduresonline.biomedcentral.com/counter/pdf/10.1186/s12575-022-00182-y",
+   "abstract": "The emergence of antibiotic-resistant pathogens has threatened not only our ability to deal with common infectious diseases but also the management of life-threatening complications. Antimicrobial resistance (AMR) remains a significant threat in both industrialized and developing countries alike. In Africa, though, poor clinical care, indiscriminate antibiotic use, lack of robust AMR surveillance programs, lack of proper regulations and the burden of communicable diseases are factors aggravating the problem of AMR. In order to effectively address the challenge of AMR, antimicrobial stewardship programs, solid AMR surveillance systems to monitor the trend of resistance, as well as robust, affordable and rapid diagnostic tools which generate data that informs decision-making, have been demonstrated to be effective. However, we have identified a significant knowledge gap in the area of the application of fast and affordable diagnostic tools, surveillance, and stewardship programs in Africa. Therefore, we set out to provide up-to-date information in these areas. We discussed available hospital-based stewardship initiatives in addition to the role of governmental and non-governmental organizations. Finally, we have reviewed the application of various phenotypic and molecular AMR detection tools in both research and routine laboratory settings in Africa, deployment challenges and the efficiency of these methods.",
+   "cited_by": 94,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance surveillance trend detection",
+     "kind": "facet",
+     "rank": 17,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W4309889518"
+   },
+   "sim": 0.0,
+   "raw_score": 32.481422,
+   "rrf": 0.015584415584415584,
+   "coverage": 0.8513566121897385,
+   "relevance": 0.31053966599782507,
+   "score": 0.19010893272737273
+  },
+  {
+   "title": "Mechanisms of Antibiotic Resistance",
+   "year": 2016,
+   "authors": [
+    "Jose Manuel Munita",
+    "César A. Arias"
+   ],
+   "venue": "ASM Press eBooks",
+   "doi": "10.1128/9781555819286.ch17",
+   "url": "https://doi.org/10.1128/9781555819286.ch17",
+   "oa_url": "https://www.frontiersin.org/articles/10.3389/fmicb.2015.00034/pdf",
+   "abstract": "Emergence of resistance among the most important bacterial pathogens is recognized as a major public health threat affecting humans worldwide. Multidrug-resistant organisms have not only emerged in the hospital environment but are now often identified in community settings, suggesting that reservoirs of antibiotic-resistant bacteria are present outside the hospital. The bacterial response to the antibiotic \"attack\" is the prime example of bacterial adaptation and the pinnacle of evolution. \"Survival of the fittest\" is a consequence of an immense genetic plasticity of bacterial pathogens that trigger specific responses that result in mutational adaptations, acquisition of genetic material, or alteration of gene expression producing resistance to virtually all antibiotics currently available in clinical practice. Therefore, understanding the biochemical and genetic basis of resistance is of paramount importance to design strategies to curtail the emergence and spread of resistance and to devise innovative therapeutic approaches against multidrug-resistant organisms. In this chapter, we will describe in detail the major mechanisms of antibiotic resistance encountered in clinical practice, providing specific examples in relevant bacterial pathogens.",
+   "cited_by": 2766,
+   "kind": "book-chapter",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance",
+     "kind": "phrase",
+     "rank": 5,
+     "weight": 1.0
+    },
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance",
+     "kind": "phrase",
+     "rank": 15,
+     "weight": 1.0
+    },
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance",
+     "kind": "phrase",
+     "rank": 23,
+     "weight": 1.0
+    }
+   ],
+   "ids": {
+    "openalex": "W2316777574"
+   },
+   "sim": 0.0,
+   "raw_score": 137.24673,
+   "rrf": 0.040766141489033056,
+   "coverage": 0.45146090476765843,
+   "relevance": 0.279655853206462,
+   "score": 0.1896923577757289
+  },
+  {
+   "title": "Evaluation of antibiotic resistance in Proteus spp: a growing trend that worries Public Health. Results of 10 Years of Analysis.",
+   "year": 2022,
+   "authors": [
+    "Alessio Facciolà",
+    "Maria Eufemia Gioffrè",
+    "Domenico Chiera",
+    "Marco Ferlazzo",
+    "Antonino Nazareno Virga",
+    "Pasqualina Laganà"
+   ],
+   "venue": "PubMed",
+   "doi": "",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36190369",
+   "oa_url": "",
+   "abstract": "The genus Proteus includes several species among which Proteus mirabilis is by far the most commonly detected in clinical specimens. In the last twenty years, isolates with multiple acquired resistance genes have been detected, especially in the hospital environment, with a significant impact on the treatment of infections. This research is a ten-year cross-sectional study reporting the detection rates and the antibiotic susceptibility of Proteus spp. in clinical specimens from a healthcare setting in Southern Italy. Of all the 1,600 clinical samples sent to the laboratory, 4.4% were positive to Proteus spp., with P. mirabilis by far the most detected one (83.1%), especially in lower limb ulcers and urines. Moreover, we noted a significant increase of 1200% in the detection rate from 2011 to 2020. Finally, we reported a significant and constantly increasing trend in the detection of antibiotic-resistant strains, ranging from 48.4% in 2011 to 74% in 2020. Our results highlight a clear and significant increase in Proteus spp. detection in a typical hospital setting with a parallel increase in the detection of antibiotic-resistant strains. Therefore, Proteus spp. can be considered one of the main emerging pathogenic bacteria in the hospital environment.",
+   "cited_by": 16,
+   "kind": "article",
+   "tldr": "A clear and significant increase in Proteus spp.",
+   "sources": [
+    "openalex",
+    "s2"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance resistance trend detection",
+     "kind": "combo",
+     "rank": 25,
+     "weight": 1.2
+    },
+    {
+     "source": "s2",
+     "query": "resistance trend detection",
+     "kind": "phrase",
+     "rank": 7,
+     "weight": 1.0
+    }
+   ],
+   "ids": {
+    "openalex": "W4300689449",
+    "s2": "7ee3cb6fe62de48f1f89ca3e1cfd63428c4ef639"
+   },
+   "sim": 0.0,
+   "raw_score": 43.01995,
+   "rrf": 0.029043020193151886,
+   "coverage": 0.8513566121897385,
+   "relevance": 0.3581519084092305,
+   "score": 0.186697494898997
+  },
+  {
+   "title": "Antibiotic Resistance of Helicobacter pylori in Nigeria",
+   "year": 2026,
+   "authors": [
+    "James, Esther Orvini"
+   ],
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "doi": "10.5281/zenodo.21084587",
+   "url": "https://doi.org/10.5281/zenodo.21084587",
+   "oa_url": "https://doi.org/10.5281/zenodo.21084587",
+   "abstract": "ANTIBIOTIC RESISTANCE OF HELICOBACTER PYLORI IN NIGERIA: TRENDS, CHALLENGES, AND BIOTECHNOLOGY-BASED SOLUTIONS (1999–PRESENT) By: James Esther Orvini TABLE OF CONTENTS 1 Abstract 2 Keywords 3 Introduction 4 Methods 4.1 Study Design 4.2 Literature Search Strategy 4.3 Eligibility Criteria 4.4 Study Selection and Data Extraction 4.5 Data Analysis 5 Results 5.1 Prevalence of H. pylori in Nigeria 5.2 Antibiotic Susceptibility and Resistance Trends 5.3 Diagnostic and Treatment Challenges 6 Discussion 6.1 Drivers of Antibiotic Resistance in Nigeria 6.2 Clinical and Public Health Implications 6.3 Biotechnology-Based Solutions 7 Conclusion 8 References 1. ABSTRACT Helicobacter pylori is a Gram-negative bacterium that colonizes the human stomach and is strongly associated with gastritis, peptic ulcer disease, and gastric cancer. In Nigeria, infection prevalence remains high, but treatment success is increasingly threatened by antibiotic resistance and limited diagnostic capacity. This review analyzes Nigerian studies from 1999 to the present to evaluate trends in prevalence, antibiotic susceptibility, treatment challenges, and biotechnology-based solutions. Early data from Jos (Ani et al., 1999) showed high susceptibility of H. pylori to amoxicillin (100%), clarithromycin (87.3%), tetracycline (89%), and metronidazole (60%). Later evidence from Ile-Ife (Aboderin et al., 2007) demonstrated emerging multidrug resistance among clinical isolates. [...]",
+   "cited_by": 0,
+   "kind": "other",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance resistance trend detection",
+     "kind": "combo",
+     "rank": 14,
+     "weight": 1.2
+    },
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance surveillance trend detection",
+     "kind": "facet",
+     "rank": 23,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W7166685144"
+   },
+   "sim": 0.0,
+   "raw_score": 45.399277,
+   "rrf": 0.03067404754151742,
+   "coverage": 1.0,
+   "relevance": 0.40851497831637623,
+   "score": 0.1835729362597123
+  },
+  {
+   "title": "TRENDS AND DEVELOPMENTS IN MOLECULAR DIAGNOSTICS FOR ANTIBIOTIC RESISTANCE DETECTION",
+   "year": 2025,
+   "authors": [
+    "Sintya Agy Nuraisah Isang"
+   ],
+   "venue": "Journal of Health Technology and Science (JHTS)",
+   "doi": "10.47918/jhts.v6i4.2668",
+   "url": "https://doi.org/10.47918/jhts.v6i4.2668",
+   "oa_url": "https://journals.ubmg.ac.id/index.php/index/article/view/2668",
+   "abstract": "Antimicrobial Resistance (AMR) poses a global threat, necessitating a shift from slow culture-based methods (24–48 hours) to rapid molecular diagnostics to ensure timely targeted therapy. Methodology: This study employed a Systematic Literature Review (SLR) and bibliometric analysis of 10,776 Scopus-indexed articles (up to 2024) using the PRISMA protocol and VOSviewer for network visualization. Publications peaked in 2024, with the United States and China leading global contributions. Thematic analysis reveals a transition from basic genetic studies to advanced technologies like NGS, multiplex PCR, CRISPR-based systems, and microfluidic biosensors. Key markers include carbapenemase (blaNDM, blaKPC), colistin resistance (mcr-1), and ESBLs. Emerging trends emphasize AI integration and decentralized Point-of-Care (POC) testing. Conclusion: Molecular diagnostics are vital for Antimicrobial Stewardship. Despite technological leaps, clinical standardization and costs remain significant barriers. This mapping provides a strategic roadmap for enhancing global resistance surveillance and precision diagnostics.",
+   "cited_by": 0,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "resistance trend detection",
+     "kind": "phrase",
+     "rank": 2,
+     "weight": 1.0
+    },
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance resistance trend detection",
+     "kind": "combo",
+     "rank": 1,
+     "weight": 1.2
+    },
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance surveillance trend detection",
+     "kind": "facet",
+     "rank": 3,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W7216048738"
+   },
+   "sim": 0.0,
+   "raw_score": 49.08301,
+   "rrf": 0.05484878245322454,
+   "coverage": 0.7246430172280439,
+   "relevance": 0.41143037057089593,
+   "score": 0.18088659318604822
+  },
+  {
+   "title": "Underutilization of the Clinical Microbiology Laboratory by Physicians in Nigeria",
+   "year": 2019,
+   "authors": [
+    "Kenneth Chukwuemeka Iregbu",
+    "Chioma Stella Osuagwu",
+    "Chukwuma David Umeokonkwo",
+    "A. A. Fowotade",
+    "Olafoyekemi Ola-Bello",
+    "P.I. Nwajiobi-Princewill",
+    "S.S. Taiwo",
+    "Adebola Olayinka",
+    "Oyinlola O. Oduyebo"
+   ],
+   "venue": "African Journal of Clinical and Experimental Microbiology",
+   "doi": "10.4314/ajcem.v21i1.7",
+   "url": "https://doi.org/10.4314/ajcem.v21i1.7",
+   "oa_url": "https://www.ajol.info/index.php/ajcem/article/download/190675/179863",
+   "abstract": ": Background : Clinical laboratories are critical to correct diagnosis of medical conditions to ensure appropriate management. Point prevalence survey (PPS) of antimicrobial use and resistance performed in Nigeria in 2015 and 2017 showed high rates of antibiotic use, but poor laboratory utilization for definitive diagnosis of the infections for which the antimicrobials were prescribed. This study investigated the reasons for clinicians‟ poor utilization of the clinical laboratory for definitive diagnosis and treatment of infections. Methods : A cross sectional survey of clinicians attending the 2018 annual scientific conference and general meeting of the National Postgraduate Medical College of Nigeria (NPMCN) in Owerri, Southeastern Nigeria, was conducted using self-administered structured questionnaire to obtain information on the sub-optimal utilization of the clinical microbiology laboratory. Results : Of 283 respondents, 14.8% were general practitioners and 85.2% were specialists who have been in practice for a median period of 20 years (range 3 – 48 years). The specialists included surgeons (26%), family physicians (19.8%), internists (14.3%), pathologists (13.9%), paediatricians (8.8%), obstetricians and gynecologists (8.1%), community medicine physicians (6.2%), and dental surgeons (2.6%). Majority of the respondents (90.8%) work in public, 88.3% work in tertiary and 9.9% in secondary care hospitals. [...]",
+   "cited_by": 23,
+   "kind": "article",
+   "tldr": "It is indicated that poor use of the microbiology laboratory seems mainly associated with perception and attitude of the physicians to the relevance of the laboratory, and perceived inadequacy of microbiology practice in some others.",
+   "sources": [
+    "openalex",
+    "s2"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "clinical microbiology laboratory",
+     "kind": "phrase",
+     "rank": 33,
+     "weight": 1.0
+    },
+    {
+     "source": "s2",
+     "query": "clinical microbiology laboratory",
+     "kind": "phrase",
+     "rank": 25,
+     "weight": 1.0
+    }
+   ],
+   "ids": {
+    "openalex": "W2984773032",
+    "s2": "14084d5ecd4b593418f9f651367b50114b6638a7"
+   },
+   "sim": 0.0,
+   "raw_score": 120.4916,
+   "rrf": 0.022517394054395953,
+   "coverage": 0.8527139704470243,
+   "relevance": 0.3354735358699732,
+   "score": 0.17763079830304698
+  },
+  {
+   "title": "Neisseria gonorrhoeae Antimicrobial Susceptibility Surveillance — The Gonococcal Isolate Surveillance Project, 27 Sites, United States, 2014",
+   "year": 2016,
+   "authors": [
+    "Robert D. Kirkcaldy",
+    "Alesia Harvey",
+    "John R. Papp",
+    "Carlos del Rı́o",
+    "Olusegun O. Soge",
+    "King K. Holmes",
+    "Edward W. Hook",
+    "Grace Kubin",
+    "Stefan F. Riedel",
+    "Jonathan Mark Zenilman",
+    "Kevin Pettus",
+    "Tremeka Sanders",
+    "Samera Sharpe",
+    "Elizabeth Torrone"
+   ],
+   "venue": "MMWR Surveillance Summaries",
+   "doi": "10.15585/mmwr.ss6507a1",
+   "url": "https://doi.org/10.15585/mmwr.ss6507a1",
+   "oa_url": "https://www.cdc.gov/mmwr/volumes/65/ss/pdfs/ss6507.pdf",
+   "abstract": "PROBLEM/CONDITION: Gonorrhea is the second most commonly reported notifiable disease in the United States; 350,062 gonorrhea cases were reported in 2014. Sexually transmitted infections caused by Neisseria gonorrhoeae are a cause of pelvic inflammatory disease in women, which can lead to serious reproductive complications including tubal infertility, ectopic pregnancy, and chronic pelvic pain. Prevention of sequelae and of transmission to sexual partners relies largely on prompt detection and effective antimicrobial treatment. However, treatment has been compromised by the absence of routine antimicrobial susceptibility testing in clinical care and evolution of antimicrobial resistance to the antibiotics used to treat gonorrhea. PERIOD COVERED: 2014. DESCRIPTION OF THE SYSTEM: The Gonococcal Isolate Surveillance Project (GISP) was established in 1986 as a sentinel surveillance system to monitor trends in antimicrobial susceptibilities of N. gonorrhoeae strains in the United States. Each month, N. gonorrhoeae isolates are collected from up to the first 25 men with gonococcal urethritis attending each of the participating sexually transmitted disease (STD) clinics at 27 sites. The number of participating sites has varied over time (21-30 per year). Selected demographic and clinical data are abstracted from medical records. Isolates are tested for antimicrobial susceptibility using agar dilution at one of five regional laboratories. [...]",
+   "cited_by": 249,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance surveillance trend detection",
+     "kind": "facet",
+     "rank": 38,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W2462093517"
+   },
+   "sim": 0.0,
+   "raw_score": 26.953625,
+   "rrf": 0.012244897959183673,
+   "coverage": 0.8513566121897385,
+   "relevance": 0.2987255197819172,
+   "score": 0.17491888125253346
+  },
+  {
+   "title": "Antimicrobial resistance trends in bloodstream infections at a large teaching hospital in China: a 20-year surveillance study (1998-2017)",
+   "year": 2019,
+   "authors": [
+    "Lei Tian",
+    "Zhen Zhang",
+    "Ziyong Sun"
+   ],
+   "venue": "Antimicrobial Resistance and Infection Control",
+   "doi": "10.1186/s13756-019-0545-z",
+   "url": "https://doi.org/10.1186/s13756-019-0545-z",
+   "oa_url": "https://aricjournal.biomedcentral.com/counter/pdf/10.1186/s13756-019-0545-z",
+   "abstract": "Bacterial bloodstream infections (BSIs) cause high morbidity and mortality worldwide in humans, but the pathogenic spectrum varies from region to region. Long-term monitoring of the pathogenic spectrum and changes in bacterial antibiotic resistance is hugely important for effective clinical therapy and infection control. This study examined the data for BSIs in Tongji Hospital, one of the largest teaching hospitals in China, in an attempt to gain better understanding of bacterial antibiotic resistance in China, focusing on central China. Data from Tongji Hospital for a 20-year period (1998–2017) were used for a retrospective analysis to understand the pathogenic spectrum of BSIs and the changes occurring in antimicrobial resistance in central China. The disk diffusion and E test methods were used for antimicrobial susceptibility testing according to Clinical & Laboratory Standards Institute methodologies, and the data were analyzed by WHONET 5.6 software. The isolated pathogens mainly came from hospitalized patients not treated in intensive care units (ICUs), and accounted for 81.5% of the total (9130/11200). The most common Gram-negative and Gram-positive bacterial BSI-causing pathogens were Escherichia coli and Staphylococcus aureus, respectively. The detection rate for methicillin-resistant S. [...]",
+   "cited_by": 77,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance surveillance trend detection",
+     "kind": "facet",
+     "rank": 19,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W2947024464"
+   },
+   "sim": 0.0,
+   "raw_score": 32.129784,
+   "rrf": 0.015189873417721518,
+   "coverage": 0.8513566121897385,
+   "relevance": 0.3091439018879288,
+   "score": 0.17368513462190996
+  },
+  {
+   "title": "Resistance Trends",
+   "year": 2016,
+   "authors": [
+    "Douglas Henrique",
+    "Douglas Teodoro",
+    "Christian Lovis"
+   ],
+   "venue": "",
+   "doi": "",
+   "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.993.6311",
+   "oa_url": "",
+   "abstract": "Empirical mode decomposition and k-nearest embedding vectors for timely analyses of antibiotic resistance trends",
+   "cited_by": 0,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "statistical methods for early detection of unusual trends and clusters in antibi",
+     "kind": "semantic",
+     "rank": 5,
+     "weight": 2.0,
+     "sim": 0.231,
+     "raw": 0.8822923
+    },
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in antibiotic resistance",
+     "kind": "semantic",
+     "rank": 13,
+     "weight": 2.0,
+     "sim": 0.163,
+     "raw": 0.82175124
+    }
+   ],
+   "ids": {
+    "openalex": "W7096216794"
+   },
+   "sim": 0.231,
+   "raw_score": 0.8822923,
+   "rrf": 0.05816649104320337,
+   "coverage": 0.5404091055325291,
+   "relevance": 0.4602971898804967,
+   "score": 0.17169462387443155
+  },
+  {
+   "title": "Indirect insulin resistance detection: Current clinical trends and laboratory limitations",
+   "year": 2019,
+   "authors": [
+    "Sylwia Płaczkowska",
+    "Lilla Pawlik-Sobecka",
+    "Izabela Kokot",
+    "Agnieszka Piwowar"
+   ],
+   "venue": "Biomedical Papers",
+   "doi": "10.5507/bp.2019.021",
+   "url": "https://doi.org/10.5507/bp.2019.021",
+   "oa_url": "http://biomed.papers.upol.cz/doi/10.5507/bp.2019.021.pdf",
+   "abstract": "There is a steady increase in the number of overweight and obese people worldwide and increasingly, younger people. Excess adipose tissue impairs the action of insulin, leading to insulin resistance (IR). Tissue IR is a major factor in relation to cardiovascular disease, metabolic syndrome and diabetes. Thus, it is important to recognize at the pre-disease stage with the possibility of therapeutic intervention. IR is assessed using indicators of epidemiological significance, most often calculated from fasting and postprandial glucose and insulin values, so-called indirect indicators of insulin resistance. The most commonly used parameter is the Homeostatic Model Assessment (HOMA). Although the Quantitative Insulin Sensitivity Check Index (QUICKI), Matsuda Index and the Insulin Secretion-Sensitivity Index-2 (ISSI-2) are also used, the values of these indices established for IR vary for different age, sex, populations and ethnic groups. Thus, appropriate reference values of indirect indices should be determined for such groups, and when this is precluded, data from published studies carried out on the most ethnically, socio-economically and age-matched populations should be applied.",
+   "cited_by": 118,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "resistance trend detection",
+     "kind": "phrase",
+     "rank": 1,
+     "weight": 1.0
+    }
+   ],
+   "ids": {
+    "openalex": "W2964727235"
+   },
+   "sim": 0.0,
+   "raw_score": 56.587803,
+   "rrf": 0.01639344262295082,
+   "coverage": 0.8066996220280299,
+   "relevance": 0.30000464808722827,
+   "score": 0.17127728188074795
+  },
+  {
+   "title": "Exploring Group A Streptococcus Infections in Infants: A Comprehensive Analysis of Detection, Genotyping, and Antibiotic Resistance Trends in Baghdad",
+   "year": 2025,
+   "authors": [
+    "Fatima Rashid Mohan"
+   ],
+   "venue": "Indonesian Journal on Health Science and Medicine",
+   "doi": "10.21070/ijhsm.v2i2.124",
+   "url": "https://doi.org/10.21070/ijhsm.v2i2.124",
+   "oa_url": "https://ijhsm.umsida.ac.id/index.php/ijhsm/article/download/124/125",
+   "abstract": "This study aimed to investigate the prevalence, genetic diversity, and antibiotic resistance of Group A Streptococcus (GAS) infections among pediatric populations in Baghdad, addressing the critical public health challenge posed by rising antibiotic resistance and limited surveillance. GAS infections, caused by Streptococcus pyogenes, range from mild pharyngitis to severe invasive diseases like necrotizing fasciitis. The study analyzed 226 pharyngeal swab samples from children aged 3–14, identifying 21 confirmed GAS isolates. Genotyping revealed significant genetic diversity, with prevalent emm types including emm-1, emm-4, and emm-12, alongside virulence genes such as speB and speA. Household contact with infected individuals significantly increased infection risk (p<0.01), emphasizing transmission dynamics. Antibiotic susceptibility testing highlighted alarming resistance levels, particularly to penicillin (29%) and amoxicillin (6%), contrasting with global trends where penicillin resistance remains low. However, azithromycin (93%) and cefuroxime (90%) demonstrated high efficacy, while macrolide resistance, such as erythromycin (45%), is rising. Linezolid maintained 80% susceptibility, crucial for treating multidrug-resistant infections. Clinical manifestations included fever, respiratory disorders, and hemodynamic instability, consistent with invasive GAS disease. Highlights: GAS prevalent with diverse emm types, virulence genes detected. [...]",
+   "cited_by": 0,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "resistance trend detection",
+     "kind": "phrase",
+     "rank": 5,
+     "weight": 1.0
+    },
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance resistance trend detection",
+     "kind": "combo",
+     "rank": 2,
+     "weight": 1.2
+    },
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance surveillance trend detection",
+     "kind": "facet",
+     "rank": 14,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W4409344373"
+   },
+   "sim": 0.0,
+   "raw_score": 37.701157,
+   "rrf": 0.05095567031050902,
+   "coverage": 0.7246430172280439,
+   "relevance": 0.397657783853144,
+   "score": 0.16897897107021329
+  },
+  {
+   "title": "Surveillance of antibiotic resistance",
+   "year": 2015,
+   "authors": [
+    "Alan P. Johnson"
+   ],
+   "venue": "Philosophical Transactions of the Royal Society B Biological Sciences",
+   "doi": "10.1098/rstb.2014.0080",
+   "url": "https://doi.org/10.1098/rstb.2014.0080",
+   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/4424431",
+   "abstract": "Surveillance involves the collection and analysis of data for the detection and monitoring of threats to public health. Surveillance should also inform as to the epidemiology of the threat and its burden in the population. A further key component of surveillance is the timely feedback of data to stakeholders with a view to generating action aimed at reducing or preventing the public health threat being monitored. Surveillance of antibiotic resistance involves the collection of antibiotic susceptibility test results undertaken by microbiology laboratories on bacteria isolated from clinical samples sent for investigation. Correlation of these data with demographic and clinical data for the patient populations from whom the pathogens were isolated gives insight into the underlying epidemiology and facilitates the formulation of rational interventions aimed at reducing the burden of resistance. This article describes a range of surveillance activities that have been undertaken in the UK over a number of years, together with current interventions being implemented. These activities are not only of national importance but form part of the international response to the global threat posed by antibiotic resistance.",
+   "cited_by": 150,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance",
+     "kind": "phrase",
+     "rank": 27,
+     "weight": 1.0
+    }
+   ],
+   "ids": {
+    "openalex": "W2166185837"
+   },
+   "sim": 0.0,
+   "raw_score": 127.74704,
+   "rrf": 0.011494252873563218,
+   "coverage": 0.8745712182864678,
+   "relevance": 0.3030343591664918,
+   "score": 0.1688228041609366
+  },
+  {
+   "title": "Trends of Antibiotic Resistance in Poultry Sector: A Systematic Review",
+   "year": 2026,
+   "authors": [
+    "Abdul Rashid P. Rasheela",
+    "Sara H. Al-Hadidi",
+    "Juha M. Alatalo",
+    "Dana A. Abumaali",
+    "Nahla O. Eltai",
+    "Talaat Abdel-Fattah Ahmed"
+   ],
+   "venue": "Water Air & Soil Pollution",
+   "doi": "10.1007/s11270-026-09280-z",
+   "url": "https://doi.org/10.1007/s11270-026-09280-z",
+   "oa_url": "https://link.springer.com/content/pdf/10.1007/s11270-026-09280-z.pdf",
+   "abstract": "Antibiotic resistance (ABR) is a global concern, exacerbated by widespread antibiotics use in livestock, particularly in poultry systems where detection rates are high. This review systematically evaluates the literature, 71 studies (2014–2024) from NCBI, Google Scholar, and ScienceDirect, to assess the dynamics of ABR in agricultural soils using poultry manure. The analysis emphasizes the genetic landscape of ABR, soil's emerging contaminants like antibiotic resistance bacteria (ARB), and antibiotic resistance genes (ARGs). Tetracycline resistance was the most frequently reported, ranging from < 10% in chicken manure (China & Canada) to 98.28% in chicken fecal samples (Panama). β-lactams in manure spanned < 5% in Canada to > 93.65% in Uganda, followed by aminoglycoside resistance 10%-92.8% (chicken feces, China). Fluoroquinolone-carbenicillin-amoxicillin (FCA) varied from 2.5% (feces, China) to 90% (feces, Guangdong Province, China), Macrolides-lincosamide-streptogramin B (MLSB) and sulphonamide ranged from 5.7%-72.4% and 1.3%-66.7% respectively, with lower rates in chicken manure from China and higher rates in Israel. Over half of the 37 studies on multidrug resistance (MDR), originated from China, with Shandong Province revealing a high rate of 91.07%. The presence of microorganisms like E. coli, S. enterica, K. pneumoniae, Pseudomonas spp., and Staphylococcus spp. [...]",
+   "cited_by": 4,
+   "kind": "review",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance resistance trend detection",
+     "kind": "combo",
+     "rank": 11,
+     "weight": 1.2
+    },
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance surveillance trend detection",
+     "kind": "facet",
+     "rank": 12,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W7133230191"
+   },
+   "sim": 0.0,
+   "raw_score": 49.497116,
+   "rrf": 0.033568075117370894,
+   "coverage": 0.7246430172280439,
+   "relevance": 0.33614602826224904,
+   "score": 0.16773230527216215
+  },
+  {
+   "title": "Trends in methicillin-resistant Staphylococcus aureus detection-rates and antibiotic resistance profiles in a cancer hospital from 2015 to 2024",
+   "year": 2026,
+   "authors": [
+    "H Wang",
+    "Qin Huang",
+    "Qingqing Tian",
+    "Weiwei Yang",
+    "Anran Liu",
+    "Jiayang Tang",
+    "Haitao Zhang",
+    "Chunlin Wu"
+   ],
+   "venue": "BMC Infectious Diseases",
+   "doi": "10.1186/s12879-026-13869-4",
+   "url": "https://doi.org/10.1186/s12879-026-13869-4",
+   "oa_url": "https://doi.org/10.1186/s12879-026-13869-4",
+   "abstract": "BACKGROUND: Methicillin-resistant Staphylococcus aureus (MRSA) is an important antimicrobial-resistant organism in healthcare settings, and long-term surveillance is important for infection prevention and antimicrobial stewardship. Long-term epidemiological data on MRSA remain limited, particularly in cancer specialty hospitals. This study aimed to investigate the distribution and antimicrobial resistance trends of MRSA in a cancer hospital over a ten-year period (2015-2024). METHODS: We analyzed data from clinical isolates obtained at Sichuan Cancer Hospital between 2015 and 2024. Patient demographics, departmental sources, specimen information, hospital-acquired infection classification, and antimicrobial susceptibility testing results were collected. The epidemiological distribution and temporal trends in MRSA resistance were assessed over the study period. RESULTS: Among 13,829 hospitalization records with at least one positive culture, 1,550 Staphylococcus aureus isolates were identified. Of these, 433 were identified as MRSA (detection rate 27.94%). The MRSA detection rate initially increased, peaked at 35.48% in 2018, and then gradually declined; however, the interannual variations were not statistically significant. MRSA was detected across 23 departments. The highest number of MRSA isolates was detected in Surgery, particularly Head and Neck Surgery (54 isolates, 12.47%), followed by Radiotherapy, Internal Medicine, and other departments. [...]",
+   "cited_by": 0,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "resistance trend detection",
+     "kind": "phrase",
+     "rank": 6,
+     "weight": 1.0
+    },
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance resistance trend detection",
+     "kind": "combo",
+     "rank": 4,
+     "weight": 1.2
+    },
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance surveillance trend detection",
+     "kind": "facet",
+     "rank": 20,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W7165940367"
+   },
+   "sim": 0.0,
+   "raw_score": 36.65995,
+   "rrf": 0.048901515151515154,
+   "coverage": 0.7246430172280439,
+   "relevance": 0.3903908393054775,
+   "score": 0.16764550815499868
+  },
+  {
+   "title": "Feasibility of Developing Traditional Facility-Specific Nursing Home Antibiograms",
+   "year": 2020,
+   "authors": [
+    "Lindsay N. Taylor",
+    "Michael Howe",
+    "Fauzia Osman",
+    "Christopher J. Crnich"
+   ],
+   "venue": "Infection Control and Hospital Epidemiology",
+   "doi": "10.1017/ice.2020.786",
+   "url": "https://doi.org/10.1017/ice.2020.786",
+   "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/8F79E44AE03B17D3EC1AD42650058AE7/S0899823X20007862a.pdf/div-class-title-feasibility-of-developing-traditional-facility-specific-nursing-home-antibiograms-div.pdf",
+   "abstract": "Background: An antibiogram is a tool for tracking and reporting antimicrobial resistance; the CDC has endorsed as part of a comprehensive antimicrobial stewardship program in nursing homes. We have previously shown that antibiogram utilization has increased in nursing homes, but most facilities employ tools that are not based on facility-specific data. In this study, we investigate the feasibility to develop antibiograms using facility-specific data and compare these results with antibiograms developed using data from multiple facilities that share the same lab and geographic region. Methods: Raw, de-identified culture results from January 1 through December 31st, 2018 were collected from participating nursing homes and their consulting microbiology laboratories under an IRB-exempt protocol. Culture results were entered and stored in REDCap. Number of isolates per species was examined based on nursing home, nursing home laboratory network, and region. Percentage sensitivities of the most frequently isolated species to commonly used antibiotics were calculated at the nursing home and regional level and compared. T tests of the absolute difference between nursing home- and regional level percentage sensitivities were performed. All data analyses were performed in R software. Results: The mean annual cultures per nursing home was 23.5 (SE, ±3.29). Grouping cultures by lab and region increased the mean culture count 6-fold and 12-fold, respectively. [...]",
+   "cited_by": 1,
+   "kind": "conference-abstract",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "Every day the clinical microbiology laboratory produces hundreds of culture resu",
+     "kind": "semantic",
+     "rank": 10,
+     "weight": 2.5,
+     "sim": 0.132,
+     "raw": 0.8559470736469549
+    }
+   ],
+   "ids": {
+    "openalex": "W3095713812"
+   },
+   "sim": 0.132,
+   "raw_score": 0.8559470736469549,
+   "rrf": 0.03571428571428571,
+   "coverage": 0.7049606397001709,
+   "relevance": 0.39063392227462185,
+   "score": 0.16697903795700153
+  },
+  {
+   "title": "Resistance (Data) is Not Futile: Building a CLSIM39 Compliant NHSN AR Antibiogram Dashboard for Hospital Antimicrobial Stewards",
+   "year": 2026,
+   "authors": [
+    "Gabriel M. Eligado",
+    "Jessica Zering",
+    "Erica J. Stohs",
+    "Katarina Kamenar"
+   ],
+   "venue": "Antimicrobial Stewardship & Healthcare Epidemiology",
+   "doi": "10.1017/ash.2026.10434",
+   "url": "https://doi.org/10.1017/ash.2026.10434",
+   "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/839E3F979699518F3BC115D2ED10C6FD/S2732494X26104343a.pdf/div-class-title-100-a-model-for-high-reliability-in-infection-prevention-the-role-of-the-generalist-specialist-and-centralized-surveillance-in-infection-div.pdf",
+   "abstract": "Background: The National Healthcare Safety Network Antimicrobial Resistance Option (NHSN AR) is the nation’s primary tracking system for antimicrobial resistance. As of December 2025, 89% of Washington (WA) acute care hospitals are reporting antimicrobial susceptibility data to the AR option. The AR option provides a feature to generate antibiograms, a clinical tool to guide empiric antibiotic selection. However, the NHSN generated antibiograms do not adhere to the Clinical and Laboratory Standards Institute’s widely used M39 (CLSI M39) guidelines, which are best practices for antibiogram creation. Due to concerns of limited clinical applicability, we sought to create a CLSIM39 compliant antibiogram dashboard using NHSN AR data to support hospitals to make informed clinical decisions and track local resistance data. Methods: We downloaded the line list for All Antimicrobial Resistance Events from NHSN, transformed the data in R, and imported it into PowerBI to generate interactive antibiogram reports. The initial dashboard focused on the most commonly reported Gram-negative pathogens in WA: Enterococcus faecalis, Escherichia coli, Klebsiella pneumoniae, Proteus mirabilis, and Pseudomonas aeruginosa. We included isolates from blood, cerebrospinal fluid, lower respiratory tract, skin and soft tissue, wound, musculoskeletal, and urine specimens. Following CLSI M39 guidelines, we retained only the first isolate per organism per patient per calendar year. [...]",
+   "cited_by": 0,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "Every day the clinical microbiology laboratory produces hundreds of culture resu",
+     "kind": "semantic",
+     "rank": 14,
+     "weight": 2.5,
+     "sim": 0.127,
+     "raw": 0.8552058
+    }
+   ],
+   "ids": {
+    "openalex": "W7166042366"
+   },
+   "sim": 0.127,
+   "raw_score": 0.8552058,
+   "rrf": 0.033783783783783786,
+   "coverage": 0.7254605292823285,
+   "relevance": 0.38795439021064376,
+   "score": 0.16555946977208372
+  },
+  {
+   "title": "Enhancing antimicrobial surveillance: an automated, dynamic and interactive approach",
+   "year": 2018,
+   "authors": [
+    "Bernard Hernandez",
+    "Pau Herrero",
+    "Timothy M. Rawson",
+    "Luke S. P. Moore",
+    "C. Toumazou",
+    "Alison Helen Holmes",
+    "Pantelis Georgiou"
+   ],
+   "venue": "International Journal of Infectious Diseases",
+   "doi": "10.1016/j.ijid.2018.04.3694",
+   "url": "https://doi.org/10.1016/j.ijid.2018.04.3694",
+   "oa_url": "https://doi.org/10.1016/j.ijid.2018.04.3694",
+   "abstract": "Background: Antimicrobial resistance (AMR) is a global patient safety issue, which is threatening our ability to treat common infectious diseases. There is a growing interest in the potential secondary use of electronic clinical records to support antimicrobial stewardship programs to combat AMR. In addition to standard resistance measures, an antibiotic spectrum index and a novel method to quantify resistance trends are presented. A portable, dynamic and interactive visualization tool has been developed to facilitate data exploration and comprehensive reporting among clinicians and policy makers. Methods & Materials: Rather than limiting AMR evaluation to particular microorganisms, automated analysis of over 3.5 million susceptibility tests was undertaken. The resistance index indicates the ratio of laboratory cultures to which an antibiotic is resistant. Hence, an antibiotic is considered effective for resistance indexes lower than a threshold. The distribution of such indexes is used to define the antibiotic spectrum index. Furthermore, the sliding-time window technique is used to compute resistance time-series by defining a fixed region, which is moved across time. This method drops the dependence between granularity and accuracy of traditional surveillance systems and enhances further analysis. Consequently, weighted linear regression analysis has been applied on the time-series to numerically quantify resistance trends. [...]",
+   "cited_by": 0,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "Every day the clinical microbiology laboratory produces hundreds of culture resu",
+     "kind": "semantic",
+     "rank": 23,
+     "weight": 2.5,
+     "sim": 0.07,
+     "raw": 0.846849
+    },
+    {
+     "source": "openalex",
+     "query": "statistical methods for early detection of unusual trends and clusters in antibi",
+     "kind": "semantic",
+     "rank": 31,
+     "weight": 2.0,
+     "sim": 0.013,
+     "raw": 0.83659035
+    }
+   ],
+   "ids": {
+    "openalex": "W2883597521"
+   },
+   "sim": 0.07,
+   "raw_score": 0.846849,
+   "rrf": 0.052098503905732826,
+   "coverage": 0.703603281442885,
+   "relevance": 0.4233888431852605,
+   "score": 0.16460888111574176
+  },
+  {
+   "title": "Comparison of obstetric to institutional antibiogram as an approach to advance antimicrobial stewardship in maternal care",
+   "year": 2022,
+   "authors": [
+    "Angela R. Boyd",
+    "Ariana L. Lewis",
+    "Steven D. Dallas",
+    "Elly M.-J. Xenakis",
+    "Patrick S. Ramsey"
+   ],
+   "venue": "The Journal of Maternal-Fetal & Neonatal Medicine",
+   "doi": "10.1080/14767058.2022.2122793",
+   "url": "https://doi.org/10.1080/14767058.2022.2122793",
+   "oa_url": "",
+   "abstract": "Objective To create an antibiogram derived exclusively from our obstetric population and compare the clinical isolates and susceptibilities to our institutional antibiogram.Methods Data collected by the University Hospital Clinical Microbiology Laboratory in SSC Soft from 01/01/2018 to 12/31/2018 was used to generate our institutional antibiogram. For comparison, we created an obstetric (OB) antibiogram using all clinical isolates collected during the same time interval from OB triage, labor & delivery, antepartum and postpartum wards. The antibiotic susceptibilities of the OB clinical isolates were compared to the institutional clinical isolates.Results In total, we identified 929 clinical isolates from our OB population in 2018. Urine was the predominant source of clinical isolates (76.3%). The remaining sources included wound (10.1%), genital (9.0%), blood and other fluids (4.6%). Escherichia coli (E. coli) accounted for nearly half of all isolates (48.7%) followed by Group B Streptococcus (10.7%), Enterococcus spp. (9%), and Klebsiella pneumoniae (7.2%). There was no difference in susceptibilities of Gram-positive organisms in the OB antibiogram compared to the institutional antibiogram. Conversely, common Gram-negative organisms demonstrated less antibiotic resistance in the OB antibiogram compared to the institutional antibiogram. [...]",
+   "cited_by": 3,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "Every day the clinical microbiology laboratory produces hundreds of culture resu",
+     "kind": "semantic",
+     "rank": 17,
+     "weight": 2.5,
+     "sim": 0.117,
+     "raw": 0.853682639484438
+    }
+   ],
+   "ids": {
+    "openalex": "W4296327524"
+   },
+   "sim": 0.117,
+   "raw_score": 0.853682639484438,
+   "rrf": 0.032467532467532464,
+   "coverage": 0.7049606397001709,
+   "relevance": 0.3731479467869336,
+   "score": 0.16323770886407943
+  },
+  {
+   "title": "Utility and Limitations of an Aggregate Community Antibiogram, Dallas County, Texas, 2009–2015",
+   "year": 2016,
+   "authors": [
+    "Senait Woldai",
+    "Michelle Ward",
+    "Sonya M. Hughes",
+    "Taylor Sexton",
+    "Judy Tran",
+    "Wendy Chung"
+   ],
+   "venue": "Open Forum Infectious Diseases",
+   "doi": "10.1093/ofid/ofw172.1139",
+   "url": "https://doi.org/10.1093/ofid/ofw172.1139",
+   "oa_url": "https://doi.org/10.1093/ofid/ofw172.1139",
+   "abstract": "Background. Effective antimicrobial stewardship requires knowledge of local antibiotic resistance patterns, given geographic variations in antimicrobial susceptibility. Aggregating hospital antibiogram data has been recommended as an accurate method of monitoring community-specific antimicrobial resistance trends. We describe our experience with the practical utility and limitations of such community-level antibiograms over 6 years. Methods. From 2009 to 2015, antimicrobial susceptibility data from 95% (18/19) of acute care hospitals in Dallas County with facility-specific antibiograms were analyzed according to Clinical and Laboratory Standard Institute guidelines to generate an aggregate antibiogram disseminated annually. Trends in proportions of resistant isolates were analyzed using SAS 9.4. Participating hospitals were surveyed with standardized questionnaires regarding the perceived usefulness of this community antibiogram. Results. Antibiotic susceptibility of the following 4 most frequently isolated organisms remained stable in 2014 compared to the prior 5 years: E. coli (n = 21,183) to ceftriaxone (93%), meropenem (>99%), and ciprofloxacin (70%); K. pneumoniae (n = 4758) to ceftriaxone (92%) and meropenem (>99%); S. aureus (n = 10,002) to methicillin (49%); S. pneumoniae (n = 641) to penicillin (88%); E. faecium (n = 955) to vancomycin (34%); and E. cloacae (n = 1237) to meropenem (98%). Susceptibility of P. [...]",
+   "cited_by": 2,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "Every day the clinical microbiology laboratory produces hundreds of culture resu",
+     "kind": "semantic",
+     "rank": 13,
+     "weight": 2.5,
+     "sim": 0.13,
+     "raw": 0.8556663962078747
+    }
+   ],
+   "ids": {
+    "openalex": "W2562971913"
+   },
+   "sim": 0.13,
+   "raw_score": 0.8556663962078747,
+   "rrf": 0.03424657534246575,
+   "coverage": 0.703603281442885,
+   "relevance": 0.3842344245084811,
+   "score": 0.162998102399776
+  },
+  {
+   "title": "Enhancing the empiric antibiotic selection by introducing an antibiogram toolkit in a tertiary care hospital in Southern India – A prospective study",
+   "year": 2021,
+   "authors": [
+    "Sadagoban Gopal Krishnamoorthy",
+    "Vyshak Raj",
+    "Balasubramanian Viswanathan",
+    "Ganga Priyadharshini Dhanasekaran",
+    "Dhivyaprasath Palaniappan",
+    "Swathi Swaroopa Borra"
+   ],
+   "venue": "Journal of Clinical Pharmacy and Therapeutics",
+   "doi": "10.1111/jcpt.13571",
+   "url": "https://doi.org/10.1111/jcpt.13571",
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jcpt.13571",
+   "abstract": "WHAT IS KNOWN AND OBJECTIVE: Antibiograms gives an overview of the cumulative susceptibility of formal antibiotics to bacterial isolates, which reflects the portion of each bacterium susceptible to a given antibiotic formulation by using antimicrobial susceptibility testing. The objective of this study is to gather and analyse data from drug utilization evaluation (DUE) studies and antimicrobial susceptibility tests in order to create an antibiogram toolkit that will help clinicians to select appropriate antimicrobial agents for initial empirical antibiotic therapy at point of care settings and avoid irrational use of antibiotics. METHODS: A prospective interventional study was conducted at tertiary care hospital, biological samples of infectious patients were collected from various wards as per Clinical & Laboratory Standards Institute CLSI M39-A4 guidelines. Antimicrobial susceptibility results were analysed using WHONET software. Antibiotic stewardship committee was formed and involved in monitoring the usage of antibiotics, measuring outcomes, collecting feedback and finding the scope for improving the application of antibiogram toolkit in the hospital. Antibiotic usage tracking method was followed to know the level of adherence to the prescribing guidelines by the health care professionals. RESULTS AND DISCUSSION: A total of 157 samples were obtained from various wards of the hospital. [...]",
+   "cited_by": 5,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "Every day the clinical microbiology laboratory produces hundreds of culture resu",
+     "kind": "semantic",
+     "rank": 11,
+     "weight": 2.5,
+     "sim": 0.131,
+     "raw": 0.8558312669935605
+    }
+   ],
+   "ids": {
+    "openalex": "W4200393540"
+   },
+   "sim": 0.131,
+   "raw_score": 0.8558312669935605,
+   "rrf": 0.035211267605633804,
+   "coverage": 0.5563172518899093,
+   "relevance": 0.3438613886024649,
+   "score": 0.15934333217723423
+  },
+  {
+   "title": "Using Microbiological Data Analysis to Tackle Antibiotic Resistance of Klebsiella Pneumoniae",
+   "year": 2019,
+   "authors": [
+    "Georgios Feretzakis",
+    "Evangelos Loupelis",
+    "Stavroula Petropoulou",
+    "Constantinos Christopoulos",
+    "Malvina Lada",
+    "Maria Martsoukou",
+    "Nikoleta Skarmoutsou",
+    "Aikaterini Sakagianni",
+    "Sophia Michelidou",
+    "Velentza Katerina",
+    "Konstantinos Valakis",
+    "Emmanouil Koutalas"
+   ],
+   "venue": "Studies in health technology and informatics",
+   "doi": "10.3233/shti190047",
+   "url": "https://doi.org/10.3233/shti190047",
+   "oa_url": "",
+   "abstract": "Optimal antibiotic use for the treatment of nosocomial infections plays a central role in the effort to control the rapidly increasing prevalence of multidrug-resistant bacteria. Antibiotic selection should be based on accurate knowledge of local susceptibility rates. Traditional methods of resistance reporting, which are in routine use by microbiology laboratories could be enhanced by using statistically significant results. We present a method of reporting based on antibiotic susceptibility data analysis which offers an accurate tool that reduces clinician uncertainty and enables optimization of the antibiotic selection process.",
+   "cited_by": 5,
+   "kind": "book-chapter",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in antibiotic resistance",
+     "kind": "semantic",
+     "rank": 11,
+     "weight": 2.0,
+     "sim": 0.185,
+     "raw": 0.8242731263524882
+    }
+   ],
+   "ids": {
+    "openalex": "W2982204648"
+   },
+   "sim": 0.185,
+   "raw_score": 0.8242731263524882,
+   "rrf": 0.028169014084507043,
+   "coverage": 0.6316585513632655,
+   "relevance": 0.3631505358373734,
+   "score": 0.15552294562589472
+  },
+  {
+   "title": "Use what you have: leveraging microbiology support to develop a cumulative antibiotic susceptibility report for antimicrobial stewardship at a district hospital in Ghana",
+   "year": 2024,
+   "authors": [
+    "Benedicta Bosu",
+    "Obed Kwabena Offe Amponsah",
+    "Phyllis Tawiah",
+    "Eric Darko",
+    "Nana Akua Abruquah",
+    "Annabella Bensusan Osafo",
+    "Emmanuel Sarkodie",
+    "Nana Bugyei Buabeng",
+    "Otridah Kapona",
+    "Alex Kwame Owusu-Ofori",
+    "Kwame Ohene Buabeng",
+    "Nana Kwame Ayisi‐Boateng"
+   ],
+   "venue": "JAC-Antimicrobial Resistance",
+   "doi": "10.1093/jacamr/dlae129",
+   "url": "https://doi.org/10.1093/jacamr/dlae129",
+   "oa_url": "https://doi.org/10.1093/jacamr/dlae129",
+   "abstract": "Background: Antibiograms provide effective support for empirical prescribing and antimicrobial stewardship programmes (ASPs). In low-resource settings, microbiology systems to develop antibiograms may be rudimentary or entirely lacking, which may place such facilities at a disadvantage. Notwithstanding this, facilities should use what they have to support ASPs to inform evidence-based antibiotic use. We report how an antibiogram was developed at a district hospital in Ghana to support its ASP. Methods: This was a retrospective analysis of antibiotic susceptibility testing (AST) results from the University Hospital, KNUST from January to December 2021. Data were exported from the hospital's laboratory information system to Microsoft Excel (Version 2013). IBM SPSS Statistics (Version 25) and Epi Info™ Version 7 were used for statistical analyses. Results: Overall, 1949 cultures were performed, 392 (20.1%) growing bacterial pathogens. Per the CLSI M39-A4 standard guidelines for antibiograms, only 360 of the bacterial isolates were used for the analyses. The majority of isolates were from urine (187; 51.9%). Among the Gram-negative bacteria, there was low susceptibility to amoxicillin/clavulanic acid (28%), cephalosporins (11%-35%) and meropenem (21%), but high susceptibility to amikacin (96%) and levofloxacin (81%). [...]",
+   "cited_by": 2,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "Every day the clinical microbiology laboratory produces hundreds of culture resu",
+     "kind": "semantic",
+     "rank": 19,
+     "weight": 2.5,
+     "sim": 0.1,
+     "raw": 0.8513065849305836
+    }
+   ],
+   "ids": {
+    "openalex": "W4401794050"
+   },
+   "sim": 0.1,
+   "raw_score": 0.8513065849305836,
+   "rrf": 0.03164556962025317,
+   "coverage": 0.6469621504763874,
+   "relevance": 0.34604055812418133,
+   "score": 0.1542695655211398
+  },
+  {
+   "title": "Antibiotic Susceptibility Testing",
+   "year": 2015,
+   "authors": [
+    "Fabio Arena",
+    "Bruno Viaggi",
+    "Luisa Galli",
+    "Gian María Rossolini"
+   ],
+   "venue": "The Pediatric Infectious Disease Journal",
+   "doi": "10.1097/inf.0000000000000844",
+   "url": "https://doi.org/10.1097/inf.0000000000000844",
+   "oa_url": "",
+   "abstract": "Antimicrobial susceptibility testing (AST) is among the oldest and most common tasks performed by the Laboratory of Clinical Microbiology. Results of AST are essential for selection of definitive antimicrobial chemotherapy of bacterial infections diagnosed in individual patients, including pediatric patients. Cumulative AST data are also important for compilation of surveillance reports on antimicrobial resistance epidemiology at different levels (hospital, regional, national and supranational), which serve as guidance for selection of the best empiric antimicrobial regimens in different epidemiological settings and as tools for monitoring the evolution of antimicrobial resistance trends on a broader scale. Finally, monitoring of AST patterns of clinical isolates can be useful for the early detection of outbreaks caused by antibiotic-resistant pathogens of clinical and epidemiological relevance. The clinical value of AST has been clearly established1 and is further increased in settings with a high prevalence of multidrug-resistant (MDR) pathogens for which treatment options are more limited. However, the current AST practices have limitations, whereas recent technological developments in diagnostic microbiology opened new perspectives in this field. The scope of this article is to review the current AST practices and to describe and discuss the forthcoming developments in this area. [...]",
+   "cited_by": 27,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "antibiotic susceptibility",
+     "kind": "prf",
+     "rank": 26,
+     "weight": 0.8
+    }
+   ],
+   "ids": {
+    "openalex": "W2418364787"
+   },
+   "sim": 0.0,
+   "raw_score": 104.648056,
+   "rrf": 0.009302325581395349,
+   "coverage": 1.0,
+   "relevance": 0.33290865535077185,
+   "score": 0.15279040056494378
+  },
+  {
+   "title": "Detection approaches for multidrug resistance genes of leukemia",
+   "year": 2017,
+   "authors": [
+    "Ying Du",
+    "Baoan Chen"
+   ],
+   "venue": "Drug Design Development and Therapy",
+   "doi": "10.2147/dddt.s134529",
+   "url": "https://doi.org/10.2147/dddt.s134529",
+   "oa_url": "https://doi.org/10.2147/dddt.s134529",
+   "abstract": "Ying Du, Baoan Chen Department of Hematology and Oncology (Key Department of Jiangsu Medicine), School of Medicine, Zhongda Hospital, Southeast University, Nanjing, Jiangsu Province, People’s Republic of China Abstract: Leukemia is a clonal malignant hematopoietic stem cell disease. It is the sixth most lethal cancer and accounts for 4% of all cancers. The main form of treatment for leukemia is chemotherapy. While some cancer types with a higher incidence than leukemia, such as lung and gastric cancer, have shown a sharp decline in mortality rates in recent years, leukemia has not followed this trend. Drug resistance is often regarded as the main clinical obstacle to effective chemotherapy in patients diagnosed with leukemia. Many resistance mechanisms have now been identified, and multidrug resistance (MDR) is considered the most important and prevalent mechanism involved in the failure of chemotherapy in leukemia. In order to reverse MDR and improve leukemia prognosis, effective detection methods are needed to identify drug resistance genes at initial diagnosis. This article provides a comprehensive overview of published approaches for the detection of MDR in leukemia. Identification of relevant MDR genes and methods for early detection of these genes will be needed in order to treat leukemia more effectively. Keywords: leukemia, multidrug resistance, MDR, detection approaches",
+   "cited_by": 27,
+   "kind": "article",
+   "tldr": "This article provides a comprehensive overview of published approaches for the detection of MDR in leukemia and suggests methods for early detection of relevant MDR genes will be needed in order to treat leukemia more effectively.",
+   "sources": [
+    "openalex",
+    "s2"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "resistance trend detection",
+     "kind": "phrase",
+     "rank": 16,
+     "weight": 1.0
+    },
+    {
+     "source": "openalex",
+     "query": "resistance trend detection",
+     "kind": "phrase",
+     "rank": 27,
+     "weight": 1.0
+    },
+    {
+     "source": "s2",
+     "query": "resistance trend detection",
+     "kind": "phrase",
+     "rank": 34,
+     "weight": 1.0
+    }
+   ],
+   "ids": {
+    "openalex": "W4299924123",
+    "s2": "f23d06374cefceb41ef804b02f375f58c3435612"
+   },
+   "sim": 0.0,
+   "raw_score": 25.85529,
+   "rrf": 0.03529044548274575,
+   "coverage": 0.6245177942818246,
+   "relevance": 0.31220165734798744,
+   "score": 0.1518975374187494
+  },
+  {
+   "title": "Antibiogram of urinary tract pathogens in a tertiary hospital in south-south Nigeria",
+   "year": 2021,
+   "authors": [
+    "Asukwo Etim Onukak",
+    "Sylvanus B Udoette",
+    "A.E. Ekuma"
+   ],
+   "venue": "Ibom Medical Journal",
+   "doi": "10.61386/imj.v14i2.62",
+   "url": "https://doi.org/10.61386/imj.v14i2.62",
+   "oa_url": "https://ibommedicaljournal.org/index.php/imjhome/article/download/62/126",
+   "abstract": "Background: Antibiograms represent the antimicrobial susceptibility patterns of bacterial isolates in a given healthcare setting and guides the selection of empiric antimicrobial therapy. Repeated antibiograms over time can be used to ascertain resistance trends of microbes. There is paucity of data on the antibiogram of urinary isolates in Nigeria.Objective: This study aimed to determine the antibiogram of urinary isolates in a tertiary hospital.Materials and Methods: A review of records of mid-stream urine samples received in the Medical Microbiology Laboratory and analysed for pathogen identification and subsequent antimicrobial susceptibility testing over a 4 month period, was carried out. Multiple antibiotic resistance (MAR) index for each isolate was calculated and data was summarized on SPSS 20 using descriptive statistics.Results: Out of the 959 urine samples submitted to the laboratory during the study period, 283 (29.5%) had positive cultures. Escherichia coli and Klebsiella pneumonia were the most frequently isolated organisms. The total mean MAR index was 0.61 ± 0.30. Providencia spp had the highest mean MAR index of 0.82 ± 0.26, followed by Klebsiella spp and Pseudomonas aeruginosa with mean MAR index of 0.68 ± 0.28 and 0.64 ± 0.32 respectively.Conclusion: There is a high level of resistance to commonly prescribed antibiotics among UTI pathogens in the hospital. Antimicrobial stewardship strategies are needed to address this negative trend.",
+   "cited_by": 3,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "Every day the clinical microbiology laboratory produces hundreds of culture resu",
+     "kind": "semantic",
+     "rank": 28,
+     "weight": 2.5,
+     "sim": 0.047,
+     "raw": 0.8435657537133622
+    }
+   ],
+   "ids": {
+    "openalex": "W4386956683"
+   },
+   "sim": 0.047,
+   "raw_score": 0.8435657537133622,
+   "rrf": 0.028409090909090908,
+   "coverage": 0.7570873330767977,
+   "relevance": 0.3464284854403113,
+   "score": 0.15148013333227983
+  },
+  {
+   "title": "Prevalence and antibiotic resistance of Klebsiella pneumoniae in a tertiary hospital in Hangzhou, China, 2006–2020",
+   "year": 2022,
+   "authors": [
+    "Zhezhe Lin",
+    "Jianhua Yu",
+    "Shourong Liu",
+    "Mingli Zhu"
+   ],
+   "venue": "Journal of International Medical Research",
+   "doi": "10.1177/03000605221079761",
+   "url": "https://doi.org/10.1177/03000605221079761",
+   "oa_url": "https://doi.org/10.1177/03000605221079761",
+   "abstract": "Objective This study analyzed the characteristics and tendencies of resistance to common antibiotics for Klebsiella pneumoniae to provide a basis for clinical treatment and prevention. Methods A total of 71,743 isolates were collected from hospital clinical specimens following standard procedures from 2006 to 2020. Statistical analyses were conducted on laboratory test results. Results A total of 3054 isolates of K. pneumoniae were mainly isolated from sputum (53.77%), urine (14.70%), and blood (8.42%). Isolation rates of strains in the AIDS, hepatology, and intensive care wards were 9.72%, 12.52%, and 16.45%, respectively. Resistance rates of imipenem, cefazolin, gentamicin, tobramycin, ciprofloxacin, and ceftazidime respectively increased from 2.33%, 27.91%, 16.28%, 13.95%, 18.60%, and 9.30% to 12.83%, 40.82%, 21.57%, 25.07%, 44.61%, and 17.78%, while piperacillin–tazobactam resistance decreased from 13.95% to 13.70%. Differences in resistance rates to seven antibiotics were significant among specimen types. Detection rates of carbapenem-resistant K. pneumoniae were significantly different among blood, sputum, and urine specimens, and between wards. Conclusions The prevalence and drug resistance of K. pneumoniae showed an upward trend over time, and resistance varied according to ward and specimen source. The prevention of nosocomial infections and rational drug use must be emphasized to reduce antimicrobial resistance.",
+   "cited_by": 16,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "antibiotic resistance resistance trend detection",
+     "kind": "combo",
+     "rank": 22,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W4214733147"
+   },
+   "sim": 0.0,
+   "raw_score": 43.51107,
+   "rrf": 0.014634146341463414,
+   "coverage": 0.8513566121897385,
+   "relevance": 0.30717791707459924,
+   "score": 0.15106943985174182
+  },
+  {
+   "title": "Using an Antibiogram Profile to Improve Infection Control and Rational Antimicrobial Therapy in an Urban Hospital in The Gambia, Strategies and Lessons for Low- and Middle-Income Countries",
+   "year": 2023,
+   "authors": [
+    "Saffiatou Darboe",
+    "Ruel Mirasol",
+    "Babapelumi Adejuyigbe",
+    "Abdul Khalie Muhammad",
+    "Behzad Nadjm",
+    "Annabelle de St. Maurice",
+    "Tiffany L. Dogan",
+    "Buntung Ceesay",
+    "Solomon Umukoro",
+    "Uduak A. Okomo",
+    "Davis C. Nwakanma",
+    "Anna Roca",
+    "Ousman Secka",
+    "Karen Forrest",
+    "Omai B. Garner"
+   ],
+   "venue": "Antibiotics",
+   "doi": "10.3390/antibiotics12040790",
+   "url": "https://doi.org/10.3390/antibiotics12040790",
+   "oa_url": "https://www.mdpi.com/2079-6382/12/4/790/pdf?version=1682046419",
+   "abstract": "Antimicrobial resistance is a global health threat and efforts to mitigate it is warranted, thus the need for local antibiograms to improve stewardship. This study highlights the process that was used to develop an antibiogram to monitor resistance at a secondary-level health facility to aid empirical clinical decision making in a sub-Saharan African county. This retrospective cross-sectional descriptive study used 3 years of cumulative data from January 2016 to December 2018. Phenotypic data was manually imputed into WHONET and the cumulative antibiogram constructed using standardized methodologies according to CLSI M39-A4 guidelines. Pathogens were identified by standard manual microbiological methods and antimicrobial susceptibility testing was performed using Kirby-Bauer disc diffusion method according to CLSI M100 guidelines. A total of 14,776 non-duplicate samples were processed of which 1163 (7.9%) were positive for clinically significant pathogens. Among the 1163 pathogens, E. coli (n = 315) S. aureus (n = 232), and K. pneumoniae (n = 96) were the leading cause of disease. Overall, the susceptibility for E. coli and K. pneumoniae from all samples were: trimethoprim-sulfamethoxazole (17% and 28%), tetracycline (26% and 33%), gentamicin (72% and 46%), chloramphenicol (76 and 60%), and ciprofloxacin (69% and 59%), and amoxicillin/clavulanic (77% and 54%) respectively. Extended spectrum beta-lactamase (ESBL) resistance was present in 23% (71/315) vs. [...]",
+   "cited_by": 14,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "Every day the clinical microbiology laboratory produces hundreds of culture resu",
+     "kind": "semantic",
+     "rank": 7,
+     "weight": 2.5,
+     "sim": 0.208,
+     "raw": 0.8668980692846637
+    }
+   ],
+   "ids": {
+    "openalex": "W4366772113"
+   },
+   "sim": 0.208,
+   "raw_score": 0.8668980692846637,
+   "rrf": 0.03731343283582089,
+   "coverage": 0.30010041269242094,
+   "relevance": 0.30523312568115823,
+   "score": 0.1500947559427404
+  }
+ ]
+}

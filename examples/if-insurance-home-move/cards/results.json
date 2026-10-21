@@ -1,0 +1,3077 @@
+{
+ "meta": {
+  "version": "0.1.0",
+  "date": "2026-10-21",
+  "plan_method": "keyword extraction",
+  "years": "2010-2026",
+  "queries": [
+   {
+    "kind": "phrase",
+    "text": "home insurance policy"
+   },
+   {
+    "kind": "phrase",
+    "text": "household composition"
+   },
+   {
+    "kind": "phrase",
+    "text": "plain language"
+   },
+   {
+    "kind": "combo",
+    "text": "home insurance policy household composition"
+   },
+   {
+    "kind": "facet",
+    "text": "home insurance policy behavioural intervention"
+   },
+   {
+    "kind": "facet",
+    "text": "home insurance policy forecasting prediction model"
+   }
+  ],
+  "semantic": "A service that reaches people at the moment of a home move and helps them prevent damage and injuries before they happen. It could use the information people already give when they change address and buy a home insurance policy: type and age of the building, floor, region, household composition, whether the home is empty during renovation, and season.",
+  "candidates": 366,
+  "unique": 336,
+  "sources": {
+   "openalex": {
+    "calls": 9,
+    "cached": 9,
+    "errors": [],
+    "budget": ""
+   },
+   "semantic_scholar": {
+    "calls": 1,
+    "cached": 1,
+    "errors": [
+     "Semantic Scholar rate-limited this run (anonymous pool is shared); set S2_API_KEY to use it. semantic-scholar: still 429 after 3 retries"
+    ],
+    "disabled": "Semantic Scholar rate-limited this run (anonymous pool is shared); set S2_API_KEY to use it. semantic-scholar: still 429 after 3 retries"
+   }
+  },
+  "llm": false
+ },
+ "top": [
+  {
+   "title": "The Welfare Effects of Nudges: A Case Study of Energy Use Social Comparisons",
+   "year": 2019,
+   "authors": [
+    "Hunt Allcott",
+    "Judd B. Kessler"
+   ],
+   "venue": "American Economic Journal Applied Economics",
+   "doi": "10.1257/app.20170328",
+   "url": "https://doi.org/10.1257/app.20170328",
+   "oa_url": "https://doi.org/10.3386/w21671",
+   "abstract": "“Nudge”-style interventions are often deemed successful if they generate large behavior change at low cost, but they are rarely subjected to full social welfare evaluations. We combine a field experiment with a simple theoretical framework to evaluate the welfare effects of one especially policy-relevant intervention, home energy social comparison reports. In our sample, the reports increase social welfare, although traditional evaluation approaches overstate gains because they ignore significant costs incurred by nudge recipients. Overall, home energy report welfare gains might be overstated by $620 million. We develop a prediction algorithm for optimal targeting; this approach would double the welfare gains. (JEL C93, D91, L95, Q41, Q48)",
+   "cited_by": 400,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "effectiveness of behavioural interventions and nudges for home insurance policy",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.0,
+     "sim": 1.0,
+     "raw": 1.0053423684243918
+    },
+    {
+     "source": "openalex",
+     "query": "effectiveness of behavioural interventions and nudges for home insurance policy",
+     "kind": "semantic",
+     "rank": 5,
+     "weight": 2.0,
+     "sim": 0.696,
+     "raw": 0.9432496091985577
+    }
+   ],
+   "ids": {
+    "openalex": "W2907210798"
+   },
+   "sim": 1.0,
+   "raw_score": 1.0053423684243918,
+   "rrf": 0.06355611601513242,
+   "coverage": 0.17562164561697544,
+   "relevance": 0.6778584859442571,
+   "score": 0.9876215650068231
+  },
+  {
+   "title": "Forecasting in an Extended Chain-Ladder-Type Model",
+   "year": 2010,
+   "authors": [
+    "Di Kuang",
+    "Bent Juhl Nielsen",
+    "Jens Perch Nielsen"
+   ],
+   "venue": "Journal of Risk & Insurance",
+   "doi": "10.1111/j.1539-6975.2010.01395.x",
+   "url": "https://doi.org/10.1111/j.1539-6975.2010.01395.x",
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1539-6975.2010.01395.x",
+   "abstract": "Reserving in general insurance is often done using chain-ladder-type methods. We propose a method aimed at situations where there is a sudden change in the economic environment affecting the policies for all accident years in the reserving triangle. It is shown that methods for forecasting nonstationary time series are helpful. We illustrate the method using data published in Barnett and Zehnwirth (2000, pp. 245–321). These data illustrate features we also found in data from the general insurer RSA during the recent credit crunch.",
+   "cited_by": 34,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for home insurance policy",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.0,
+     "sim": 1.0,
+     "raw": 0.8632530697548364
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for home insurance policy",
+     "kind": "semantic",
+     "rank": 19,
+     "weight": 2.0,
+     "sim": 0.142,
+     "raw": 0.8076522493618824
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for home insurance policy",
+     "kind": "semantic",
+     "rank": 23,
+     "weight": 2.0,
+     "sim": 0.118,
+     "raw": 0.80613637
+    }
+   ],
+   "ids": {
+    "openalex": "W2510597680"
+   },
+   "sim": 1.0,
+   "raw_score": 0.8632530697548364,
+   "rrf": 0.08219972648427284,
+   "coverage": 0.30505253056218823,
+   "relevance": 0.7827399140747743,
+   "score": 0.9083187853692772
+  },
+  {
+   "title": "Meta-analysis of randomised controlled trials testing behavioural interventions to promote household action on climate change",
+   "year": 2019,
+   "authors": [
+    "Claudia F. Nisa",
+    "Jocelyn J. Bélanger",
+    "Birga Mareen Schumpe",
+    "Daiane Gracieli Faller"
+   ],
+   "venue": "Nature Communications",
+   "doi": "10.1038/s41467-019-12457-2",
+   "url": "https://doi.org/10.1038/s41467-019-12457-2",
+   "oa_url": "https://www.nature.com/articles/s41467-019-12457-2.pdf",
+   "abstract": "No consensus exists regarding which are the most effective mechanisms to promote household action on climate change. We present a meta-analysis of randomised controlled trials comprising 3,092,678 observations, which estimates the effects of behavioural interventions holding other factors constant. Here we show that behavioural interventions promote climate change mitigation to a very small degree while the intervention lasts (d = -0.093 95% CI -0.160, -0.055), with no evidence of sustained positive effects once the intervention ends. With the exception of recycling, most household mitigation behaviours show a low behavioural plasticity. The intervention with the highest average effect size is choice architecture (nudges) but this strategy has been tested in a limited number of behaviours. Our results do not imply behavioural interventions are less effective than alternative strategies such as financial incentives or regulations, nor exclude the possibility that behavioural interventions could have stronger effects when used in combination with alternative strategies.",
+   "cited_by": 346,
+   "kind": "review",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "effectiveness of behavioural interventions and nudges for home insurance policy",
+     "kind": "semantic",
+     "rank": 2,
+     "weight": 2.0,
+     "sim": 0.984,
+     "raw": 1.0019784919857218
+    }
+   ],
+   "ids": {
+    "openalex": "W2978033587"
+   },
+   "sim": 0.984,
+   "raw_score": 1.0019784919857218,
+   "rrf": 0.03225806451612903,
+   "coverage": 0.1604769111643219,
+   "relevance": 0.5560296772033143,
+   "score": 0.6554524733739501
+  },
+  {
+   "title": "Individual relocation decisions after tornadoes: a multi‐level analysis",
+   "year": 2017,
+   "authors": [
+    "Zhen Cong",
+    "Ali Nejat",
+    "Daan Liang",
+    "Yaolin Pei",
+    "Roxana J. Javid"
+   ],
+   "venue": "Disasters",
+   "doi": "10.1111/disa.12241",
+   "url": "https://doi.org/10.1111/disa.12241",
+   "oa_url": "",
+   "abstract": "This study examines how multi-level factors affected individuals' relocation decisions after EF4 and EF5 (Enhanced Fujita Tornado Intensity Scale) tornadoes struck the United States in 2013. A telephone survey was conducted with 536 respondents, including oversampled older adults, one year after these two disaster events. Respondents' addresses were used to associate individual information with block group-level variables recorded by the American Community Survey. Logistic regression revealed that residential damage and homeownership are important predictors of relocation. There was also significant interaction between these two variables, indicating less difference between homeowners and renters at higher damage levels. Homeownership diminished the likelihood of relocation among younger respondents. Random effects logistic regression found that the percentage of homeownership and of higher income households in the community buffered the effect of damage on relocation; the percentage of older adults reduced the likelihood of this group relocating. The findings are assessed from the standpoint of age difference, policy implications, and social capital and vulnerability.",
+   "cited_by": 34,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A service that reaches people at the moment of a home move and helps them preven",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.5,
+     "sim": 1.0,
+     "raw": 0.8067229464289015
+    }
+   ],
+   "ids": {
+    "openalex": "W2742587269"
+   },
+   "sim": 1.0,
+   "raw_score": 0.8067229464289015,
+   "rrf": 0.040983606557377046,
+   "coverage": 0.2863551586547485,
+   "relevance": 0.6311067410175126,
+   "score": 0.5801417696893479
+  },
+  {
+   "title": "Comparing the effects of behaviorally informed interventions on flood insurance demand: an experimental analysis of ‘boosts’ and ‘nudges’",
+   "year": 2019,
+   "authors": [
+    "Jacob T. Bradt"
+   ],
+   "venue": "Behavioural Public Policy",
+   "doi": "10.1017/bpp.2019.31",
+   "url": "https://doi.org/10.1017/bpp.2019.31",
+   "oa_url": "",
+   "abstract": "This paper compares the effects of two types of behaviorally informed policy – nudges and boosts – that are designed to increase consumer demand for insurance against low-probability, high-consequence events. Using previous findings in the behavioral sciences literature, this paper constructs and implements two nudges (an ‘informational’ and an ‘affective’ nudge) and a statistical numeracy boost and then elicits individual risk beliefs and demand for flood insurance using a contingent valuation survey of 331 participants recruited from an online labor pool. Using a two-limit Tobit model to estimate willingness to pay (WTP) for flood insurance, this paper finds that the affective and informational nudges result in increases in WTP for flood insurance of roughly $21/month and $11/month relative to the boost, respectively. Taken together, the findings of this paper suggest that nudges are the more effective behaviorally informed policy in this setting, particularly when the nudge design targets the affect and availability heuristics; however, additional research is necessary to establish sufficient conditions for this conclusion.",
+   "cited_by": 45,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "effectiveness of behavioural interventions and nudges for home insurance policy",
+     "kind": "semantic",
+     "rank": 3,
+     "weight": 2.0,
+     "sim": 0.815,
+     "raw": 0.9675674466560344
+    }
+   ],
+   "ids": {
+    "openalex": "W2965874750"
+   },
+   "sim": 0.815,
+   "raw_score": 0.9675674466560344,
+   "rrf": 0.031746031746031744,
+   "coverage": 0.34182225577191255,
+   "relevance": 0.5410192075085436,
+   "score": 0.45509156055392286
+  },
+  {
+   "title": "Decisions About the “If,” “When,” and “How” of Moving Home: Can a Relocation Service Help? A Welsh Case Study",
+   "year": 2019,
+   "authors": [
+    "Sarah Hillcoat‐Nallétamby",
+    "Alexandra Vanta Sardani"
+   ],
+   "venue": "Journal of Housing for the Elderly",
+   "doi": "10.1080/02763893.2018.1561594",
+   "url": "https://doi.org/10.1080/02763893.2018.1561594",
+   "oa_url": "",
+   "abstract": "This small-scale, Welsh qualitative study explores how a new “moving on” service empowered older people to move voluntarily from their home to an extra-care facility. Eighteen older people were interviewed about their experiences of the service, which offered in-person, bespoke information, advice, financial, practical, brokerage, and emotional support about moving. Findings indicate three service use patterns: continuous, partial, and discontinued. It was instrumental in empowering clients to exercise decisional, executional, delegated, and/or consumer autonomies. Recommendations for future developments of a prototype “moving on” service include a multipartner approach and caseworker case management training modeled on social work practice.",
+   "cited_by": 12,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A service that reaches people at the moment of a home move and helps them preven",
+     "kind": "semantic",
+     "rank": 2,
+     "weight": 2.5,
+     "sim": 0.938,
+     "raw": 0.8037775130272501
+    }
+   ],
+   "ids": {
+    "openalex": "W2913016309"
+   },
+   "sim": 0.938,
+   "raw_score": 0.8037775130272501,
+   "rrf": 0.04032258064516129,
+   "coverage": 0.2195270570212193,
+   "relevance": 0.583916371923888,
+   "score": 0.45068927217123145
+  },
+  {
+   "title": "Behavioral Economics and Public Policy 102: Beyond Nudging",
+   "year": 2015,
+   "authors": [
+    "Saurabh Bhargava",
+    "George F. Loewenstein"
+   ],
+   "venue": "American Economic Review",
+   "doi": "10.1257/aer.p20151049",
+   "url": "https://doi.org/10.1257/aer.p20151049",
+   "oa_url": "",
+   "abstract": "Policymakers have recently embraced Behavioral Economics as an alternative approach which recognizes the limits and consequences of human decision-making. Early applications of BE (“nudges”) produced notable successes and helped to set the stage for more aggressive applications aimed at the deeper causes of policy problems. We contend that policies that aspire to simplify products and incentives, rather than choice environments, aggressively protect consumers from behavioral exploitation, and leverage BE to enhance the design and implementation of traditional policy instruments offer solutions commensurate with contemporary challenges. Case studies in health insurance, privacy, and climate change illustrate the application of these ideas.",
+   "cited_by": 179,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "effectiveness of behavioural interventions and nudges for home insurance policy",
+     "kind": "semantic",
+     "rank": 4,
+     "weight": 2.0,
+     "sim": 0.727,
+     "raw": 0.9496037437960987
+    }
+   ],
+   "ids": {
+    "openalex": "W1957216868"
+   },
+   "sim": 0.727,
+   "raw_score": 0.9496037437960987,
+   "rrf": 0.03125,
+   "coverage": 0.3445459379930109,
+   "relevance": 0.504878928881483,
+   "score": 0.4337970272112495
+  },
+  {
+   "title": "Strategies for Home Modification and Repair*",
+   "year": 2019,
+   "authors": [
+    "Jon Pynoos"
+   ],
+   "venue": "Routledge eBooks",
+   "doi": "10.4324/9781315227603-4",
+   "url": "https://doi.org/10.4324/9781315227603-4",
+   "oa_url": "",
+   "abstract": "Home modification and repair have emerged as public policy and service delivery issues because they can help older people age in place. In order to increase the incidence of home modification and repair, improvements need to be made in assessing homes, expanding public awareness, and developing programs. An important element in creating a home environment that is safe and supportive is an assessment of its condition and suitability, but very few dwelling units are systematically assessed. Strategies to increase the incidence of home modification and repair include more widespread and systematic home assessments, increased public awareness about the role of the environment, and the creation of more programs that provide affordable home modification and repair services. In reality, however, many homes of even very frail elderly go unassessed, and the supportive qualities of the dwelling units of the rest of the population receive scant attention.",
+   "cited_by": 10,
+   "kind": "book-chapter",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A service that reaches people at the moment of a home move and helps them preven",
+     "kind": "semantic",
+     "rank": 4,
+     "weight": 2.5,
+     "sim": 0.688,
+     "raw": 0.7918767411782728
+    }
+   ],
+   "ids": {
+    "openalex": "W2958170519"
+   },
+   "sim": 0.688,
+   "raw_score": 0.7918767411782728,
+   "rrf": 0.0390625,
+   "coverage": 0.3775006867445102,
+   "relevance": 0.5268441403778277,
+   "score": 0.3583455483936191
+  },
+  {
+   "title": "Residential mobility responses to home damage caused by floods, cyclones and bushfires in Australia",
+   "year": 2024,
+   "authors": [
+    "Aude Bernard",
+    "Francisco Perales",
+    "Elin Charles‐Edwards",
+    "Sasha Bacquet-Carlier"
+   ],
+   "venue": "Population and Environment",
+   "doi": "10.1007/s11111-024-00470-7",
+   "url": "https://doi.org/10.1007/s11111-024-00470-7",
+   "oa_url": "https://link.springer.com/content/pdf/10.1007/s11111-024-00470-7.pdf",
+   "abstract": "Recent climate disasters serve as a reminder of the growing—yet overlooked—risk of climate-driven displacement in the Global North. This paper contributes to a nascent literature on disaster-induced mobility in high-income countries by extending the evidence to a new context: Australia. Applying propensity score matching to panel data from the Household, Income and Labour Dynamics in Australia (HILDA) Survey, we conduct the first causal assessment of the impact of home damage caused by extreme weather events on residential mobility in Australia. Our findings suggest that from 2009 to 2022, an annual average of 1.6% of Australians aged 15 + (or ~ 308,000 people a year) experienced home damage caused by floods, cyclones or bushfires. Such damage increases the probability of changing address within 1 year by 56%, displacing an annual average of 22,261 Australians. Cumulatively, this amounts to ~ 312,000 people displaced by climate-induced home damage between 2009 and 2022. Importantly, this type of climate-induced mobility is not evenly spread across the population. Contrary to findings from the Global South, we find no evidence of “entrapment effects”, except for uninsured homeowners. Instead, our results indicate that over 80% of climate-displaced Australians come from the bottom two income quartiles, with the poorest 3% accounting for 14% of the displaced population. [...]",
+   "cited_by": 11,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A service that reaches people at the moment of a home move and helps them preven",
+     "kind": "semantic",
+     "rank": 6,
+     "weight": 2.5,
+     "sim": 0.411,
+     "raw": 0.7786913162826945
+    }
+   ],
+   "ids": {
+    "openalex": "W4405155973"
+   },
+   "sim": 0.411,
+   "raw_score": 0.7786913162826945,
+   "rrf": 0.03787878787878788,
+   "coverage": 0.5058822156759677,
+   "relevance": 0.4503648434707657,
+   "score": 0.32482032627758795
+  },
+  {
+   "title": "Practical guideline to efficiently detect insurance fraud in the era of machine learning: A household insurance case",
+   "year": 2023,
+   "authors": [
+    "Denisa Banulescu‐Radu",
+    "Meryem Yankol‐Schalck"
+   ],
+   "venue": "Journal of Risk & Insurance",
+   "doi": "10.1111/jori.12452",
+   "url": "https://doi.org/10.1111/jori.12452",
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jori.12452",
+   "abstract": "Identifying insurance fraud is a difficult task due to the complex nature of the fraud itself, the diversity of techniques employed, the rarity of fraud cases observed in data sets, and the relatively limited allocation of human, financial, and time resources to carry out investigations. The aim of this paper is to provide a clean and well structured study on modeling fraud on home insurance contracts, using real French data from 2013 to 2017. Several methods are developed to identify risk factors and unusual customer behaviors. Traditional econometric models as well as new machine‐learning algorithms with good predictive performance and high operational efficiency are tested, while maintaining method interpretability. Each methodology is evaluated on the basis of adequate performance measures and the issue of imbalanced databases is also addressed. Finally, specific methods are applied to interpret the results of the machine‐learning methods.",
+   "cited_by": 13,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for home insurance policy",
+     "kind": "semantic",
+     "rank": 10,
+     "weight": 2.0,
+     "sim": 0.395,
+     "raw": 0.8240401659174343
+    }
+   ],
+   "ids": {
+    "openalex": "W4389037881"
+   },
+   "sim": 0.395,
+   "raw_score": 0.8240401659174343,
+   "rrf": 0.02857142857142857,
+   "coverage": 0.5199471828299189,
+   "relevance": 0.4152094325482486,
+   "score": 0.2751186510058046
+  }
+ ],
+ "candidates": [
+  {
+   "title": "The Welfare Effects of Nudges: A Case Study of Energy Use Social Comparisons",
+   "year": 2019,
+   "authors": [
+    "Hunt Allcott",
+    "Judd B. Kessler"
+   ],
+   "venue": "American Economic Journal Applied Economics",
+   "doi": "10.1257/app.20170328",
+   "url": "https://doi.org/10.1257/app.20170328",
+   "oa_url": "https://doi.org/10.3386/w21671",
+   "abstract": "“Nudge”-style interventions are often deemed successful if they generate large behavior change at low cost, but they are rarely subjected to full social welfare evaluations. We combine a field experiment with a simple theoretical framework to evaluate the welfare effects of one especially policy-relevant intervention, home energy social comparison reports. In our sample, the reports increase social welfare, although traditional evaluation approaches overstate gains because they ignore significant costs incurred by nudge recipients. Overall, home energy report welfare gains might be overstated by $620 million. We develop a prediction algorithm for optimal targeting; this approach would double the welfare gains. (JEL C93, D91, L95, Q41, Q48)",
+   "cited_by": 400,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "effectiveness of behavioural interventions and nudges for home insurance policy",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.0,
+     "sim": 1.0,
+     "raw": 1.0053423684243918
+    },
+    {
+     "source": "openalex",
+     "query": "effectiveness of behavioural interventions and nudges for home insurance policy",
+     "kind": "semantic",
+     "rank": 5,
+     "weight": 2.0,
+     "sim": 0.696,
+     "raw": 0.9432496091985577
+    }
+   ],
+   "ids": {
+    "openalex": "W2907210798"
+   },
+   "sim": 1.0,
+   "raw_score": 1.0053423684243918,
+   "rrf": 0.06355611601513242,
+   "coverage": 0.17562164561697544,
+   "relevance": 0.6778584859442571,
+   "score": 0.9876215650068231
+  },
+  {
+   "title": "Forecasting in an Extended Chain-Ladder-Type Model",
+   "year": 2010,
+   "authors": [
+    "Di Kuang",
+    "Bent Juhl Nielsen",
+    "Jens Perch Nielsen"
+   ],
+   "venue": "Journal of Risk & Insurance",
+   "doi": "10.1111/j.1539-6975.2010.01395.x",
+   "url": "https://doi.org/10.1111/j.1539-6975.2010.01395.x",
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1539-6975.2010.01395.x",
+   "abstract": "Reserving in general insurance is often done using chain-ladder-type methods. We propose a method aimed at situations where there is a sudden change in the economic environment affecting the policies for all accident years in the reserving triangle. It is shown that methods for forecasting nonstationary time series are helpful. We illustrate the method using data published in Barnett and Zehnwirth (2000, pp. 245–321). These data illustrate features we also found in data from the general insurer RSA during the recent credit crunch.",
+   "cited_by": 34,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for home insurance policy",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.0,
+     "sim": 1.0,
+     "raw": 0.8632530697548364
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for home insurance policy",
+     "kind": "semantic",
+     "rank": 19,
+     "weight": 2.0,
+     "sim": 0.142,
+     "raw": 0.8076522493618824
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for home insurance policy",
+     "kind": "semantic",
+     "rank": 23,
+     "weight": 2.0,
+     "sim": 0.118,
+     "raw": 0.80613637
+    }
+   ],
+   "ids": {
+    "openalex": "W2510597680"
+   },
+   "sim": 1.0,
+   "raw_score": 0.8632530697548364,
+   "rrf": 0.08219972648427284,
+   "coverage": 0.30505253056218823,
+   "relevance": 0.7827399140747743,
+   "score": 0.9083187853692772
+  },
+  {
+   "title": "Meta-analysis of randomised controlled trials testing behavioural interventions to promote household action on climate change",
+   "year": 2019,
+   "authors": [
+    "Claudia F. Nisa",
+    "Jocelyn J. Bélanger",
+    "Birga Mareen Schumpe",
+    "Daiane Gracieli Faller"
+   ],
+   "venue": "Nature Communications",
+   "doi": "10.1038/s41467-019-12457-2",
+   "url": "https://doi.org/10.1038/s41467-019-12457-2",
+   "oa_url": "https://www.nature.com/articles/s41467-019-12457-2.pdf",
+   "abstract": "No consensus exists regarding which are the most effective mechanisms to promote household action on climate change. We present a meta-analysis of randomised controlled trials comprising 3,092,678 observations, which estimates the effects of behavioural interventions holding other factors constant. Here we show that behavioural interventions promote climate change mitigation to a very small degree while the intervention lasts (d = -0.093 95% CI -0.160, -0.055), with no evidence of sustained positive effects once the intervention ends. With the exception of recycling, most household mitigation behaviours show a low behavioural plasticity. The intervention with the highest average effect size is choice architecture (nudges) but this strategy has been tested in a limited number of behaviours. Our results do not imply behavioural interventions are less effective than alternative strategies such as financial incentives or regulations, nor exclude the possibility that behavioural interventions could have stronger effects when used in combination with alternative strategies.",
+   "cited_by": 346,
+   "kind": "review",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "effectiveness of behavioural interventions and nudges for home insurance policy",
+     "kind": "semantic",
+     "rank": 2,
+     "weight": 2.0,
+     "sim": 0.984,
+     "raw": 1.0019784919857218
+    }
+   ],
+   "ids": {
+    "openalex": "W2978033587"
+   },
+   "sim": 0.984,
+   "raw_score": 1.0019784919857218,
+   "rrf": 0.03225806451612903,
+   "coverage": 0.1604769111643219,
+   "relevance": 0.5560296772033143,
+   "score": 0.6554524733739501
+  },
+  {
+   "title": "Individual relocation decisions after tornadoes: a multi‐level analysis",
+   "year": 2017,
+   "authors": [
+    "Zhen Cong",
+    "Ali Nejat",
+    "Daan Liang",
+    "Yaolin Pei",
+    "Roxana J. Javid"
+   ],
+   "venue": "Disasters",
+   "doi": "10.1111/disa.12241",
+   "url": "https://doi.org/10.1111/disa.12241",
+   "oa_url": "",
+   "abstract": "This study examines how multi-level factors affected individuals' relocation decisions after EF4 and EF5 (Enhanced Fujita Tornado Intensity Scale) tornadoes struck the United States in 2013. A telephone survey was conducted with 536 respondents, including oversampled older adults, one year after these two disaster events. Respondents' addresses were used to associate individual information with block group-level variables recorded by the American Community Survey. Logistic regression revealed that residential damage and homeownership are important predictors of relocation. There was also significant interaction between these two variables, indicating less difference between homeowners and renters at higher damage levels. Homeownership diminished the likelihood of relocation among younger respondents. Random effects logistic regression found that the percentage of homeownership and of higher income households in the community buffered the effect of damage on relocation; the percentage of older adults reduced the likelihood of this group relocating. The findings are assessed from the standpoint of age difference, policy implications, and social capital and vulnerability.",
+   "cited_by": 34,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A service that reaches people at the moment of a home move and helps them preven",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.5,
+     "sim": 1.0,
+     "raw": 0.8067229464289015
+    }
+   ],
+   "ids": {
+    "openalex": "W2742587269"
+   },
+   "sim": 1.0,
+   "raw_score": 0.8067229464289015,
+   "rrf": 0.040983606557377046,
+   "coverage": 0.2863551586547485,
+   "relevance": 0.6311067410175126,
+   "score": 0.5801417696893479
+  },
+  {
+   "title": "Comparing the effects of behaviorally informed interventions on flood insurance demand: an experimental analysis of ‘boosts’ and ‘nudges’",
+   "year": 2019,
+   "authors": [
+    "Jacob T. Bradt"
+   ],
+   "venue": "Behavioural Public Policy",
+   "doi": "10.1017/bpp.2019.31",
+   "url": "https://doi.org/10.1017/bpp.2019.31",
+   "oa_url": "",
+   "abstract": "This paper compares the effects of two types of behaviorally informed policy – nudges and boosts – that are designed to increase consumer demand for insurance against low-probability, high-consequence events. Using previous findings in the behavioral sciences literature, this paper constructs and implements two nudges (an ‘informational’ and an ‘affective’ nudge) and a statistical numeracy boost and then elicits individual risk beliefs and demand for flood insurance using a contingent valuation survey of 331 participants recruited from an online labor pool. Using a two-limit Tobit model to estimate willingness to pay (WTP) for flood insurance, this paper finds that the affective and informational nudges result in increases in WTP for flood insurance of roughly $21/month and $11/month relative to the boost, respectively. Taken together, the findings of this paper suggest that nudges are the more effective behaviorally informed policy in this setting, particularly when the nudge design targets the affect and availability heuristics; however, additional research is necessary to establish sufficient conditions for this conclusion.",
+   "cited_by": 45,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "effectiveness of behavioural interventions and nudges for home insurance policy",
+     "kind": "semantic",
+     "rank": 3,
+     "weight": 2.0,
+     "sim": 0.815,
+     "raw": 0.9675674466560344
+    }
+   ],
+   "ids": {
+    "openalex": "W2965874750"
+   },
+   "sim": 0.815,
+   "raw_score": 0.9675674466560344,
+   "rrf": 0.031746031746031744,
+   "coverage": 0.34182225577191255,
+   "relevance": 0.5410192075085436,
+   "score": 0.45509156055392286
+  },
+  {
+   "title": "Decisions About the “If,” “When,” and “How” of Moving Home: Can a Relocation Service Help? A Welsh Case Study",
+   "year": 2019,
+   "authors": [
+    "Sarah Hillcoat‐Nallétamby",
+    "Alexandra Vanta Sardani"
+   ],
+   "venue": "Journal of Housing for the Elderly",
+   "doi": "10.1080/02763893.2018.1561594",
+   "url": "https://doi.org/10.1080/02763893.2018.1561594",
+   "oa_url": "",
+   "abstract": "This small-scale, Welsh qualitative study explores how a new “moving on” service empowered older people to move voluntarily from their home to an extra-care facility. Eighteen older people were interviewed about their experiences of the service, which offered in-person, bespoke information, advice, financial, practical, brokerage, and emotional support about moving. Findings indicate three service use patterns: continuous, partial, and discontinued. It was instrumental in empowering clients to exercise decisional, executional, delegated, and/or consumer autonomies. Recommendations for future developments of a prototype “moving on” service include a multipartner approach and caseworker case management training modeled on social work practice.",
+   "cited_by": 12,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A service that reaches people at the moment of a home move and helps them preven",
+     "kind": "semantic",
+     "rank": 2,
+     "weight": 2.5,
+     "sim": 0.938,
+     "raw": 0.8037775130272501
+    }
+   ],
+   "ids": {
+    "openalex": "W2913016309"
+   },
+   "sim": 0.938,
+   "raw_score": 0.8037775130272501,
+   "rrf": 0.04032258064516129,
+   "coverage": 0.2195270570212193,
+   "relevance": 0.583916371923888,
+   "score": 0.45068927217123145
+  },
+  {
+   "title": "Behavioral Economics and Public Policy 102: Beyond Nudging",
+   "year": 2015,
+   "authors": [
+    "Saurabh Bhargava",
+    "George F. Loewenstein"
+   ],
+   "venue": "American Economic Review",
+   "doi": "10.1257/aer.p20151049",
+   "url": "https://doi.org/10.1257/aer.p20151049",
+   "oa_url": "",
+   "abstract": "Policymakers have recently embraced Behavioral Economics as an alternative approach which recognizes the limits and consequences of human decision-making. Early applications of BE (“nudges”) produced notable successes and helped to set the stage for more aggressive applications aimed at the deeper causes of policy problems. We contend that policies that aspire to simplify products and incentives, rather than choice environments, aggressively protect consumers from behavioral exploitation, and leverage BE to enhance the design and implementation of traditional policy instruments offer solutions commensurate with contemporary challenges. Case studies in health insurance, privacy, and climate change illustrate the application of these ideas.",
+   "cited_by": 179,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "effectiveness of behavioural interventions and nudges for home insurance policy",
+     "kind": "semantic",
+     "rank": 4,
+     "weight": 2.0,
+     "sim": 0.727,
+     "raw": 0.9496037437960987
+    }
+   ],
+   "ids": {
+    "openalex": "W1957216868"
+   },
+   "sim": 0.727,
+   "raw_score": 0.9496037437960987,
+   "rrf": 0.03125,
+   "coverage": 0.3445459379930109,
+   "relevance": 0.504878928881483,
+   "score": 0.4337970272112495
+  },
+  {
+   "title": "Strategies for Home Modification and Repair*",
+   "year": 2019,
+   "authors": [
+    "Jon Pynoos"
+   ],
+   "venue": "Routledge eBooks",
+   "doi": "10.4324/9781315227603-4",
+   "url": "https://doi.org/10.4324/9781315227603-4",
+   "oa_url": "",
+   "abstract": "Home modification and repair have emerged as public policy and service delivery issues because they can help older people age in place. In order to increase the incidence of home modification and repair, improvements need to be made in assessing homes, expanding public awareness, and developing programs. An important element in creating a home environment that is safe and supportive is an assessment of its condition and suitability, but very few dwelling units are systematically assessed. Strategies to increase the incidence of home modification and repair include more widespread and systematic home assessments, increased public awareness about the role of the environment, and the creation of more programs that provide affordable home modification and repair services. In reality, however, many homes of even very frail elderly go unassessed, and the supportive qualities of the dwelling units of the rest of the population receive scant attention.",
+   "cited_by": 10,
+   "kind": "book-chapter",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A service that reaches people at the moment of a home move and helps them preven",
+     "kind": "semantic",
+     "rank": 4,
+     "weight": 2.5,
+     "sim": 0.688,
+     "raw": 0.7918767411782728
+    }
+   ],
+   "ids": {
+    "openalex": "W2958170519"
+   },
+   "sim": 0.688,
+   "raw_score": 0.7918767411782728,
+   "rrf": 0.0390625,
+   "coverage": 0.3775006867445102,
+   "relevance": 0.5268441403778277,
+   "score": 0.3583455483936191
+  },
+  {
+   "title": "Residential mobility responses to home damage caused by floods, cyclones and bushfires in Australia",
+   "year": 2024,
+   "authors": [
+    "Aude Bernard",
+    "Francisco Perales",
+    "Elin Charles‐Edwards",
+    "Sasha Bacquet-Carlier"
+   ],
+   "venue": "Population and Environment",
+   "doi": "10.1007/s11111-024-00470-7",
+   "url": "https://doi.org/10.1007/s11111-024-00470-7",
+   "oa_url": "https://link.springer.com/content/pdf/10.1007/s11111-024-00470-7.pdf",
+   "abstract": "Recent climate disasters serve as a reminder of the growing—yet overlooked—risk of climate-driven displacement in the Global North. This paper contributes to a nascent literature on disaster-induced mobility in high-income countries by extending the evidence to a new context: Australia. Applying propensity score matching to panel data from the Household, Income and Labour Dynamics in Australia (HILDA) Survey, we conduct the first causal assessment of the impact of home damage caused by extreme weather events on residential mobility in Australia. Our findings suggest that from 2009 to 2022, an annual average of 1.6% of Australians aged 15 + (or ~ 308,000 people a year) experienced home damage caused by floods, cyclones or bushfires. Such damage increases the probability of changing address within 1 year by 56%, displacing an annual average of 22,261 Australians. Cumulatively, this amounts to ~ 312,000 people displaced by climate-induced home damage between 2009 and 2022. Importantly, this type of climate-induced mobility is not evenly spread across the population. Contrary to findings from the Global South, we find no evidence of “entrapment effects”, except for uninsured homeowners. Instead, our results indicate that over 80% of climate-displaced Australians come from the bottom two income quartiles, with the poorest 3% accounting for 14% of the displaced population. [...]",
+   "cited_by": 11,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A service that reaches people at the moment of a home move and helps them preven",
+     "kind": "semantic",
+     "rank": 6,
+     "weight": 2.5,
+     "sim": 0.411,
+     "raw": 0.7786913162826945
+    }
+   ],
+   "ids": {
+    "openalex": "W4405155973"
+   },
+   "sim": 0.411,
+   "raw_score": 0.7786913162826945,
+   "rrf": 0.03787878787878788,
+   "coverage": 0.5058822156759677,
+   "relevance": 0.4503648434707657,
+   "score": 0.32482032627758795
+  },
+  {
+   "title": "Practical guideline to efficiently detect insurance fraud in the era of machine learning: A household insurance case",
+   "year": 2023,
+   "authors": [
+    "Denisa Banulescu‐Radu",
+    "Meryem Yankol‐Schalck"
+   ],
+   "venue": "Journal of Risk & Insurance",
+   "doi": "10.1111/jori.12452",
+   "url": "https://doi.org/10.1111/jori.12452",
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jori.12452",
+   "abstract": "Identifying insurance fraud is a difficult task due to the complex nature of the fraud itself, the diversity of techniques employed, the rarity of fraud cases observed in data sets, and the relatively limited allocation of human, financial, and time resources to carry out investigations. The aim of this paper is to provide a clean and well structured study on modeling fraud on home insurance contracts, using real French data from 2013 to 2017. Several methods are developed to identify risk factors and unusual customer behaviors. Traditional econometric models as well as new machine‐learning algorithms with good predictive performance and high operational efficiency are tested, while maintaining method interpretability. Each methodology is evaluated on the basis of adequate performance measures and the issue of imbalanced databases is also addressed. Finally, specific methods are applied to interpret the results of the machine‐learning methods.",
+   "cited_by": 13,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for home insurance policy",
+     "kind": "semantic",
+     "rank": 10,
+     "weight": 2.0,
+     "sim": 0.395,
+     "raw": 0.8240401659174343
+    }
+   ],
+   "ids": {
+    "openalex": "W4389037881"
+   },
+   "sim": 0.395,
+   "raw_score": 0.8240401659174343,
+   "rrf": 0.02857142857142857,
+   "coverage": 0.5199471828299189,
+   "relevance": 0.4152094325482486,
+   "score": 0.2751186510058046
+  },
+  {
+   "title": "Predictive Modeling Applications in Actuarial Science",
+   "year": 2016,
+   "authors": [],
+   "venue": "Cambridge University Press eBooks",
+   "doi": "10.1017/cbo9781139342681",
+   "url": "https://doi.org/10.1017/cbo9781139342681",
+   "oa_url": "",
+   "abstract": "Predictive modeling uses data to forecast future events. It exploits relationships between explanatory variables and the predicted variables from past occurrences to predict future outcomes. Forecasting financial events is a core skill that actuaries routinely apply in insurance and other risk-management applications. Predictive Modeling Applications in Actuarial Science emphasizes life-long learning by developing tools in an insurance context, providing the relevant actuarial applications, and introducing advanced statistical techniques that can be used to gain a competitive advantage in situations with complex data. Volume 2 examines applications of predictive modeling. Where Volume 1 developed the foundations of predictive modeling, Volume 2 explores practical uses for techniques, focusing on property and casualty insurance. Readers are exposed to a variety of techniques in concrete, real-life contexts that demonstrate their value and the overall value of predictive modeling, for seasoned practicing analysts as well as those just starting out.",
+   "cited_by": 14,
+   "kind": "book",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for home insurance policy",
+     "kind": "semantic",
+     "rank": 2,
+     "weight": 2.0,
+     "sim": 0.69,
+     "raw": 0.8431587961863848
+    }
+   ],
+   "ids": {
+    "openalex": "W4239733692"
+   },
+   "sim": 0.69,
+   "raw_score": 0.8431587961863848,
+   "rrf": 0.03225806451612903,
+   "coverage": 0.1470789008388973,
+   "relevance": 0.43441027410568694,
+   "score": 0.24285284897941017
+  },
+  {
+   "title": "Modeling Weather-induced Home Insurance Risks with Support Vector Machine Regression",
+   "year": 2021,
+   "authors": [
+    "Asim Kumer Dey",
+    "Vyacheslav Lyubchich",
+    "Yulia R. Gel"
+   ],
+   "venue": "arXiv (Cornell University)",
+   "doi": "10.48550/arxiv.2103.08761",
+   "url": "https://doi.org/10.48550/arxiv.2103.08761",
+   "oa_url": "https://arxiv.org/pdf/2103.08761",
+   "abstract": "Insurance industry is one of the most vulnerable sectors to climate change. Assessment of future number of claims and incurred losses is critical for disaster preparedness and risk management. In this project, we study the effect of precipitation on a joint dynamics of weather-induced home insurance claims and losses. We discuss utility and limitations of such machine learning procedures as Support Vector Machines and Artificial Neural Networks, in forecasting future claim dynamics and evaluating associated uncertainties. We illustrate our approach by application to attribution analysis and forecasting of weather-induced home insurance claims in a middle-sized city in the Canadian Prairies.",
+   "cited_by": 1,
+   "kind": "preprint",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for home insurance policy",
+     "kind": "semantic",
+     "rank": 3,
+     "weight": 2.0,
+     "sim": 0.577,
+     "raw": 0.83586649622069
+    }
+   ],
+   "ids": {
+    "openalex": "W3137190395"
+   },
+   "sim": 0.577,
+   "raw_score": 0.83586649622069,
+   "rrf": 0.031746031746031744,
+   "coverage": 0.4033756830698409,
+   "relevance": 0.4642852356979221,
+   "score": 0.2406042032292021
+  },
+  {
+   "title": "Mobility-based disadvantage in older age: insecure housing and the risks of moving house",
+   "year": 2020,
+   "authors": [
+    "Emma R Power"
+   ],
+   "venue": "Ageing and Society",
+   "doi": "10.1017/s0144686x20000768",
+   "url": "https://doi.org/10.1017/s0144686x20000768",
+   "oa_url": "",
+   "abstract": "This paper develops knowledge of the logistics of moving house amongst older people living in insecure housing. These people typically do not move once and settle into a new house, but face ongoing moves driven by factors including housing affordability, tenure conditions and eviction. The paper identifies four domains of experience faced by people undergoing cumulative, involuntary residential moves: the material (process of relocating oneself and possessions), economic (costs of moving house), embodied (physical experience) and affective (how relocation is experienced and felt). The logistics of relocation are examined through the experiences of single older women living in insecure housing in the greater Sydney region of Australia. The accounts of these women foreground the costs and challenges of insecure housing that are a consequence of relocation. Conceptually this work contributes to understandings of mobility-based disadvantage in older age through drawing out the ways that the logistics of moving house – of relocating oneself and possessions – contribute in distinct ways to mobility-based disadvantage through risks to identity and senses of home. Empirically it addresses gaps in gerontological and housing scholarship through developing knowledge of the logistics and experiences of ongoing, involuntary residential moves.",
+   "cited_by": 11,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A service that reaches people at the moment of a home move and helps them preven",
+     "kind": "semantic",
+     "rank": 5,
+     "weight": 2.5,
+     "sim": 0.55,
+     "raw": 0.7853143610579333
+    }
+   ],
+   "ids": {
+    "openalex": "W3038904609"
+   },
+   "sim": 0.55,
+   "raw_score": 0.7853143610579333,
+   "rrf": 0.038461538461538464,
+   "coverage": 0.17562164561697544,
+   "relevance": 0.40895129058796,
+   "score": 0.22263092969982914
+  },
+  {
+   "title": "Predictors of home insurance purchase: the homeowners’ knowledge, perceived benefits and perceived vulnerability towards disaster losses",
+   "year": 2022,
+   "authors": [
+    "Tanuj Mathur",
+    "Ujjwal Kanti Paul"
+   ],
+   "venue": "International Journal of Housing Markets and Analysis",
+   "doi": "10.1108/ijhma-08-2022-0127",
+   "url": "https://doi.org/10.1108/ijhma-08-2022-0127",
+   "oa_url": "",
+   "abstract": "Purpose Home insurance is widely recognised as a tool for mitigating economic risk associated with natural disasters. This study aims to analyse the influence of homeowners’ home insurance knowledge (both objective and subjective types), perceived benefits (PB) and perceived vulnerability towards disaster loss (PVUL) on their intention to purchase (ITP). Design/methodology/approach This research makes use of survey data collected from 394 respondents (the homeowners) residing in various parts of India. The structural equation modelling is used to verify 11 hypotheses proposed in the study. Findings The findings indicate that both objective knowledge (OK) and subjective knowledge (SK) of home insurance have significant influence on homeowners’ benefit perception and PVUL. The homeowners’ PB of home insurance negatively affect PVUL. The OK of home insurance has a stronger influence on homeowners’ ITP home insurance than SK while the homeowners benefit perceptions and PVUL significantly affects homeowners’ ITP home insurance. These findings confirms that if homeowners are knowledgeable about home insurance, they perceive the plans as more beneficial and feel less vulnerable about catastrophic events, resulting in positive intentions towards purchasing them. Originality/value To the best of the authors’ knowledge, this is the first comprehensive research that assesses the Indian homeowners’ knowledge, PB and PVUL in influencing their ITP home insurance. [...]",
+   "cited_by": 2,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home insurance policy",
+     "kind": "phrase",
+     "rank": 25,
+     "weight": 1.0
+    },
+    {
+     "source": "openalex",
+     "query": "A service that reaches people at the moment of a home move and helps them preven",
+     "kind": "semantic",
+     "rank": 30,
+     "weight": 2.5,
+     "sim": 0.068,
+     "raw": 0.7623525604610122
+    },
+    {
+     "source": "openalex",
+     "query": "effectiveness of behavioural interventions and nudges for home insurance policy",
+     "kind": "semantic",
+     "rank": 15,
+     "weight": 2.0,
+     "sim": 0.145,
+     "raw": 0.8307918037681074
+    }
+   ],
+   "ids": {
+    "openalex": "W4311243978"
+   },
+   "sim": 0.145,
+   "raw_score": 30.947592,
+   "rrf": 0.06620915032679739,
+   "coverage": 0.4806741761791637,
+   "relevance": 0.436773639835953,
+   "score": 0.21291250934322678
+  },
+  {
+   "title": "Effectiveness of behavioural interventions to reduce household energy demand: a scoping review",
+   "year": 2022,
+   "authors": [
+    "Jordana W. Composto",
+    "Elke U. Weber"
+   ],
+   "venue": "Environmental Research Letters",
+   "doi": "10.1088/1748-9326/ac71b8",
+   "url": "https://doi.org/10.1088/1748-9326/ac71b8",
+   "oa_url": "https://iopscience.iop.org/article/10.1088/1748-9326/ac71b8/pdf",
+   "abstract": "This paper provides a scoping review of behavioural interventions that target household energy demand. We evaluate 584 empirical papers that test the effectiveness of a behavioural intervention to change behaviour associated with household energy demand. The most studied behavioural tools are providing timely feedback and reminders and making information intuitive and easy to access, followed by (in order) communicating a norm, reframing consequences, making behaviour observable, obtaining a commitment, setting proper defaults, and transitions and habit disruption. The most studied demand-side behaviour is electricity use. There is high heterogeneity in effect sizes. We classified the target behaviours of each study as avoid, shift, or improve behaviours and find that avoid behaviours (in particular, reducing electricity usage) are the predominant focus of researchers. The effectiveness of interventions differs across avoid, shift, and improve responses and by the behavioural tool. Specifically, shifting behaviours are less effectively motivated than avoiding behaviours by using an information intervention but more effectively by using a norm intervention. We review the literature to provide further information about which behavioural tools are most effective for specific contexts. The effectiveness of most behavioural tools are augmented when they are used in the right combination with other tools. [...]",
+   "cited_by": 64,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "effectiveness of behavioural interventions and nudges for home insurance policy",
+     "kind": "semantic",
+     "rank": 6,
+     "weight": 2.0,
+     "sim": 0.434,
+     "raw": 0.8897716162068183
+    }
+   ],
+   "ids": {
+    "openalex": "W4281264443"
+   },
+   "sim": 0.434,
+   "raw_score": 0.8897716162068183,
+   "rrf": 0.030303030303030304,
+   "coverage": 0.1604769111643219,
+   "relevance": 0.3291032163636769,
+   "score": 0.20467035746117881
+  },
+  {
+   "title": "Care at home",
+   "year": 2011,
+   "authors": [
+    "Sue Bell"
+   ],
+   "venue": "",
+   "doi": "",
+   "url": "https://www.scotborders.gov.uk/info/1453/care_at_home/223/care_at_home",
+   "oa_url": "",
+   "abstract": "Information about the range of services for available to help people stay in their own homes.",
+   "cited_by": 0,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A service that reaches people at the moment of a home move and helps them preven",
+     "kind": "semantic",
+     "rank": 3,
+     "weight": 2.5,
+     "sim": 0.689,
+     "raw": 0.79190814
+    }
+   ],
+   "ids": {
+    "openalex": "W2153747947"
+   },
+   "sim": 0.689,
+   "raw_score": 0.79190814,
+   "rrf": 0.03968253968253968,
+   "coverage": 0.2195270570212193,
+   "relevance": 0.4820487805775781,
+   "score": 0.1782144141303234
+  },
+  {
+   "title": "Typology of Human Mobility and Immobility for Disaster Risk Reduction: Exploratory Case Study in Hillsborough County, Florida",
+   "year": 2021,
+   "authors": [
+    "Kensuke Otsuyama",
+    "Elizabeth Dunn",
+    "Carson Bell",
+    "Norio Maki"
+   ],
+   "venue": "Natural Hazards Review",
+   "doi": "10.1061/(asce)nh.1527-6996.0000498",
+   "url": "https://doi.org/10.1061/(asce)nh.1527-6996.0000498",
+   "oa_url": "",
+   "abstract": "Disaster induced and climate related migration and displacement are a crucial issue in the era of climate change. Particularly, human mobility, immobility, and trapped populations are forms of proactive or inactive responses to those negative disturbances. The authors hypothesize that human immobility is deeply rooted in socio-geographical factors such as income, home rental or ownership, insurance coverage, how long one has lived in the area, and previous disaster experiences. This comparative case study was administered at the neighborhood level in Hillsborough County, Florida, which was impacted by Hurricane Irma. The results indicate that new residents who lived in their homes for less than five years were more likely to be non-insurance holders whether they were renters or homeowners. Long term residents, who lived in the same home for more than 13 years, tended to be immobile while holding several types of home insurance coverage. Those who indicated that they do not have home insurance and answered “no idea” when asked whether they will stay in one place or move in years to come have a higher potential to become “trapped” when disaster strikes.",
+   "cited_by": 10,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A service that reaches people at the moment of a home move and helps them preven",
+     "kind": "semantic",
+     "rank": 10,
+     "weight": 2.5,
+     "sim": 0.342,
+     "raw": 0.7753676111205854
+    }
+   ],
+   "ids": {
+    "openalex": "W3183566940"
+   },
+   "sim": 0.342,
+   "raw_score": 0.7753676111205854,
+   "rrf": 0.03571428571428571,
+   "coverage": 0.3227005464558727,
+   "relevance": 0.36014176106085294,
+   "score": 0.17395541930597314
+  },
+  {
+   "title": "Using Private Information to Predict Homelessness Entries: Evidence and Prospects",
+   "year": 2017,
+   "authors": [
+    "Brendan O’Flaherty",
+    "Rosanna Scutella",
+    "Yi‐Ping Tseng"
+   ],
+   "venue": "Housing Policy Debate",
+   "doi": "10.1080/10511482.2017.1367318",
+   "url": "https://doi.org/10.1080/10511482.2017.1367318",
+   "oa_url": "http://hdl.handle.net/11343/197669",
+   "abstract": "Do people at risk of homelessness have private information—information that social service agencies cannot credibly obtain—that helps predict whether they will become homeless? This article asserts that the answer to this question is yes: homeless people and people at risk of homelessness know important things about their future. Data from Journeys Home (JH), a pathbreaking longitudinal study of people experiencing homelessness and people at risk of homelessness in Australia, are used in this article. In many cases, the private information that participants have predicts entries better than the public information that agencies can obtain. Ways in which this private information can be used to improve service delivery are suggested.",
+   "cited_by": 12,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A service that reaches people at the moment of a home move and helps them preven",
+     "kind": "semantic",
+     "rank": 7,
+     "weight": 2.5,
+     "sim": 0.397,
+     "raw": 0.7780185952838213
+    }
+   ],
+   "ids": {
+    "openalex": "W2761701752"
+   },
+   "sim": 0.397,
+   "raw_score": 0.7780185952838213,
+   "rrf": 0.03731343283582089,
+   "coverage": 0.17562164561697544,
+   "relevance": 0.34368368471026245,
+   "score": 0.16628293081315343
+  },
+  {
+   "title": "A behavioral blueprint for improving health care policy",
+   "year": 2017,
+   "authors": [
+    "George F. Loewenstein",
+    "David Hagmann",
+    "Janet A. Schwartz",
+    "Keith M. Marzilli Ericson",
+    "Judd B. Kessler",
+    "Saurabh Bhargava",
+    "Jennifer Blumenthal‐Barby",
+    "Thomas A. D’Aunno",
+    "Ben Handel",
+    "Jonathan Kolstad",
+    "David Nussbaum",
+    "Victoria A. Shaffer",
+    "Jonathan Skinner",
+    "Peter Anthony Ubel",
+    "Brian J. Zikmund‐Fisher"
+   ],
+   "venue": "Behavioral Science & Policy",
+   "doi": "10.1353/bsp.2017.0005",
+   "url": "https://doi.org/10.1353/bsp.2017.0005",
+   "oa_url": "",
+   "abstract": "Behavioral policy to improve health and health care often relies on interventions, such as nudges, which target individual behaviors. But the most promising applications of behavioral insights in this area involve more far-reaching and systemic interventions. In this article, we propose a series of policies inspired by behavioral research that we believe offer the greatest potential for success. These include interventions to improve health-related behaviors, health insurance access, decisions about insurance plans, end-of-life care, and rates of medical (for example, organ and blood) donation. We conclude with a discussion of new technologies, such as electronic medical records and web- or mobile-based decision apps, which can enhance doctor and patient adherence to best medical practices. These technologies, however, also pose new challenges that can undermine the effectiveness of medical care delivery.",
+   "cited_by": 14,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "effectiveness of behavioural interventions and nudges for home insurance policy",
+     "kind": "semantic",
+     "rank": 14,
+     "weight": 2.0,
+     "sim": 0.167,
+     "raw": 0.8351484090522389
+    },
+    {
+     "source": "openalex",
+     "query": "effectiveness of behavioural interventions and nudges for home insurance policy",
+     "kind": "semantic",
+     "rank": 20,
+     "weight": 2.0,
+     "sim": 0.105,
+     "raw": 0.8226262902925875
+    }
+   ],
+   "ids": {
+    "openalex": "W4386836767"
+   },
+   "sim": 0.167,
+   "raw_score": 0.8351484090522389,
+   "rrf": 0.05202702702702703,
+   "coverage": 0.3445459379930109,
+   "relevance": 0.3544895404516468,
+   "score": 0.16403112719389254
+  },
+  {
+   "title": "The Composition and Drawdown of Wealth in Retirement",
+   "year": 2011,
+   "authors": [
+    "James M. Poterba",
+    "Steven F. Venti",
+    "David A. Wise"
+   ],
+   "venue": "The Journal of Economic Perspectives",
+   "doi": "10.1257/jep.25.4.95",
+   "url": "https://doi.org/10.1257/jep.25.4.95",
+   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3937807",
+   "abstract": "This paper presents evidence on the resources available to households as they enter retirement. It draws heavily on data collected by the Health and Retirement Study. We calculate the “potential additional annuity income” that households could purchase, given their holdings of non-annuitized financial assets at the start of retirement. We also consider the role of housing equity in the portfolios of retirement-age households and explore the extent to which households draw down housing equity and financial assets as they age. Because home equity is often conserved until very late in life, for many households it may provide some insurance against the risk of living longer than expected. Finally, we consider how our findings bear on a number of policy issues, such as the role for annuity defaults in retirement saving plans.",
+   "cited_by": 226,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home insurance policy household composition",
+     "kind": "combo",
+     "rank": 1,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W2162840082"
+   },
+   "sim": 0.0,
+   "raw_score": 23.089472,
+   "rrf": 0.019672131147540982,
+   "coverage": 0.7624445560048823,
+   "relevance": 0.29842945964358697,
+   "score": 0.16364297779798315
+  },
+  {
+   "title": "What Is Really Behavioral in Behavioral Health Policy? And Does It Work?",
+   "year": 2014,
+   "authors": [
+    "Matteo M. Galizzi"
+   ],
+   "venue": "Applied Economic Perspectives and Policy",
+   "doi": "10.1093/aepp/ppt036",
+   "url": "https://doi.org/10.1093/aepp/ppt036",
+   "oa_url": "https://researchonline.lse.ac.uk/id/eprint/55969/1/__lse.ac.uk_storage_LIBRARY_Secondary_libfile_shared_repository_Content_Galizzi%2C%20M_What%20really%20behavioral_Galizzi_What%20really%20behavioral_2015.pdf",
+   "abstract": "Across health systems, there is increasing interest in applying behavioral economics insights to health policy challenges. Policy decision makers have recently discussed a range of diverse health policy interventions that are commonly brought together under a behavioral umbrella. These include randomized controlled trials, comparison portals, information labels, financial incentives, sin taxes, and nudges. A taxonomy is proposed to classify such behavioral interventions. In the context of risky health behavior, each cluster of policies is then scrutinized under two respects: (i) What are its genuinely behavioral insights? (ii) What evidence exists on its practical effectiveness? The discussion highlights the main challenges in drawing a clear mapping between how much each policy is behaviorally inspired and its effectiveness.",
+   "cited_by": 51,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "effectiveness of behavioural interventions and nudges for home insurance policy",
+     "kind": "semantic",
+     "rank": 7,
+     "weight": 2.0,
+     "sim": 0.38,
+     "raw": 0.8787263856267822
+    }
+   ],
+   "ids": {
+    "openalex": "W2013856652"
+   },
+   "sim": 0.38,
+   "raw_score": 0.8787263856267822,
+   "rrf": 0.029850746268656716,
+   "coverage": 0.19746703715411368,
+   "relevance": 0.31699786396637,
+   "score": 0.16232127884647635
+  },
+  {
+   "title": "Policies and politics that promote HIV infection in the Southern United States",
+   "year": 2014,
+   "authors": [
+    "Adaora A. Adimora",
+    "Catalina B. Ramirez",
+    "Victor J. Schoenbach",
+    "Myron S. Cohen"
+   ],
+   "venue": "AIDS",
+   "doi": "10.1097/qad.0000000000000225",
+   "url": "https://doi.org/10.1097/qad.0000000000000225",
+   "oa_url": "https://doi.org/10.17615/3npc-zs05",
+   "abstract": "The United States is characterized by geographic disparities in health, including HIV infection. These disparities are greatest with respect to the South, a heterogeneous region that comprises 17 states and Washington, DC, and is home to 37% of the nation's population [1]. The South's worse health outcomes are not restricted to HIV infection. The region has the highest rates of chlamydia, gonorrhea, and syphilis [2]; obesity [3], age-adjusted all-cause mortality [4], and mortality due to heart disease, diabetes and cancer [3]. A number of key social, structural, and policy factors drive the poorer health and HIV status of Southerners [5,6]. The South is the poorest of the nation's four regions, with the highest percentage of people living in poverty areas and the lowest median household incomes [7]. Southerners are less likely to have health insurance [8] – a reality that heightens the salience of the current debate concerning increases in healthcare coverage through Medicaid expansion and implementation of The Affordable Care Act. This article reviews the epidemiology of HIV infection in the South and key laws and policies that contribute to its HIV patterns. Epidemiology The South's contribution to US AIDS cases rose from second lowest in 1981 (15.8%) to highest (44.6%) by 2010 [9]. Almost twice as many adults and adolescents were diagnosed with AIDS in the South in 2010 as in the Northeast, the region with the second highest number of reported AIDS cases [10]. [...]",
+   "cited_by": 139,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home insurance policy household composition",
+     "kind": "combo",
+     "rank": 5,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W1986421854"
+   },
+   "sim": 0.0,
+   "raw_score": 14.300324,
+   "rrf": 0.01846153846153846,
+   "coverage": 0.7624445560048823,
+   "relevance": 0.294140469314841,
+   "score": 0.1559333320808165
+  },
+  {
+   "title": "Sales forecasting for life insurance on primary and supplementary policies using seasonal and trend methods",
+   "year": 2023,
+   "authors": [
+    "Panrawe Boonsom",
+    "Chanin Wongyai",
+    "Duang-arthit Srimoon"
+   ],
+   "venue": "IEEE PES Asia-Pacific Power and Energy Engineering Conference",
+   "doi": "10.1109/appeec57400.2023.10561992",
+   "url": "https://doi.org/10.1109/appeec57400.2023.10561992",
+   "oa_url": "",
+   "abstract": "Sales of insurance are collected monthly or yearly as statistics which most insurance companies haven’t estimated the sales for the next year. The current sales of insurance make it difficult to evaluate the market and organize various campaigns for customers. Therefore, this research has collected sales of life insurance from the website of the Office of Insurance Commission from the year 2018 - 2022. The forecasting of sales for life insurance using 4 forecasting methods which are Holt Winters' Additive, Holt Winters' Multiplicative, Simple Exponential Smoothing, and Double Exponential Smoothing. These forecasting methods are used to forecast insurance premiums one year ahead from the year 2021. The computation of total sales for 3 insurance types which are Primary-General, Primary, and Additional found that the Holt Winters' Multiplicative method is the best forecasting method with an accuracy percentage for forecasting methods of 97.56%.",
+   "cited_by": 1,
+   "kind": "conference-paper",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for home insurance policy",
+     "kind": "semantic",
+     "rank": 8,
+     "weight": 2.0,
+     "sim": 0.402,
+     "raw": 0.8245082753855764
+    }
+   ],
+   "ids": {
+    "openalex": "W4399850124"
+   },
+   "sim": 0.402,
+   "raw_score": 0.8245082753855764,
+   "rrf": 0.029411764705882353,
+   "coverage": 0.38131566320273524,
+   "relevance": 0.3793971907100721,
+   "score": 0.1527309435785749
+  },
+  {
+   "title": "Predictive Analysis in Insurance",
+   "year": 2025,
+   "authors": [
+    "Krishna Sasthri Charamboli",
+    "James Daniel Paul",
+    "Robert Wenn"
+   ],
+   "venue": "IGI Global eBooks",
+   "doi": "10.4018/979-8-3373-1882-0.ch015",
+   "url": "https://doi.org/10.4018/979-8-3373-1882-0.ch015",
+   "oa_url": "",
+   "abstract": "With the Advent of the Insurance Tech Sector, the landscape of the insurance industry has changed dramatically. The commission based sales model has migrated to the online sales model. Most of the purchases and renewals and marketing and advertisements for the renewals have migrated into the online mode. the objective of this chapter is to understand from different studies, the emerging methods of forecasting in the literature especially in the AI driven world. Instead of laying out a hypothetical theoretical framework for the future studies, this chapter attempts to create an empirical framework or literature based model of intention of the forecasting methods prevalent in the insurance industry. with this objective 30 studies have been reviewed and their data, variables and statistical analysis have been analysed to trace the historical use of variables and tools and to suggest changes",
+   "cited_by": 0,
+   "kind": "book-chapter",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for home insurance policy",
+     "kind": "semantic",
+     "rank": 4,
+     "weight": 2.0,
+     "sim": 0.575,
+     "raw": 0.8357519
+    }
+   ],
+   "ids": {
+    "openalex": "W4412612384"
+   },
+   "sim": 0.575,
+   "raw_score": 0.8357519,
+   "rrf": 0.03125,
+   "coverage": 0.1838486260486216,
+   "relevance": 0.39586973529816616,
+   "score": 0.15223888757152396
+  },
+  {
+   "title": "Property Insurance",
+   "year": 2016,
+   "authors": [
+    "Tony Boobier"
+   ],
+   "venue": "",
+   "doi": "10.1002/9781119316244.ch7",
+   "url": "https://doi.org/10.1002/9781119316244.ch7",
+   "oa_url": "",
+   "abstract": "For the great majority of homeowners their experience of insurers at the moment of claim will be relatively minor. This chapter discusses major domestic and complex claims, and investigates the impact of data and analytics to help understand how loss types and levels can be predicted. It considers how certain activities such as fraud management and restoration can be optimized by the use of analytics. Insurers will soon be able to anticipate the likelihood of flooding taking place with a greater level of granularity than currently exists. As climate change leads to more and more flash flooding, such a proactive capability would increasingly appear to become a critical success factor for an insurer as a competitive differentiator. Prediction of hail damage can be done through understanding and analysis of: climate change models and remote sensing.",
+   "cited_by": 2,
+   "kind": "other",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for home insurance policy",
+     "kind": "semantic",
+     "rank": 5,
+     "weight": 2.0,
+     "sim": 0.558,
+     "raw": 0.8346271651839923
+    }
+   ],
+   "ids": {
+    "openalex": "W4244699280"
+   },
+   "sim": 0.558,
+   "raw_score": 0.8346271651839923,
+   "rrf": 0.03076923076923077,
+   "coverage": 0.1838486260486216,
+   "relevance": 0.38736642533688037,
+   "score": 0.1506056523268721
+  },
+  {
+   "title": "Cohort Profile: Health and Ageing in Africa: A Longitudinal Study of an INDEPTH Community in South Africa (HAALSI)",
+   "year": 2018,
+   "authors": [
+    "Francesc Xavier Gómez-Olivé",
+    "Livia S Montana",
+    "Ryan Gregory Wagner",
+    "Chodziwadziwa Whiteson Kabudula",
+    "Julia K. Rohr",
+    "Kathleen Kahn",
+    "Till Bärnighausen",
+    "Mark Collinson",
+    "David Canning",
+    "Thomas Andrew Gaziano",
+    "Joshua A. Salomon",
+    "Collin Payne",
+    "Alisha N. Wade",
+    "Stephen M. Tollman",
+    "Lisa F. Berkman"
+   ],
+   "venue": "International Journal of Epidemiology",
+   "doi": "10.1093/ije/dyx247",
+   "url": "https://doi.org/10.1093/ije/dyx247",
+   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6005147",
+   "abstract": "Population ageing is a global phenomenon. The United Nations estimates that the world population aged over 60 will have increased 3-fold from 1950 to 2050, to reach 21% of the population.1 This compositional shift is happening fastest in low- and middle-income countries (LMIC).2 South Africa in particular is undergoing a dramatic demographic and epidemiological transition, and little is known about the socioeconomic determinants or consequences of transition. This study, following important findings in previous studies in Agincourt3–6 and South Africa in general,7–9 is set up to inform us about morbidity, mortality and aetiological factors shaping these trends. Various ageing studies, including the Studies on Global Ageing and Adult Health (SAGE) and the 2015 Global Burden of Disease, found that non-communicable diseases, driven mainly by population growth and ageing, have become leading causes of death and disability globally, including in LMIC such as South Africa.10–14 At the same time, the share of the population 60 and above in South Africa is estimated to increase from 7.8% in 2012 to 14.8% in 2050,15 and the population aged 50 and over living with HIV will triple by 2040.16 We established the cohort ‘Health and Ageing in Africa: A Longitudinal Study of an INDEPTH Community’ in South Africa (HAALSI) in the INDEPTH Health and Demographic Surveillance System (HDSS) site of Agincourt, as a harmonized sister study to the Health and Retirement Study (HRS) in the USA17 and [...]",
+   "cited_by": 218,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home insurance policy household composition",
+     "kind": "combo",
+     "rank": 13,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W2781983792"
+   },
+   "sim": 0.0,
+   "raw_score": 3.8676274,
+   "rrf": 0.01643835616438356,
+   "coverage": 0.7221958974698895,
+   "relevance": 0.27489797010904166,
+   "score": 0.15059885943842602
+  },
+  {
+   "title": "Healthcare costs for the elderly in Japan: Analysis of medical care and long-term care claim records",
+   "year": 2018,
+   "authors": [
+    "Naomi Akiyama",
+    "Takeru Shiroiwa",
+    "Takashi Fukuda",
+    "Sachiyo Murashima",
+    "Kenshi Hayashida"
+   ],
+   "venue": "PLoS ONE",
+   "doi": "10.1371/journal.pone.0190392",
+   "url": "https://doi.org/10.1371/journal.pone.0190392",
+   "oa_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0190392&type=printable",
+   "abstract": "BACKGROUND: The population is aging rapidly in many developed countries. Such countries need to respond to the growing demand and expanding costs of healthcare (HC) for the elderly. Therefore, it is important to investigate the factors correlating such HC costs. In Japan, HC is composed of two sections, namely medical care (MC) and long-term care (LTC). While many studies have examined MC and LTC costs on their own, few studies have conducted comprehensive investigations of HC costs. The aim of this study is to examine the risk factors that influence HC costs for the elderly who enroll in the LTC insurance system in Japan. METHODS: The inclusion criteria in the present study are as follows: being 65 years of age, or older; certified eligibility for, and use of services offered by the LTC insurance system at home or in an institutional setting in December 2009; and being covered by the National Health Insurance (NHI) system. MC and LTC insurance data were obtained from claim records for the elderly in July and December of 2007, 2008, and 2009 (i.e., a total of six survey points). Panel data, per subject, were constructed using MC and LTC claim records. The sample included 810 subjects and 4029 observations. RESULTS: We estimated a regression equation with a censored dependent variable using a Tobit model. Significant associations between MC or LTC costs and interaction terms (household composition × seasonal effects) were investigated. [...]",
+   "cited_by": 49,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home insurance policy household composition",
+     "kind": "combo",
+     "rank": 6,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W2803419811"
+   },
+   "sim": 0.0,
+   "raw_score": 14.15708,
+   "rrf": 0.01818181818181818,
+   "coverage": 0.7624445560048823,
+   "relevance": 0.29314945261009284,
+   "score": 0.14594977596633807
+  },
+  {
+   "title": "Structural housing elements associated with injuries in older adults in the USA",
+   "year": 2024,
+   "authors": [
+    "Wendy C. Shields",
+    "Elise C. Omaki",
+    "Mia Aassar",
+    "Taneka Blue",
+    "Brianna Brooks",
+    "J. A. O'Hara",
+    "Rica Yssabel Perona"
+   ],
+   "venue": "Injury Prevention",
+   "doi": "10.1136/ip-2024-045252",
+   "url": "https://doi.org/10.1136/ip-2024-045252",
+   "oa_url": "",
+   "abstract": "OBJECTIVE: To quantify the unintentional injuries associated with housing elements among older adults treated in US hospital emergency departments (EDs). To identify modifiable home hazards. METHODS: The National Electronic Injury Surveillance System (NEISS) coding manual was reviewed to identify all codes associated with housing elements that were permanently attached to a home. We queried the 2020 NEISS data for older adults (aged 65 and older) to determine the number of injuries associated with each element. The 10 elements involved in the most hospitalisations and the most ED visits were each tabulated by the number of records in the NEISS sample and national estimate, yielding two separate lists of 10 housing elements. A review of case narratives was conducted on a random selection constituting 10% of all records or a minimum of 100 records to determine common precipitating factors and prevention recommendations. RESULTS: From the two lists, we identified 11 housing elements most commonly associated with housing-related injuries, resulting in ED visits or hospitalisations. The housing element most associated with housing-related injuries was floor, leading to 929 937 ED visits. Subsequent case narrative review yielded prevention recommendations, including modifications that support balance and fall recovery, reduce the need to reach and improve visibility. CONCLUSIONS: Housing element-related injuries affect hundreds of thousands of older adults. [...]",
+   "cited_by": 5,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A service that reaches people at the moment of a home move and helps them preven",
+     "kind": "semantic",
+     "rank": 8,
+     "weight": 2.5,
+     "sim": 0.374,
+     "raw": 0.7769109751951296
+    }
+   ],
+   "ids": {
+    "openalex": "W4401406705"
+   },
+   "sim": 0.374,
+   "raw_score": 0.7769109751951296,
+   "rrf": 0.03676470588235294,
+   "coverage": 0.17562164561697544,
+   "relevance": 0.332539608371657,
+   "score": 0.14525428270882493
+  },
+  {
+   "title": "TOWARD A FRAMEWORK FOR SELECTING BEHAVIOURAL POLICIES: HOW TO CHOOSE BETWEEN BOOSTS AND NUDGES",
+   "year": 2018,
+   "authors": [
+    "Till Grüne‐Yanoff",
+    "Caterina Marchionni",
+    "Markus A. Feufel"
+   ],
+   "venue": "Economics and Philosophy",
+   "doi": "10.1017/s0266267118000032",
+   "url": "https://doi.org/10.1017/s0266267118000032",
+   "oa_url": "https://air.unimi.it/bitstream/2434/1234349/2/160229_Toward%20a%20Framework%20for%20Selecting%20Behavioural%20Policies_changes%20accepted.pdf",
+   "abstract": "In this paper, we analyse the difference between two types of behavioural policies – nudges and boosts. We distinguish them on the basis of the mechanisms through which they are expected to operate and identify the contextual conditions that are necessary for each policy to be successful. Our framework helps judging which type of policy is more likely to bring about the intended behavioural outcome in a given situation.",
+   "cited_by": 39,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "effectiveness of behavioural interventions and nudges for home insurance policy",
+     "kind": "semantic",
+     "rank": 9,
+     "weight": 2.0,
+     "sim": 0.319,
+     "raw": 0.866325284748213
+    }
+   ],
+   "ids": {
+    "openalex": "W2800268189"
+   },
+   "sim": 0.319,
+   "raw_score": 0.866325284748213,
+   "rrf": 0.028985507246376812,
+   "coverage": 0.19746703715411368,
+   "relevance": 0.28953242185564143,
+   "score": 0.13864039778795198
+  },
+  {
+   "title": "Interpretable Property Insurance Premium Prediction Using Machine Learning Models",
+   "year": 2025,
+   "authors": [
+    "Millicent Auma Omondi",
+    "Josué Nguinabé",
+    "John Kamwele Mutinda",
+    "Amos Kipkorir Langat",
+    "Leonard Sanya",
+    "Ouraga Aime Cervert Ballou",
+    "Jeremy Mabiala"
+   ],
+   "venue": "Journal of Artificial Intelligence and Autonomous Intelligence",
+   "doi": "10.54364/jaiai.2024.1121",
+   "url": "https://doi.org/10.54364/jaiai.2024.1121",
+   "oa_url": "https://doi.org/10.54364/jaiai.2024.1121",
+   "abstract": "Accurately predicting home insurance premiums is a critical challenge for insurers, as traditional methods struggle with the complexity and volume of modern data. This study leverages machine learning to address this problem, applying a range of supervised models—including linear regression, lasso regression, ridge regression, decision trees, random forests, gradient boosting, and extreme gradient boosting (XGBoost)—to a comprehensive home insurance dataset with 66 features. After preprocessing to retain 50 key variables, the models were trained and evaluated, with random forests, gradient boosting, and XGBoost emerging as top performers, achieving R-squared scores of 0.8137, 0.8014, and 0.8344, respectively. Hyperparameter tuning further improved XGBoost’s performance to an R-squared of 0.8380,",
+   "cited_by": 0,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for home insurance policy",
+     "kind": "semantic",
+     "rank": 11,
+     "weight": 2.0,
+     "sim": 0.379,
+     "raw": 0.8230398
+    }
+   ],
+   "ids": {
+    "openalex": "W4414410143"
+   },
+   "sim": 0.379,
+   "raw_score": 0.8230398,
+   "rrf": 0.028169014084507043,
+   "coverage": 0.35947027166559703,
+   "relevance": 0.35924065106234254,
+   "score": 0.1379064678576134
+  },
+  {
+   "title": "Using practical and social information to influence flood adaptation behavior",
+   "year": 2016,
+   "authors": [
+    "Maura C. Allaire"
+   ],
+   "venue": "Water Resources Research",
+   "doi": "10.1002/2015wr018258",
+   "url": "https://doi.org/10.1002/2015wr018258",
+   "oa_url": "",
+   "abstract": "As the prospect for more frequent and severe extreme weather events gains scientific support, many nations are evaluating mitigation and adaptation options. Insurance and home retrofits could reduce household welfare losses due to flood events. Yet even after disasters, households often fail to take risk mitigation actions. This paper presents the first randomized field experiment that tests the effect of information provision on household uptake of flood insurance and home retrofits. A sample of 364 flood‐prone households in Bangkok was randomly split into treatment and control groups. The treatment group received practical details on home retrofits and flood insurance as well as social information regarding the insurance purchase decisions of peers. Results indicate that the information intervention increased insurance purchases by about five percentage points, while no effect was detected for home retrofits. This effect is nearly equal to the increase in uptake that the national insurance program in Thailand has achieved through all other means since its establishment in 2012. If scaled up to include all uninsured, flood‐prone households in Bangkok, nearly 70,000 additional households could be insured. The results suggest that well‐designed information interventions could increase uptake of flood insurance, without additional premium subsidies or mandates.",
+   "cited_by": 19,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "effectiveness of behavioural interventions and nudges for home insurance policy",
+     "kind": "semantic",
+     "rank": 12,
+     "weight": 2.0,
+     "sim": 0.2,
+     "raw": 0.8418807177176688
+    }
+   ],
+   "ids": {
+    "openalex": "W2518175463"
+   },
+   "sim": 0.2,
+   "raw_score": 0.8418807177176688,
+   "rrf": 0.027777777777777776,
+   "coverage": 0.45108207538733025,
+   "relevance": 0.3137380870460477,
+   "score": 0.13165398616775126
+  },
+  {
+   "title": "Improving the National Flood Insurance Program",
+   "year": 2018,
+   "authors": [
+    "Howard C. Kunreuther"
+   ],
+   "venue": "Behavioural Public Policy",
+   "doi": "10.1017/bpp.2018.26",
+   "url": "https://doi.org/10.1017/bpp.2018.26",
+   "oa_url": "",
+   "abstract": "This paper highlights factors that need to be considered for improving the National Flood Insurance Program in the USA to address the biases that lead individuals to not protect themselves against low-probability, high-consequence flood events. The errors that individuals exhibit in deciding not to purchase insurance or invest in loss reduction measures prior to a disaster can be traced to the effects of six biases: myopia, amnesia, optimism, inertia, simplification and herding. Along with two guiding principles for insurance, a behavioral risk audit can assist in designing a strategy using concepts from choice architecture coupled with economic incentives to encourage property owners in hazard-prone areas to purchase insurance and invest in cost-effective adaptation measures to protect themselves against future disaster losses.",
+   "cited_by": 42,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "effectiveness of behavioural interventions and nudges for home insurance policy",
+     "kind": "semantic",
+     "rank": 8,
+     "weight": 2.0,
+     "sim": 0.338,
+     "raw": 0.8701390435157713
+    }
+   ],
+   "ids": {
+    "openalex": "W2836243495"
+   },
+   "sim": 0.338,
+   "raw_score": 0.8701390435157713,
+   "rrf": 0.029411764705882353,
+   "coverage": 0.1838486260486216,
+   "relevance": 0.29455707956383803,
+   "score": 0.13158672786770093
+  },
+  {
+   "title": "Applying regression models to predict business results",
+   "year": 2017,
+   "authors": [
+    "Jelena Rusov",
+    "Mirjana Misita",
+    "Dragan D. Milanović",
+    "Dragan D. Milanović"
+   ],
+   "venue": "FME Transaction",
+   "doi": "10.5937/fmet1701198r",
+   "url": "https://doi.org/10.5937/fmet1701198r",
+   "oa_url": "https://scindeks-clanci.ceon.rs/data/pdf/1451-2092/2017/1451-20921701198R.pdf",
+   "abstract": "In terms of modern business practice, business prediction results are crucially important for evaluation of future financial performance of a company. Planning and prediction procedures are especially important for companies operating under uncertainty. This paper shows an example of planning and prediction of business results in insurance when calculating premium trend by use of linear and nonlinear regression. Due to the uncertainty associated with the moment of claim occurrence and claim amount, it is necessary to secure enough assets to cover the risks. Asset-liability matching requires the prediction of future premium movement per insurance lines which represents the basic concept of development and operation of insurance companies.",
+   "cited_by": 11,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for home insurance policy",
+     "kind": "semantic",
+     "rank": 9,
+     "weight": 2.0,
+     "sim": 0.4,
+     "raw": 0.8243664511995497
+    }
+   ],
+   "ids": {
+    "openalex": "W2599442602"
+   },
+   "sim": 0.4,
+   "raw_score": 0.8243664511995497,
+   "rrf": 0.028985507246376812,
+   "coverage": 0.1470789008388973,
+   "relevance": 0.3068159809610765,
+   "score": 0.13104194709795824
+  },
+  {
+   "title": "You Are Just Now Telling Us About This? African American Perspectives of Testing for Genetic Susceptibility to Kidney Disease",
+   "year": 2019,
+   "authors": [
+    "Ebele M. Umeukeje",
+    "Bessie Ann Young",
+    "Stephanie Malia Fullerton",
+    "Kerri L. Cavanaugh",
+    "Delia Owens",
+    "James G. Wilson",
+    "Wylie Burke",
+    "Erika A. Blacksher"
+   ],
+   "venue": "Journal of the American Society of Nephrology",
+   "doi": "10.1681/asn.2018111091",
+   "url": "https://doi.org/10.1681/asn.2018111091",
+   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6442335",
+   "abstract": "Variants of the APOL1 gene, which encodes apo L1, confer increased risk for CKD, ESKD, and reduced cadaveric kidney transplant survival, and likely contribute to kidney disease disparities among African American individuals in the United States. To date, few studies have gathered African Americans’ perspectives on APOL1 testing practices. In this Perspective, we describe the results of a study designed to gather informed input about the potential benefits and risks of APOL1 testing in routine patient care and in kidney transplant settings. Despite mixed views among study participants, they generally expressed support for testing, especially in kidney transplant programs, and many urged broad-based efforts to educate African Americans about the discovery of APOL1 gene variants and their implications for kidney disease. This article’s title, “You are just now telling us about this?”, reflects a sentiment voiced in a community deliberation, one of three held with African Americans to discuss testing for variants of the APOL1 gene. “Why are we not knowing about this?” a deliberant asked. “I know you have to do research before you come out with anything but it’s been a while and still no one has heard about it.” Although mistrust of research and medical establishments punctuated all deliberations, most deliberants strongly endorsed offering APOL1 testing to African Americans in some settings. [...]",
+   "cited_by": 37,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home insurance policy household composition",
+     "kind": "combo",
+     "rank": 24,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W2922485043"
+   },
+   "sim": 0.0,
+   "raw_score": 1.6538951,
+   "rrf": 0.014285714285714285,
+   "coverage": 0.7624445560048823,
+   "relevance": 0.2793460056511011,
+   "score": 0.13043663873403052
+  },
+  {
+   "title": "Assets in Crisis: Housing, Preferences and Policy in the Credit Crisis",
+   "year": 2012,
+   "authors": [
+    "Ben W. Ansell"
+   ],
+   "venue": "Swiss Political Science Review",
+   "doi": "10.1111/spsr.12013",
+   "url": "https://doi.org/10.1111/spsr.12013",
+   "oa_url": "",
+   "abstract": "The credit crisis, beginning in 2008 and still hammering the advanced industrial world today, is distinct from other postwar recessions not only in its magnitude but also in its root causes. Previous business cycles were driven by over and under-utilization of labor and capital investment - sometimes with demand for goods and services outpacing supply, sometimes with demand collapsing and workers and products left unwanted. In other words, the business cycle that current generations of voters and politicians grew up with was the ebb and flow of the product market. The 'Great Recession' has been fundamentally different - it has been a financial crisis in the asset market. Few advanced industrial countries have experienced this type of crisis since the 1930s, though they have been regular occurrences in the developing world. The current crisis germinated in a decade-long house price boom that burst with collapsing asset values, frozen credit markets, and finally a broader economic slowdown. A small cottage industry of recent books has argued that the roots of the crisis are similar to those bedeviling countries in the developing world, problems that have burrowed now to the core of the global economy: for example, Simon Johnson and James Kwak's Thirteen Bankers, Menzie Chinn and Jeffry Frieden's Lost Decades, and Raghuram Rajan's Fault Lines. [...]",
+   "cited_by": 57,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home insurance policy household composition",
+     "kind": "combo",
+     "rank": 7,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W1963883465"
+   },
+   "sim": 0.0,
+   "raw_score": 13.396311,
+   "rrf": 0.01791044776119403,
+   "coverage": 0.7624445560048823,
+   "relevance": 0.2921880184935462,
+   "score": 0.12433907986004245
+  },
+  {
+   "title": "Index",
+   "year": 2018,
+   "authors": [],
+   "venue": "Emerald Group Publishing Limited eBooks",
+   "doi": "10.1108/s0196-382120170000034012",
+   "url": "https://doi.org/10.1108/s0196-382120170000034012",
+   "oa_url": "",
+   "abstract": "Citation (2017), \"Index\", World Agricultural Resources and Food Security (Frontiers of Economics and Globalization, Vol. 17), Emerald Publishing Limited, Bingley, pp. 289-308. https://doi.org/10.1108/S1574-871520170000017019 Publisher: Emerald Publishing Limited Copyright © 2017 Emerald Publishing Limited INDEX A&O. See Administration and Operations (A&O) Abiotic inducers, 116 Abscisic acid, 116 Access(ibility), 2, 38 Acibenzolar-S-methyl, 116 ACRE program. See Average Crop Revenue Election program (ACRE program) Acreage reduction, 40–41 Adaptations of agriculture, 75 autonomous, 75–76 crop systems, 76–77 fisheries and aquaculture systems, 78 livestock systems, 77–78 Administration and Operations (A&O), 129 Aggregation, 281 Agroclimate.org, 88–89 Agricultural R&D investments, 2 absolute increase in total caloric consumption, 12 annual growth of agrifood prices, 10 of agrifood production volume, 9 of land-augmenting technical change, 8 cumulative R&D investments, 12 food-security dimensions, 2 land productivity, 7–8 methodology incorporation of R&D-driven technical change, 4–5 MAGNET model, 3 scenarios, 5–7 ratio of unskilled wages, 11 regions, production sectors, and periods applied, 17 Agricultural risk coverage (ARC), 127 Agricultural/agriculture, 70, 91–92, 93 adaptations, 75 autonomous adaptation, 75–76 crop systems, 76–77 fisheries and aquaculture systems, 78 livestock systems, 77–78 agricultural-insurance programs, 129–130 biotechnology assessment of three regional [...]",
+   "cited_by": 0,
+   "kind": "paratext",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home insurance policy household composition",
+     "kind": "combo",
+     "rank": 21,
+     "weight": 1.2
+    },
+    {
+     "source": "openalex",
+     "query": "home insurance policy household composition",
+     "kind": "combo",
+     "rank": 22,
+     "weight": 1.2
+    },
+    {
+     "source": "openalex",
+     "query": "home insurance policy household composition",
+     "kind": "combo",
+     "rank": 23,
+     "weight": 1.2
+    },
+    {
+     "source": "openalex",
+     "query": "home insurance policy household composition",
+     "kind": "combo",
+     "rank": 29,
+     "weight": 1.2
+    },
+    {
+     "source": "openalex",
+     "query": "home insurance policy household composition",
+     "kind": "combo",
+     "rank": 30,
+     "weight": 1.2
+    },
+    {
+     "source": "openalex",
+     "query": "home insurance policy behavioural intervention",
+     "kind": "facet",
+     "rank": 26,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W4231936585"
+   },
+   "sim": 0.0,
+   "raw_score": 2.1295283,
+   "rrf": 0.08467676025442152,
+   "coverage": 0.2863551586547485,
+   "relevance": 0.3859065475964245,
+   "score": 0.12432144602709719
+  },
+  {
+   "title": "Household spending and coronavirus",
+   "year": 2020,
+   "authors": [
+    "Rowena Crawford",
+    "Alex Davenport",
+    "Robert C. Joyce",
+    "Peter Levell"
+   ],
+   "venue": "",
+   "doi": "10.1920/bn.ifs.2020.bn0279",
+   "url": "https://doi.org/10.1920/bn.ifs.2020.bn0279",
+   "oa_url": "",
+   "abstract": "Many households are experiencing falls in their income as a result of the economic and health policy responses to the coronavirus crisis – often sharp falls. What they normally spend their money on will matter for how well they can weather this storm. If a household typically spends much of its budget on essential or inflexible items, it has less scope to adjust to a lower income by reducing spending without incurring relatively severe hardship. Hence it is relatively likely to run down savings, miss bill payments or go into debt. At the other extreme, if a large fraction of a household’s budget goes on the kind of social and recreational activities that are now prohibited, or on commuting, which is now unnecessary for many workers, it may require little – or even no – further adjustment to cope with a fall in income. Figure 1 shows the average composition of household spending prior to the coronavirus crisis. We look at households where the household head is working, since we are interested in their ability to withstand income shocks. We group spending into three broad categories: Essential spending that is hard to adjust in the short run (coloured green): groceries, utility bills, mortgage costs (including repayments), council tax and rent. Together, these account for around 47% of total expenditure on average. Spending on goods and services now prohibited or discouraged due to social distancing (coloured red): travel, leisure and eating out. [...]",
+   "cited_by": 12,
+   "kind": "report",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home insurance policy household composition",
+     "kind": "combo",
+     "rank": 2,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W3015312740"
+   },
+   "sim": 0.0,
+   "raw_score": 20.294188,
+   "rrf": 0.01935483870967742,
+   "coverage": 0.7624445560048823,
+   "relevance": 0.2973053291138753,
+   "score": 0.1189934828724056
+  },
+  {
+   "title": "Predictive Modeling of Multi-Peril Homeowners Insurance",
+   "year": 2012,
+   "authors": [
+    "Edward W. Frees",
+    "Glenn G. Meyers",
+    "A. David Cummings"
+   ],
+   "venue": "Variance",
+   "doi": "10.66573/001c.77489",
+   "url": "https://doi.org/10.66573/001c.77489",
+   "oa_url": "https://variancejournal.org/article/77489.pdf",
+   "abstract": "Predictive models are used by insurers for underwriting and ratemaking in personal lines insurance. Focusing on homeowners insurance, this paper examines many predictive generalized linear models, including those for pure premium (Tweedie), frequency (logistic) and severity (gamma). We compare predictions from models based on a single peril, or cause of loss, to those based on multiple perils. For multi-peril models, we introduce an instrumental variable approach to account for dependencies among perils. We calibrate these models using a database of detailed individual policyholder experience. To evaluate these many alternatives, we emphasize out-of-sample model comparisons. We utilize Gini indices for global comparisons of models and, for local comparisons, introduce nonparametric regression techniques. We find that using several different comparison approaches can help the actuary critically evaluate the effectiveness of alternative prediction procedures.",
+   "cited_by": 1,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for home insurance policy",
+     "kind": "semantic",
+     "rank": 6,
+     "weight": 2.0,
+     "sim": 0.444,
+     "raw": 0.8272057000454615
+    }
+   ],
+   "ids": {
+    "openalex": "W7154630032"
+   },
+   "sim": 0.444,
+   "raw_score": 0.8272057000454615,
+   "rrf": 0.030303030303030304,
+   "coverage": 0.1838486260486216,
+   "relevance": 0.3401147308289668,
+   "score": 0.11330917601866482
+  },
+  {
+   "title": "Forecasting Lapse, Renewal, and Commencement of Policies in Non-Life Insurance",
+   "year": 2021,
+   "authors": [
+    "Suzanne Dechesne"
+   ],
+   "venue": "",
+   "doi": "",
+   "url": "https://feb.studenttheses.ub.rug.nl/27480/",
+   "oa_url": "",
+   "abstract": "Forecasts of premium income are of significant importance to insurance companies. There is much room for improvement in the accuracy of these predictions. Therefore, the objective of this paper is to find the optimal model for providing forecasts of premiums. The forecast performance and interpretability of different prediction methods are analyzed. In addition, fundamental principles of survival analysis are discussed. The first model that is examined is a Cox proportional hazards model including shared frailty. It is estimated using a penalized likelihood estimation. The second model under examination is a regressive logistic regression model and is estimated by using maximum likelihood estimation. While both models are considered equally apprehensible, the latter is found to have a significantly better forecast performance. Lastly, confidence intervals for the total expected premium income are calculated.",
+   "cited_by": 0,
+   "kind": "dissertation",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for home insurance policy",
+     "kind": "semantic",
+     "rank": 12,
+     "weight": 2.0,
+     "sim": 0.356,
+     "raw": 0.8215546
+    }
+   ],
+   "ids": {
+    "openalex": "W3159796831"
+   },
+   "sim": 0.356,
+   "raw_score": 0.8215546,
+   "rrf": 0.027777777777777776,
+   "coverage": 0.38131566320273524,
+   "relevance": 0.3552081633906692,
+   "score": 0.11127929618225832
+  },
+  {
+   "title": "Cohort Profile: The Canadian Longitudinal Study on Aging (CLSA)",
+   "year": 2019,
+   "authors": [
+    "Parminder S. Raina",
+    "Christina M. Wolfson",
+    "Susan Kirkland",
+    "Lauren E. Griffith",
+    "Cynthia M. Balion",
+    "Benoît Cossette",
+    "Isabelle J. Dionne",
+    "Scott Michael Hofer",
+    "David B. Hogan",
+    "Edwin R. van den Heuvel",
+    "Teresa Y L Liu-Ambrose",
+    "Verena H. Menec",
+    "Gerald J. Mugford",
+    "Christopher Patterson",
+    "Hélène Payette",
+    "John Brent Richards",
+    "Harry S. Shannon",
+    "Debra J. Sheets",
+    "Vanessa Taler",
+    "Mary E. Thompson",
+    "Holly Anna Tuokko",
+    "Andrew Wister",
+    "Changbao Wu",
+    "Lynne Young"
+   ],
+   "venue": "International Journal of Epidemiology",
+   "doi": "10.1093/ije/dyz173",
+   "url": "https://doi.org/10.1093/ije/dyz173",
+   "oa_url": "https://academic.oup.com/ije/article-pdf/48/6/1752/31611039/dyz173.pdf",
+   "abstract": "The Canadian Longitudinal Study on Aging (CLSA) was established to understand and address the needs of an aging population.1–3 Overall aims are to examine aging as a dynamic process; to investigate the inter-relationship among intrinsic and extrinsic factors from mid-life to older age; and to capture the transitions, trajectories and profiles of aging.4 A central objective in creating the CLSA was to provide national infrastructure and build capacity for state-of-the-art, interdisciplinary, population-based research and evidence-based decision-making.5,6 The CLSA was designed to be a national, longitudinal research platform that includes participants from all 10 Canadian provinces, and collects comprehensive data and biological samples that will support a wide variety of aging-related research questions.3 The cohort of 51 338 participants, aged 45–85 years at enrolment, is composed of two complementary cohorts that may be studied separately or together: (1) the Tracking cohort of 21 241 participants randomly selected from within all 10 provinces who are interviewed by telephone, and (2) the Comprehensive cohort of 30 097 participants randomly selected from within 25–50 km of 11 data collection sites (DCSs) (in seven provinces) who are interviewed in person, take part in in-depth physical assessments at DCSs, and provide blood and urine samples. [...]",
+   "cited_by": 543,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home insurance policy household composition",
+     "kind": "combo",
+     "rank": 17,
+     "weight": 1.2
+    },
+    {
+     "source": "openalex",
+     "query": "home insurance policy behavioural intervention",
+     "kind": "facet",
+     "rank": 39,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W2972265869"
+   },
+   "sim": 0.0,
+   "raw_score": 2.670504,
+   "rrf": 0.027705627705627706,
+   "coverage": 0.4171433669077013,
+   "relevance": 0.22330085511402953,
+   "score": 0.11025888005635709
+  },
+  {
+   "title": "Learning Social and Behavioral Sciences (Humanities) from People",
+   "year": 2025,
+   "authors": [
+    "Sunder Lal"
+   ],
+   "venue": "Indian Journal of Community Medicine",
+   "doi": "10.4103/ijcm.ijcm_188_24",
+   "url": "https://doi.org/10.4103/ijcm.ijcm_188_24",
+   "oa_url": "https://doi.org/10.4103/ijcm.ijcm_188_24",
+   "abstract": "Regulations on Competency Based Medical Education (CBME) programs have identified several wide-ranging overlapping core competencies relevant to Social and Behavioral Sciences (SBS). Critical analysis of these competencies indicates that all these are relevant to the domains of sociology, social psychology, and social and cultural anthropology (Behavioral sciences). Experience over the years indicates that the topic of SBS in most textbooks of community medicine is not dealt with adequately. Its contents are vague and not focused. Students are not able to grasp or conceptualize the application of SBS in health and disease. Faculty find it difficult and struggle hard to teach SBS. Similarly, logbooks recently introduced and prepared by various institutions do not inspire much to learn SBS. Further, the faculty of community medicine often lacks the training on SBS. With a minimum formal knowledge in social and behavioral sciences the faculty can do a great deal themselves, simply by moving out of classrooms into community and families to learn their perceived/felt needs and demands as also real healthcare needs. This is the best way to gain understanding of community organization, its way of life, human behaviors, and lifestyles and thereby learning SBS in real-life situation from people. [...]",
+   "cited_by": 0,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home insurance policy household composition",
+     "kind": "combo",
+     "rank": 15,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W4408173696"
+   },
+   "sim": 0.0,
+   "raw_score": 2.947302,
+   "rrf": 0.016,
+   "coverage": 0.8755847483641507,
+   "relevance": 0.31936158002083803,
+   "score": 0.10898808508360236
+  },
+  {
+   "title": "Moving Your Library",
+   "year": 2017,
+   "authors": [
+    "Andrew McDonald"
+   ],
+   "venue": "Routledge eBooks",
+   "doi": "10.4324/9781351227308",
+   "url": "https://doi.org/10.4324/9781351227308",
+   "oa_url": "",
+   "abstract": "Examines the essential elements of planning a move, and offers practical guidance to ensure minimum disruption to service.Topics covered include: planning; resources, equipment and furniture, staff, security, safety and insurance. Examines the opportunities for service review and development.",
+   "cited_by": 3,
+   "kind": "reference-entry",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A service that reaches people at the moment of a home move and helps them preven",
+     "kind": "semantic",
+     "rank": 9,
+     "weight": 2.5,
+     "sim": 0.361,
+     "raw": 0.7763009628980939
+    }
+   ],
+   "ids": {
+    "openalex": "W1627374937"
+   },
+   "sim": 0.361,
+   "raw_score": 0.7763009628980939,
+   "rrf": 0.036231884057971016,
+   "coverage": 0.1470789008388973,
+   "relevance": 0.3168890586384283,
+   "score": 0.10738861462108365
+  },
+  {
+   "title": "Home Kredit Integration System and Vehicle Insurance Policy Simas Insurtech at Sinar Mas Insurance",
+   "year": 2020,
+   "authors": [
+    "Jemi Yosua Laoere"
+   ],
+   "venue": "International Journal of Information Technology and Business",
+   "doi": "10.24246/ijiteb.222020.19-25",
+   "url": "https://doi.org/10.24246/ijiteb.222020.19-25",
+   "oa_url": "https://ejournal.uksw.edu/ijiteb/article/view/3671",
+   "abstract": "Web service API is meant for each platform to be connected and can be used for personal, group, or company needs. Web service API in the insurance world is used for insured parties to get their policy numbers and payment details for insurance purposes both for self-insurance and the property of the insured. By using a primary data collection method that is directly from the source, by using existing parameters in the procedure that was made previously to be able to get a valid policy number and is used by the insured as a form of cooperation with the Sinar Mas Insurance company. The results of the analysis are the number of policies that have been processed, will be used for the insured to make insurance claims on the insurance. This API has been made which aims to facilitate interaction between application platforms both web-based or mobile in data retrieval without regard to the platform used so that the activity of exchanging data between applications can run properly.",
+   "cited_by": 1,
+   "kind": "article",
+   "tldr": "This API has been made which aims to facilitate interaction between application platforms both web-based or mobile in data retrieval without regard to the platform used so that the activity of exchanging data between applications can run properly.",
+   "sources": [
+    "openalex",
+    "s2"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home insurance policy",
+     "kind": "phrase",
+     "rank": 4,
+     "weight": 1.0
+    },
+    {
+     "source": "openalex",
+     "query": "home insurance policy",
+     "kind": "phrase",
+     "rank": 5,
+     "weight": 1.0
+    },
+    {
+     "source": "s2",
+     "query": "home insurance policy",
+     "kind": "phrase",
+     "rank": 6,
+     "weight": 1.0
+    }
+   ],
+   "ids": {
+    "openalex": "W4408513216",
+    "s2": "01ecbfc0ec2f9d00be9594448df0504b1fe5c27f"
+   },
+   "sim": 0.0,
+   "raw_score": 53.107697,
+   "rrf": 0.04616113053613054,
+   "coverage": 0.4806741761791637,
+   "relevance": 0.3077458168638761,
+   "score": 0.10363497874083535
+  },
+  {
+   "title": "Do honesty‐nudges really work? A large‐scale field experiment in an insurance context",
+   "year": 2022,
+   "authors": [
+    "Jareef Martuza",
+    "Siv Skard",
+    "Lavrans Løvlie",
+    "Helge Thorbjørnsen"
+   ],
+   "venue": "Journal of Consumer Behaviour",
+   "doi": "10.1002/cb.2049",
+   "url": "https://doi.org/10.1002/cb.2049",
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cb.2049",
+   "abstract": "Businesses want their customers to self‐report information honestly. One increasingly popular way to stimulate desired behavior is by using nudge interventions. But can customers be nudged to self‐report information more honestly? This is currently a debate in the literature, where empirical results are inconclusive. Building on related literature on nudges, we add to this debate with a controlled field experiment (N = 5704). We used data from actual customers making real decisions when they file claims online to a large Nordic insurance provider. To the best of our knowledge, this is the first study to investigate the effects of honesty‐nudges on self‐reported information when filing insurance claims using a controlled field experiment. We designed and tested three honesty‐nudges on insurance customers: (1) signing‐at‐the‐beginning, (2) a descriptive social norm message, and (3) a solidarity message. Across five outcome measures, we found that the honesty‐nudges, standalone or in any possible combination, do not have significant effects in reducing indicators of insurance claims fraud. But interestingly, customers in all treatment groups used significantly more characters to describe losses than customers in the control group. Also, in post hoc analyses, we found signs that the direction of nudge effects varies across customers' age and customer loyalty.",
+   "cited_by": 22,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "effectiveness of behavioural interventions and nudges for home insurance policy",
+     "kind": "semantic",
+     "rank": 11,
+     "weight": 2.0,
+     "sim": 0.229,
+     "raw": 0.8477769963857075
+    }
+   ],
+   "ids": {
+    "openalex": "W4223946466"
+   },
+   "sim": 0.229,
+   "raw_score": 0.8477769963857075,
+   "rrf": 0.028169014084507043,
+   "coverage": 0.1838486260486216,
+   "relevance": 0.2465541573772499,
+   "score": 0.10127936463249029
+  },
+  {
+   "title": "Cohort Profile Update: The 45 and Up Study",
+   "year": 2022,
+   "authors": [
+    "Kerrin Bleicher",
+    "Richard J. Summerhayes",
+    "Sarah Baynes",
+    "Michael M. Swarbrick",
+    "Tina Navin Cristina",
+    "Hans Luc",
+    "Greer Dawson",
+    "Alison Cowle",
+    "Xenia Dolja‐Gore",
+    "Martin McNamara"
+   ],
+   "venue": "International Journal of Epidemiology",
+   "doi": "10.1093/ije/dyac104",
+   "url": "https://doi.org/10.1093/ije/dyac104",
+   "oa_url": "https://academic.oup.com/ije/article-pdf/52/1/e92/49127196/dyac104.pdf",
+   "abstract": "The 45 and Up Study (‘the Study’) recruited 267 357 participants aged ≥45 years from New South Wales, Australia between 2005 and 2009 as a resource for researchers and policy makers to source evidence to support better health and ageing. Participants have received two follow-up surveys with new survey themes responding to emerging research and policy needs such as disability, social connections, loneliness, housing, economic, health status, access to healthcare and impacts of COVID-19. Data linkages allow virtually complete follow-up of all participants—currently 212 050 (79.3%) alive and enrolled. The 2018–2020 follow-up surveys had 97 302 responses (47.3% response rate). Over 20 data sets including mortality, hospital and pharmaceutical data are routinely linked to the Study to identify sub-cohorts, risk factors, confounders and outcomes. Biospecimens, genomic and environmental data have been collected. The Study was designed as a research resource and has been used by >800 researchers, across Australia and internationally. For enquiries, please contact [email protected]. The 45 and Up Study (‘the Study’) was developed to enhance population health. The Study provides researchers with reliable data on a wide range of exposures and outcomes of public health importance for the ageing population. [...]",
+   "cited_by": 91,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home insurance policy behavioural intervention",
+     "kind": "facet",
+     "rank": 31,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W4282913991"
+   },
+   "sim": 0.0,
+   "raw_score": 2.6221783,
+   "rrf": 0.013186813186813187,
+   "coverage": 0.5938143685384322,
+   "relevance": 0.2248636694996556,
+   "score": 0.09933052815877705
+  },
+  {
+   "title": "Three Trends Shaping the Politics of Aging in America",
+   "year": 2020,
+   "authors": [
+    "Nora Super"
+   ],
+   "venue": "Public Policy & Aging Report",
+   "doi": "10.1093/ppar/praa006",
+   "url": "https://doi.org/10.1093/ppar/praa006",
+   "oa_url": "https://academic.oup.com/ppar/article-pdf/30/2/39/33224978/praa006.pdf",
+   "abstract": "Aging has become a hot topic. Once relegated to the smaller rooms in conferences and hidden in the back pages of news articles, aging-related topics dominate policy and lifestyle discussions. Maybe it’s because so many of us are aging ourselves. The demographic bulge created by the Baby Boom generation—the roughly 76 million people born between 1946 and 1964—has shaped American politics since this group came of age in the 1960s. Within the next 10 years, the oldest Boomers will reach 84 and the youngest (myself included) will be eligible for Medicare. Suddenly, aging issues have never been more relevant. Gerontologists have long studied the social, economic, and health implications of population aging, but have we fully considered the political implications of this huge demographic shift? As we look ahead in this presidential election year, I’ve identified three converging trends that will shape our nation’s politics for the next decade. While we’ve been tracking these trends for several years, the sheer numbers of those who will be impacted may prove to be the tipping point for action. Combined federal spending for federal programs benefiting older adults—primarily Social Security and Medicare—is projected to rise from 7.9% of gross domestic product in 2019 to nearly 10% in 2029, accounting for about two-thirds of mandatory, non-defense federal spending (Congressional Budget Office,[CBO], 2019). [...]",
+   "cited_by": 24,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home insurance policy household composition",
+     "kind": "combo",
+     "rank": 14,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W3018068559"
+   },
+   "sim": 0.0,
+   "raw_score": 3.2405305,
+   "rrf": 0.016216216216216217,
+   "coverage": 0.6340630270734247,
+   "relevance": 0.24767109276215524,
+   "score": 0.09912110013326463
+  },
+  {
+   "title": "Perceptions of Home Insurance and Policy Directions: Comparing Mexican Americans and Non‐Hispanic White Americans",
+   "year": 2019,
+   "authors": [
+    "Mohammadali Zolfagharian",
+    "Fuad Hasan",
+    "Golnaz Baradaran Motie",
+    "Gregory D. Squires"
+   ],
+   "venue": "Journal of Consumer Affairs",
+   "doi": "10.1111/joca.12277",
+   "url": "https://doi.org/10.1111/joca.12277",
+   "oa_url": "",
+   "abstract": "With prior research on home insurance largely focused on supply side practices, we know little about demand side attributes of this market, especially about consumer perceptions of insurance. This article demonstrates that, despite seemingly more equitable industry practices, ethnic homeowners (Mexican Americans in this study), relative to the majority White population, have a greater tendency to view home insurance as a cost burden (as opposed to coverage against potential damages and injuries) and, hence, are more vulnerable to living with minimal or no home insurance coverage. The findings suggest that this disparity is attributable to cultural differences rooted in diverse structural and institutional circumstances in which ethnic homeowners often find themselves situated. The role of ethnic identity is salient even after accounting for personal, household, property, mortgage, and natural calamity factors. New directions for policy are proposed to address the situation by informing and empowering vulnerable consumers.",
+   "cited_by": 4,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex",
+    "s2"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home insurance policy",
+     "kind": "phrase",
+     "rank": 3,
+     "weight": 1.0
+    },
+    {
+     "source": "s2",
+     "query": "home insurance policy",
+     "kind": "phrase",
+     "rank": 5,
+     "weight": 1.0
+    }
+   ],
+   "ids": {
+    "openalex": "W2970572456",
+    "s2": "5faef1367578a8302ee88616c0cbc63d653fa95d"
+   },
+   "sim": 0.0,
+   "raw_score": 54.287285,
+   "rrf": 0.03125763125763126,
+   "coverage": 0.6090557051106211,
+   "relevance": 0.29345889568281824,
+   "score": 0.09866379682039005
+  },
+  {
+   "title": "Affordable Condominium Housing",
+   "year": 2018,
+   "authors": [
+    "Rosa E. Donoso"
+   ],
+   "venue": "Architecture and the Built Environment",
+   "doi": "10.59490/abe.2018.23.2605",
+   "url": "https://doi.org/10.59490/abe.2018.23.2605",
+   "oa_url": "https://journals.open.tudelft.nl/abe/article/download/2605/2841",
+   "abstract": "Both the general public and policy makers see home ownership as a major life goal. Owning a home is a form of capital that creates a social safety net (Elsinga, 2005; Moser, 2009). Home ownership can also help boost self-esteem and contribute to housing satisfaction (Elsinga & Hoekstra, 2005; Marcuse, 1972). In South America, owning your own home is a way to ensure basic economic security and is a dream shared by everyone. For this reason, large-scale investments are needed in owner-occupied homes for low-income buyers. A different light is shed on this dream however when it becomes clear that the quality of subsidized property for low-income groups is subpar due to poor maintenance and buildings quickly deteriorate. This occurs in Chile, Mexico, Brazil, Colombia and Ecuador (Paquette-Vasalli & Sanchez, 2009; Rodriguez & Sugranyes, 2005; Rojas, 2010). Most studies into housing quality and poor maintenance have been conducted among single-family homes owned by individuals. In South America, especially in cities, low-income homes are usually apartments. This means ownership is shared with other building residents. Most maintenance-related issues occur in joint ownership properties and there is little literature available on this topic. The aim of this study is to gain more insight into how homeowner’s associations work in low-income owner-occupied apartments. [...]",
+   "cited_by": 2,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home insurance policy household composition",
+     "kind": "combo",
+     "rank": 11,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W4388491289"
+   },
+   "sim": 0.0,
+   "raw_score": 5.201236,
+   "rrf": 0.016901408450704224,
+   "coverage": 0.7624445560048823,
+   "relevance": 0.2886131085390627,
+   "score": 0.09473791415821803
+  },
+  {
+   "title": "Determinants of migration and household member arrangement among poor rural households in China: The case of North Jiangsu",
+   "year": 2019,
+   "authors": [
+    "Shuangshuang Tang"
+   ],
+   "venue": "Population Space and Place",
+   "doi": "10.1002/psp.2279",
+   "url": "https://doi.org/10.1002/psp.2279",
+   "oa_url": "",
+   "abstract": "After decades of rural‐to‐urban migration, alleviating poverty among rural populations has become a priority of the central government of China. Migration is assumed to be a strategy for poor rural populations to cope with poverty. Nevertheless, extant research has paid little attention to migration determinants and household arrangements of poor rural populations in particular. Moreover, existing literature regarding migration in China from a household perspective is relatively scare. Therefore, based on a recent survey in North Jiangsu, China, this paper attempts to explore both migration determinants and the organisations of poor rural households in particular from a household perspective. The findings show that migration is an important livelihood strategy of poor rural households, triggered by limited farmland and major family events, which heavily relies on household structure and educational attainment of household members. In addition, it is observed that poor rural households adopt diversified strategies to arrange family members either within or outside the home village in order to boost household income. The findings reveal the importance of migration for poor rural households and the dilemmas that poor rural households tend to face. Reducing rural poverty in China requires policies that are more responsive to the needs of rural families for local employments, quality education, and long‐term insurance programmes.",
+   "cited_by": 27,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home insurance policy household composition",
+     "kind": "combo",
+     "rank": 9,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W2983665713"
+   },
+   "sim": 0.0,
+   "raw_score": 6.2201552,
+   "rrf": 0.017391304347826087,
+   "coverage": 0.6411510873434856,
+   "relevance": 0.25396071262869,
+   "score": 0.09437554576636241
+  },
+  {
+   "title": "The effect of health insurance on home payment delinquency: Evidence from ACA Marketplace subsidies",
+   "year": 2019,
+   "authors": [
+    "Emily A. Gallagher",
+    "R. Gopalan",
+    "M. Grinstein-Weiss"
+   ],
+   "venue": "Journal of Public Economics",
+   "doi": "10.2139/ssrn.2922260",
+   "url": "https://doi.org/10.2139/ssrn.2922260",
+   "oa_url": "https://doi.org/10.2139/ssrn.2922260",
+   "abstract": "Abstract We use administrative tax data and survey responses to quantify the effect of subsidized health insurance on rent and mortgage delinquency. We employ a regression discontinuity (RD) design, exploiting the income threshold for receiving Marketplace subsidies in states that did not expand Medicaid under the Affordable Care Act. Among households targeted by the policy, eligibility for subsidies is associated with a roughly 25 % decline in the delinquency rate and reduced exposure to out-of-pocket medical expenditure risk. IV treatment effects are significant, indicating that the decline in the delinquency rate is related to participation in health insurance. We show that, under plausible assumptions, the social benefits implied by our RD estimates, in terms of fewer evictions and foreclosures, are substantial.",
+   "cited_by": 46,
+   "kind": "review",
+   "tldr": "Estimates of the effect of subsidized health insurance on rent and mortgage delinquency and the social benefits implied by the RD estimates, in terms of fewer evictions and foreclosures, are substantial.",
+   "sources": [
+    "s2"
+   ],
+   "hits": [
+    {
+     "source": "s2",
+     "query": "home insurance policy",
+     "kind": "phrase",
+     "rank": 11,
+     "weight": 1.0
+    }
+   ],
+   "ids": {
+    "s2": "766dfdd712edc19f845e2ed7d5427671f334da07"
+   },
+   "sim": 0.0,
+   "raw_score": null,
+   "rrf": 0.014084507042253521,
+   "coverage": 0.6090557051106211,
+   "relevance": 0.23261649631451803,
+   "score": 0.0927797418680672
+  },
+  {
+   "title": "Cohort Profile: Effective Perinatal Intensive Care in Europe (EPICE) very preterm birth cohort",
+   "year": 2019,
+   "authors": [
+    "Jennifer A. Zeitlin",
+    "Rolf F. Maier",
+    "Marina Cuttini",
+    "Ulrika Ådén",
+    "Klaus Boerch",
+    "Janusz Gadzinowski",
+    "Pierre‐Henri Jarreau",
+    "Jo Lebeer",
+    "Mikael Norman",
+    "Pernille Pedersen",
+    "Stavros Petrou",
+    "Johanna M. Pfeil",
+    "Liis Toome",
+    "Arno F.J. van Heijst",
+    "Patrick Van Reempts",
+    "Heili Varendi",
+    "Henrique Barros",
+    "Elizabeth S. Draper",
+    "Jo Lebeer",
+    "Patrick Van Reempts",
+    "E Bruneel",
+    "Eva Cloet",
+    "Ann Oostra",
+    "Els Ortibus",
+    "Iemke Sarrechia",
+    "Klaus Boerch",
+    "Lene Drasbek Huusom",
+    "Pernille Pedersen",
+    "Tom Weber",
+    "Liis Toome",
+    "Heili Varendi",
+    "Mairi Männamaa",
+    "Pierre‐Yves Ancel",
+    "A. Burguet",
+    "Pierre Henri Jarreau",
+    "Véronique Pierrat",
+    "Patrick Truffert",
+    "Rolf F. Maier",
+    "Michael Zemlin",
+    "Björn Misselwitz",
+    "Stephan Schmidt",
+    "Lena Wohlers",
+    "Marina Cuttini",
+    "D Di Lallo",
+    "Gina Ancora",
+    "Dante Baronciani",
+    "Virgilio Paolo Carnielli",
+    "Ileana Croci",
+    "Giacomo Faldella",
+    "Fabrizio Ferrari",
+    "F Franco",
+    "G Gargano",
+    "Arno F.J. van Heijst",
+    "Corine Koopman-Esseboom",
+    "Janusz Gadzinowski",
+    "Jan L Mazela",
+    "Alan A. Montgomery",
+    "Tomasz Pikuła",
+    "Henrique Barros",
+    "Raquel Almeida Costa",
+    "Luís M. Graça",
+    "Maria do Céu Machado",
+    "Carina Rodrigues",
+    "Teresa Rodrigues",
+    "U Aden",
+    "Anna Karin Edstedt Bonamy",
+    "Mikael Norman",
+    "Elizabeth S. Draper",
+    "Elaine Margaret Boyle",
+    "Alan Charles Fenton",
+    "Samantha J Johnson",
+    "Bradley N Manktelow",
+    "David W A Milligan",
+    "Silke Mader",
+    "Nicole Thiele",
+    "Johanna M. Walz",
+    "Stavros Petrou",
+    "Jennifer A. Zeitlin",
+    "Mercedes Bonet",
+    "Camille Bonnet",
+    "Rym El Raffei",
+    "Aurélie Piedvache",
+    "Anna‐Veera Seppänen"
+   ],
+   "venue": "International Journal of Epidemiology",
+   "doi": "10.1093/ije/dyz270",
+   "url": "https://doi.org/10.1093/ije/dyz270",
+   "oa_url": "https://academic.oup.com/ije/article-pdf/49/2/372/33338178/dyz270.pdf",
+   "abstract": "The Effective Perinatal Intensive Care in Europe (EPICE) cohort includes all births between 22 + 0 and 31 + 6 weeks of gestation in 2011/12 in 19 regions in 11 European countries. This cohort was set up to investigate the use of evidence-based interventions for prenatal and postnatal care of infants born very preterm (VPT) and to explore the associations between evidence-based care and their health and developmental outcomes. The first phase, ‘Effective perinatal intensive care in Europe’ (EPICE) focused on obstetric and neonatal care before and around the time of birth and during the neonatal hospitalization period, with follow-up at 2 years of corrected age (CA), while a second phase, ‘Screening for Health in Infants born very Preterm’ (SHIPS), assessed follow-up care provided in the first 5 years of life and neurodevelopmental outcomes at 5 years of age. Both phases were funded by the European Union [Seventh Framework Programme (FP7/2007–2013, No 259882; Horizon 2020 Research and Innovation Programme, No 633724]. Both phases are based on the premise that survival, neurodevelopmental outcome and health-related quality of life can be improved for children born VPT by promoting the use of evidence-based health care. [...]",
+   "cited_by": 62,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home insurance policy behavioural intervention",
+     "kind": "facet",
+     "rank": 25,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W3005282861"
+   },
+   "sim": 0.0,
+   "raw_score": 3.0050247,
+   "rrf": 0.014117647058823528,
+   "coverage": 0.5938143685384322,
+   "relevance": 0.22816150660117038,
+   "score": 0.09235297033735966
+  },
+  {
+   "title": "Home and Motor insurance joined at a household level using multivariate credibility",
+   "year": 2020,
+   "authors": [
+    "Florian Pechon",
+    "Michel M. Denuit",
+    "Julien Trufin"
+   ],
+   "venue": "Annals of Actuarial Science",
+   "doi": "10.1017/s1748499520000160",
+   "url": "https://doi.org/10.1017/s1748499520000160",
+   "oa_url": "http://hdl.handle.net/2078.1/216508",
+   "abstract": "Actuarial ratemaking is usually performed at product and guarantee level, meaning that each product and guarantee is considered in isolation. Moreover, independence between policyholders is generally assumed. In this paper, we propose a multivariate Poisson mixture, with random effects correlated using a hierarchical structure, to accommodate for the dependence that may exist between unobserved risk factors across Home and Motor insurance and between policyholders from the same household. The hierarchical structure accounts for the fact that Home insurance covers the whole household, whereas Motor insurance policies are subscribed by specific policyholders within the household. The model allows to periodically correct the a priori expected claim frequencies using the reported number of claims in any of the considered products. Applications show that the impact of the number of claims reported in Motor insurance on the number of claims expected in Home insurance is larger than the other way around. Moreover, an out-of-sample analysis validates an improved predictive power. Also, the model allows to identify more rapidly the riskiest households.",
+   "cited_by": 22,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home insurance policy",
+     "kind": "phrase",
+     "rank": 18,
+     "weight": 1.0
+    }
+   ],
+   "ids": {
+    "openalex": "W3039784769"
+   },
+   "sim": 0.0,
+   "raw_score": 35.370132,
+   "rrf": 0.01282051282051282,
+   "coverage": 0.6411510873434856,
+   "relevance": 0.2377669251706681,
+   "score": 0.09037851455508333
+  },
+  {
+   "title": "La Mobilière insurance customers dataset",
+   "year": 2022,
+   "authors": [
+    "Emanuele Massaro",
+    "Alice Battiston",
+    "Binder, Claudia Rebeca",
+    "Rossano Schifanella"
+   ],
+   "venue": "Figshare",
+   "doi": "10.6084/m9.figshare.c.5515857",
+   "url": "https://doi.org/10.6084/m9.figshare.c.5515857",
+   "oa_url": "https://doi.org/10.6084/m9.figshare.c.5515857",
+   "abstract": "We present the La Mobilière insurance customers dataset: a 12-year-long longitudinal collection of data on policies of customers of the Swiss insurance company La Mobilière. To preserve the privacy of La Mobilière customers, we propose the data aggregated at two geographical levels, based on the place of residence of the customer: postal (ZIP code) areas and municipalities. For each geographical area, the data provides summary statistics on: i) the demographic characteristics of the customer base, ii) characteristics of vehicles insurance policies and iii) characteristics of housing and building insurance policies.",
+   "cited_by": 1,
+   "kind": "other",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A service that reaches people at the moment of a home move and helps them preven",
+     "kind": "semantic",
+     "rank": 20,
+     "weight": 2.5,
+     "sim": 0.165,
+     "raw": 0.7669685886679133
+    }
+   ],
+   "ids": {
+    "openalex": "W6977531280"
+   },
+   "sim": 0.165,
+   "raw_score": 0.7669685886679133,
+   "rrf": 0.03125,
+   "coverage": 0.34182225577191255,
+   "relevance": 0.2792618242151535,
+   "score": 0.08893632491961063
+  },
+  {
+   "title": "Cohort Profile: The Epidemiology of Chronic Diseases Cohort (EpiDoC)",
+   "year": 2018,
+   "authors": [
+    "Sara Simões Dias",
+    "Ana Maria Rodrigues",
+    "Maria João Gregório",
+    "Rute Dinis de Sousa",
+    "Jaime Branco",
+    "Helena M Canhão"
+   ],
+   "venue": "International Journal of Epidemiology",
+   "doi": "10.1093/ije/dyy185",
+   "url": "https://doi.org/10.1093/ije/dyy185",
+   "oa_url": "https://academic.oup.com/ije/article-pdf/47/6/1741/27078095/dyy185.pdf",
+   "abstract": "Non-communicable chronic diseases are the leading cause of death and the main contributor to disease burden worldwide, accounting for 86% of all deaths in Portugal.1 Several modifiable behavioural risk factors, such as unhealthy dietary habits, physical inactivity, tobacco use and harmful use of alcohol, are the main risk factors for these diseases. Thus, the existence of epidemiological data on chronic diseases and their determinants (i.e. socioeconomic and demographic factors), associated factors and consequences are important public health tools for designing and developing strategies to tackle the burden of non-communicable diseases. In 2011, a prospective cohort study called Epidemiology of Chronic Diseases (EpiDoC) aimed to create a large population database for medical and health-related research in Portugal. To our knowledge, the EpiDoC study constitutes one of the first Portuguese prospective large cohort studies, including a representative sample of the Portuguese population, with the primary aim of examining the health determinants and outcomes of chronic non-communicable diseases and their impact on health care resource consumption. The EpiDoC study was designed by researchers from NOVA Medical School in Lisbon with close collaboration between social and biomedical scientists, ensuring a thorough multidisciplinary approach. The first wave of this cohort study, named EpiDoC 1 (EpiReumaPt), occurred between September 2011 and December 2013. [...]",
+   "cited_by": 34,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home insurance policy household composition",
+     "kind": "combo",
+     "rank": 25,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W2889585792"
+   },
+   "sim": 0.0,
+   "raw_score": 1.6102594,
+   "rrf": 0.014117647058823528,
+   "coverage": 0.6044709262815913,
+   "relevance": 0.2313584739241181,
+   "score": 0.08709983281860437
+  },
+  {
+   "title": "Cohort Profile Update: Magu Health and Demographic Surveillance System, Tanzania",
+   "year": 2024,
+   "authors": [
+    "Mark Urassa",
+    "Milly Marston",
+    "Charles Mangya",
+    "Jacqueline Materu",
+    "Duplessis Elsabe",
+    "Kinung'hi Safari",
+    "Sophia Adam Kagoye",
+    "Jim Todd",
+    "Ties Boerma"
+   ],
+   "venue": "International Journal of Epidemiology",
+   "doi": "10.1093/ije/dyae058",
+   "url": "https://doi.org/10.1093/ije/dyae058",
+   "oa_url": "https://academic.oup.com/ije/article-pdf/53/3/dyae058/57345989/dyae058.pdf",
+   "abstract": "The Magu Health and Demographic Surveillance System (HDSS), an open community cohort, was established in 1994 in a rural area with seven contiguous villages in north-western Tanzania to study HIV epidemiology. Over time, new data sources such as the national surveys from 2004 and clinical tracking systems have filled much of the knowledge gap on HIV epidemiology in Tanzania. The launch of the 2030 Sustainable Development Goals meant an important broadening of government health strategies in Tanzania and universal health coverage became a priority, requiring new population research inputs. The population under demographic surveillance expanded from 19 347 in 1994 to 54 024 in 2022—a population growth of 3.7% per year. The main priority areas of research include patterns and inequalities in mortality and causes of death, health service utilization and health expenditure, mortality and health-seeking behaviour among children aged >5 years, sexual and reproductive health among adolescents, and linked analyses of research and routine service data. Magu HDSS data are held at the National Institute for Medical Research office in Mwanza and are also available through several international initiatives and networks including iSHARE, INDEPTH and ALPHA. [...]",
+   "cited_by": 17,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home insurance policy behavioural intervention",
+     "kind": "facet",
+     "rank": 37,
+     "weight": 1.2
+    }
+   ],
+   "ids": {
+    "openalex": "W4395696725"
+   },
+   "sim": 0.0,
+   "raw_score": 2.2423098,
+   "rrf": 0.012371134020618556,
+   "coverage": 0.6090557051106211,
+   "relevance": 0.2265462132174076,
+   "score": 0.08689203080744236
+  },
+  {
+   "title": "ADVANCING HOME MODIFICATION SERVICE DELIVERY THROUGH SYNTHESIZING DATA AND EVIDENCE",
+   "year": 2024,
+   "authors": [
+    "Bernard A. Steinman",
+    "Scott A. Trudeau",
+    "MARIA HENKE"
+   ],
+   "venue": "Innovation in Aging",
+   "doi": "10.1093/geroni/igae098.0006",
+   "url": "https://doi.org/10.1093/geroni/igae098.0006",
+   "oa_url": "https://academic.oup.com/innovateage/article-pdf/8/Supplement_1/3/61303515/igae098.0006.pdf",
+   "abstract": "Supportive housing options are a cornerstone to aging in place. Whereas most older people prefer to remain in their homes as they age, challenges associated with aging, including declines in physical health and functioning, often act as barriers to meeting this goal. Additionally, the home’s condition can affect a person’s ability to care for themselves and the ability of caregivers to provide quality care. Home modifications (HM) that increase safety and support daily activities play a key role in helping people stay in their homes and communities. Indeed, evidence-based interventions with HM components have been shown to reduce falls-related accidents, address a range of caregiving needs, and delay or prevent institutionalization–outcomes that otherwise come with high costs to individuals and society. In this symposium we have three aims: 1) to summarize previous research supporting the efficacy of programs with HM components in promoting aging in place via improved safety and access in the home; 2) to present three original studies that incorporated data from the National Health and Aging Trends Study (NHATS) to reveal HM use patterns (e.g., whether HMs are implemented proactively in advance of acquiring disability, or reactively in response to acquiring disability); and 3) to introduce a current HM service delivery model, describe its development, and discuss implications and next steps, including how current research findings can inform service delivery strategies in [...]",
+   "cited_by": 0,
+   "kind": "conference-abstract",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A service that reaches people at the moment of a home move and helps them preven",
+     "kind": "semantic",
+     "rank": 13,
+     "weight": 2.5,
+     "sim": 0.241,
+     "raw": 0.77059656
+    }
+   ],
+   "ids": {
+    "openalex": "W4405976455"
+   },
+   "sim": 0.241,
+   "raw_score": 0.77059656,
+   "rrf": 0.03424657534246575,
+   "coverage": 0.2195270570212193,
+   "relevance": 0.28358978558152165,
+   "score": 0.08365466168285995
+  },
+  {
+   "title": "Short-Term Insurance Claims Payments Forecasting with Holt-Winter Filtering and Residual Analysis",
+   "year": 2023,
+   "authors": [
+    "Moustafa Salem",
+    "Mohamed G. Khalil"
+   ],
+   "venue": "Pakistan Journal of Statistics and Operation Research",
+   "doi": "10.18187/pjsor.v19i1.4215",
+   "url": "https://doi.org/10.18187/pjsor.v19i1.4215",
+   "oa_url": "https://pjsor.com/pjsor/article/download/4215/1254",
+   "abstract": "Time series are essential for anticipating various claims payment applications. For insurance firms to prevent significant losses brought on by potential future claims, the future values of predicted claims are crucial. Additionally, the ideal parameter is chosen artificially. By using a genuine application, the proposed model’s utility is demonstrated. Additionally, the ideal parameter is chosen artificially. By using a genuine application, the proposed model's utility is demonstrated. Also, the single exponential smoothing model is used for prediction under the Holt-Winters’ additive algorithm.",
+   "cited_by": 5,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for home insurance policy",
+     "kind": "semantic",
+     "rank": 17,
+     "weight": 2.0,
+     "sim": 0.239,
+     "raw": 0.8139529179292588
+    }
+   ],
+   "ids": {
+    "openalex": "W4323314447"
+   },
+   "sim": 0.239,
+   "raw_score": 0.8139529179292588,
+   "rrf": 0.025974025974025976,
+   "coverage": 0.1838486260486216,
+   "relevance": 0.24277756754119822,
+   "score": 0.083058142850586
+  },
+  {
+   "title": "Analysis of Household Financial Management for Work from Home Affected Employees (Case Study on Employees of Insurance Industry Companies in Surabaya)",
+   "year": 2020,
+   "authors": [
+    "Ninnasi Muttaqiin"
+   ],
+   "venue": "Accounting and Management Journal",
+   "doi": "10.33086/amj.v4i2.1827",
+   "url": "https://doi.org/10.33086/amj.v4i2.1827",
+   "oa_url": "https://journal2.unusa.ac.id/index.php/AMJ/article/download/1827/1252",
+   "abstract": "This study was conducted to examine the effect of work from home policy caused by coronavirus epidemic on household financial management of insurance industry employees in Surabaya. This study uses a qualitative method by conducting interviews. The variables used are household consumption, household savings, household investment, household insurance, and retirement planning. The sample selection using purposive sampling method, obtained seven sources who then provide answers to questions during in-depth interviews. The results showed that the work from home policy had a very significant effect on the condition of household financial management in the variables of household consumption, household savings, and household investment. On the other hand, work from home policy does not really affect household insurance management and retirement planning for employees of the insurance industry in Surabaya.",
+   "cited_by": 1,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex",
+    "s2"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "home insurance policy",
+     "kind": "phrase",
+     "rank": 37,
+     "weight": 1.0
+    },
+    {
+     "source": "s2",
+     "query": "home insurance policy",
+     "kind": "phrase",
+     "rank": 16,
+     "weight": 1.0
+    }
+   ],
+   "ids": {
+    "openalex": "W3117196973",
+    "s2": "0694ae02c391fbdacec417e9e601bd792af48f32"
+   },
+   "sim": 0.0,
+   "raw_score": 27.662931,
+   "rrf": 0.023467173087357567,
+   "coverage": 0.6411510873434856,
+   "relevance": 0.2754868151435092,
+   "score": 0.08304694911601157
+  },
+  {
+   "title": "Replication data for: On the occurrence of rainstorm damage based on home insurance and weather data",
+   "year": 2016,
+   "authors": [
+    "Matthieu Spekkers"
+   ],
+   "venue": "DataverseNL",
+   "doi": "10.34894/0wtmxx",
+   "url": "https://doi.org/10.34894/0wtmxx",
+   "oa_url": "https://doi.org/10.34894/0wtmxx",
+   "abstract": "This Dataverse contains the home insurance database that has been used in the study \"On the occurrence of rainstorm damage based on home insurance and weather data\" by M.H. Spekkers, F.H.L.R. Clemens and J.A.E. ten Veldhuis.",
+   "cited_by": 0,
+   "kind": "dataset",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A service that reaches people at the moment of a home move and helps them preven",
+     "kind": "semantic",
+     "rank": 19,
+     "weight": 2.5,
+     "sim": 0.178,
+     "raw": 0.76757514
+    }
+   ],
+   "ids": {
+    "openalex": "W2805990638"
+   },
+   "sim": 0.178,
+   "raw_score": 0.76757514,
+   "rrf": 0.03164556962025317,
+   "coverage": 0.4033756830698409,
+   "relevance": 0.30432930996761526,
+   "score": 0.08255821555307945
+  },
+  {
+   "title": "Predictive Modeling Applications in Actuarial Science. Volume 2, Case Studies in Insurance",
+   "year": 2014,
+   "authors": [],
+   "venue": "Thammasat University Digital Collections",
+   "doi": "",
+   "url": "http://203.131.219.242/cdm/ref/collection/ebook/id/14695",
+   "oa_url": "",
+   "abstract": "Predictive modeling uses data to forecast future events. It exploits relationships between explanatory variables and the predicted variables from past occurrences to predict future outcomes. Forecasting financial events is a core skill that actuaries routinely apply in insurance and other risk-management applications. Predictive Modeling Applications in Actuarial Science emphasizes life-long learning by developing tools in an insurance context, providing the relevant actuarial applications, and introducing advanced statistical techniques that can be used to gain a competitive advantage in situations with complex data. Volume 2 examines applications of predictive modeling. Where Volume 1 developed the foundations of predictive modeling, Volume 2 explores practical uses for techniques, focusing on property and casualty insurance. Readers are exposed to a variety of techniques in concrete, real-life contexts that demonstrate their value and the overall value of predictive modeling, for seasoned practicing analysts as well as those just starting out.",
+   "cited_by": 0,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for home insurance policy",
+     "kind": "semantic",
+     "rank": 7,
+     "weight": 2.0,
+     "sim": 0.403,
+     "raw": 0.8245801
+    }
+   ],
+   "ids": {
+    "openalex": "W6986458396"
+   },
+   "sim": 0.403,
+   "raw_score": 0.8245801,
+   "rrf": 0.029850746268656716,
+   "coverage": 0.1838486260486216,
+   "relevance": 0.3221123406347223,
+   "score": 0.08200469651577146
+  }
+ ]
+}

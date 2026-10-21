@@ -1,0 +1,76 @@
+{
+ "_note": "Hand-written to the Semantic Scholar Graph API schema so that it contains the DOI of a paper that also appears in the OpenAlex fixture (merge test), a null abstract and an untitled record. A recorded response is in s2_search_real.json.",
+ "total": 3,
+ "offset": 0,
+ "data": [
+  {
+   "paperId": "a1b2c3",
+   "title": "Statistical methods for the prospective detection of infectious disease outbreaks: a review",
+   "year": 2012,
+   "venue": "Journal of the Royal Statistical Society: Series A",
+   "citationCount": 340,
+   "influentialCitationCount": 21,
+   "externalIds": {
+    "DOI": "10.1111/J.1467-985X.2011.00714.X",
+    "CorpusId": 1
+   },
+   "isOpenAccess": false,
+   "openAccessPdf": null,
+   "publicationTypes": [
+    "JournalArticle",
+    "Review"
+   ],
+   "abstract": "Many methods exist for detecting outbreaks prospectively. We review them. Control charts and regression based methods are compared.",
+   "authors": [
+    {
+     "authorId": "1",
+     "name": "S. Unkel"
+    },
+    {
+     "authorId": "2",
+     "name": "C. P. Farrington"
+    },
+    {
+     "authorId": "3",
+     "name": "Paul H. Garthwaite"
+    }
+   ],
+   "tldr": {
+    "model": "tldr@v2.0.0",
+    "text": "Reviews statistical methods for prospective outbreak detection."
+   },
+   "url": "https://www.semanticscholar.org/paper/a1b2c3"
+  },
+  {
+   "paperId": "d4e5f6",
+   "title": "A Cumulative Antibiogram & Its Use",
+   "year": 2019,
+   "venue": "",
+   "citationCount": 4,
+   "externalIds": {},
+   "isOpenAccess": true,
+   "openAccessPdf": {
+    "url": "https://example.org/antibiogram.pdf",
+    "status": "GREEN"
+   },
+   "publicationTypes": null,
+   "abstract": null,
+   "authors": [
+    {
+     "authorId": null,
+     "name": "Priya Rao"
+    }
+   ],
+   "tldr": null,
+   "url": "https://www.semanticscholar.org/paper/d4e5f6"
+  },
+  {
+   "paperId": "g7h8i9",
+   "title": "",
+   "year": 2020,
+   "externalIds": null,
+   "authors": [],
+   "citationCount": 0
+  }
+ ]
+}

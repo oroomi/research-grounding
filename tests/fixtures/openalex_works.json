@@ -1,0 +1,3263 @@
+{
+ "meta": {
+  "note": "trimmed real OpenAlex /works responses (the select fields rg asks for), recorded 2026-10-18"
+ },
+ "results": [
+  {
+   "id": "https://openalex.org/W1982908682",
+   "doi": "https://doi.org/10.4103/0255-0857.71802",
+   "title": "Hospital antibiogram: A necessity",
+   "display_name": "Hospital antibiogram: A necessity",
+   "publication_year": 2010,
+   "cited_by_count": 81,
+   "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://www.sciencedirect.com/science/article/pii/S0255085721013244/pdf",
+    "any_repository_has_fulltext": false
+   },
+   "best_oa_location": {
+    "id": "doi:10.4103/0255-0857.71802",
+    "doi": "https://doi.org/10.4103/0255-0857.71802",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.4103/0255-0857.71802",
+    "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0255085721013244/pdf",
+    "source": {
+     "id": "https://openalex.org/S131141226",
+     "display_name": "Indian Journal of Medical Microbiology",
+     "issn_l": "0255-0857",
+     "issn": [
+      "0255-0857",
+      "1998-3646"
+     ],
+     "is_oa": true,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "dongbi-c",
+      "medline",
+      "norway-1",
+      "poland-40",
+      "russia-white-list-3"
+     ],
+     "host_organization": "https://openalex.org/P4310320990",
+     "host_organization_name": "Elsevier BV",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310320990"
+     ],
+     "host_organization_lineage_names": [
+      "Elsevier BV"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Indian Journal of Medical Microbiology",
+    "raw_type": "journal-article"
+   },
+   "primary_location": {
+    "id": "doi:10.4103/0255-0857.71802",
+    "doi": "https://doi.org/10.4103/0255-0857.71802",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.4103/0255-0857.71802",
+    "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0255085721013244/pdf",
+    "source": {
+     "id": "https://openalex.org/S131141226",
+     "display_name": "Indian Journal of Medical Microbiology",
+     "issn_l": "0255-0857",
+     "issn": [
+      "0255-0857",
+      "1998-3646"
+     ],
+     "is_oa": true,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "dongbi-c",
+      "medline",
+      "norway-1",
+      "poland-40",
+      "russia-white-list-3"
+     ],
+     "host_organization": "https://openalex.org/P4310320990",
+     "host_organization_name": "Elsevier BV",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310320990"
+     ],
+     "host_organization_lineage_names": [
+      "Elsevier BV"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Indian Journal of Medical Microbiology",
+    "raw_type": "journal-article"
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": null,
+      "display_name": "S Joshi",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210165321",
+       "display_name": "Manipal Hospital",
+       "ror": "https://ror.org/05mryn396",
+       "country_code": "IN",
+       "type": "healthcare",
+       "lineage": [
+        "https://openalex.org/I4210165321"
+       ]
+      }
+     ],
+     "countries": [
+      "IN"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "S Joshi",
+     "raw_affiliation_strings": [
+      "Department of Microbiology, Manipal Hospital, 98 Rustom Bagh, HAL Airport Road, Bangalore, India. [email removed]",
+      "Department of Microbiology, Manipal Hospital, 98 Rustom Bagh, HAL Airport Road, Bangalore - 560 017, India"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Microbiology, Manipal Hospital, 98 Rustom Bagh, HAL Airport Road, Bangalore, India. [email removed]",
+       "institution_ids": [
+        "https://openalex.org/I4210165321"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Department of Microbiology, Manipal Hospital, 98 Rustom Bagh, HAL Airport Road, Bangalore - 560 017, India",
+       "institution_ids": [
+        "https://openalex.org/I4210165321"
+       ]
+      }
+     ]
+    }
+   ],
+   "abstract_inverted_index": {
+    "The": [
+     0,
+     83,
+     139,
+     153,
+     173,
+     213
+    ],
+    "hospital": [
+     1
+    ],
+    "antibiogram": [
+     2,
+     174,
+     203
+    ],
+    "is": [
+     3,
+     132,
+     192,
+     204
+    ],
+    "a": [
+     4,
+     170
+    ],
+    "periodic": [
+     5
+    ],
+    "summary": [
+     6
+    ],
+    "of": [
+     7,
+     10,
+     147,
+     156,
+     194,
+     215,
+     221
+    ],
+    "antimicrobial": [
+     8
+    ],
+    "susceptibilities": [
+     9
+    ],
+    "local": [
+     11,
+     29
+    ],
+    "bacterial": [
+     12
+    ],
+    "isolates": [
+     13
+    ],
+    "submitted": [
+     14
+    ],
+    "to": [
+     15,
+     27,
+     54,
+     73,
+     76,
+     107,
+     133,
+     187,
+     225
+    ],
+    "the": [
+     16,
+     70,
+     100,
+     120,
+     126,
+     130,
+     137,
+     145,
+     157,
+     166,
+     182,
+     195,
+     205,
+     210,
+     219
+    ],
+    "hospital's": [
+     17
+    ],
+    "clinical": [
+     18
+    ],
+    "microbiology": [
+     19
+    ],
+    "laboratory.": [
+     20
+    ],
+    "Antibiograms": [
+     21,
+     50
+    ],
+    "are": [
+     22
+    ],
+    "often": [
+     23
+    ],
+    "used": [
+     24,
+     53,
+     91,
+     110
+    ],
+    "by": [
+     25,
+     99
+    ],
+    "clinicians": [
+     26
+    ],
+    "assess": [
+     28
+    ],
+    "susceptibility": [
+     30,
+     56,
+     155
+    ],
+    "rates,": [
+     31
+    ],
+    "as": [
+     32
+    ],
+    "an": [
+     33,
+     48,
+     202
+    ],
+    "aid": [
+     34
+    ],
+    "in": [
+     35,
+     41,
+     111,
+     136,
+     165,
+     169,
+     181
+    ],
+    "selecting": [
+     36
+    ],
+    "empiric": [
+     37
+    ],
+    "antibiotic": [
+     38,
+     211
+    ],
+    "therapy,": [
+     39
+    ],
+    "and": [
+     40,
+     60,
+     90,
+     102,
+     150,
+     200,
+     230
+    ],
+    "monitoring": [
+     42
+    ],
+    "resistance": [
+     43,
+     62
+    ],
+    "trends": [
+     44
+    ],
+    "over": [
+     45
+    ],
+    "time": [
+     46
+    ],
+    "within": [
+     47
+    ],
+    "institution.": [
+     49
+    ],
+    "can": [
+     51,
+     86,
+     116
+    ],
+    "also": [
+     52
+    ],
+    "compare": [
+     55
+    ],
+    "rates": [
+     57
+    ],
+    "across": [
+     58
+    ],
+    "institutions": [
+     59
+    ],
+    "track": [
+     61
+    ],
+    "trends.": [
+     63
+    ],
+    "Some": [
+     64
+    ],
+    "hospitals": [
+     65
+    ],
+    "have": [
+     66,
+     96
+    ],
+    "adequate": [
+     67
+    ],
+    "support": [
+     68
+    ],
+    "from": [
+     69,
+     79,
+     129
+    ],
+    "computer": [
+     71
+    ],
+    "department": [
+     72
+    ],
+    "be": [
+     74,
+     87,
+     117,
+     134,
+     142,
+     163,
+     176,
+     218
+    ],
+    "able": [
+     75
+    ],
+    "extract": [
+     77
+    ],
+    "data": [
+     78,
+     224
+    ],
+    "their": [
+     80
+    ],
+    "reporting": [
+     81
+    ],
+    "module.": [
+     82
+    ],
+    "WHONET": [
+     84,
+     121
+    ],
+    "software": [
+     85,
+     122
+    ],
+    "freely": [
+     88
+    ],
+    "downloaded": [
+     89
+    ],
+    "for": [
+     92,
+     123,
+     184,
+     198,
+     231
+    ],
+    "analysis.": [
+     93,
+     124,
+     138
+    ],
+    "Consensus": [
+     94
+    ],
+    "guidelines": [
+     95,
+     115
+    ],
+    "been": [
+     97
+    ],
+    "developed": [
+     98
+    ],
+    "Clinical": [
+     101
+    ],
+    "Laboratory": [
+     103
+    ],
+    "Standards": [
+     104
+    ],
+    "Institute": [
+     105
+    ],
+    "(CLSI)": [
+     106
+    ],
+    "standardise": [
+     108
+    ],
+    "methods": [
+     109
+    ],
+    "constructing": [
+     112
+    ],
+    "antibiograms.": [
+     113
+    ],
+    "These": [
+     114
+    ],
+    "incorporated": [
+     118
+    ],
+    "into": [
+     119
+    ],
+    "Only": [
+     125
+    ],
+    "first": [
+     127,
+     206
+    ],
+    "isolate": [
+     128
+    ],
+    "patient": [
+     131,
+     148,
+     222
+    ],
+    "included": [
+     135
+    ],
+    "analysis": [
+     140
+    ],
+    "should": [
+     141,
+     162
+    ],
+    "done": [
+     143
+    ],
+    "on": [
+     144
+    ],
+    "basis": [
+     146
+    ],
+    "location": [
+     149
+    ],
+    "specimen": [
+     151
+    ],
+    "type.": [
+     152
+    ],
+    "percentage": [
+     154
+    ],
+    "most": [
+     158
+    ],
+    "frequently": [
+     159
+    ],
+    "isolated": [
+     160
+    ],
+    "bacteria": [
+     161
+    ],
+    "presented": [
+     164
+    ],
+    "antibiogram,": [
+     167
+    ],
+    "preferably": [
+     168
+    ],
+    "tabular": [
+     171
+    ],
+    "form.": [
+     172
+    ],
+    "must": [
+     175
+    ],
+    "printed": [
+     177
+    ],
+    "or": [
+     178
+    ],
+    "put": [
+     179
+    ],
+    "up": [
+     180
+    ],
+    "intranet": [
+     183
+    ],
+    "easy": [
+     185
+    ],
+    "access": [
+     186
+    ],
+    "all": [
+     188
+    ],
+    "clinicians.": [
+     189
+    ],
+    "Antibiotic": [
+     190
+    ],
+    "policy": [
+     191
+    ],
+    "one": [
+     193
+    ],
+    "mandatory": [
+     196
+    ],
+    "requirements": [
+     197
+    ],
+    "accreditation,": [
+     199
+    ],
+    "making": [
+     201
+    ],
+    "step": [
+     207
+    ],
+    "before": [
+     208
+    ],
+    "framing": [
+     209
+    ],
+    "policy.": [
+     212
+    ],
+    "future": [
+     214
+    ],
+    "antibiograms": [
+     216
+    ],
+    "would": [
+     217
+    ],
+    "incorporation": [
+     220
+    ],
+    "related": [
+     223
+    ],
+    "make": [
+     226
+    ],
+    "information": [
+     227
+    ],
+    "more": [
+     228
+    ],
+    "reliable": [
+     229
+    ],
+    "predicting": [
+     232
+    ],
+    "outbreaks.": [
+     233
+    ]
+   },
+   "type": "article",
+   "language": "en",
+   "is_retracted": false
+  },
+  {
+   "id": "https://openalex.org/W2137203085",
+   "doi": "https://doi.org/10.1111/j.1467-985x.2011.00714.x",
+   "title": "Statistical Methods for the Prospective Detection of Infectious Disease Outbreaks: A Review",
+   "display_name": "Statistical Methods for the Prospective Detection of Infectious Disease Outbreaks: A Review",
+   "publication_year": 2011,
+   "cited_by_count": 337,
+   "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+   },
+   "best_oa_location": null,
+   "primary_location": {
+    "id": "doi:10.1111/j.1467-985x.2011.00714.x",
+    "doi": "https://doi.org/10.1111/j.1467-985x.2011.00714.x",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1111/j.1467-985x.2011.00714.x",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S185328345",
+     "display_name": "Journal of the Royal Statistical Society Series A (Statistics in Society)",
+     "issn_l": "0964-1998",
+     "issn": [
+      "0964-1998",
+      "1467-985X"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "abdc-a",
+      "anvur-class-a",
+      "anvur-scientific",
+      "cwts-core",
+      "dongbi-b",
+      "doyens",
+      "jufo-2",
+      "ki-jl-2",
+      "norway-2",
+      "poland-140",
+      "russia-white-list-1",
+      "vabb-shw"
+     ],
+     "host_organization": "https://openalex.org/P4310311763",
+     "host_organization_name": "Royal Statistical Society",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310311763"
+     ],
+     "host_organization_lineage_names": [
+      "Royal Statistical Society"
+     ],
+     "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of the Royal Statistical Society Series A: Statistics in Society",
+    "raw_type": "journal-article"
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5050041780",
+      "display_name": "Steffen Unkel",
+      "orcid": "https://orcid.org/0000-0002-2083-0090",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-2083-0090"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I204136569",
+       "display_name": "The Open University",
+       "ror": "https://ror.org/05mzfcs16",
+       "country_code": "GB",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I204136569"
+       ]
+      }
+     ],
+     "countries": [
+      "GB"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Steffen Unkel",
+     "raw_affiliation_strings": [
+      "The Open University , Milton Keynes , UK"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "The Open University , Milton Keynes , UK",
+       "institution_ids": [
+        "https://openalex.org/I204136569"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5050084765",
+      "display_name": "Paddy Farrington",
+      "orcid": "https://orcid.org/0000-0002-7148-2612",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-7148-2612"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I204136569",
+       "display_name": "The Open University",
+       "ror": "https://ror.org/05mzfcs16",
+       "country_code": "GB",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I204136569"
+       ]
+      }
+     ],
+     "countries": [
+      "GB"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "C. Paddy Farrington",
+     "raw_affiliation_strings": [
+      "The Open University , Milton Keynes , UK"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "The Open University , Milton Keynes , UK",
+       "institution_ids": [
+        "https://openalex.org/I204136569"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5015098106",
+      "display_name": "Paul H. Garthwaite",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I204136569",
+       "display_name": "The Open University",
+       "ror": "https://ror.org/05mzfcs16",
+       "country_code": "GB",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I204136569"
+       ]
+      }
+     ],
+     "countries": [
+      "GB"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Paul H. Garthwaite",
+     "raw_affiliation_strings": [
+      "The Open University , Milton Keynes , UK"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "The Open University , Milton Keynes , UK",
+       "institution_ids": [
+        "https://openalex.org/I204136569"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5050547091",
+      "display_name": "Chris Robertson",
+      "orcid": "https://orcid.org/0000-0002-2148-6420",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-2148-6420"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I181647926",
+       "display_name": "University of Strathclyde",
+       "ror": "https://ror.org/00n3w3b69",
+       "country_code": "GB",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I181647926"
+       ]
+      }
+     ],
+     "countries": [
+      "GB"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Chris Robertson",
+     "raw_affiliation_strings": [
+      "University of Strathclyde , Glasgow , UK",
+      "[University of Strathclyde, Glasgow, UK]"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "University of Strathclyde , Glasgow , UK",
+       "institution_ids": [
+        "https://openalex.org/I181647926"
+       ]
+      },
+      {
+       "raw_affiliation_string": "[University of Strathclyde, Glasgow, UK]",
+       "institution_ids": [
+        "https://openalex.org/I181647926"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5072485453",
+      "display_name": "Nick J Andrews",
+      "orcid": "https://orcid.org/0000-0003-2069-2684",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-2069-2684"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4387154524",
+       "display_name": "Health Protection Agency",
+       "ror": "https://ror.org/022pm7h15",
+       "country_code": "GB",
+       "type": "nonprofit",
+       "lineage": [
+        "https://openalex.org/I1311074006",
+        "https://openalex.org/I348769827",
+        "https://openalex.org/I4387154524"
+       ]
+      }
+     ],
+     "countries": [
+      "GB"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Nick Andrews",
+     "raw_affiliation_strings": [
+      "Health Protection Agency , London , UK"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Health Protection Agency , London , UK",
+       "institution_ids": [
+        "https://openalex.org/I4387154524"
+       ]
+      }
+     ]
+    }
+   ],
+   "abstract_inverted_index": {
+    "Summary": [
+     0
+    ],
+    "Unusual": [
+     1
+    ],
+    "clusters": [
+     2
+    ],
+    "of": [
+     3,
+     35,
+     55,
+     64
+    ],
+    "disease": [
+     4,
+     37
+    ],
+    "must": [
+     5
+    ],
+    "be": [
+     6,
+     15
+    ],
+    "detected": [
+     7
+    ],
+    "rapidly": [
+     8
+    ],
+    "for": [
+     9,
+     31
+    ],
+    "effective": [
+     10
+    ],
+    "public": [
+     11
+    ],
+    "health": [
+     12
+    ],
+    "interventions": [
+     13
+    ],
+    "to": [
+     14,
+     46,
+     73,
+     82
+    ],
+    "introduced.": [
+     16
+    ],
+    "Over": [
+     17
+    ],
+    "the": [
+     18,
+     32,
+     53,
+     65,
+     84
+    ],
+    "past": [
+     19
+    ],
+    "decade": [
+     20
+    ],
+    "there": [
+     21
+    ],
+    "has": [
+     22,
+     43
+    ],
+    "been": [
+     23,
+     70
+    ],
+    "a": [
+     24,
+     61
+    ],
+    "surge": [
+     25
+    ],
+    "in": [
+     26,
+     28,
+     41
+    ],
+    "interest": [
+     27,
+     42
+    ],
+    "statistical": [
+     29,
+     56,
+     66
+    ],
+    "methods": [
+     30
+    ],
+    "early": [
+     33
+    ],
+    "detection": [
+     34
+    ],
+    "infectious": [
+     36
+    ],
+    "outbreaks.": [
+     38
+    ],
+    "This": [
+     39
+    ],
+    "growth": [
+     40
+    ],
+    "given": [
+     44
+    ],
+    "rise": [
+     45
+    ],
+    "much": [
+     47
+    ],
+    "new": [
+     48
+    ],
+    "methodological": [
+     49
+    ],
+    "work,": [
+     50
+    ],
+    "ranging": [
+     51
+    ],
+    "across": [
+     52
+    ],
+    "spectrum": [
+     54
+    ],
+    "methods.": [
+     57,
+     86
+    ],
+    "The": [
+     58
+    ],
+    "paper": [
+     59
+    ],
+    "presents": [
+     60
+    ],
+    "comprehensive": [
+     62
+    ],
+    "review": [
+     63
+    ],
+    "approaches": [
+     67
+    ],
+    "that": [
+     68
+    ],
+    "have": [
+     69
+    ],
+    "proposed.": [
+     71
+    ],
+    "Applications": [
+     72
+    ],
+    "both": [
+     74
+    ],
+    "laboratory": [
+     75
+    ],
+    "and": [
+     76
+    ],
+    "syndromic": [
+     77
+    ],
+    "surveillance": [
+     78
+    ],
+    "data": [
+     79
+    ],
+    "are": [
+     80
+    ],
+    "provided": [
+     81
+    ],
+    "illustrate": [
+     83
+    ],
+    "various": [
+     85
+    ]
+   },
+   "type": "article",
+   "language": "en",
+   "is_retracted": false,
+   "relevance_score": 1.043565064852094
+  },
+  {
+   "id": "https://openalex.org/W2509801702",
+   "doi": "https://doi.org/10.1080/14787210.2016.1220303",
+   "title": "Statistical detection of geographic clusters of resistantEscherichia coliin a regional network with WHONET and SaTScan",
+   "display_name": "Statistical detection of geographic clusters of resistantEscherichia coliin a regional network with WHONET and SaTScan",
+   "publication_year": 2016,
+   "cited_by_count": 21,
+   "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://escholarship.org/uc/item/8bh4k51w",
+    "any_repository_has_fulltext": true
+   },
+   "best_oa_location": {
+    "id": "pmh:oai:escholarship.org:ark:/13030/qt8bh4k51w",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "https://escholarship.org/uc/item/8bh4k51w",
+    "pdf_url": "https://escholarship.org/uc/item/8bh4k51w",
+    "source": {
+     "id": "https://openalex.org/S4306400115",
+     "display_name": "eScholarship (California Digital Library)",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I2801248553",
+     "host_organization_name": "California Digital Library",
+     "host_organization_lineage": [
+      "https://openalex.org/I2801248553"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "Expert Review of Anti-infective Therapy, vol 14, iss 11",
+    "raw_type": "article"
+   },
+   "primary_location": {
+    "id": "doi:10.1080/14787210.2016.1220303",
+    "doi": "https://doi.org/10.1080/14787210.2016.1220303",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1080/14787210.2016.1220303",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S185628608",
+     "display_name": "Expert Review of Anti-infective Therapy",
+     "issn_l": "1478-7210",
+     "issn": [
+      "1478-7210",
+      "1744-8336"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "anvur-scientific",
+      "cwts-core",
+      "dongbi-d",
+      "doyens",
+      "jufo-1",
+      "ki-jl-1",
+      "medline",
+      "norway-1",
+      "poland-100",
+      "russia-white-list-1"
+     ],
+     "host_organization": "https://openalex.org/P4310320547",
+     "host_organization_name": "Taylor & Francis",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310320547",
+      "https://openalex.org/P4310320449"
+     ],
+     "host_organization_lineage_names": [
+      "Taylor & Francis",
+      "Informa"
+     ],
+     "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Expert Review of Anti-infective Therapy",
+    "raw_type": "journal-article"
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5109588923",
+      "display_name": "Rachel Yoonjo Park",
+      "orcid": "https://orcid.org/0009-0009-7940-6452",
+      "observed_orcids": [
+       "https://orcid.org/0009-0009-7940-6452"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I1283280774",
+       "display_name": "Brigham and Women's Hospital",
+       "ror": "https://ror.org/04b6nzv94",
+       "country_code": "US",
+       "type": "healthcare",
+       "lineage": [
+        "https://openalex.org/I121934306",
+        "https://openalex.org/I1283280774",
+        "https://openalex.org/I48633490"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210089966",
+       "display_name": "London School of Hygiene & Tropical Medicine",
+       "ror": "https://ror.org/00a0jsq62",
+       "country_code": "GB",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I124357947",
+        "https://openalex.org/I4210089966"
+       ]
+      }
+     ],
+     "countries": [
+      "GB",
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Rachel Park",
+     "raw_affiliation_strings": [
+      "a Brigham and Women's Hospital, Department of Medicine , Division of Infectious Diseases , Boston , MA , USA",
+      "b London School of Hygiene and Tropical Medicine , Faculty of Infectious and Tropical Diseases and Faculty of Public Health and Policy , London , UK",
+      "Brigham and Women's Hospital, Department of Medicine, Division of Infectious Diseases, Boston, MA, USA",
+      "London School of Hygiene and Tropical Medicine, Faculty of Infectious and Tropical Diseases and Faculty of Public Health and Policy, London, UK"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "a Brigham and Women's Hospital, Department of Medicine , Division of Infectious Diseases , Boston , MA , USA",
+       "institution_ids": [
+        "https://openalex.org/I1283280774"
+       ]
+      },
+      {
+       "raw_affiliation_string": "b London School of Hygiene and Tropical Medicine , Faculty of Infectious and Tropical Diseases and Faculty of Public Health and Policy , London , UK",
+       "institution_ids": [
+        "https://openalex.org/I4210089966"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Brigham and Women's Hospital, Department of Medicine, Division of Infectious Diseases, Boston, MA, USA",
+       "institution_ids": [
+        "https://openalex.org/I1283280774"
+       ]
+      },
+      {
+       "raw_affiliation_string": "London School of Hygiene and Tropical Medicine, Faculty of Infectious and Tropical Diseases and Faculty of Public Health and Policy, London, UK",
+       "institution_ids": [
+        "https://openalex.org/I4210089966"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5103478297",
+      "display_name": "Thomas F. O’Brien",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I1283280774",
+       "display_name": "Brigham and Women's Hospital",
+       "ror": "https://ror.org/04b6nzv94",
+       "country_code": "US",
+       "type": "healthcare",
+       "lineage": [
+        "https://openalex.org/I121934306",
+        "https://openalex.org/I1283280774",
+        "https://openalex.org/I48633490"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I136199984",
+       "display_name": "Harvard University",
+       "ror": "https://ror.org/03vek6s52",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I136199984"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Thomas F. O’Brien",
+     "raw_affiliation_strings": [
+      "Brigham and Women’s Hospital, Department of Medicine, Division of Infectious Diseases, Boston, MA, USA; Harvard Medical School, Department of Medicine, Boston, MA, USA",
+      "Brigham and Women's Hospital, Department of Medicine, Division of Infectious Diseases, Boston, MA, USA",
+      "Harvard Medical School, Department of Medicine, Boston, MA, USA"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Brigham and Women’s Hospital, Department of Medicine, Division of Infectious Diseases, Boston, MA, USA; Harvard Medical School, Department of Medicine, Boston, MA, USA",
+       "institution_ids": [
+        "https://openalex.org/I1283280774",
+        "https://openalex.org/I136199984"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Brigham and Women's Hospital, Department of Medicine, Division of Infectious Diseases, Boston, MA, USA",
+       "institution_ids": [
+        "https://openalex.org/I1283280774"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Harvard Medical School, Department of Medicine, Boston, MA, USA",
+       "institution_ids": [
+        "https://openalex.org/I136199984"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5046304079",
+      "display_name": "Susan S. Huang",
+      "orcid": "https://orcid.org/0000-0001-6748-3447",
+      "observed_orcids": [
+       "https://orcid.org/0000-0001-6748-3447",
+       "https://orcid.org/0009-0002-1524-9004"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I204250578",
+       "display_name": "University of California, Irvine",
+       "ror": "https://ror.org/04gyf1771",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I204250578"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Susan S. Huang",
+     "raw_affiliation_strings": [
+      "d University of California Irvine School of Medicine , Division of Infectious Diseases and Health Policy Research Institute , Orange , CA , USA",
+      "University of California Irvine School of Medicine, Division of Infectious Diseases and Health Policy Research Institute, Orange, CA, USA"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "d University of California Irvine School of Medicine , Division of Infectious Diseases and Health Policy Research Institute , Orange , CA , USA",
+       "institution_ids": [
+        "https://openalex.org/I204250578"
+       ]
+      },
+      {
+       "raw_affiliation_string": "University of California Irvine School of Medicine, Division of Infectious Diseases and Health Policy Research Institute, Orange, CA, USA",
+       "institution_ids": [
+        "https://openalex.org/I204250578"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5024869367",
+      "display_name": "Meghan A. Baker",
+      "orcid": "https://orcid.org/0000-0002-6724-5841",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-6724-5841"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I1283280774",
+       "display_name": "Brigham and Women's Hospital",
+       "ror": "https://ror.org/04b6nzv94",
+       "country_code": "US",
+       "type": "healthcare",
+       "lineage": [
+        "https://openalex.org/I121934306",
+        "https://openalex.org/I1283280774",
+        "https://openalex.org/I48633490"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I136199984",
+       "display_name": "Harvard University",
+       "ror": "https://ror.org/03vek6s52",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I136199984"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210111543",
+       "display_name": "Harvard Pilgrim Health Care",
+       "ror": "https://ror.org/01zxdeg39",
+       "country_code": "US",
+       "type": "healthcare",
+       "lineage": [
+        "https://openalex.org/I4210111543"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Meghan A. Baker",
+     "raw_affiliation_strings": [
+      "a Brigham and Women's Hospital, Department of Medicine , Division of Infectious Diseases , Boston , MA , USA",
+      "e Harvard Pilgrim Health Care and Harvard Medical School , Department of Population Medicine , Boston , MA , USA",
+      "Brigham and Women's Hospital, Department of Medicine, Division of Infectious Diseases, Boston, MA, USA",
+      "Harvard Pilgrim Health Care and Harvard Medical School, Department of Population Medicine, Boston, MA, USA"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "a Brigham and Women's Hospital, Department of Medicine , Division of Infectious Diseases , Boston , MA , USA",
+       "institution_ids": [
+        "https://openalex.org/I1283280774"
+       ]
+      },
+      {
+       "raw_affiliation_string": "e Harvard Pilgrim Health Care and Harvard Medical School , Department of Population Medicine , Boston , MA , USA",
+       "institution_ids": [
+        "https://openalex.org/I136199984",
+        "https://openalex.org/I4210111543"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Brigham and Women's Hospital, Department of Medicine, Division of Infectious Diseases, Boston, MA, USA",
+       "institution_ids": [
+        "https://openalex.org/I1283280774"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Harvard Pilgrim Health Care and Harvard Medical School, Department of Population Medicine, Boston, MA, USA",
+       "institution_ids": [
+        "https://openalex.org/I136199984",
+        "https://openalex.org/I4210111543"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5040203025",
+      "display_name": "Deborah S. Yokoe",
+      "orcid": "https://orcid.org/0009-0001-3608-0482",
+      "observed_orcids": [
+       "https://orcid.org/0009-0001-3608-0482"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I1283280774",
+       "display_name": "Brigham and Women's Hospital",
+       "ror": "https://ror.org/04b6nzv94",
+       "country_code": "US",
+       "type": "healthcare",
+       "lineage": [
+        "https://openalex.org/I121934306",
+        "https://openalex.org/I1283280774",
+        "https://openalex.org/I48633490"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Deborah S. Yokoe",
+     "raw_affiliation_strings": [
+      "a Brigham and Women's Hospital, Department of Medicine , Division of Infectious Diseases , Boston , MA , USA",
+      "Brigham and Women's Hospital, Department of Medicine, Division of Infectious Diseases, Boston, MA, USA"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "a Brigham and Women's Hospital, Department of Medicine , Division of Infectious Diseases , Boston , MA , USA",
+       "institution_ids": [
+        "https://openalex.org/I1283280774"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Brigham and Women's Hospital, Department of Medicine, Division of Infectious Diseases, Boston, MA, USA",
+       "institution_ids": [
+        "https://openalex.org/I1283280774"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5007262202",
+      "display_name": "Martin Kulldorff",
+      "orcid": "https://orcid.org/0000-0002-5284-2993",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-5284-2993"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I1283280774",
+       "display_name": "Brigham and Women's Hospital",
+       "ror": "https://ror.org/04b6nzv94",
+       "country_code": "US",
+       "type": "healthcare",
+       "lineage": [
+        "https://openalex.org/I121934306",
+        "https://openalex.org/I1283280774",
+        "https://openalex.org/I48633490"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I136199984",
+       "display_name": "Harvard University",
+       "ror": "https://ror.org/03vek6s52",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I136199984"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210111543",
+       "display_name": "Harvard Pilgrim Health Care",
+       "ror": "https://ror.org/01zxdeg39",
+       "country_code": "US",
+       "type": "healthcare",
+       "lineage": [
+        "https://openalex.org/I4210111543"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Martin Kulldorff",
+     "raw_affiliation_strings": [
+      "a Brigham and Women's Hospital, Department of Medicine , Division of Infectious Diseases , Boston , MA , USA",
+      "c Harvard Medical School , Department of Medicine , Boston , MA , USA",
+      "e Harvard Pilgrim Health Care and Harvard Medical School , Department of Population Medicine , Boston , MA , USA",
+      "Brigham and Women's Hospital, Department of Medicine, Division of Infectious Diseases, Boston, MA, USA",
+      "Harvard Medical School, Department of Medicine, Boston, MA, USA",
+      "Harvard Pilgrim Health Care and Harvard Medical School, Department of Population Medicine, Boston, MA, USA"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "a Brigham and Women's Hospital, Department of Medicine , Division of Infectious Diseases , Boston , MA , USA",
+       "institution_ids": [
+        "https://openalex.org/I1283280774"
+       ]
+      },
+      {
+       "raw_affiliation_string": "c Harvard Medical School , Department of Medicine , Boston , MA , USA",
+       "institution_ids": [
+        "https://openalex.org/I136199984"
+       ]
+      },
+      {
+       "raw_affiliation_string": "e Harvard Pilgrim Health Care and Harvard Medical School , Department of Population Medicine , Boston , MA , USA",
+       "institution_ids": [
+        "https://openalex.org/I136199984",
+        "https://openalex.org/I4210111543"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Brigham and Women's Hospital, Department of Medicine, Division of Infectious Diseases, Boston, MA, USA",
+       "institution_ids": [
+        "https://openalex.org/I1283280774"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Harvard Medical School, Department of Medicine, Boston, MA, USA",
+       "institution_ids": [
+        "https://openalex.org/I136199984"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Harvard Pilgrim Health Care and Harvard Medical School, Department of Population Medicine, Boston, MA, USA",
+       "institution_ids": [
+        "https://openalex.org/I136199984",
+        "https://openalex.org/I4210111543"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": null,
+      "display_name": "Craig Barrett",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Craig Barrett",
+     "raw_affiliation_strings": [
+      "f Premier, Inc ., Safety Solutions , Charlotte , NC , USA",
+      "Premier, Inc., Safety Solutions, Charlotte, NC, USA"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "f Premier, Inc ., Safety Solutions , Charlotte , NC , USA",
+       "institution_ids": []
+      },
+      {
+       "raw_affiliation_string": "Premier, Inc., Safety Solutions, Charlotte, NC, USA",
+       "institution_ids": []
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5112207358",
+      "display_name": "Jamie Swift",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Jamie Swift",
+     "raw_affiliation_strings": [
+      "g Mountain States Health Alliance, Department of Infection Prevention , Johnson City , TN , USA",
+      "Mountain States Health Alliance, Department of Infection Prevention, Johnson City, TN, USA"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "g Mountain States Health Alliance, Department of Infection Prevention , Johnson City , TN , USA",
+       "institution_ids": []
+      },
+      {
+       "raw_affiliation_string": "Mountain States Health Alliance, Department of Infection Prevention, Johnson City, TN, USA",
+       "institution_ids": []
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5025883996",
+      "display_name": "John M. Stelling",
+      "orcid": "https://orcid.org/0000-0001-5719-7754",
+      "observed_orcids": [
+       "https://orcid.org/0000-0001-5719-7754"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I1283280774",
+       "display_name": "Brigham and Women's Hospital",
+       "ror": "https://ror.org/04b6nzv94",
+       "country_code": "US",
+       "type": "healthcare",
+       "lineage": [
+        "https://openalex.org/I121934306",
+        "https://openalex.org/I1283280774",
+        "https://openalex.org/I48633490"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I136199984",
+       "display_name": "Harvard University",
+       "ror": "https://ror.org/03vek6s52",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I136199984"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "John Stelling",
+     "raw_affiliation_strings": [
+      "a Brigham and Women's Hospital, Department of Medicine , Division of Infectious Diseases , Boston , MA , USA",
+      "c Harvard Medical School , Department of Medicine , Boston , MA , USA",
+      "Brigham and Women's Hospital, Department of Medicine, Division of Infectious Diseases, Boston, MA, USA",
+      "Harvard Medical School, Department of Medicine, Boston, MA, USA"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "a Brigham and Women's Hospital, Department of Medicine , Division of Infectious Diseases , Boston , MA , USA",
+       "institution_ids": [
+        "https://openalex.org/I1283280774"
+       ]
+      },
+      {
+       "raw_affiliation_string": "c Harvard Medical School , Department of Medicine , Boston , MA , USA",
+       "institution_ids": [
+        "https://openalex.org/I136199984"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Brigham and Women's Hospital, Department of Medicine, Division of Infectious Diseases, Boston, MA, USA",
+       "institution_ids": [
+        "https://openalex.org/I1283280774"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Harvard Medical School, Department of Medicine, Boston, MA, USA",
+       "institution_ids": [
+        "https://openalex.org/I136199984"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": null,
+      "display_name": "for the Centers for Disease Control and Prevention Epicenters Program",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "for the Centers for Disease Control and Prevention Epicenters Program",
+     "raw_affiliation_strings": [],
+     "raw_orcid": null,
+     "affiliations": []
+    }
+   ],
+   "abstract_inverted_index": {
+    "BACKGROUND:": [
+     0
+    ],
+    "While": [
+     1
+    ],
+    "antimicrobial": [
+     2,
+     58,
+     166
+    ],
+    "resistance": [
+     3,
+     167
+    ],
+    "threatens": [
+     4
+    ],
+    "the": [
+     5,
+     48,
+     97,
+     121,
+     132,
+     136,
+     140,
+     149,
+     172,
+     193
+    ],
+    "prevention,": [
+     6
+    ],
+    "treatment,": [
+     7
+    ],
+    "and": [
+     8,
+     26,
+     46,
+     99,
+     112,
+     127,
+     156,
+     183,
+     185,
+     197,
+     206
+    ],
+    "control": [
+     9
+    ],
+    "of": [
+     10,
+     15,
+     39,
+     50,
+     93,
+     131,
+     139,
+     143,
+     152,
+     164,
+     174,
+     177,
+     188
+    ],
+    "infectious": [
+     11
+    ],
+    "diseases,": [
+     12
+    ],
+    "systematic": [
+     13
+    ],
+    "analysis": [
+     14,
+     163
+    ],
+    "routine": [
+     16,
+     165
+    ],
+    "microbiology": [
+     17
+    ],
+    "laboratory": [
+     18
+    ],
+    "test": [
+     19,
+     169
+    ],
+    "results": [
+     20,
+     170
+    ],
+    "worldwide": [
+     21
+    ],
+    "can": [
+     22,
+     191
+    ],
+    "alert": [
+     23
+    ],
+    "new": [
+     24,
+     51
+    ],
+    "threats": [
+     25
+    ],
+    "promote": [
+     27
+    ],
+    "timely": [
+     28
+    ],
+    "response.": [
+     29
+    ],
+    "This": [
+     30
+    ],
+    "study": [
+     31
+    ],
+    "explores": [
+     32
+    ],
+    "statistical": [
+     33
+    ],
+    "algorithms": [
+     34,
+     134,
+     190
+    ],
+    "for": [
+     35,
+     85
+    ],
+    "recognizing": [
+     36
+    ],
+    "geographic": [
+     37,
+     87,
+     91,
+     116,
+     175
+    ],
+    "clustering": [
+     38,
+     92,
+     102,
+     107,
+     133,
+     176
+    ],
+    "multi-resistant": [
+     40
+    ],
+    "microbes": [
+     41
+    ],
+    "within": [
+     42,
+     96
+    ],
+    "a": [
+     43,
+     62,
+     74,
+     153,
+     200
+    ],
+    "healthcare": [
+     44,
+     75
+    ],
+    "network": [
+     45,
+     76,
+     98
+    ],
+    "monitoring": [
+     47
+    ],
+    "dissemination": [
+     49,
+     158,
+     198
+    ],
+    "strains": [
+     52
+    ],
+    "over": [
+     53,
+     103
+    ],
+    "time.": [
+     54,
+     104
+    ],
+    "METHODS:": [
+     55
+    ],
+    "Escherichia": [
+     56
+    ],
+    "coli": [
+     57,
+     146
+    ],
+    "susceptibility": [
+     59,
+     168
+    ],
+    "data": [
+     60
+    ],
+    "from": [
+     61,
+     109
+    ],
+    "three-year": [
+     63
+    ],
+    "period": [
+     64
+    ],
+    "stored": [
+     65
+    ],
+    "in": [
+     66,
+     73,
+     101,
+     148,
+     196
+    ],
+    "WHONET": [
+     67,
+     182
+    ],
+    "were": [
+     68,
+     118
+    ],
+    "analyzed": [
+     69
+    ],
+    "across": [
+     70,
+     199
+    ],
+    "ten": [
+     71
+    ],
+    "facilities": [
+     72
+    ],
+    "utilizing": [
+     77
+    ],
+    "SaTScan's": [
+     78
+    ],
+    "spatial": [
+     79
+    ],
+    "multinomial": [
+     80
+    ],
+    "model": [
+     81
+    ],
+    "with": [
+     82,
+     181
+    ],
+    "two": [
+     83
+    ],
+    "models": [
+     84,
+     117
+    ],
+    "defining": [
+     86
+    ],
+    "proximity.": [
+     88
+    ],
+    "We": [
+     89
+    ],
+    "explored": [
+     90
+    ],
+    "multi-resistance": [
+     94
+    ],
+    "phenotypes": [
+     95
+    ],
+    "changes": [
+     100
+    ],
+    "RESULTS:": [
+     105
+    ],
+    "Geographic": [
+     106
+    ],
+    "identified": [
+     108
+    ],
+    "both": [
+     110
+    ],
+    "latitude/longitude": [
+     111
+    ],
+    "non-parametric": [
+     113
+    ],
+    "facility": [
+     114
+    ],
+    "groupings": [
+     115
+    ],
+    "similar,": [
+     119
+    ],
+    "while": [
+     120
+    ],
+    "latter": [
+     122
+    ],
+    "was": [
+     123
+    ],
+    "offers": [
+     124
+    ],
+    "greater": [
+     125
+    ],
+    "flexibility": [
+     126
+    ],
+    "generalizability.": [
+     128
+    ],
+    "Iterative": [
+     129
+    ],
+    "application": [
+     130,
+     187
+    ],
+    "suggested": [
+     135
+    ],
+    "possible": [
+     137
+    ],
+    "recognition": [
+     138,
+     173
+    ],
+    "initial": [
+     141,
+     194
+    ],
+    "appearance": [
+     142,
+     195
+    ],
+    "invasive": [
+     144
+    ],
+    "E.": [
+     145
+    ],
+    "ST131": [
+     147
+    ],
+    "clinical": [
+     150
+    ],
+    "database": [
+     151
+    ],
+    "single": [
+     154
+    ],
+    "hospital": [
+     155
+    ],
+    "subsequent": [
+     157
+    ],
+    "to": [
+     159
+    ],
+    "others.": [
+     160
+    ],
+    "CONCLUSION:": [
+     161
+    ],
+    "Systematic": [
+     162
+    ],
+    "supports": [
+     171
+    ],
+    "microbial": [
+     178
+    ],
+    "phenotypic": [
+     179
+    ],
+    "subpopulations": [
+     180
+    ],
+    "SaTScan,": [
+     184
+    ],
+    "iterative": [
+     186
+    ],
+    "these": [
+     189
+    ],
+    "detect": [
+     192
+    ],
+    "region": [
+     201
+    ],
+    "prompting": [
+     202
+    ],
+    "early": [
+     203
+    ],
+    "investigation,": [
+     204
+    ],
+    "response,": [
+     205
+    ],
+    "containment": [
+     207
+    ],
+    "measures.": [
+     208
+    ]
+   },
+   "type": "article",
+   "language": "en",
+   "is_retracted": false,
+   "relevance_score": 0.8900363559962922
+  },
+  {
+   "id": "https://openalex.org/W3171618499",
+   "doi": "https://doi.org/10.1186/s13756-021-00960-5",
+   "title": "Confidence interval methods for antimicrobial resistance surveillance data",
+   "display_name": "Confidence interval methods for antimicrobial resistance surveillance data",
+   "publication_year": 2021,
+   "cited_by_count": 10,
+   "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://aricjournal.biomedcentral.com/counter/pdf/10.1186/s13756-021-00960-5",
+    "any_repository_has_fulltext": true
+   },
+   "best_oa_location": {
+    "id": "doi:10.1186/s13756-021-00960-5",
+    "doi": "https://doi.org/10.1186/s13756-021-00960-5",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1186/s13756-021-00960-5",
+    "pdf_url": "https://aricjournal.biomedcentral.com/counter/pdf/10.1186/s13756-021-00960-5",
+    "source": {
+     "id": "https://openalex.org/S2737606590",
+     "display_name": "Antimicrobial Resistance and Infection Control",
+     "issn_l": "2047-2994",
+     "issn": [
+      "2047-2994"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "doaj",
+      "dongbi-b",
+      "doyens",
+      "jufo-1",
+      "ki-jl-1",
+      "medline",
+      "norway-1",
+      "poland-100",
+      "russia-white-list-1",
+      "vabb-shw"
+     ],
+     "host_organization": "https://openalex.org/P4310320256",
+     "host_organization_name": "BioMed Central",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310320256",
+      "https://openalex.org/P4310319965"
+     ],
+     "host_organization_lineage_names": [
+      "BioMed Central",
+      "Springer Nature"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Antimicrobial Resistance &amp; Infection Control",
+    "raw_type": "journal-article"
+   },
+   "primary_location": {
+    "id": "doi:10.1186/s13756-021-00960-5",
+    "doi": "https://doi.org/10.1186/s13756-021-00960-5",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1186/s13756-021-00960-5",
+    "pdf_url": "https://aricjournal.biomedcentral.com/counter/pdf/10.1186/s13756-021-00960-5",
+    "source": {
+     "id": "https://openalex.org/S2737606590",
+     "display_name": "Antimicrobial Resistance and Infection Control",
+     "issn_l": "2047-2994",
+     "issn": [
+      "2047-2994"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "doaj",
+      "dongbi-b",
+      "doyens",
+      "jufo-1",
+      "ki-jl-1",
+      "medline",
+      "norway-1",
+      "poland-100",
+      "russia-white-list-1",
+      "vabb-shw"
+     ],
+     "host_organization": "https://openalex.org/P4310320256",
+     "host_organization_name": "BioMed Central",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310320256",
+      "https://openalex.org/P4310319965"
+     ],
+     "host_organization_lineage_names": [
+      "BioMed Central",
+      "Springer Nature"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Antimicrobial Resistance &amp; Infection Control",
+    "raw_type": "journal-article"
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5077506623",
+      "display_name": "Erta Kalanxhi",
+      "orcid": "https://orcid.org/0000-0002-3614-6058",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-3614-6058"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I1338678786",
+       "display_name": "Center for Disease Dynamics, Economics & Policy",
+       "ror": "https://ror.org/01skhd946",
+       "country_code": "US",
+       "type": "nonprofit",
+       "lineage": [
+        "https://openalex.org/I1338678786"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210163355",
+       "display_name": "Center for Disease Dynamics, Economics and Policy",
+       "ror": "https://ror.org/05fcqx592",
+       "country_code": "IN",
+       "type": "nonprofit",
+       "lineage": [
+        "https://openalex.org/I1338678786",
+        "https://openalex.org/I4210163355"
+       ]
+      }
+     ],
+     "countries": [
+      "IN",
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Erta Kalanxhi",
+     "raw_affiliation_strings": [
+      "Center for Disease Dynamics, Economics and Policy (CDDEP), Washington, DC, USA"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Center for Disease Dynamics, Economics and Policy (CDDEP), Washington, DC, USA",
+       "institution_ids": [
+        "https://openalex.org/I1338678786",
+        "https://openalex.org/I4210163355"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5019877992",
+      "display_name": "Gilbert Osena",
+      "orcid": "https://orcid.org/0000-0003-4998-7224",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-4998-7224"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I1338678786",
+       "display_name": "Center for Disease Dynamics, Economics & Policy",
+       "ror": "https://ror.org/01skhd946",
+       "country_code": "US",
+       "type": "nonprofit",
+       "lineage": [
+        "https://openalex.org/I1338678786"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210163355",
+       "display_name": "Center for Disease Dynamics, Economics and Policy",
+       "ror": "https://ror.org/05fcqx592",
+       "country_code": "IN",
+       "type": "nonprofit",
+       "lineage": [
+        "https://openalex.org/I1338678786",
+        "https://openalex.org/I4210163355"
+       ]
+      }
+     ],
+     "countries": [
+      "IN",
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Gilbert Osena",
+     "raw_affiliation_strings": [
+      "Center for Disease Dynamics, Economics and Policy (CDDEP), Washington, DC, USA"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Center for Disease Dynamics, Economics and Policy (CDDEP), Washington, DC, USA",
+       "institution_ids": [
+        "https://openalex.org/I1338678786",
+        "https://openalex.org/I4210163355"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5103048858",
+      "display_name": "Geetanjali Kapoor",
+      "orcid": "https://orcid.org/0000-0002-8180-171X",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-8180-171X"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I1338678786",
+       "display_name": "Center for Disease Dynamics, Economics & Policy",
+       "ror": "https://ror.org/01skhd946",
+       "country_code": "US",
+       "type": "nonprofit",
+       "lineage": [
+        "https://openalex.org/I1338678786"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210163355",
+       "display_name": "Center for Disease Dynamics, Economics and Policy",
+       "ror": "https://ror.org/05fcqx592",
+       "country_code": "IN",
+       "type": "nonprofit",
+       "lineage": [
+        "https://openalex.org/I1338678786",
+        "https://openalex.org/I4210163355"
+       ]
+      }
+     ],
+     "countries": [
+      "IN",
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Geetanjali Kapoor",
+     "raw_affiliation_strings": [
+      "Center for Disease Dynamics, Economics and Policy (CDDEP), Washington, DC, USA"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Center for Disease Dynamics, Economics and Policy (CDDEP), Washington, DC, USA",
+       "institution_ids": [
+        "https://openalex.org/I1338678786",
+        "https://openalex.org/I4210163355"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5011589199",
+      "display_name": "Eili Y. Klein",
+      "orcid": "https://orcid.org/0000-0002-1304-5289",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-1304-5289"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I1338678786",
+       "display_name": "Center for Disease Dynamics, Economics & Policy",
+       "ror": "https://ror.org/01skhd946",
+       "country_code": "US",
+       "type": "nonprofit",
+       "lineage": [
+        "https://openalex.org/I1338678786"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I145311948",
+       "display_name": "Johns Hopkins University",
+       "ror": "https://ror.org/00za53h95",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I145311948"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210163355",
+       "display_name": "Center for Disease Dynamics, Economics and Policy",
+       "ror": "https://ror.org/05fcqx592",
+       "country_code": "IN",
+       "type": "nonprofit",
+       "lineage": [
+        "https://openalex.org/I1338678786",
+        "https://openalex.org/I4210163355"
+       ]
+      }
+     ],
+     "countries": [
+      "IN",
+      "US"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Eili Klein",
+     "raw_affiliation_strings": [
+      "Center for Disease Dynamics, Economics and Policy (CDDEP), Washington, DC, USA. [email removed]",
+      "Johns Hopkins University, Baltimore, MD, USA. [email removed]",
+      "Center for Disease Dynamics, Economics and Policy (CDDEP), Washington, DC, USA"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Center for Disease Dynamics, Economics and Policy (CDDEP), Washington, DC, USA. [email removed]",
+       "institution_ids": [
+        "https://openalex.org/I1338678786",
+        "https://openalex.org/I4210163355"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Johns Hopkins University, Baltimore, MD, USA. [email removed]",
+       "institution_ids": [
+        "https://openalex.org/I145311948"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Center for Disease Dynamics, Economics and Policy (CDDEP), Washington, DC, USA",
+       "institution_ids": [
+        "https://openalex.org/I1338678786",
+        "https://openalex.org/I4210163355"
+       ]
+      }
+     ]
+    }
+   ],
+   "abstract_inverted_index": {
+    "BACKGROUND:": [
+     0
+    ],
+    "Antimicrobial": [
+     1
+    ],
+    "resistance": [
+     2
+    ],
+    "(AMR)": [
+     3
+    ],
+    "is": [
+     4,
+     16
+    ],
+    "one": [
+     5
+    ],
+    "of": [
+     6,
+     20,
+     26,
+     48,
+     79,
+     90,
+     102,
+     115,
+     180,
+     189,
+     209,
+     222,
+     241,
+     267
+    ],
+    "the": [
+     7,
+     46,
+     49,
+     66,
+     88,
+     99,
+     103,
+     116,
+     128,
+     135,
+     164,
+     178,
+     187,
+     191,
+     203,
+     207,
+     210,
+     219,
+     238,
+     242,
+     265
+    ],
+    "greatest": [
+     8
+    ],
+    "global": [
+     9
+    ],
+    "health": [
+     10
+    ],
+    "challenges": [
+     11
+    ],
+    "today,": [
+     12
+    ],
+    "but": [
+     13
+    ],
+    "burden": [
+     14
+    ],
+    "assessment": [
+     15
+    ],
+    "hindered": [
+     17
+    ],
+    "by": [
+     18,
+     42
+    ],
+    "uncertainty": [
+     19,
+     78,
+     266
+    ],
+    "AMR": [
+     21,
+     27,
+     58,
+     80,
+     223,
+     258
+    ],
+    "prevalence": [
+     22,
+     81,
+     268
+    ],
+    "estimates.": [
+     23,
+     82,
+     269
+    ],
+    "Geographical": [
+     24
+    ],
+    "representation": [
+     25
+    ],
+    "estimates": [
+     28
+    ],
+    "typically": [
+     29
+    ],
+    "pools": [
+     30
+    ],
+    "data": [
+     31,
+     59,
+     111,
+     211,
+     227,
+     243
+    ],
+    "collected": [
+     32
+    ],
+    "from": [
+     33,
+     60,
+     69,
+     206
+    ],
+    "several": [
+     34
+    ],
+    "laboratories;": [
+     35
+    ],
+    "however,": [
+     36
+    ],
+    "these": [
+     37
+    ],
+    "aggregations": [
+     38
+    ],
+    "may": [
+     39
+    ],
+    "introduce": [
+     40
+    ],
+    "bias": [
+     41,
+     204
+    ],
+    "not": [
+     43,
+     200
+    ],
+    "accounting": [
+     44,
+     145
+    ],
+    "for": [
+     45,
+     76,
+     87,
+     98,
+     146,
+     193,
+     202,
+     217,
+     252
+    ],
+    "heterogeneity": [
+     47
+    ],
+    "population": [
+     50,
+     136
+    ],
+    "that": [
+     51,
+     96,
+     109,
+     225
+    ],
+    "each": [
+     52
+    ],
+    "laboratory": [
+     53
+    ],
+    "represents.": [
+     54
+    ],
+    "METHODS:": [
+     55
+    ],
+    "We": [
+     56,
+     83
+    ],
+    "used": [
+     57
+    ],
+    "up": [
+     61
+    ],
+    "to": [
+     62,
+     73,
+     133,
+     155,
+     162,
+     232,
+     262
+    ],
+    "381": [
+     63
+    ],
+    "laboratories": [
+     64
+    ],
+    "in": [
+     65,
+     260
+    ],
+    "United": [
+     67
+    ],
+    "States": [
+     68
+    ],
+    "The": [
+     70
+    ],
+    "Surveillance": [
+     71
+    ],
+    "Network": [
+     72
+    ],
+    "evaluate": [
+     74
+    ],
+    "methods": [
+     75,
+     95,
+     108,
+     153,
+     169,
+     216
+    ],
+    "estimating": [
+     77,
+     218
+    ],
+    "constructed": [
+     84
+    ],
+    "confidence": [
+     85,
+     130,
+     142,
+     220,
+     255
+    ],
+    "intervals": [
+     86,
+     131,
+     143,
+     221,
+     256
+    ],
+    "proportion": [
+     89
+    ],
+    "resistant": [
+     91
+    ],
+    "isolates": [
+     92
+    ],
+    "using": [
+     93
+    ],
+    "(1)": [
+     94
+    ],
+    "account": [
+     97
+    ],
+    "clustered": [
+     100,
+     239
+    ],
+    "structure": [
+     101,
+     240
+    ],
+    "data,": [
+     104
+    ],
+    "and": [
+     105,
+     151,
+     173,
+     244
+    ],
+    "(2)": [
+     106
+    ],
+    "standard": [
+     107,
+     152,
+     168
+    ],
+    "assume": [
+     110,
+     226
+    ],
+    "independence.": [
+     112,
+     181
+    ],
+    "Using": [
+     113
+    ],
+    "samples": [
+     114,
+     197
+    ],
+    "full": [
+     117
+    ],
+    "dataset": [
+     118
+    ],
+    "with": [
+     119
+    ],
+    "increasing": [
+     120
+    ],
+    "facility": [
+     121
+    ],
+    "coverage": [
+     122,
+     185
+    ],
+    "levels,": [
+     123
+    ],
+    "we": [
+     124
+    ],
+    "examined": [
+     125
+    ],
+    "how": [
+     126
+    ],
+    "likely": [
+     127,
+     161,
+     231
+    ],
+    "estimated": [
+     129
+    ],
+    "were": [
+     132,
+     159
+    ],
+    "include": [
+     134,
+     163
+    ],
+    "mean.": [
+     137
+    ],
+    "RESULTS:": [
+     138
+    ],
+    "Methods": [
+     139
+    ],
+    "constructing": [
+     140
+    ],
+    "95%": [
+     141
+    ],
+    "while": [
+     144
+    ],
+    "possible": [
+     147,
+     246
+    ],
+    "within-cluster": [
+     148
+    ],
+    "correlations": [
+     149
+    ],
+    "(Survey": [
+     150
+    ],
+    "adjusted": [
+     154
+    ],
+    "employ": [
+     156
+    ],
+    "cluster-robust": [
+     157
+    ],
+    "errors),": [
+     158
+    ],
+    "more": [
+     160
+    ],
+    "sample": [
+     165
+    ],
+    "mean": [
+     166,
+     192
+    ],
+    "than": [
+     167
+    ],
+    "(Logit,": [
+     170
+    ],
+    "Wilson": [
+     171
+    ],
+    "score": [
+     172
+    ],
+    "Jeffreys": [
+     174
+    ],
+    "interval)": [
+     175
+    ],
+    "operating": [
+     176
+    ],
+    "under": [
+     177
+    ],
+    "assumption": [
+     179
+    ],
+    "While": [
+     182
+    ],
+    "increased": [
+     183
+    ],
+    "geographical": [
+     184
+    ],
+    "improved": [
+     186
+    ],
+    "probability": [
+     188
+    ],
+    "encompassing": [
+     190
+    ],
+    "all": [
+     194
+    ],
+    "methods,": [
+     195
+    ],
+    "large": [
+     196
+    ],
+    "still": [
+     198
+    ],
+    "did": [
+     199
+    ],
+    "compensate": [
+     201
+    ],
+    "introduced": [
+     205
+    ],
+    "violation": [
+     208
+    ],
+    "independence": [
+     212
+    ],
+    "assumption.": [
+     213
+    ],
+    "CONCLUSION:": [
+     214
+    ],
+    "General": [
+     215
+    ],
+    "rates": [
+     224
+    ],
+    "are": [
+     228,
+     230
+    ],
+    "independent,": [
+     229
+    ],
+    "produce": [
+     233
+    ],
+    "biased": [
+     234
+    ],
+    "results.": [
+     235
+    ],
+    "When": [
+     236
+    ],
+    "feasible,": [
+     237
+    ],
+    "any": [
+     245
+    ],
+    "intra-cluster": [
+     247
+    ],
+    "variation": [
+     248
+    ],
+    "should": [
+     249
+    ],
+    "be": [
+     250
+    ],
+    "accounted": [
+     251
+    ],
+    "when": [
+     253
+    ],
+    "calculating": [
+     254
+    ],
+    "around": [
+     257
+    ],
+    "estimates,": [
+     259
+    ],
+    "order": [
+     261
+    ],
+    "better": [
+     263
+    ],
+    "capture": [
+     264
+    ]
+   },
+   "type": "article",
+   "language": "en",
+   "is_retracted": false,
+   "relevance_score": 0.8426184102144024
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Based-on badge demo</title>
+<link rel="stylesheet" href="based-on.css">
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; background: #f4f6f9; color: #0b1220; }
+  main { max-width: 56rem; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+  h1 { font-size: 1.1rem; margin: 0 0 1rem; }
+  .stage { border-radius: 1.1rem; padding: 1.4rem 1.4rem 1.6rem; margin-bottom: 1.1rem; overflow: hidden; }
+  .stage h2 { font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 .9rem; opacity: .75; }
+  .kpi { display: flex; flex-wrap: wrap; align-items: baseline; gap: .5rem 1rem; margin-bottom: .8rem; }
+  .kpi b { font-size: 2.4rem; line-height: 1; letter-spacing: -.02em; }
+  .kpi span { font-size: .95rem; opacity: .85; }
+  .row { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; }
+  .navy { background: linear-gradient(160deg, #0a1730, #0d2748 70%, #0b3a55); color: #e6f1ff; }
+  .light { background: #fff; border: 1px solid #dbe2ea; }
+  .glass { background: linear-gradient(135deg, #7dd3fc, #c4b5fd 55%, #fbcfe8); color: #0b1220; }
+  .glass .panel { background: rgb(255 255 255 / .55); backdrop-filter: blur(14px); border: 1px solid rgb(255 255 255 / .7); border-radius: .9rem; padding: 1rem; }
+  p { margin: .2rem 0 0; font-size: .9rem; max-width: 40rem; }
+  .note { font-size: .78rem; opacity: .7; margin-top: .8rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Based-on badge: sample content, the data below is made up</h1>
+
+  <section class="stage navy" data-theme="dark">
+    <h2>Dark navy + cyan</h2>
+    <div class="kpi"><b>3 wards</b><span>show a rising resistant share this week</span></div>
+    <div class="row">
+      <span class="based-on" data-author="Unkel et al." data-year="2011" data-url="https://doi.org/10.1111/j.1467-985x.2011.00714.x"
+        data-title="Statistical methods for the prospective detection of infectious disease outbreaks: a review"
+        data-authors="Unkel, Farrington, Garthwaite, Robertson, Andrews"
+        data-method="Flags a ward when its resistant share runs above what its own recent history predicts."
+        data-level="implements" id="b-dark"></span>
+      <span class="based-on" data-author="Kalanxhi et al." data-year="2021" data-url="https://doi.org/10.1186/s13756-021-00960-5"
+        data-title="Confidence interval methods for antimicrobial resistance surveillance data"
+        data-method="Shows a Wilson interval next to every resistant share, so a ward with 6 isolates is not read like one with 600."
+        data-level="validated" data-sample="placeholder sample text: 2,310 isolates, 6 wards"></span>
+    </div>
+  </section>
+
+  <section class="stage light" data-theme="light">
+    <h2>Light</h2>
+    <div class="kpi"><b>72 %</b><span>of tips are followed within a week</span></div>
+    <div class="row">
+      <span class="based-on" data-author="Allcott" data-year="2019" data-url="https://doi.org/10.1257/aer.20180780" data-level="implements"
+        data-method="Compares a household with similar households and shows one clear next step."></span>
+      <span class="based-on" data-author="Hillcoat-Nallétamby, Phillips, Williams, Ray and Dunn" data-year="2019" data-url="https://doi.org/10.1002/jgs.15731" data-level="implements"
+        data-title="A very long author list should truncate, not break the layout" data-method="Long-name truncation test."></span>
+    </div>
+    <p>Inline in a sentence: the risk index follows <span class="based-on" data-author="Smith et al." data-year="2020" data-url="https://example.org/paper" data-level="implements" data-method="Inline test."></span> and is recomputed daily.</p>
+  </section>
+
+  <section class="stage glass" data-theme="light">
+    <h2>On a colourful glass panel</h2>
+    <div class="panel"><div class="kpi"><b>12 min</b><span>median time to first action</span></div>
+      <span class="based-on" data-author="Bhargava and Loewenstein" data-year="2015" data-url="https://doi.org/10.1136/bmj.h3412" data-level="implements" data-method="Default choices and plain-language framing."></span></div>
+  </section>
+
+  <section class="stage light" id="js-made" data-theme="light"><h2>Created from code</h2><div class="row" id="made"></div>
+    <p class="note">BasedOn.create({author, year, url, method, level, sample}) is called after load.</p></section>
+</main>
+<script src="based-on.js"></script>
+<script>
+  document.getElementById("made").appendChild(BasedOn.create({author: "Farrington et al.", year: 1996, url: "https://doi.org/10.2307/2983074",
+    method: "Compares the count with an expected value from the same weeks in earlier years.", level: "implements"}));
+</script>
+</body>
+</html>

@@ -1,0 +1,3621 @@
+{
+ "meta": {
+  "version": "0.1.0",
+  "date": "2026-10-21",
+  "plan_method": "keyword extraction",
+  "years": "2010-2026",
+  "queries": [
+   {
+    "kind": "user",
+    "text": "startup funding prediction"
+   },
+   {
+    "kind": "user",
+    "text": "venture capital success"
+   },
+   {
+    "kind": "user",
+    "text": "new venture survival"
+   },
+   {
+    "kind": "phrase",
+    "text": "early-stage ocean-tech"
+   },
+   {
+    "kind": "phrase",
+    "text": "public funding received"
+   },
+   {
+    "kind": "phrase",
+    "text": "regional ocean-innovation network"
+   },
+   {
+    "kind": "prf",
+    "text": "venture capitalists"
+   },
+   {
+    "kind": "prf",
+    "text": "publicly available"
+   }
+  ],
+  "semantic": "A regional ocean-innovation network wants a tool that tells its mentors and the investors it works with which early-stage startups are most likely to raise their next funding round in the next twelve months, so that scarce mentoring time and introductions go where they matter. A ranked watch-list of early-stage ocean-tech startups with an explainable probability of raising funding.",
+  "candidates": 552,
+  "unique": 426,
+  "sources": {
+   "openalex": {
+    "calls": 14,
+    "cached": 14,
+    "errors": [],
+    "budget": ""
+   },
+   "semantic_scholar": {
+    "calls": 0,
+    "cached": 0,
+    "errors": [
+     "Semantic Scholar rate-limited this run (anonymous pool is shared); set S2_API_KEY to use it. semantic-scholar: still 429 after 3 retries"
+    ],
+    "disabled": "Semantic Scholar rate-limited this run (anonymous pool is shared); set S2_API_KEY to use it. semantic-scholar: still 429 after 3 retries"
+   }
+  },
+  "llm": false
+ },
+ "top": [
+  {
+   "title": "The persistent effect of initial success: Evidence from venture capital",
+   "year": 2020,
+   "authors": [
+    "Ramana Nanda",
+    "Sampsa Samila",
+    "Olav Sorenson"
+   ],
+   "venue": "Journal of Financial Economics",
+   "doi": "10.1016/j.jfineco.2020.01.004",
+   "url": "https://doi.org/10.1016/j.jfineco.2020.01.004",
+   "oa_url": "https://www.sciencedirect.com/science/article/pii/S0304405X20300337/pdf",
+   "abstract": "We examined persistence in the performance of venture capital (VC) firms at the level of individual investments underlying fund returns. We found that, while initial success strongly predicted long-term success, the distribution of investments in state-industry-year cells accounted for roughly half of this performance persistence. We document a number of additional facts: (i) initial success appeared to stem from investing in the right industries and regions at the right times; (ii) but firms did not exhibit persistence in choosing the right industries and regions; (iii) venture capitalists did not improve in their performance with investing experience; (iv) firms that experienced early success shifted to investing in later rounds and in larger syndicates, and they became more central in the co-investment network; (v) these changes accounted for the majority of the remaining persistence in performance. Our results suggest that venture capital firms exhibit performance persistence because early success affords them greater access to deal flow in subsequent investments, thereby perpetuating differences in the outcomes of initial investments.",
+   "cited_by": 133,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "user",
+     "rank": 4,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "user",
+     "rank": 16,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "user",
+     "rank": 25,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "semantic",
+     "rank": 4,
+     "weight": 2.0,
+     "sim": 0.761,
+     "raw": 0.988619572084279
+    },
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "semantic",
+     "rank": 17,
+     "weight": 2.0,
+     "sim": 0.112,
+     "raw": 0.857360390742178
+    },
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "semantic",
+     "rank": 24,
+     "weight": 2.0,
+     "sim": 0.049,
+     "raw": 0.8445379002916056
+    }
+   ],
+   "ids": {
+    "openalex": "W3091217506"
+   },
+   "sim": 0.761,
+   "raw_score": 89.5996,
+   "rrf": 0.13374543058850336,
+   "coverage": 0.2721008643925074,
+   "relevance": 0.6860302593177522,
+   "score": 0.9237018355939199
+  },
+  {
+   "title": "Making it into a successful series A funding: An analysis of Crunchbase and LinkedIn data",
+   "year": 2023,
+   "authors": [
+    "Yiea-Funk Te",
+    "Michèle Wieland",
+    "Martin Frey",
+    "Asya Pyatigorskaya",
+    "Penny Schiffer",
+    "Helmut Gräbner"
+   ],
+   "venue": "The Journal of Finance and Data Science",
+   "doi": "10.1016/j.jfds.2023.100099",
+   "url": "https://doi.org/10.1016/j.jfds.2023.100099",
+   "oa_url": "https://doi.org/10.1016/j.jfds.2023.100099",
+   "abstract": "Startups are a key force driving economic development, and the success of these high-risk ventures can bring huge profits to venture capital firms. The ability to predict the success of startups is a major advantage for investors to outperform their competitors. In this study, we explore the potential of using publicly available LinkedIn profiles as an alternative and complementary data source to Crunchbase for predicting startup success. We provide a comprehensive review of the existing literature on the factors that influence startup success to create a large set of features for predictive modeling. We train two models for predicting startup success employing light gradient boosting that use LinkedIn data as a standalone and as a complementary data source, and compare them to baseline models based on Crunchbase data. We show that using LinkedIn as a complementary data source yields the best result with a mean area under the curve (AUC) value of 84%. We also provide a thorough analysis of what types of information contribute most to modeling startup success using the Shapley value method. Our models and analysis can be used to develop a decision support system to facilitate startup screening and the due diligence process for venture capital firms.",
+   "cited_by": 20,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A regional ocean-innovation network wants a tool that tells its mentors and the ",
+     "kind": "semantic",
+     "rank": 2,
+     "weight": 2.5,
+     "sim": 0.786,
+     "raw": 0.8141821051221934
+    },
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "semantic",
+     "rank": 6,
+     "weight": 2.0,
+     "sim": 0.359,
+     "raw": 0.894206411718379
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for startup funding prediction",
+     "kind": "semantic",
+     "rank": 6,
+     "weight": 2.0,
+     "sim": 0.362,
+     "raw": 0.8999314193558006
+    },
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in startup funding prediction",
+     "kind": "semantic",
+     "rank": 4,
+     "weight": 2.0,
+     "sim": 0.38,
+     "raw": 0.8531760707265484
+    }
+   ],
+   "ids": {
+    "openalex": "W4381332550"
+   },
+   "sim": 0.786,
+   "raw_score": 0.8141821051221934,
+   "rrf": 0.1321786412512219,
+   "coverage": 0.32626864431352337,
+   "relevance": 0.7087661793876066,
+   "score": 0.8465322080036466
+  },
+  {
+   "title": "Predicting the Outcome of Startups: Less Failure, More Success",
+   "year": 2016,
+   "authors": [
+    "Amar Krishna",
+    "Ankit Agrawal",
+    "Alok Choudhary"
+   ],
+   "venue": "IEEE ... International Conference on Data Mining workshops",
+   "doi": "10.1109/icdmw.2016.0118",
+   "url": "https://doi.org/10.1109/icdmw.2016.0118",
+   "oa_url": "",
+   "abstract": "On an average 9 out of 10 startups fail(industry standard). Several reasons are responsible for the failure of a startup including bad management, lack of funds, etc. This work aims to create a predictive model for startups based on many key things involved at various stages in the life of a startup. It is highly desirable to increase the success rate of startups and not much work have been done to address the same. We propose a method to predict the outcome of a startups based on many key factors like seed funding amount, seed funding time, Series A funding, factors contributing to the success and failure of the company at every milestone. We can have created several models based on the data that we have carefully put together from various sources like Crunchbase, Tech Crunch, etc. Several data mining classification techniques were used on the preprocessed data along with various data mining optimizations and validations. We provide our analysis using techniques such as Random Forest, ADTrees, Bayesian Networks, and so on. We evaluate the correctness of our models based on factors like area under the ROC curve, precision and recall. We show that a startup can use our models to decide which factors they need to focus more on, in order to hit the success mark.",
+   "cited_by": 134,
+   "kind": "conference-paper",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.0,
+     "sim": 1.0,
+     "raw": 1.013990862519257
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for startup funding prediction",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.0,
+     "sim": 1.0,
+     "raw": 1.0171925318869808
+    },
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in startup funding prediction",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.0,
+     "sim": 1.0,
+     "raw": 0.9464526016110875
+    }
+   ],
+   "ids": {
+    "openalex": "W2585499563"
+   },
+   "sim": 1.0,
+   "raw_score": 1.013990862519257,
+   "rrf": 0.09836065573770492,
+   "coverage": 0.21186191596816906,
+   "relevance": 0.6841881439014867,
+   "score": 0.783404912006385
+  },
+  {
+   "title": "Sustainable venture capital – catalyst for sustainable start-up success?",
+   "year": 2015,
+   "authors": [
+    "Nancy M. P. Bocken"
+   ],
+   "venue": "Journal of Cleaner Production",
+   "doi": "10.1016/j.jclepro.2015.05.079",
+   "url": "https://doi.org/10.1016/j.jclepro.2015.05.079",
+   "oa_url": "https://www.sciencedirect.com/science/article/pii/S0959652615006460/pdf",
+   "abstract": "To address global sustainability challenges, major investments are required in sustainable businesses that deliver triple bottom line results. Although interest in sustainable businesses is on the rise, these businesses are not yet widespread. Venture capital investment has a key role to play in the development of sustainable start-ups. The research area of ‘sustainable’ venture capital is still emerging. More research is required to understand how venture capital can support the development of sustainable businesses. This paper provides insight into how venture capitalists can contribute to sustainable business success, by investigating their role, motivations, investment theses, and barriers and enablers to success of sustainable ventures. The following question is investigated: How can sustainable venture capitalists contribute to the success of sustainable start-ups? Interviews were conducted with an expert sample of leading sustainable venture capitalists and other key stakeholders in sustainable entrepreneurship. It was found that next to financial support, venture capitalists provide triple bottom line business advice and network support. Key success factors include business model innovation, collaborations and a strong business case, whereas failure factors include a lack of suitable investors, a strong incumbent industry and a short-term investor mind-set. [...]",
+   "cited_by": 426,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "user",
+     "rank": 3,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.0,
+     "sim": 1.0,
+     "raw": 1.036959023973733
+    }
+   ],
+   "ids": {
+    "openalex": "W2149254892"
+   },
+   "sim": 1.0,
+   "raw_score": 90.73634,
+   "rrf": 0.05342180588082228,
+   "coverage": 0.2721008643925074,
+   "relevance": 0.6014589644460477,
+   "score": 0.7369033249607604
+  },
+  {
+   "title": "New Venture Survival: A Review and Extension",
+   "year": 2020,
+   "authors": [
+    "Aracely Soto‐Simeone",
+    "Charlotta Agneta Sirén",
+    "Torben Antretter"
+   ],
+   "venue": "International Journal of Management Reviews",
+   "doi": "10.1111/ijmr.12229",
+   "url": "https://doi.org/10.1111/ijmr.12229",
+   "oa_url": "https://research.aalto.fi/files/43388985/SCI_Soto_Simeone_et_al_2020_IJMR.New_Ventrure_Survival.pdf",
+   "abstract": "This paper provides an evaluative overview of the new venture survival literature. Since Stinchcombe's primary attempt to explain the mortality rates of new ventures, different research fields, including entrepreneurship, management and sociology, have devoted considerable attention to the antecedents of new venture survival. Despite this lively research commitment, a comprehensive review of the literature on new venture survival – as one of the most essential performance measures for new ventures – is missing. Covering 54 years of research, this paper provides an overview of the factors affecting new venture survival and highlights important methodological aspects in this research field. The review concludes by discussing opportunities for future research.",
+   "cited_by": 151,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "new venture survival",
+     "kind": "user",
+     "rank": 1,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "new venture survival",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.0,
+     "sim": 1.0,
+     "raw": 1.0514609809769164
+    }
+   ],
+   "ids": {
+    "openalex": "W3026868657"
+   },
+   "sim": 1.0,
+   "raw_score": 165.8006,
+   "rrf": 0.05409836065573771,
+   "coverage": 0.1453821345903697,
+   "relevance": 0.5649609033881808,
+   "score": 0.634752383368477
+  },
+  {
+   "title": "Web-based Startup Success Prediction",
+   "year": 2018,
+   "authors": [
+    "Boris Sharchilev",
+    "M. A. Roizner",
+    "Andrey Rumyantsev",
+    "Denis Ozornin",
+    "Pavel Serdyukov",
+    "Maarten de Rijke"
+   ],
+   "venue": "ACM International Conference on Information and Knowledge Management (CIKM)",
+   "doi": "10.1145/3269206.3272011",
+   "url": "https://doi.org/10.1145/3269206.3272011",
+   "oa_url": "",
+   "abstract": "We consider the problem of predicting the success of startup companies at their early development stages. We formulate the task as predicting whether a company that has already secured initial (seed or angel) funding will attract a further round of investment in a given period of time. Previous work on this task has mostly been restricted to mining structured data sources, such as databases of the startup ecosystem consisting of investors, incubators and startups. Instead, we investigate the potential of using web-based open sources for the startup success prediction task and model the task using a very rich set of signals from such sources. In particular, we enrich structured data about the startup ecosystem with information from a business- and employment-oriented social networking service and from the web in general. Using these signals, we train a robust machine learning pipeline encompassing multiple base models using gradient boosting. We show that utilizing companies' mentions on the Web yields a substantial performance boost in comparison to only using structured data about the startup ecosystem. We also provide a thorough analysis of the obtained model that allows one to obtain insights into both the types of useful signals discoverable on the Web and market mechanisms underlying the funding process.",
+   "cited_by": 58,
+   "kind": "conference-paper",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "user",
+     "rank": 4,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "semantic",
+     "rank": 2,
+     "weight": 2.0,
+     "sim": 0.671,
+     "raw": 0.952443428479245
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for startup funding prediction",
+     "kind": "semantic",
+     "rank": 2,
+     "weight": 2.0,
+     "sim": 0.626,
+     "raw": 0.9483723879322167
+    },
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in startup funding prediction",
+     "kind": "semantic",
+     "rank": 3,
+     "weight": 2.0,
+     "sim": 0.538,
+     "raw": 0.8769346961817801
+    }
+   ],
+   "ids": {
+    "openalex": "W2897756463"
+   },
+   "sim": 0.671,
+   "raw_score": 42.21787,
+   "rrf": 0.1165746607782898,
+   "coverage": 0.25822111252263336,
+   "relevance": 0.6073511417207127,
+   "score": 0.5805918778173987
+  },
+  {
+   "title": "Do Startups Benefit from Their Investors’ Reputation? Evidence from a Randomized Field Experiment",
+   "year": 2022,
+   "authors": [
+    "Shai Bernstein",
+    "Kunal Mehta",
+    "Richard Townsend",
+    "Ting Xu"
+   ],
+   "venue": "National Bureau of Economic Research",
+   "doi": "10.3386/w29847",
+   "url": "https://doi.org/10.3386/w29847",
+   "oa_url": "https://doi.org/10.3386/w29847",
+   "abstract": "We analyze a field experiment conducted on AngelList Talent, a large online search platform for startup jobs.In the experiment, AngelList randomly informed job seekers of whether a startup was funded by a top-tier investor and/or was funded recently.We find that the same startup receives significantly more interest when information about top-tier investors is provided.Information about recent funding has no effect.The effect of top-tier investors is not driven by low-quality candidates and is stronger for earlier-stage startups.The results show that venture capitalists can add value passively, simply by attaching their names to startups.",
+   "cited_by": 17,
+   "kind": "report",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A regional ocean-innovation network wants a tool that tells its mentors and the ",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.5,
+     "sim": 1.0,
+     "raw": 0.8270728421061382
+    }
+   ],
+   "ids": {
+    "openalex": "W4220668468"
+   },
+   "sim": 1.0,
+   "raw_score": 0.8270728421061382,
+   "rrf": 0.040983606557377046,
+   "coverage": 0.23549515002237562,
+   "relevance": 0.5625775321363111,
+   "score": 0.5106059546886381
+  },
+  {
+   "title": "Editor's Choice The Importance of Trust for Investment: Evidence from Venture Capital",
+   "year": 2016,
+   "authors": [
+    "Laura Bottazzi",
+    "Marco Da Rin",
+    "Thomas F. Hellmann"
+   ],
+   "venue": "RePEc: Research Papers in Economics",
+   "doi": "10.1093/rfs/hhw023",
+   "url": "https://doi.org/10.1093/rfs/hhw023",
+   "oa_url": "",
+   "abstract": "We examine the effect of trust in venture capital. Our theory predicts a positive relationship of trust with investment, but a negative relationship with success. Using a hand-collected dataset of European venture capital deals, we find that the Eurobarometer measure of trust among nations positively predicts venture capital firms' investment decisions, but that it has a negative correlation with successful exits. Our theory also predicts that earlier stage investments require higher trust, that syndication is more valuable in low-trust situations, and that higher trust investors use more contingent contracts. The empirical evidence supports these predictions. Received July 17, 2012; accepted March 15, 2016 by Editor Laura Starks.",
+   "cited_by": 424,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "semantic",
+     "rank": 2,
+     "weight": 2.0,
+     "sim": 0.918,
+     "raw": 1.020328339598811
+    }
+   ],
+   "ids": {
+    "openalex": "W3125014043"
+   },
+   "sim": 0.918,
+   "raw_score": 1.020328339598811,
+   "rrf": 0.03225806451612903,
+   "coverage": 0.272759301403177,
+   "relevance": 0.5213847996455402,
+   "score": 0.509796244108702
+  },
+  {
+   "title": "CapitalVX: A machine learning model for startup selection and exit prediction",
+   "year": 2021,
+   "authors": [
+    "Greg Ross",
+    "Sanjiv Ranjan Das",
+    "Daniel Sciro",
+    "Hussain Raza"
+   ],
+   "venue": "The Journal of Finance and Data Science",
+   "doi": "10.1016/j.jfds.2021.04.001",
+   "url": "https://doi.org/10.1016/j.jfds.2021.04.001",
+   "oa_url": "https://www.sciencedirect.com/science/article/pii/S2405918821000040/pdf",
+   "abstract": "Using a big data set of venture capital financing and related startup firms from Crunchbase, this paper develops a machine-learning model called CapitalVX (for “Capital Venture eXchange”) to predict the outcomes for startups, i.e., whether they will exit successfully through an IPO or acquisition, or fail. Using a large feature set, the out-of-sample accuracy of predictions on startup outcomes and follow-on funding is 88%. This research suggests that VC/PE firms may be able to benefit from using machine learning to screen potential investments using publicly available information, diverting this time instead into mentoring and monitoring the investments they make.",
+   "cited_by": 62,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "user",
+     "rank": 10,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for startup funding prediction",
+     "kind": "semantic",
+     "rank": 3,
+     "weight": 2.0,
+     "sim": 0.538,
+     "raw": 0.9322892205912414
+    },
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in startup funding prediction",
+     "kind": "semantic",
+     "rank": 2,
+     "weight": 2.0,
+     "sim": 0.57,
+     "raw": 0.8817640132054202
+    }
+   ],
+   "ids": {
+    "openalex": "W3161089778"
+   },
+   "sim": 0.57,
+   "raw_score": 36.822502,
+   "rrf": 0.08257552483358935,
+   "coverage": 0.3229316888241684,
+   "relevance": 0.5101019650226339,
+   "score": 0.4795494521300846
+  },
+  {
+   "title": "The value of publicly available, textual and non-textual information for startup performance prediction",
+   "year": 2020,
+   "authors": [
+    "Ulrich Kaiser",
+    "Johan Moritz Kuhn"
+   ],
+   "venue": "Journal of Business Venturing Insights",
+   "doi": "10.1016/j.jbvi.2020.e00179",
+   "url": "https://doi.org/10.1016/j.jbvi.2020.e00179",
+   "oa_url": "https://www.sciencedirect.com/science/article/pii/S2352673420300354/pdf",
+   "abstract": "We use administrative textual and non-textual data retrieved from publicly available archives to predict the performance of Danish startups at the time of foundation. The performance outcomes we consider are survival, high employment growth, a return on assets of above 20 percent, new patent applications and participation in an innovation subsidy program. We consider a base specification that includes variables for legal form, region, ownership and industry in all specifications and add variable sets representing firm names, business purpose statements (BPSs) as well as founder and startup characteristics. To forecast the two innovation-related performance outcomes well, we only need to include a set of variables derived from the BPS texts on top of the base variables while an accurate prediction of startup survival requires the combination of the firm names and the BPS variables along with founder characteristics. An accurate forecast of high employment growth needs the combination of the BPS variables and the founder characteristics. All information our forecasts require is likely to be easily obtainable since the underlying information is mandatory to report upon business registration in many countries. The substantial accuracy of our predictions for survival, employment growth, new patents and participation in innovation subsidy programs indicates ample scope for algorithmic scoring models as an additional pillar of funding and innovation support decisions.",
+   "cited_by": 29,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "user",
+     "rank": 17,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "semantic",
+     "rank": 4,
+     "weight": 2.0,
+     "sim": 0.47,
+     "raw": 0.9148644399549213
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for startup funding prediction",
+     "kind": "semantic",
+     "rank": 4,
+     "weight": 2.0,
+     "sim": 0.509,
+     "raw": 0.9268963883347383
+    },
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in startup funding prediction",
+     "kind": "semantic",
+     "rank": 5,
+     "weight": 2.0,
+     "sim": 0.365,
+     "raw": 0.8509512006156799
+    }
+   ],
+   "ids": {
+    "openalex": "W3012685296"
+   },
+   "sim": 0.509,
+   "raw_score": 31.190939,
+   "rrf": 0.11015234765234766,
+   "coverage": 0.2697179886129553,
+   "relevance": 0.5315945240748028,
+   "score": 0.4672836643679617
+  }
+ ],
+ "candidates": [
+  {
+   "title": "The persistent effect of initial success: Evidence from venture capital",
+   "year": 2020,
+   "authors": [
+    "Ramana Nanda",
+    "Sampsa Samila",
+    "Olav Sorenson"
+   ],
+   "venue": "Journal of Financial Economics",
+   "doi": "10.1016/j.jfineco.2020.01.004",
+   "url": "https://doi.org/10.1016/j.jfineco.2020.01.004",
+   "oa_url": "https://www.sciencedirect.com/science/article/pii/S0304405X20300337/pdf",
+   "abstract": "We examined persistence in the performance of venture capital (VC) firms at the level of individual investments underlying fund returns. We found that, while initial success strongly predicted long-term success, the distribution of investments in state-industry-year cells accounted for roughly half of this performance persistence. We document a number of additional facts: (i) initial success appeared to stem from investing in the right industries and regions at the right times; (ii) but firms did not exhibit persistence in choosing the right industries and regions; (iii) venture capitalists did not improve in their performance with investing experience; (iv) firms that experienced early success shifted to investing in later rounds and in larger syndicates, and they became more central in the co-investment network; (v) these changes accounted for the majority of the remaining persistence in performance. Our results suggest that venture capital firms exhibit performance persistence because early success affords them greater access to deal flow in subsequent investments, thereby perpetuating differences in the outcomes of initial investments.",
+   "cited_by": 133,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "user",
+     "rank": 4,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "user",
+     "rank": 16,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "user",
+     "rank": 25,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "semantic",
+     "rank": 4,
+     "weight": 2.0,
+     "sim": 0.761,
+     "raw": 0.988619572084279
+    },
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "semantic",
+     "rank": 17,
+     "weight": 2.0,
+     "sim": 0.112,
+     "raw": 0.857360390742178
+    },
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "semantic",
+     "rank": 24,
+     "weight": 2.0,
+     "sim": 0.049,
+     "raw": 0.8445379002916056
+    }
+   ],
+   "ids": {
+    "openalex": "W3091217506"
+   },
+   "sim": 0.761,
+   "raw_score": 89.5996,
+   "rrf": 0.13374543058850336,
+   "coverage": 0.2721008643925074,
+   "relevance": 0.6860302593177522,
+   "score": 0.9237018355939199
+  },
+  {
+   "title": "Making it into a successful series A funding: An analysis of Crunchbase and LinkedIn data",
+   "year": 2023,
+   "authors": [
+    "Yiea-Funk Te",
+    "Michèle Wieland",
+    "Martin Frey",
+    "Asya Pyatigorskaya",
+    "Penny Schiffer",
+    "Helmut Gräbner"
+   ],
+   "venue": "The Journal of Finance and Data Science",
+   "doi": "10.1016/j.jfds.2023.100099",
+   "url": "https://doi.org/10.1016/j.jfds.2023.100099",
+   "oa_url": "https://doi.org/10.1016/j.jfds.2023.100099",
+   "abstract": "Startups are a key force driving economic development, and the success of these high-risk ventures can bring huge profits to venture capital firms. The ability to predict the success of startups is a major advantage for investors to outperform their competitors. In this study, we explore the potential of using publicly available LinkedIn profiles as an alternative and complementary data source to Crunchbase for predicting startup success. We provide a comprehensive review of the existing literature on the factors that influence startup success to create a large set of features for predictive modeling. We train two models for predicting startup success employing light gradient boosting that use LinkedIn data as a standalone and as a complementary data source, and compare them to baseline models based on Crunchbase data. We show that using LinkedIn as a complementary data source yields the best result with a mean area under the curve (AUC) value of 84%. We also provide a thorough analysis of what types of information contribute most to modeling startup success using the Shapley value method. Our models and analysis can be used to develop a decision support system to facilitate startup screening and the due diligence process for venture capital firms.",
+   "cited_by": 20,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A regional ocean-innovation network wants a tool that tells its mentors and the ",
+     "kind": "semantic",
+     "rank": 2,
+     "weight": 2.5,
+     "sim": 0.786,
+     "raw": 0.8141821051221934
+    },
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "semantic",
+     "rank": 6,
+     "weight": 2.0,
+     "sim": 0.359,
+     "raw": 0.894206411718379
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for startup funding prediction",
+     "kind": "semantic",
+     "rank": 6,
+     "weight": 2.0,
+     "sim": 0.362,
+     "raw": 0.8999314193558006
+    },
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in startup funding prediction",
+     "kind": "semantic",
+     "rank": 4,
+     "weight": 2.0,
+     "sim": 0.38,
+     "raw": 0.8531760707265484
+    }
+   ],
+   "ids": {
+    "openalex": "W4381332550"
+   },
+   "sim": 0.786,
+   "raw_score": 0.8141821051221934,
+   "rrf": 0.1321786412512219,
+   "coverage": 0.32626864431352337,
+   "relevance": 0.7087661793876066,
+   "score": 0.8465322080036466
+  },
+  {
+   "title": "Predicting the Outcome of Startups: Less Failure, More Success",
+   "year": 2016,
+   "authors": [
+    "Amar Krishna",
+    "Ankit Agrawal",
+    "Alok Choudhary"
+   ],
+   "venue": "IEEE ... International Conference on Data Mining workshops",
+   "doi": "10.1109/icdmw.2016.0118",
+   "url": "https://doi.org/10.1109/icdmw.2016.0118",
+   "oa_url": "",
+   "abstract": "On an average 9 out of 10 startups fail(industry standard). Several reasons are responsible for the failure of a startup including bad management, lack of funds, etc. This work aims to create a predictive model for startups based on many key things involved at various stages in the life of a startup. It is highly desirable to increase the success rate of startups and not much work have been done to address the same. We propose a method to predict the outcome of a startups based on many key factors like seed funding amount, seed funding time, Series A funding, factors contributing to the success and failure of the company at every milestone. We can have created several models based on the data that we have carefully put together from various sources like Crunchbase, Tech Crunch, etc. Several data mining classification techniques were used on the preprocessed data along with various data mining optimizations and validations. We provide our analysis using techniques such as Random Forest, ADTrees, Bayesian Networks, and so on. We evaluate the correctness of our models based on factors like area under the ROC curve, precision and recall. We show that a startup can use our models to decide which factors they need to focus more on, in order to hit the success mark.",
+   "cited_by": 134,
+   "kind": "conference-paper",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.0,
+     "sim": 1.0,
+     "raw": 1.013990862519257
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for startup funding prediction",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.0,
+     "sim": 1.0,
+     "raw": 1.0171925318869808
+    },
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in startup funding prediction",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.0,
+     "sim": 1.0,
+     "raw": 0.9464526016110875
+    }
+   ],
+   "ids": {
+    "openalex": "W2585499563"
+   },
+   "sim": 1.0,
+   "raw_score": 1.013990862519257,
+   "rrf": 0.09836065573770492,
+   "coverage": 0.21186191596816906,
+   "relevance": 0.6841881439014867,
+   "score": 0.783404912006385
+  },
+  {
+   "title": "Sustainable venture capital – catalyst for sustainable start-up success?",
+   "year": 2015,
+   "authors": [
+    "Nancy M. P. Bocken"
+   ],
+   "venue": "Journal of Cleaner Production",
+   "doi": "10.1016/j.jclepro.2015.05.079",
+   "url": "https://doi.org/10.1016/j.jclepro.2015.05.079",
+   "oa_url": "https://www.sciencedirect.com/science/article/pii/S0959652615006460/pdf",
+   "abstract": "To address global sustainability challenges, major investments are required in sustainable businesses that deliver triple bottom line results. Although interest in sustainable businesses is on the rise, these businesses are not yet widespread. Venture capital investment has a key role to play in the development of sustainable start-ups. The research area of ‘sustainable’ venture capital is still emerging. More research is required to understand how venture capital can support the development of sustainable businesses. This paper provides insight into how venture capitalists can contribute to sustainable business success, by investigating their role, motivations, investment theses, and barriers and enablers to success of sustainable ventures. The following question is investigated: How can sustainable venture capitalists contribute to the success of sustainable start-ups? Interviews were conducted with an expert sample of leading sustainable venture capitalists and other key stakeholders in sustainable entrepreneurship. It was found that next to financial support, venture capitalists provide triple bottom line business advice and network support. Key success factors include business model innovation, collaborations and a strong business case, whereas failure factors include a lack of suitable investors, a strong incumbent industry and a short-term investor mind-set. [...]",
+   "cited_by": 426,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "user",
+     "rank": 3,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.0,
+     "sim": 1.0,
+     "raw": 1.036959023973733
+    }
+   ],
+   "ids": {
+    "openalex": "W2149254892"
+   },
+   "sim": 1.0,
+   "raw_score": 90.73634,
+   "rrf": 0.05342180588082228,
+   "coverage": 0.2721008643925074,
+   "relevance": 0.6014589644460477,
+   "score": 0.7369033249607604
+  },
+  {
+   "title": "New Venture Survival: A Review and Extension",
+   "year": 2020,
+   "authors": [
+    "Aracely Soto‐Simeone",
+    "Charlotta Agneta Sirén",
+    "Torben Antretter"
+   ],
+   "venue": "International Journal of Management Reviews",
+   "doi": "10.1111/ijmr.12229",
+   "url": "https://doi.org/10.1111/ijmr.12229",
+   "oa_url": "https://research.aalto.fi/files/43388985/SCI_Soto_Simeone_et_al_2020_IJMR.New_Ventrure_Survival.pdf",
+   "abstract": "This paper provides an evaluative overview of the new venture survival literature. Since Stinchcombe's primary attempt to explain the mortality rates of new ventures, different research fields, including entrepreneurship, management and sociology, have devoted considerable attention to the antecedents of new venture survival. Despite this lively research commitment, a comprehensive review of the literature on new venture survival – as one of the most essential performance measures for new ventures – is missing. Covering 54 years of research, this paper provides an overview of the factors affecting new venture survival and highlights important methodological aspects in this research field. The review concludes by discussing opportunities for future research.",
+   "cited_by": 151,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "new venture survival",
+     "kind": "user",
+     "rank": 1,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "new venture survival",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.0,
+     "sim": 1.0,
+     "raw": 1.0514609809769164
+    }
+   ],
+   "ids": {
+    "openalex": "W3026868657"
+   },
+   "sim": 1.0,
+   "raw_score": 165.8006,
+   "rrf": 0.05409836065573771,
+   "coverage": 0.1453821345903697,
+   "relevance": 0.5649609033881808,
+   "score": 0.634752383368477
+  },
+  {
+   "title": "Web-based Startup Success Prediction",
+   "year": 2018,
+   "authors": [
+    "Boris Sharchilev",
+    "M. A. Roizner",
+    "Andrey Rumyantsev",
+    "Denis Ozornin",
+    "Pavel Serdyukov",
+    "Maarten de Rijke"
+   ],
+   "venue": "ACM International Conference on Information and Knowledge Management (CIKM)",
+   "doi": "10.1145/3269206.3272011",
+   "url": "https://doi.org/10.1145/3269206.3272011",
+   "oa_url": "",
+   "abstract": "We consider the problem of predicting the success of startup companies at their early development stages. We formulate the task as predicting whether a company that has already secured initial (seed or angel) funding will attract a further round of investment in a given period of time. Previous work on this task has mostly been restricted to mining structured data sources, such as databases of the startup ecosystem consisting of investors, incubators and startups. Instead, we investigate the potential of using web-based open sources for the startup success prediction task and model the task using a very rich set of signals from such sources. In particular, we enrich structured data about the startup ecosystem with information from a business- and employment-oriented social networking service and from the web in general. Using these signals, we train a robust machine learning pipeline encompassing multiple base models using gradient boosting. We show that utilizing companies' mentions on the Web yields a substantial performance boost in comparison to only using structured data about the startup ecosystem. We also provide a thorough analysis of the obtained model that allows one to obtain insights into both the types of useful signals discoverable on the Web and market mechanisms underlying the funding process.",
+   "cited_by": 58,
+   "kind": "conference-paper",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "user",
+     "rank": 4,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "semantic",
+     "rank": 2,
+     "weight": 2.0,
+     "sim": 0.671,
+     "raw": 0.952443428479245
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for startup funding prediction",
+     "kind": "semantic",
+     "rank": 2,
+     "weight": 2.0,
+     "sim": 0.626,
+     "raw": 0.9483723879322167
+    },
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in startup funding prediction",
+     "kind": "semantic",
+     "rank": 3,
+     "weight": 2.0,
+     "sim": 0.538,
+     "raw": 0.8769346961817801
+    }
+   ],
+   "ids": {
+    "openalex": "W2897756463"
+   },
+   "sim": 0.671,
+   "raw_score": 42.21787,
+   "rrf": 0.1165746607782898,
+   "coverage": 0.25822111252263336,
+   "relevance": 0.6073511417207127,
+   "score": 0.5805918778173987
+  },
+  {
+   "title": "Do Startups Benefit from Their Investors’ Reputation? Evidence from a Randomized Field Experiment",
+   "year": 2022,
+   "authors": [
+    "Shai Bernstein",
+    "Kunal Mehta",
+    "Richard Townsend",
+    "Ting Xu"
+   ],
+   "venue": "National Bureau of Economic Research",
+   "doi": "10.3386/w29847",
+   "url": "https://doi.org/10.3386/w29847",
+   "oa_url": "https://doi.org/10.3386/w29847",
+   "abstract": "We analyze a field experiment conducted on AngelList Talent, a large online search platform for startup jobs.In the experiment, AngelList randomly informed job seekers of whether a startup was funded by a top-tier investor and/or was funded recently.We find that the same startup receives significantly more interest when information about top-tier investors is provided.Information about recent funding has no effect.The effect of top-tier investors is not driven by low-quality candidates and is stronger for earlier-stage startups.The results show that venture capitalists can add value passively, simply by attaching their names to startups.",
+   "cited_by": 17,
+   "kind": "report",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A regional ocean-innovation network wants a tool that tells its mentors and the ",
+     "kind": "semantic",
+     "rank": 1,
+     "weight": 2.5,
+     "sim": 1.0,
+     "raw": 0.8270728421061382
+    }
+   ],
+   "ids": {
+    "openalex": "W4220668468"
+   },
+   "sim": 1.0,
+   "raw_score": 0.8270728421061382,
+   "rrf": 0.040983606557377046,
+   "coverage": 0.23549515002237562,
+   "relevance": 0.5625775321363111,
+   "score": 0.5106059546886381
+  },
+  {
+   "title": "Editor's Choice The Importance of Trust for Investment: Evidence from Venture Capital",
+   "year": 2016,
+   "authors": [
+    "Laura Bottazzi",
+    "Marco Da Rin",
+    "Thomas F. Hellmann"
+   ],
+   "venue": "RePEc: Research Papers in Economics",
+   "doi": "10.1093/rfs/hhw023",
+   "url": "https://doi.org/10.1093/rfs/hhw023",
+   "oa_url": "",
+   "abstract": "We examine the effect of trust in venture capital. Our theory predicts a positive relationship of trust with investment, but a negative relationship with success. Using a hand-collected dataset of European venture capital deals, we find that the Eurobarometer measure of trust among nations positively predicts venture capital firms' investment decisions, but that it has a negative correlation with successful exits. Our theory also predicts that earlier stage investments require higher trust, that syndication is more valuable in low-trust situations, and that higher trust investors use more contingent contracts. The empirical evidence supports these predictions. Received July 17, 2012; accepted March 15, 2016 by Editor Laura Starks.",
+   "cited_by": 424,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "semantic",
+     "rank": 2,
+     "weight": 2.0,
+     "sim": 0.918,
+     "raw": 1.020328339598811
+    }
+   ],
+   "ids": {
+    "openalex": "W3125014043"
+   },
+   "sim": 0.918,
+   "raw_score": 1.020328339598811,
+   "rrf": 0.03225806451612903,
+   "coverage": 0.272759301403177,
+   "relevance": 0.5213847996455402,
+   "score": 0.509796244108702
+  },
+  {
+   "title": "CapitalVX: A machine learning model for startup selection and exit prediction",
+   "year": 2021,
+   "authors": [
+    "Greg Ross",
+    "Sanjiv Ranjan Das",
+    "Daniel Sciro",
+    "Hussain Raza"
+   ],
+   "venue": "The Journal of Finance and Data Science",
+   "doi": "10.1016/j.jfds.2021.04.001",
+   "url": "https://doi.org/10.1016/j.jfds.2021.04.001",
+   "oa_url": "https://www.sciencedirect.com/science/article/pii/S2405918821000040/pdf",
+   "abstract": "Using a big data set of venture capital financing and related startup firms from Crunchbase, this paper develops a machine-learning model called CapitalVX (for “Capital Venture eXchange”) to predict the outcomes for startups, i.e., whether they will exit successfully through an IPO or acquisition, or fail. Using a large feature set, the out-of-sample accuracy of predictions on startup outcomes and follow-on funding is 88%. This research suggests that VC/PE firms may be able to benefit from using machine learning to screen potential investments using publicly available information, diverting this time instead into mentoring and monitoring the investments they make.",
+   "cited_by": 62,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "user",
+     "rank": 10,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for startup funding prediction",
+     "kind": "semantic",
+     "rank": 3,
+     "weight": 2.0,
+     "sim": 0.538,
+     "raw": 0.9322892205912414
+    },
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in startup funding prediction",
+     "kind": "semantic",
+     "rank": 2,
+     "weight": 2.0,
+     "sim": 0.57,
+     "raw": 0.8817640132054202
+    }
+   ],
+   "ids": {
+    "openalex": "W3161089778"
+   },
+   "sim": 0.57,
+   "raw_score": 36.822502,
+   "rrf": 0.08257552483358935,
+   "coverage": 0.3229316888241684,
+   "relevance": 0.5101019650226339,
+   "score": 0.4795494521300846
+  },
+  {
+   "title": "The value of publicly available, textual and non-textual information for startup performance prediction",
+   "year": 2020,
+   "authors": [
+    "Ulrich Kaiser",
+    "Johan Moritz Kuhn"
+   ],
+   "venue": "Journal of Business Venturing Insights",
+   "doi": "10.1016/j.jbvi.2020.e00179",
+   "url": "https://doi.org/10.1016/j.jbvi.2020.e00179",
+   "oa_url": "https://www.sciencedirect.com/science/article/pii/S2352673420300354/pdf",
+   "abstract": "We use administrative textual and non-textual data retrieved from publicly available archives to predict the performance of Danish startups at the time of foundation. The performance outcomes we consider are survival, high employment growth, a return on assets of above 20 percent, new patent applications and participation in an innovation subsidy program. We consider a base specification that includes variables for legal form, region, ownership and industry in all specifications and add variable sets representing firm names, business purpose statements (BPSs) as well as founder and startup characteristics. To forecast the two innovation-related performance outcomes well, we only need to include a set of variables derived from the BPS texts on top of the base variables while an accurate prediction of startup survival requires the combination of the firm names and the BPS variables along with founder characteristics. An accurate forecast of high employment growth needs the combination of the BPS variables and the founder characteristics. All information our forecasts require is likely to be easily obtainable since the underlying information is mandatory to report upon business registration in many countries. The substantial accuracy of our predictions for survival, employment growth, new patents and participation in innovation subsidy programs indicates ample scope for algorithmic scoring models as an additional pillar of funding and innovation support decisions.",
+   "cited_by": 29,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "user",
+     "rank": 17,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "semantic",
+     "rank": 4,
+     "weight": 2.0,
+     "sim": 0.47,
+     "raw": 0.9148644399549213
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for startup funding prediction",
+     "kind": "semantic",
+     "rank": 4,
+     "weight": 2.0,
+     "sim": 0.509,
+     "raw": 0.9268963883347383
+    },
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in startup funding prediction",
+     "kind": "semantic",
+     "rank": 5,
+     "weight": 2.0,
+     "sim": 0.365,
+     "raw": 0.8509512006156799
+    }
+   ],
+   "ids": {
+    "openalex": "W3012685296"
+   },
+   "sim": 0.509,
+   "raw_score": 31.190939,
+   "rrf": 0.11015234765234766,
+   "coverage": 0.2697179886129553,
+   "relevance": 0.5315945240748028,
+   "score": 0.4672836643679617
+  },
+  {
+   "title": "Success in Global Venture Capital Investing: Do Institutional and Cultural Differences Matter?",
+   "year": 2014,
+   "authors": [
+    "Rajarishi Nahata",
+    "Sonali Hazarika",
+    "Kishore Tandon"
+   ],
+   "venue": "Journal of Financial and Quantitative Analysis",
+   "doi": "10.1017/s0022109014000568",
+   "url": "https://doi.org/10.1017/s0022109014000568",
+   "oa_url": "",
+   "abstract": "We analyze the impact of institutional and cultural differences on success in global venture capital (VC) investing. In both developed and emerging economies, superior legal rights (and enforcement) and better developed stock markets significantly enhance VC performance. Remarkably, cultural distance between countries of the portfolio company and its lead investorpositivelyaffects VC success. Further analysis reveals that cultural differences create incentives for rigorous ex ante screening, improving VC performance. Finally, local VC participation enhances success and mitigates foreign VCs’ “liability of foreignness,” albeit only in developed economies. Our findings follow from analyzing VC investments in nearly 10,000 companies across 30 countries.",
+   "cited_by": 213,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "user",
+     "rank": 5,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "semantic",
+     "rank": 3,
+     "weight": 2.0,
+     "sim": 0.831,
+     "raw": 1.0026698667894305
+    }
+   ],
+   "ids": {
+    "openalex": "W3121902855"
+   },
+   "sim": 0.831,
+   "raw_score": 86.45827,
+   "rrf": 0.05174603174603175,
+   "coverage": 0.17776562578866104,
+   "relevance": 0.5017995187244836,
+   "score": 0.4309073272976017
+  },
+  {
+   "title": "The Impact of Financial Literacy on New Venture Survival",
+   "year": 2013,
+   "authors": [
+    "Sean Evan Wise"
+   ],
+   "venue": "International Journal of Business and Management",
+   "doi": "10.5539/ijbm.v8n23p30",
+   "url": "https://doi.org/10.5539/ijbm.v8n23p30",
+   "oa_url": "https://ccsenet.org/journal/index.php/ijbm/article/download/30891/18652",
+   "abstract": "This is an investigation into the impact of financial literacy on new venture survival. A model is proposed in whichincreased adoption of financial tools (e.g. financial statements and financial ratios) leads to increased frequency offinancial statement generation which in turn increases the likelihood of loan repayment and decreases theprobability of venture failure. A structural model was then tested using data from 509 young entrepreneurs inCanada who had received start up loans through their participation in a program by the Canadian Youth BusinessFoundation. This research found that increases in financial literacy led to more frequent production of financialstatements. This research found that entrepreneurs who produced financial statements more frequently had ahigher probability of loan repayment and a lower probability to close their venture involuntarily.",
+   "cited_by": 195,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "new venture survival",
+     "kind": "user",
+     "rank": 2,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "new venture survival",
+     "kind": "semantic",
+     "rank": 2,
+     "weight": 2.0,
+     "sim": 0.697,
+     "raw": 0.9816415435253809
+    }
+   ],
+   "ids": {
+    "openalex": "W2101216708"
+   },
+   "sim": 0.697,
+   "raw_score": 158.83525,
+   "rrf": 0.0532258064516129,
+   "coverage": 0.18190014758298734,
+   "relevance": 0.4527591094954649,
+   "score": 0.37831703369708064
+  },
+  {
+   "title": "Many Roads Lead to Rome: How Human, Social, and Financial Capital Are Related to New Venture Survival",
+   "year": 2019,
+   "authors": [
+    "Christian Linder",
+    "Christian Lechner",
+    "Frank Pelzel"
+   ],
+   "venue": "Entrepreneurship Theory and Practice",
+   "doi": "10.1177/1042258719867558",
+   "url": "https://doi.org/10.1177/1042258719867558",
+   "oa_url": "https://bia.unibz.it/esploro/outputs/journalArticle/Many-Roads-Lead-to-Rome-How/991005772490901241",
+   "abstract": "Given variance in entrepreneurs’ capital endowments, the question of sufficient (or insufficient) starting conditions enabling a pathway to survival is critical in entrepreneurship. Drawing on the subjectivist theory of entrepreneurship (STE), we adopt a configurational approach. Our results show how combinations of human and social capital are related to survival while overreliance on financial capital is not. From a subjectivist perspective, we reveal a potential gap between identifying and exploiting an opportunity. The findings provide some novel insights that help reframe conflicting results as to whether capital endowments are substitutes or complements.",
+   "cited_by": 116,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "new venture survival",
+     "kind": "user",
+     "rank": 19,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "new venture survival",
+     "kind": "semantic",
+     "rank": 5,
+     "weight": 2.0,
+     "sim": 0.559,
+     "raw": 0.9500578230161095
+    },
+    {
+     "source": "openalex",
+     "query": "new venture survival",
+     "kind": "semantic",
+     "rank": 24,
+     "weight": 2.0,
+     "sim": 0.133,
+     "raw": 0.8521083100443186
+    }
+   ],
+   "ids": {
+    "openalex": "W6945141610"
+   },
+   "sim": 0.559,
+   "raw_score": 110.05526,
+   "rrf": 0.07103445078128623,
+   "coverage": 0.20747353814120403,
+   "relevance": 0.4451771141661564,
+   "score": 0.37646476891542824
+  },
+  {
+   "title": "A fused large language model for predicting startup success",
+   "year": 2024,
+   "authors": [
+    "Abdurahman Maarouf",
+    "Stefan Feuerriegel",
+    "Nicolas Pröllochs"
+   ],
+   "venue": "European Journal of Operational Research",
+   "doi": "10.1016/j.ejor.2024.09.011",
+   "url": "https://doi.org/10.1016/j.ejor.2024.09.011",
+   "oa_url": "https://doi.org/10.1016/j.ejor.2024.09.011",
+   "abstract": "Investors are continuously seeking profitable investment opportunities in startups and, hence, for effective decision-making, need to predict a startup’s probability of success. Nowadays, investors can use not only various fundamental information about a startup (e.g., the age of the startup, the number of founders, and the business sector) but also textual description of a startup’s innovation and business model, which is widely available through online venture capital (VC) platforms such as Crunchbase. To support the decision-making of investors, we develop a machine learning approach with the aim of locating successful startups on VC platforms. Specifically, we develop, train, and evaluate a tailored, fused large language model to predict startup success. Thereby, we assess to what extent self-descriptions on VC platforms are predictive of startup success. Using 20,172 online profiles from Crunchbase, we find that our fused large language model can predict startup success, with textual self-descriptions being responsible for a significant part of the predictive power. Our work provides a decision support tool for investors to find profitable investment opportunities. • We develop a machine learning approach to detect successful startups. • We propose a new fused large language model to predict startup success. • Our model uses textual descriptions and fundamental information for prediction. • Our evaluation is based on data for N = 20,172 startups from Crunchbase. [...]",
+   "cited_by": 43,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "semantic",
+     "rank": 3,
+     "weight": 2.0,
+     "sim": 0.498,
+     "raw": 0.9200992339590099
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for startup funding prediction",
+     "kind": "semantic",
+     "rank": 5,
+     "weight": 2.0,
+     "sim": 0.465,
+     "raw": 0.9187571990073866
+    }
+   ],
+   "ids": {
+    "openalex": "W4402294192"
+   },
+   "sim": 0.498,
+   "raw_score": 0.9200992339590099,
+   "rrf": 0.06251526251526252,
+   "coverage": 0.28765283815592146,
+   "relevance": 0.42572179166810076,
+   "score": 0.34343446681656764
+  },
+  {
+   "title": "Economic Interplay Forecasting Business Success",
+   "year": 2021,
+   "authors": [
+    "Nicola Amoroso",
+    "Loredana Bellantuono",
+    "Alfonso Monaco",
+    "Francesco De Nicolò",
+    "Ernesto Somma",
+    "R. Bellotti"
+   ],
+   "venue": "Complexity",
+   "doi": "10.1155/2021/8861267",
+   "url": "https://doi.org/10.1155/2021/8861267",
+   "oa_url": "https://downloads.hindawi.com/journals/complexity/2021/8861267.pdf",
+   "abstract": "A startup ecosystem is a dynamic environment in which several actors, such as investors, venture capitalists, angels, and facilitators, are the protagonists of a complex interplay. Most of these interactions involve the flow of capital whose size and direction help to map the intricate system of relationships. This quantity is also considered a good proxy of economic success. Given the complexity of such systems, it would be more desirable to supplement this information with other informative features, and a natural choice is to adopt mathematical measures. In this work, we will specifically consider network centrality measures, borrowed by network theory. In particular, using the largest publicly available dataset for startups, the Crunchbase dataset, we show how centrality measures highlight the importance of particular players, such as angels and accelerators, whose role could be underestimated by focusing on collected funds only. We also provide a quantitative criterion to establish which firms should be considered strategic and rank them. Finally, as funding is a widespread measure for success in economic settings, we investigate to which extent this measure is in agreement with network metrics; the model accurately forecasts which firms will receive the highest funding in future years.",
+   "cited_by": 16,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A regional ocean-innovation network wants a tool that tells its mentors and the ",
+     "kind": "semantic",
+     "rank": 3,
+     "weight": 2.5,
+     "sim": 0.656,
+     "raw": 0.806297803714229
+    }
+   ],
+   "ids": {
+    "openalex": "W3136763113"
+   },
+   "sim": 0.656,
+   "raw_score": 0.806297803714229,
+   "rrf": 0.03968253968253968,
+   "coverage": 0.37583619346233177,
+   "relevance": 0.46416146462450114,
+   "score": 0.3376076084914919
+  },
+  {
+   "title": "Clear and present danger: Planning and new venture survival amid political and civil violence",
+   "year": 2013,
+   "authors": [
+    "Shon R. Hiatt",
+    "Wesley Sine"
+   ],
+   "venue": "Strategic Management Journal",
+   "doi": "10.1002/smj.2113",
+   "url": "https://doi.org/10.1002/smj.2113",
+   "oa_url": "http://nrs.harvard.edu/urn-3:HUL.InstRepos:12534949",
+   "abstract": "Many entrepreneurs in developing economies face unstable environments due to violence and civil unrest. Yet, we know very little about how environments characterized by high levels of political and civil violence affect new venture processes and survival. Moreover, it is unclear whether standard theories about organizational strategy, such as planning, hold true in such environments. We explore these issues using a sample of 730 new ventures in Colombia from 1997 to 2001. We find that political and civil violence decreases firm survival, increases the benefits of incremental (operational) planning, and decreases the benefits of comprehensive (strategic) planning. Copyright © 2013 John Wiley & Sons, Ltd.",
+   "cited_by": 177,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "new venture survival",
+     "kind": "user",
+     "rank": 6,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "new venture survival",
+     "kind": "semantic",
+     "rank": 4,
+     "weight": 2.0,
+     "sim": 0.672,
+     "raw": 0.9760299955045406
+    }
+   ],
+   "ids": {
+    "openalex": "W1917370986"
+   },
+   "sim": 0.672,
+   "raw_score": 126.01621,
+   "rrf": 0.0509469696969697,
+   "coverage": 0.1453821345903697,
+   "relevance": 0.4266921214232912,
+   "score": 0.33273384046015275
+  },
+  {
+   "title": "Predictions for Startups",
+   "year": 2018,
+   "authors": [
+    "Eliganti Ramalakshmi",
+    "Sindhuja Reddy Kamidi"
+   ],
+   "venue": "International Journal of Engineering & Technology",
+   "doi": "10.14419/ijet.v7i3.12.17628",
+   "url": "https://doi.org/10.14419/ijet.v7i3.12.17628",
+   "oa_url": "https://www.sciencepubco.com/index.php/ijet/article/download/17628/7757",
+   "abstract": "In general 90 out of 100 startups fail to gain expected funding. There can be several reasons like bad management, lack of sufficient funds, good working team etc. which leads to failure of startup. This work aims to create a machine learning model for predicting the range of funding for the startups based on many key attributesthat are involved at different stages in the startup functioning. It is very important to predict the range of funding prior to the implementation of project and till today not much work is done in this respect. This paper proposes implementing a model to predict the funding of a startups based on many important factors like idea of the startup, place where the startup established, domain vertical to which the startup belongs, prior investors, type of funding the organization is expecting. A model is developed by working on real time data of startups from 2015 to 2017. Classification and regression algorithms are used to build the model.",
+   "cited_by": 4,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "user",
+     "rank": 6,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "semantic",
+     "rank": 5,
+     "weight": 2.0,
+     "sim": 0.436,
+     "raw": 0.9085774561019543
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for startup funding prediction",
+     "kind": "semantic",
+     "rank": 7,
+     "weight": 2.0,
+     "sim": 0.351,
+     "raw": 0.89775407783936
+    },
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in startup funding prediction",
+     "kind": "semantic",
+     "rank": 7,
+     "weight": 2.0,
+     "sim": 0.258,
+     "raw": 0.8347708156385217
+    }
+   ],
+   "ids": {
+    "openalex": "W2942030953"
+   },
+   "sim": 0.436,
+   "raw_score": 41.085434,
+   "rrf": 0.1101676930035139,
+   "coverage": 0.17197008884975876,
+   "relevance": 0.4731045748010364,
+   "score": 0.27736828491219123
+  },
+  {
+   "title": "Influence of economic crisis on new SME survival: reality or fiction?",
+   "year": 2016,
+   "authors": [
+    "Virginia Simón-Moya",
+    "Lorenzo Revuelto‐Taboada",
+    "Domingo Ribeiro Soriano"
+   ],
+   "venue": "Entrepreneurship and Regional Development",
+   "doi": "10.1080/08985626.2015.1118560",
+   "url": "https://doi.org/10.1080/08985626.2015.1118560",
+   "oa_url": "https://hdl.handle.net/10550/105362",
+   "abstract": "The aim of this research was to analyse the survival of new ventures during periods of economic crisis. The article compares survival probability during growth and crisis periods. An empirical study was used to analyse new venture survival probability. Results show that new firms have a greater likelihood of surviving during crisis periods than they do during growth periods. An additional aim of the study was to analyse the survival probability of opportunity and necessity entrepreneurs during crisis periods. Results show that gaps in survival likelihood between opportunity and necessity entrepreneurship are bigger during times of crisis than they are during growth periods.",
+   "cited_by": 123,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "new venture survival",
+     "kind": "semantic",
+     "rank": 3,
+     "weight": 2.0,
+     "sim": 0.69,
+     "raw": 0.9800315294332291
+    }
+   ],
+   "ids": {
+    "openalex": "W2292752852"
+   },
+   "sim": 0.69,
+   "raw_score": 0.9800315294332291,
+   "rrf": 0.031746031746031744,
+   "coverage": 0.13621135399856174,
+   "relevance": 0.38807189146820975,
+   "score": 0.27476005828566147
+  },
+  {
+   "title": "Probabilistic Prediction for a Start-Up Success Through Bayesian Networks-Based Machine Learning Approach",
+   "year": 2024,
+   "authors": [
+    "Arnav Gujarathi",
+    "Tanu Shukla",
+    "Virendra Sıngh Nirban"
+   ],
+   "venue": "",
+   "doi": "10.1109/innocomp63224.2024.00090",
+   "url": "https://doi.org/10.1109/innocomp63224.2024.00090",
+   "oa_url": "",
+   "abstract": "Entrepreneurship propels the Indian economy forward, with the last two decades witnessing enormous growth in startup culture in India. The transformation of college campuses into hubs for entrepreneurial activities has resulted in the launch of multiple successful ventures. Over time, new startup launchpads have emerged that provide funding and growth opportunities to budding founders. Recently, an incubation program was conducted with the participation of over 2000 start-ups and the involvement of many venture capitalists and angel investors willing to invest. These startups were judged by investors on various parameters of incubation and seed funding. These parameters include scalability, employability, growth, funding, brand creation, awareness among people, marketing, etc. The selection of appropriate parameters is tedious but critical for startup growth. This study has two objectives: first, identify and establish a hierarchical ranking order of parameters that are key to success for a startup; and second, formulate a function to predict the success probability of a startup based on the correlation in these parameters. Scores will be attached to each dimension in the training data set. We create a model based on training data and perform predictive analysis using Bayesian networks to assess the probability of success for a given startup. We use Logistic regression to analyze the importance of these parameters and suggest their ranking order. [...]",
+   "cited_by": 3,
+   "kind": "conference-paper",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A regional ocean-innovation network wants a tool that tells its mentors and the ",
+     "kind": "semantic",
+     "rank": 8,
+     "weight": 2.5,
+     "sim": 0.413,
+     "raw": 0.7916717624875915
+    },
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "semantic",
+     "rank": 22,
+     "weight": 2.0,
+     "sim": 0.081,
+     "raw": 0.8420753330800065
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for startup funding prediction",
+     "kind": "semantic",
+     "rank": 36,
+     "weight": 2.0,
+     "sim": 0.02,
+     "raw": 0.8368675202697439
+    }
+   ],
+   "ids": {
+    "openalex": "W4402572370"
+   },
+   "sim": 0.413,
+   "raw_score": 0.7916717624875915,
+   "rrf": 0.0819882831181253,
+   "coverage": 0.3315873572570968,
+   "relevance": 0.44858144287160284,
+   "score": 0.2475632697078137
+  },
+  {
+   "title": "Patents and the Success of Venture‐Capital Backed Startups: UsingExaminer Assignment to Estimate Causal Effects",
+   "year": 2018,
+   "authors": [
+    "Patrick Gaulé"
+   ],
+   "venue": "Journal of Industrial Economics",
+   "doi": "10.1111/joie.12168",
+   "url": "https://doi.org/10.1111/joie.12168",
+   "oa_url": "",
+   "abstract": "I study whether patent protection has a causal effect on entrepreneurial firm outcomes using a measure of patent examiner leniency as an instrument for getting patents. The analysis is based on sample of 1,950 U.S. startups applying for patent protection in the two years following their first round of venture capital funding. I find a positive and large effect of patents on firm success but only for life science firms and more important inventions. I interpret these results as reflecting the importance of patents in appropriating returns to invention in the life science industry.",
+   "cited_by": 65,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "user",
+     "rank": 12,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "semantic",
+     "rank": 5,
+     "weight": 2.0,
+     "sim": 0.455,
+     "raw": 0.9267176030681736
+    }
+   ],
+   "ids": {
+    "openalex": "W3124616230"
+   },
+   "sim": 0.455,
+   "raw_score": 74.2286,
+   "rrf": 0.04882478632478633,
+   "coverage": 0.30337651808395555,
+   "relevance": 0.3825302363744095,
+   "score": 0.23328929489245565
+  },
+  {
+   "title": "Predicting new venture survival: A Twitter-based machine learning approach to measuring online legitimacy",
+   "year": 2019,
+   "authors": [
+    "Torben Antretter",
+    "Ivo Blohm",
+    "Dietmar Grichnik",
+    "Joakim Wincent"
+   ],
+   "venue": "Journal of Business Venturing Insights",
+   "doi": "10.1016/j.jbvi.2018.e00109",
+   "url": "https://doi.org/10.1016/j.jbvi.2018.e00109",
+   "oa_url": "https://www.sciencedirect.com/science/article/pii/S2352673418301197/pdf",
+   "abstract": "Research indicates that interactions on social media can reveal remarkably valid predictions about future events. In this study, we show that online legitimacy as a measure of social appreciation based on Twitter content can be used to accurately predict new venture survival. Specifically, we analyze more than 187,000 tweets from 253 new ventures’ Twitter accounts using context-specific machine learning approaches. Our findings suggest that we can correctly discriminate failed ventures from surviving ventures in up to 76% of cases. With this study, we contribute to the ongoing discussion on the importance of building legitimacy online and provide an account of how to use machine learning methodologies in entrepreneurship research.",
+   "cited_by": 77,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "new venture survival",
+     "kind": "user",
+     "rank": 13,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "new venture survival",
+     "kind": "semantic",
+     "rank": 8,
+     "weight": 2.0,
+     "sim": 0.446,
+     "raw": 0.9240712175337977
+    }
+   ],
+   "ids": {
+    "openalex": "W2909472942"
+   },
+   "sim": 0.446,
+   "raw_score": 114.99582,
+   "rrf": 0.04721998388396455,
+   "coverage": 0.203857797212268,
+   "relevance": 0.34547494025746356,
+   "score": 0.21690740676765352
+  },
+  {
+   "title": "Predicting new venture survival and growth: Does the fog lift?",
+   "year": 2016,
+   "authors": [
+    "Alex Coad",
+    "Julian S. Frankish",
+    "Richard G. Roberts",
+    "DAVID J. STOREY"
+   ],
+   "venue": "Small Business Economics",
+   "doi": "10.1007/s11187-016-9713-1",
+   "url": "https://doi.org/10.1007/s11187-016-9713-1",
+   "oa_url": "https://link.springer.com/content/pdf/10.1007/s11187-016-9713-1.pdf",
+   "abstract": "This paper investigates whether new venture performance becomes easier to predict as the venture ages: does the fog lift? To address this question we primarily draw upon a theoretical framework, initially formulated in a managerial context by Levinthal (Adm Sci Q 36(3):397–420, 1991) that sees new venture sales as a random walk but survival being determined by the stock of available resources (proxied by size). We derive theoretical predictions that are tested with a 10-year cohort of 6579 UK new ventures in the UK. We observe that our ability to predict firm growth deteriorates in the years after entry—in terms of the selection environment, the ‘fog’ seems to thicken. However, our survival predictions improve with time—implying that the ‘fog’ does lift.",
+   "cited_by": 77,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "new venture survival",
+     "kind": "user",
+     "rank": 5,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "new venture survival",
+     "kind": "semantic",
+     "rank": 7,
+     "weight": 2.0,
+     "sim": 0.45,
+     "raw": 0.9249752318111213
+    }
+   ],
+   "ids": {
+    "openalex": "W2309748432"
+   },
+   "sim": 0.45,
+   "raw_score": 130.76726,
+   "rrf": 0.049850746268656716,
+   "coverage": 0.203857797212268,
+   "relevance": 0.35297591729970645,
+   "score": 0.2161306094120186
+  },
+  {
+   "title": "The varying importance of extrinsic factors in the success of startup fundraising: competition at early-stage and networks at growth-stage",
+   "year": 2019,
+   "authors": [
+    "Clement Gastaud",
+    "Théophile Carniel",
+    "Jean‐Michel Dalle"
+   ],
+   "venue": "RePEc: Research Papers in Economics",
+   "doi": "10.48550/arxiv.1906.03210",
+   "url": "https://doi.org/10.48550/arxiv.1906.03210",
+   "oa_url": "https://arxiv.org/pdf/1906.03210",
+   "abstract": "We address the issue of the factors driving startup success in raising funds. Using the popular and public startup database Crunchbase, we explicitly take into account two extrinsic characteristics of startups: the competition that the companies face, using similarity measures derived from the Word2Vec algorithm, as well as the position of investors in the investment network, pioneering the use of Graph Neural Networks (GNN), a recent deep learning technique that enables the handling of graphs as such and as a whole. We show that the different stages of fundraising, early- and growth-stage, are associated with different success factors. Our results suggest a marked relevance of startup competition for early stage while growth-stage fundraising is influenced by network features. Both of these factors tend to average out in global models, which could lead to the false impression that startup success in fundraising would mostly if not only be influenced by its intrinsic characteristics, notably those of their founders.",
+   "cited_by": 8,
+   "kind": "preprint",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A regional ocean-innovation network wants a tool that tells its mentors and the ",
+     "kind": "semantic",
+     "rank": 6,
+     "weight": 2.5,
+     "sim": 0.525,
+     "raw": 0.7984342116650562
+    }
+   ],
+   "ids": {
+    "openalex": "W2948811629"
+   },
+   "sim": 0.525,
+   "raw_score": 0.7984342116650562,
+   "rrf": 0.03787878787878788,
+   "coverage": 0.3247327812312134,
+   "relevance": 0.39238450429217464,
+   "score": 0.21238690347386938
+  },
+  {
+   "title": "USING STARTUP COMMUNICATION FOR OPPORTUNITY RECOGNITION — AN APPROACH TO IDENTIFY FUTURE PRODUCT TRENDS",
+   "year": 2016,
+   "authors": [
+    "HAUKE SIMON",
+    "Jens Leker"
+   ],
+   "venue": "International Journal of Innovation Management",
+   "doi": "10.1142/s1363919616400168",
+   "url": "https://doi.org/10.1142/s1363919616400168",
+   "oa_url": "",
+   "abstract": "A company’s ability to recognise early-stage opportunities and to understand the dynamics of emerging markets determines the success or failure of new products. Particularly the emergence of new information technology and social media networks provide ample opportunities to leverage a massive amount of data for managerial purposes. However, managers still meet using social media with skepticism and it is not fully understood how to make use of this information for new product development. We introduce a new method on how to use large-scale internet data as a complement to traditional approaches (patent or publication analysis and surveys) to overcome their shortcomings in terms of speed, dynamic and expense to conduct. More specifically, we propose that social media communication of startups can give valuable indications about future product trends especially in rapidly developing fields. Our approach measures the awareness of startups — and their products — as the increase of the communication about the startup on Twitter. Startup communication is a particularly well-suited indicator because startups develop new-to-the-world products or are in the development process. We illustrate our approach by analysing the communication of 545 startups. On a holistic level we determine industry trends. Fintech is among the topics that increase significantly in relevance. [...]",
+   "cited_by": 21,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A regional ocean-innovation network wants a tool that tells its mentors and the ",
+     "kind": "semantic",
+     "rank": 5,
+     "weight": 2.5,
+     "sim": 0.61,
+     "raw": 0.8035308692463285
+    }
+   ],
+   "ids": {
+    "openalex": "W2552853847"
+   },
+   "sim": 0.61,
+   "raw_score": 0.8035308692463285,
+   "rrf": 0.038461538461538464,
+   "coverage": 0.19754205556648233,
+   "relevance": 0.3895344353607985,
+   "score": 0.20549588773452176
+  },
+  {
+   "title": "Startup Success Prediction in the Dutch Startup Ecosystem",
+   "year": 2019,
+   "authors": [
+    "Diego Camelo Martines"
+   ],
+   "venue": "Research Repository (Delft University of Technology)",
+   "doi": "",
+   "url": "https://repository.tudelft.nl/islandora/object/uuid%3A1adc2972-db09-4583-b2da-05fd4e462941",
+   "oa_url": "https://repository.tudelft.nl/file/File_493635d7-1836-4ec5-b689-2d78d6ef4418",
+   "abstract": "What makes a startup successful? How to define success? Existent models on startup success prediction often left aside significant predictors which may not be available in typical business databases such as crunchbase. com. In this research, focused on a population of five thousand organisations from the Dutch startup ecosystem, we go beyond previous approaches and deliver predictive models that include novel and distinctive variables. To achieve this goal, we depart from an extensive selection of variables drawn from the literature review. The initial selection is discussed, refined and enriched by carrying out interviews with knowledgeable actors in the ecosystem. At the end of the study, a total of eight significant predictors are used to construct three predictive models on startup success. The first model predicts a startup having total funding of one million euros or above, the second model predicts a startup having ten or more employees, and the third model predicts a startup having an average annualized return of at least 20% in the past three years. After testing the models, accuracies of 71%, 71% and 76% respectively are obtained. The results of this research are meant to be used by the organisation techleap.nl. By enriching the data, employing more sophisticated MLmodels and conducting this research at different points of time, techleap.nl will be capable of monitoring and predicting the performance of the ecosystemboth accurately and dynamically.",
+   "cited_by": 2,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "user",
+     "rank": 2,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "semantic",
+     "rank": 11,
+     "weight": 2.0,
+     "sim": 0.186,
+     "raw": 0.8618427408616541
+    },
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "semantic",
+     "rank": 13,
+     "weight": 2.0,
+     "sim": 0.154,
+     "raw": 0.855801
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for startup funding prediction",
+     "kind": "semantic",
+     "rank": 27,
+     "weight": 2.0,
+     "sim": 0.052,
+     "raw": 0.842766162555804
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for startup funding prediction",
+     "kind": "semantic",
+     "rank": 35,
+     "weight": 2.0,
+     "sim": 0.02,
+     "raw": 0.83700085
+    }
+   ],
+   "ids": {
+    "openalex": "W7052682015"
+   },
+   "sim": 0.186,
+   "raw_score": 46.03999,
+   "rrf": 0.12057515362003732,
+   "coverage": 0.22891443587691143,
+   "relevance": 0.41353251334804586,
+   "score": 0.19779917743075892
+  },
+  {
+   "title": "A Machine Learning Approach Towards Startup Success Prediction",
+   "year": 2019,
+   "authors": [
+    "Cemre √únal",
+    "Ioana Ceasu"
+   ],
+   "venue": "RePEc: Research Papers in Economics",
+   "doi": "",
+   "url": "https://www.econstor.eu/bitstream/10419/230798/1/irtg1792dp2019-022.pdf",
+   "oa_url": "",
+   "abstract": "The importance of startups for a dynamic, innovative and competitive economy has already been acknowledged in the scientific and business literature. The highly uncertain and volatile nature of the startup ecosystem makes the evaluation of startup success through analysis and interpretation of information very time consuming and computationally intensive. This prediction problem brings forward the need for a quantitative model, which should enable an objective and fact- based approach to startup success prediction. This paper presents a series of reproducible models for startup success prediction, using machine learning methods. The data used for this purpose was received from the online investor platform, crunchbase.com. The data has been pre-processed for sampling bias and imbalance by using the oversampling approach, ADASYN. A total of six different models are implemented to predict startup success. Using goodness-of-fit measures, applicable to each model case, the best models selected are the ensemble methods, random forest and extreme gradient boosting with a test set prediction accuracy of 94.1% and 94.5% and AUC of 92.22% and 92.91% respectively. Top variables in these models are last funding to date, first funding lag and company age. The models presented in this study can be used to predict success rate for future new firms/ventures in a repeatable way.",
+   "cited_by": 2,
+   "kind": "preprint",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "user",
+     "rank": 15,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "semantic",
+     "rank": 8,
+     "weight": 2.0,
+     "sim": 0.211,
+     "raw": 0.8664988980583311
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for startup funding prediction",
+     "kind": "semantic",
+     "rank": 8,
+     "weight": 2.0,
+     "sim": 0.23,
+     "raw": 0.875521252023794
+    },
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in startup funding prediction",
+     "kind": "semantic",
+     "rank": 10,
+     "weight": 2.0,
+     "sim": 0.149,
+     "raw": 0.8183657157534117
+    }
+   ],
+   "ids": {
+    "openalex": "W3175565025"
+   },
+   "sim": 0.23,
+   "raw_score": 33.194218,
+   "rrf": 0.10472829131652661,
+   "coverage": 0.3387986936039926,
+   "relevance": 0.42855221224801776,
+   "score": 0.1931167556987544
+  },
+  {
+   "title": "Human capital and labor: the effect of entrepreneur characteristics on venture success",
+   "year": 2018,
+   "authors": [
+    "Byungku Lee"
+   ],
+   "venue": "International Journal of Entrepreneurial Behaviour & Research",
+   "doi": "10.1108/ijebr-10-2017-0384",
+   "url": "https://doi.org/10.1108/ijebr-10-2017-0384",
+   "oa_url": "",
+   "abstract": "Purpose The purpose of this paper is to offer a unique perspective on the role of entrepreneurs’ hard work for the relationship between entrepreneur human capital and venture success. To this end, this study examined whether entrepreneurs with high human capital work harder than entrepreneurs with low human capital, the effect of entrepreneurs’ hard work on venture performance, and whether entrepreneurs’ hard work mediates the relationship between entrepreneur human capital and venture performance. Design/methodology/approach In this explorative study, the role of entrepreneurs’ hard work as a mediator that transfers entrepreneur human capital into venture success was examined in a sample of 2,648 single-founder startups in the USA and 21,184 observations during the period of 2004-2011. Findings The effect of entrepreneurs’ industry experience on entrepreneurs’ hard work was significantly positive, while the effect of entrepreneurs’ general education on entrepreneurs’ hard work was significantly negative. Moreover, entrepreneurs’ hard work was a significant predictor of venture success. Finally, the results showed that entrepreneurs’ hard work partially mediates the positive relationship between entrepreneurs’ industry experience and venture success. Originality/value On one hand, the link between human capital and firm performance has been studied thoroughly and findings so far support the positive link between them. [...]",
+   "cited_by": 58,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "user",
+     "rank": 7,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "semantic",
+     "rank": 6,
+     "weight": 2.0,
+     "sim": 0.42,
+     "raw": 0.9196011383994568
+    }
+   ],
+   "ids": {
+    "openalex": "W2802686132"
+   },
+   "sim": 0.42,
+   "raw_score": 76.65033,
+   "rrf": 0.04970601537765717,
+   "coverage": 0.2262314900583971,
+   "relevance": 0.347363384026676,
+   "score": 0.1899150252624231
+  },
+  {
+   "title": "Identifying Successful Investors in the Startup Ecosystem",
+   "year": 2015,
+   "authors": [
+    "Srishti Gupta",
+    "Robert Pienta",
+    "Acar Tamersoy",
+    "Duen Horng Chau",
+    "Rahul C. Basole"
+   ],
+   "venue": "International World Wide Web Conference (WWW)",
+   "doi": "10.1145/2740908.2742743",
+   "url": "https://doi.org/10.1145/2740908.2742743",
+   "oa_url": "",
+   "abstract": "Who can spot the next Google, Facebook, or Twitter? Who can discover the next billion-dollar startups? Measuring investor success is a challenging task, as investment strategies can vary widely. We propose InvestorRank, a novel method for identifying successful investors by analyzing how an investor's collaboration network change over time. InvestorRank captures the intuition that a successful investor achieves increasingly success in spotting great startups, or is able to keep doing so persistently. Our results show potential in discovering relatively unknown investors that may be the success stories of tomorrow.",
+   "cited_by": 11,
+   "kind": "conference-paper",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A regional ocean-innovation network wants a tool that tells its mentors and the ",
+     "kind": "semantic",
+     "rank": 4,
+     "weight": 2.5,
+     "sim": 0.649,
+     "raw": 0.8059010596694712
+    }
+   ],
+   "ids": {
+    "openalex": "W2146299930"
+   },
+   "sim": 0.649,
+   "raw_score": 0.8059010596694712,
+   "rrf": 0.0390625,
+   "coverage": 0.13544448460461408,
+   "relevance": 0.38785316123928265,
+   "score": 0.18524846871632716
+  },
+  {
+   "title": "Where Do You Want To Invest? Predicting Startup Funding From Freely, Publicly Available Web Information",
+   "year": 2022,
+   "authors": [
+    "Mariia Garkavenko",
+    "Éric Gaussier",
+    "Hamid Mirisaee",
+    "Cédric Lagnier",
+    "Agnès Guerraz"
+   ],
+   "venue": "arXiv (Cornell University)",
+   "doi": "10.48550/arxiv.2204.06479",
+   "url": "https://doi.org/10.48550/arxiv.2204.06479",
+   "oa_url": "https://arxiv.org/pdf/2204.06479",
+   "abstract": "We consider in this paper the problem of predicting the ability of a startup to attract investments using freely, publicly available data. Information about startups on the web usually comes either as unstructured data from news, social networks, and websites or as structured data from commercial databases, such as Crunchbase. The possibility of predicting the success of a startup from structured databases has been studied in the literature and it has been shown that initial public offerings (IPOs), mergers and acquisitions (M\\&A) as well as funding events can be predicted with various machine learning techniques. In such studies, heterogeneous information from the web and social networks is usually used as a complement to the information coming from databases. However, building and maintaining such databases demands tremendous human effort. We thus study here whether one can solely rely on readily available sources of information, such as the website of a startup, its social media activity as well as its presence on the web, to predict its funding events. As illustrated in our experiments, the method we propose yields results comparable to the ones making also use of structured data available in private databases.",
+   "cited_by": 0,
+   "kind": "preprint",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A regional ocean-innovation network wants a tool that tells its mentors and the ",
+     "kind": "semantic",
+     "rank": 14,
+     "weight": 2.5,
+     "sim": 0.29,
+     "raw": 0.78425956
+    },
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "semantic",
+     "rank": 16,
+     "weight": 2.0,
+     "sim": 0.138,
+     "raw": 0.8528458
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for startup funding prediction",
+     "kind": "semantic",
+     "rank": 21,
+     "weight": 2.0,
+     "sim": 0.083,
+     "raw": 0.8485557
+    },
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in startup funding prediction",
+     "kind": "semantic",
+     "rank": 32,
+     "weight": 2.0,
+     "sim": 0.024,
+     "raw": 0.7996137
+    }
+   ],
+   "ids": {
+    "openalex": "W4223942380"
+   },
+   "sim": 0.29,
+   "raw_score": 0.78425956,
+   "rrf": 0.10653006171694196,
+   "coverage": 0.251632977551368,
+   "relevance": 0.430443989674217,
+   "score": 0.1836525867922053
+  },
+  {
+   "title": "Logit-model for predicting startup’s venture funding",
+   "year": 2021,
+   "authors": [
+    "Tetiana Vasylivna Zhyber",
+    "Larysa Ligonenko",
+    "Olena V. Piskunova",
+    "Pankaj Srivastava",
+    "Tetyana A. Huzik"
+   ],
+   "venue": "Socio-Economic Problems of the Modern Period of Ukraine",
+   "doi": "10.36818/2071-4653-2021-5-4",
+   "url": "https://doi.org/10.36818/2071-4653-2021-5-4",
+   "oa_url": "",
+   "abstract": "The paper is devoted to deepening the academic basics using forecasting modeling methods to determine the predictors of enterprises’ success. A startup as a form of entrepreneurship is important today due to the ability to maintain the sustainability of the economic system through a flexible response to challenges. The startup’s potential for receiving external, direct venture financing from other economic counterparties is important forits sustainable development and success. The empirical study puts forward two hypotheses. The first one is that successful startups have common features, which are the factors in obtaining venture financing, i.e. predictors of success. The second hypothesis is a continuation of the first one and requires testing the importance of information representation and clarity of future startup results among venture investors, in particular through the information available about the startup’s activity over the Internet. The empirical study is based on data sets about startups in Ukraine over the last decade. The simulation is performed with logit models developed by the authors. The calculation allows us to confirm the identification of factors of direct influence on the startup’s success according to the built models. The ability to obtain venture capital is one of the startup’s characteristics. [...]",
+   "cited_by": 2,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "semantic",
+     "rank": 10,
+     "weight": 2.0,
+     "sim": 0.199,
+     "raw": 0.864120262858379
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for startup funding prediction",
+     "kind": "semantic",
+     "rank": 10,
+     "weight": 2.0,
+     "sim": 0.216,
+     "raw": 0.8730790210509498
+    },
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in startup funding prediction",
+     "kind": "semantic",
+     "rank": 14,
+     "weight": 2.0,
+     "sim": 0.107,
+     "raw": 0.8121206837555375
+    }
+   ],
+   "ids": {
+    "openalex": "W4285523985"
+   },
+   "sim": 0.216,
+   "raw_score": 0.864120262858379,
+   "rrf": 0.08416988416988416,
+   "coverage": 0.4073184631010192,
+   "relevance": 0.3973942525750005,
+   "score": 0.1725078757566208
+  },
+  {
+   "title": "Competition in the venture capital market and the success of startup companies: Theory and evidence",
+   "year": 2020,
+   "authors": [
+    "Suting Hong",
+    "Konstantinos Serfes",
+    "Veikko Thiele"
+   ],
+   "venue": "Journal of Economics & Management Strategy",
+   "doi": "10.1111/jems.12394",
+   "url": "https://doi.org/10.1111/jems.12394",
+   "oa_url": "https://doi.org/10.13140/rg.2.2.35585.56162",
+   "abstract": "We examine the effect of a competitive supply of venture capital (VC) on the exits (initial public offering or mergers and acquisitions) of startups. We develop a matching model with double‐sided moral hazard, and identify a novel differential effect of VC competition on the success of startups. Using VC data, we find evidence for this differential effect. For example, when the VC market becomes more competitive (Herfindahl–Hirschman Index decreases by 50% from its mean of 0.08), the absolute likelihood of success increases by 2.8% for startups backed by less experienced VC firms, but it decreases by 3.6% for startups backed by the most experienced VC firms.",
+   "cited_by": 32,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "user",
+     "rank": 9,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "user",
+     "rank": 36,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "semantic",
+     "rank": 12,
+     "weight": 2.0,
+     "sim": 0.239,
+     "raw": 0.8829115982524145
+    }
+   ],
+   "ids": {
+    "openalex": "W2790562785"
+   },
+   "sim": 0.239,
+   "raw_score": 75.129,
+   "rrf": 0.060160024154589375,
+   "coverage": 0.26627018852510975,
+   "relevance": 0.3104240386613881,
+   "score": 0.16123886469301352
+  },
+  {
+   "title": "Open for Entrepreneurship: How Open Innovation Can Foster New Venture Creation",
+   "year": 2015,
+   "authors": [
+    "Nazanin Eftekhari",
+    "Marcel L. A. M. Bogers"
+   ],
+   "venue": "Creativity and Innovation Management",
+   "doi": "10.1111/caim.12136",
+   "url": "https://doi.org/10.1111/caim.12136",
+   "oa_url": "",
+   "abstract": "This paper explores how an open approach to new venture creation – purposefully managing knowledge flows across the venture's organizational boundary – can be beneficial for start‐up entrepreneurs. Our inductive case study, of both failure and success, identifies the key attributes of this open approach and how they affect start‐ups' short‐term survival. We find that ecosystem collaboration, user involvement and an open environment directly influence new venture survival, and that their effects were moderated by the entrepreneurs' open mindset. These findings carry a number of implications for entrepreneurship and innovation research and practice, providing some attention points for researchers, entrepreneurs, investors and policy makers interested in developing successful new ventures.",
+   "cited_by": 120,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "new venture survival",
+     "kind": "semantic",
+     "rank": 6,
+     "weight": 2.0,
+     "sim": 0.469,
+     "raw": 0.9292260149101582
+    }
+   ],
+   "ids": {
+    "openalex": "W1799044394"
+   },
+   "sim": 0.469,
+   "raw_score": 0.9292260149101582,
+   "rrf": 0.030303030303030304,
+   "coverage": 0.1909376122120918,
+   "relevance": 0.312853019601876,
+   "score": 0.15981662487358986
+  },
+  {
+   "title": "The Role of Operational Capabilities in Enhancing New Venture Survival: A Longitudinal Study",
+   "year": 2013,
+   "authors": [
+    "Mohan V. Tatikonda",
+    "Siri Ann Terjesen",
+    "Pankaj C. Patel",
+    "Vinit Parida"
+   ],
+   "venue": "Production and Operations Management",
+   "doi": "10.1111/poms.12038",
+   "url": "https://doi.org/10.1111/poms.12038",
+   "oa_url": "",
+   "abstract": "We investigate relationships between operational capabilities and new venture survival. On the basis of operations management and entrepreneurship literature, we develop a contingency framework of operational capabilities especially appropriate at different life phases of a new venture's evolution. We expect that in the first years of a new venture's life, entrepreneurs should emphasize high inventory turnover to preserve working capital, support customer responsiveness, and aid firm adaptability. As new ventures grow, entrepreneurs should emphasize internal working capital generation via larger gross margins to support production ramp‐up. Later, new venture entrepreneurs should emphasize employee productivity to buttress sustainable volume production. We analyze a 6‐year longitudinal sample of 812 Swedish manufacturing new ventures using a gamma frailty‐based Cox regression. The findings show that specific operational capabilities, while always supporting new venture survival, have exceptional influence in specific new venture life phases. The three hypotheses are confirmed, suggesting that higher inventory turnover, gross margin, and employee productivity further increase new venture survival likelihoods, respectively, in the venture's start‐up, growth, and stability phases. This suggests a phased‐capabilities approach to new venture survival. [...]",
+   "cited_by": 54,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "new venture survival",
+     "kind": "user",
+     "rank": 7,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "new venture survival",
+     "kind": "semantic",
+     "rank": 9,
+     "weight": 2.0,
+     "sim": 0.407,
+     "raw": 0.9150814961683156
+    }
+   ],
+   "ids": {
+    "openalex": "W1974558437"
+   },
+   "sim": 0.407,
+   "raw_score": 125.37063,
+   "rrf": 0.04838849232100367,
+   "coverage": 0.1950552574310372,
+   "relevance": 0.3298552213715876,
+   "score": 0.15907562389595092
+  },
+  {
+   "title": "Exploring and Preprocessing of Crunchbase Data for Accurate Startup Success Prediction",
+   "year": 2024,
+   "authors": [
+    "Ajai Kumar Misra",
+    "Dharm Singh Jat",
+    "Durgesh Kumar Mishra"
+   ],
+   "venue": "Zimbabwe Conference of Information and Communication Technologies (ZCICT)",
+   "doi": "10.1109/zcict63770.2024.10958459",
+   "url": "https://doi.org/10.1109/zcict63770.2024.10958459",
+   "oa_url": "",
+   "abstract": "Startups are the backbone of the country's economy. The growth of startups is supporting the country by providing jobs and also directly generating revenue for the government. On the other hand, the failure of startups is impacting the economy's growth. Therefore, we need to explore and study the factors of startup success and failure. However, there is very fewer source of information about the startup's activity available openly, but the databases like Crunchbase are collecting and providing data about the startups for conducting study. In this paper, we are focusing on Crunchbase data for exploring the essential facts and attributes which are significantly contributing to startup success and failure. Additionally, we also proposed a machine learning model to accurately predict startup success and failure by utilizing the concluded attributes. The aim of the proposed model is to identify how the funding influences the operational status of the company. Thus, the Crunchbase dataset is considered where 66368 companies' data are used for evaluation and experiment. According to the conducted experiments we have found that venture capital financing is the main source of getting funds, 63.99% of companies are able to secure only the first round of funding, and less than 1 % of companies are able to get funding more than 10 times. [...]",
+   "cited_by": 1,
+   "kind": "conference-paper",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "user",
+     "rank": 13,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "semantic",
+     "rank": 17,
+     "weight": 2.0,
+     "sim": 0.135,
+     "raw": 0.8522954149782798
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for startup funding prediction",
+     "kind": "semantic",
+     "rank": 20,
+     "weight": 2.0,
+     "sim": 0.09,
+     "raw": 0.8497416232286035
+    },
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in startup funding prediction",
+     "kind": "semantic",
+     "rank": 15,
+     "weight": 2.0,
+     "sim": 0.106,
+     "raw": 0.8119735796454273
+    }
+   ],
+   "ids": {
+    "openalex": "W4409426610"
+   },
+   "sim": 0.135,
+   "raw_score": 35.07303,
+   "rrf": 0.09544891181877484,
+   "coverage": 0.34056493404661187,
+   "relevance": 0.37026781179536816,
+   "score": 0.1491559205944466
+  },
+  {
+   "title": "Performance feedback as a cooperation “switch”: A behavioral perspective on the success of venture capital syndicates among competitors",
+   "year": 2017,
+   "authors": [
+    "Alex Makarevich"
+   ],
+   "venue": "Strategic Management Journal",
+   "doi": "10.1002/smj.2722",
+   "url": "https://doi.org/10.1002/smj.2722",
+   "oa_url": "",
+   "abstract": "Research Summary: This study draws on the performance feedback theory to advance a behavioral perspective on the dynamics of cooperation among competitors in venture capital (VC) syndicates. Analyzing VC syndicates over a 33‐year period, I find that firms’ performance relative to historical and social aspirations acts as a switch in firms’ behavior with respect to dual goals of cooperation and competition in syndicates with competitors. Competition among firms in a syndicate negatively affects the probability of an IPO, but syndicates composed of firms underperforming their aspirations have a better chance of an IPO than syndicates of firms outperforming their aspirations, ceteris paribus. This effect is stronger when firms’ goals in a syndicate are symmetrical or when firms’ motivations based on both historical and social aspirations are aligned. Managerial Summary: Competition among VC syndicate members negatively affects a syndicate’s prospects of achieving an IPO because syndicate members hold back resources for fear of their appropriation by competing partners. However, firms underperforming their track record or peer firms shift their priorities toward syndicate success and allocate more resources to their syndicates, thereby reducing the negative effect of competition. [...]",
+   "cited_by": 56,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "semantic",
+     "rank": 7,
+     "weight": 2.0,
+     "sim": 0.409,
+     "raw": 0.9174505584171523
+    }
+   ],
+   "ids": {
+    "openalex": "W2770981353"
+   },
+   "sim": 0.409,
+   "raw_score": 0.9174505584171523,
+   "rrf": 0.029850746268656716,
+   "coverage": 0.24279418774678546,
+   "relevance": 0.3033954887408177,
+   "score": 0.14208747510090675
+  },
+  {
+   "title": "Model of start-ups assessment under conditions of information uncertainty",
+   "year": 2016,
+   "authors": [
+    "Mykola Malyar",
+    "Volodymyr Polishchuk",
+    "Marianna Sharkadi",
+    "Ihor Liakh"
+   ],
+   "venue": "Eastern-European Journal of Enterprise Technologies",
+   "doi": "10.15587/1729-4061.2016.71222",
+   "url": "https://doi.org/10.15587/1729-4061.2016.71222",
+   "oa_url": "https://doi.org/10.15587/1729-4061.2016.71222",
+   "abstract": "The study of an actual task of a start-up projects assessment on the stage of the introduction of the product to the market was carried out. The assessment of a start-up project is the evaluation of an \"idea,\" which may bring profits in future. In this regard, the problem (poorly structured now) of assessment of efficiency of start-up projects arises, the solution to which is interested for either venture funds or the startuppers themselves.A multi-creteria model of startups assessment under conditions of uncertainty using the apparatus of fuzzy mathematics was designed. A set of criteria was compiled for the assessment of startups, which are divided into five groups, and a gradation point scale was designed. The set-carrier of linguistic variable was proposed that meets the requests of a decision maker when considering, evaluating and choosing startups.A two-level mathematical model of assessment and choice of startup projects was considered. The model sets the level of the assessment of an \"idea\" and its linguistic value, taking into account the requests of a decision maker when considering, evaluating and choosing startups. An example of a model application is shown for the start-up “A multi–purpose monitoring of a smart home” that was presented at the \"Kickstarter\".The designed model will be a useful tool to increase the validity of decision making by venture funds and “investment angels” who wish to support and finance start-ups.",
+   "cited_by": 13,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in startup funding prediction",
+     "kind": "semantic",
+     "rank": 6,
+     "weight": 2.0,
+     "sim": 0.313,
+     "raw": 0.8430287619034631
+    },
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in startup funding prediction",
+     "kind": "semantic",
+     "rank": 12,
+     "weight": 2.0,
+     "sim": 0.118,
+     "raw": 0.813784
+    }
+   ],
+   "ids": {
+    "openalex": "W2587351286"
+   },
+   "sim": 0.313,
+   "raw_score": 0.8430287619034631,
+   "rrf": 0.05808080808080808,
+   "coverage": 0.18686067096232398,
+   "relevance": 0.31153736183700675,
+   "score": 0.13609413440302026
+  },
+  {
+   "title": "Help Me Screen: Analyzing and Predicting the Success of Start-ups in Dynamic Venture Capital Networks",
+   "year": 2025,
+   "authors": [
+    "Shiwei Lyu",
+    "Xiaofeng Li",
+    "Suting Hong",
+    "Qing Ke",
+    "Jinjie Gu",
+    "Kunpeng Zhang",
+    "Haipeng Zhang"
+   ],
+   "venue": "ACM Transactions on Intelligent Systems and Technology",
+   "doi": "10.1145/3763001",
+   "url": "https://doi.org/10.1145/3763001",
+   "oa_url": "https://hdl.handle.net/2031/d0b61525-e0ca-4170-9723-b464fa33eb4e",
+   "abstract": "Most start-ups fail, and early-stage ventures face even lower survival rates. Identifying high-potential start-ups remains a critical challenge for venture capital (VC) investors and policymakers. While predictive models exist, the evolving relationships between VC investors, start-ups, and management teams in dynamic networks are underexplored. We propose a method to predict whether a start-up will succeed within 5 years of its first funding round. Using a 40-year global VC dataset, we model the VC ecosystem as a dynamic bipartite network linking start-ups to individuals (investors/managers). Our approach incrementally updates graph embeddings through unsupervised self-attention to incorporate new nodes, edges, and their neighbors. Node embeddings are further fine-tuned via link prediction and classification tasks, while temporal dependencies are captured to form sequential representations. The model identifies early-stage start-ups with twice the success likelihood of those chosen by professional investors. Key factors including networking and education align with VC literature. Additionally, we provide model complexity analysis and open source our implementation to support practical applications and future research.",
+   "cited_by": 1,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A regional ocean-innovation network wants a tool that tells its mentors and the ",
+     "kind": "semantic",
+     "rank": 13,
+     "weight": 2.5,
+     "sim": 0.298,
+     "raw": 0.7847393040496041
+    }
+   ],
+   "ids": {
+    "openalex": "W4413682941"
+   },
+   "sim": 0.298,
+   "raw_score": 0.7847393040496041,
+   "rrf": 0.03424657534246575,
+   "coverage": 0.4536750958099947,
+   "relevance": 0.3321199015499231,
+   "score": 0.13561126621216377
+  },
+  {
+   "title": "Modèles intégrés pour prévoir l'évolution des entreprises en démarrage",
+   "year": 2022,
+   "authors": [
+    "Mariia Garkavenko"
+   ],
+   "venue": "HAL (Le Centre pour la Communication Scientifique Directe)",
+   "doi": "",
+   "url": "https://theses.hal.science/tel-03885096",
+   "oa_url": "https://theses.hal.science/tel-03885096/document",
+   "abstract": "Startups play an increasingly important role in the modern economy. In this thesis, we study startup valuation and fundraising problems with machine learning and causal discovery methods. After reviewing the existing machine learning approaches to startup success prediction and the literature on startup valuation factors, we present a domain adaptation-based approach to predict startup valuations in funding rounds with known funding amounts. We show that funding rounds in which startup valuation is announced to the public are statistically different from those in which the valuation is kept secret. We mine a novel data source, Companies House, to learn the startup valuation in the later funding rounds and show that domain adaptation methods yield the best results for our task. Further, we collect a rich dataset of United Kingdom startups and their valuations and discover which variables make the best valuation predictors. Also, we apply causal discovery methods to learn which variables, directly and indirectly, affect startup valuation. We draw the connection to the previous startup valuation factors research and provide evidence for further theoretical studies. Finally, we propose a method for predicting whether a startup will secure a funding round based on publicly freely available information on the web. We propose methods to collect information about the startups and their funding rounds from different sources. [...]",
+   "cited_by": 0,
+   "kind": "dissertation",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "semantic",
+     "rank": 7,
+     "weight": 2.0,
+     "sim": 0.213,
+     "raw": 0.86681265
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for startup funding prediction",
+     "kind": "semantic",
+     "rank": 9,
+     "weight": 2.0,
+     "sim": 0.222,
+     "raw": 0.8740566
+    },
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in startup funding prediction",
+     "kind": "semantic",
+     "rank": 9,
+     "weight": 2.0,
+     "sim": 0.155,
+     "raw": 0.81928945
+    }
+   ],
+   "ids": {
+    "openalex": "W7002326270"
+   },
+   "sim": 0.222,
+   "raw_score": 0.86681265,
+   "rrf": 0.08782176076141034,
+   "coverage": 0.27475447551648147,
+   "relevance": 0.3682164612144627,
+   "score": 0.13439099004755903
+  },
+  {
+   "title": "Predicting Startup Success Using Publicly Available Data",
+   "year": 2022,
+   "authors": [
+    "Emily Gavrilenko"
+   ],
+   "venue": "DigitalCommons - CalPoly (California State Polytechnic University)",
+   "doi": "10.15368/theses.2022.119",
+   "url": "https://doi.org/10.15368/theses.2022.119",
+   "oa_url": "",
+   "abstract": "Predicting the success of an early-stage startup has always been a major effort for investors and venture funds. Statistically, there are about 305 million total startups created in a year, but less than 10% of them succeed to become profitable businesses. Accurately identifying the signs of startup growth is the work of countless investors, and in recent years, research has turned to machine learning in hopes of improving the accuracy and speed of startup success prediction. To learn about a startup, investors have to navigate many different internet sources and often rely on personal intuition to determine the startup’s potential and likelihood of success. This thesis explores whether online data about a company, particularly general company data, previous funding events, published news articles, internet presence, and social media activity can be used to identify fast-growing startups. Data collected from Crunchbase, the Google Search API, and Twitter was used to predict whether a company will raise a round of funding within a fixed time horizon. A total of ten machine learning models were evaluated and the CatBoost ensemble method achieved the best performance with precision, recall, and F1 scores of 0.663, 0.827, and 0.736 respectively for predicting funding within 3 years. The same ensem- ble method achieved F1 scores of 0.528, 0.683, 0.736, 0.763, and 0.777 at predicting funding 1-5 years into the future. [...]",
+   "cited_by": 0,
+   "kind": "dissertation",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "semantic",
+     "rank": 9,
+     "weight": 2.0,
+     "sim": 0.207,
+     "raw": 0.8657476
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for startup funding prediction",
+     "kind": "semantic",
+     "rank": 13,
+     "weight": 2.0,
+     "sim": 0.159,
+     "raw": 0.8625086
+    },
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in startup funding prediction",
+     "kind": "semantic",
+     "rank": 23,
+     "weight": 2.0,
+     "sim": 0.048,
+     "raw": 0.80321276
+    }
+   ],
+   "ids": {
+    "openalex": "W6905753138"
+   },
+   "sim": 0.207,
+   "raw_score": 0.8657476,
+   "rrf": 0.08047915306251809,
+   "coverage": 0.3992810420723414,
+   "relevance": 0.3831044680581813,
+   "score": 0.1322529909891667
+  },
+  {
+   "title": "Potential Lending Discrimination? Insights from Small Business Financing and New Venture Survival",
+   "year": 2014,
+   "authors": [
+    "Shaoming Cheng"
+   ],
+   "venue": "Journal of Small Business Management",
+   "doi": "10.1111/jsbm.12112",
+   "url": "https://doi.org/10.1111/jsbm.12112",
+   "oa_url": "",
+   "abstract": "Previous literature provides potential lending discrimination evidence of disadvantaged women and minority entrepreneurs' high rate of business loan application denial and their unequal access to external and commercial credits in comparison with white business owners. This paper aims to expand the literature and discussions on small business loan discrimination from a new research direction, besides those on loan applications/denials and on loan terms, focusing on the consequences of small business loans in terms of new venture survivability. The proposed new research direction is consistent with similar research approaches in mortgage lending literature examining loan default rates and potential discrimination. The Kauffman Firm Survey data are used with appropriate hazards model for the analysis. Extensive creditworthiness and business survival determinants are applied for controlling for their influences across racial and ethnic groups. The main empirical finding is that after controlling for a wide variety of borrower, establishment, and regional characteristics, business closure rates for minority entrepreneurs are not higher than those for white business owners. This finding does not support the prediction of the model for lender bias against minority entrepreneurs.",
+   "cited_by": 48,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "new venture survival",
+     "kind": "user",
+     "rank": 20,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "new venture survival",
+     "kind": "semantic",
+     "rank": 13,
+     "weight": 2.0,
+     "sim": 0.324,
+     "raw": 0.8958695375717046
+    }
+   ],
+   "ids": {
+    "openalex": "W2050391040"
+   },
+   "sim": 0.324,
+   "raw_score": 110.02642,
+   "rrf": 0.0436472602739726,
+   "coverage": 0.24408637894405436,
+   "relevance": 0.3007296553256418,
+   "score": 0.13188516863563265
+  },
+  {
+   "title": "Territorial Development as an Innovation Driver: A Complex Network Approach",
+   "year": 2022,
+   "authors": [
+    "Francesco De Nicolò",
+    "Alfonso Monaco",
+    "Giuseppe Ambrosio",
+    "Loredana Bellantuono",
+    "Roberto Cilli",
+    "Ester Pantaleo",
+    "Sabina Tangaro",
+    "Flaviano Zandonai",
+    "Nicola Amoroso",
+    "R. Bellotti"
+   ],
+   "venue": "Applied Sciences",
+   "doi": "10.3390/app12189069",
+   "url": "https://doi.org/10.3390/app12189069",
+   "oa_url": "https://www.mdpi.com/2076-3417/12/18/9069/pdf?version=1662714521",
+   "abstract": "Rankings are a well-established tool to evaluate the performance of actors in different sectors of the economy, and their use is increasing even in the context of the startup ecosystem, both on a regional and on a global scale. Although rankings meet the demand for measurability and comparability, they often provide an oversimplified picture of the status quo, which, in particular, overlooks the variability of the socio-economic conditions in which the quantified results are achieved. In this paper, we describe an approach based on constructing a network of world countries, in which links are determined by mutual similarity in terms of development indicators. Through the instrument of community detection, we perform an unsupervised partition of the considered set of countries, aimed at interpreting their performance in the StartupBlink rankings. We consider both the global ranking and the specific ones (quality, quantity, business). After verifying if community membership is predictive of the success of a country in the considered ranking, we rate country performances in terms of the expectation based on community peers. We are thus able to identify cases in which performance is better than expected, providing a benchmark for countries in similar conditions, and cases in which performance is below the expectation, highlighting the need to strengthen the innovation ecosystem.",
+   "cited_by": 3,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A regional ocean-innovation network wants a tool that tells its mentors and the ",
+     "kind": "semantic",
+     "rank": 7,
+     "weight": 2.5,
+     "sim": 0.442,
+     "raw": 0.7933941102730387
+    }
+   ],
+   "ids": {
+    "openalex": "W4295549147"
+   },
+   "sim": 0.442,
+   "raw_score": 0.7933941102730387,
+   "rrf": 0.03731343283582089,
+   "coverage": 0.17088326943039694,
+   "relevance": 0.3117615213500967,
+   "score": 0.1253418462076266
+  },
+  {
+   "title": "Policies for financing entrepreneurship through venture capital: learning from the successes of Israel and Taiwan",
+   "year": 2016,
+   "authors": [
+    "Robyn Klingler‐Vidra",
+    "Martin F. Kenney",
+    "Dan Breznitz"
+   ],
+   "venue": "International Journal of Innovation and Regional Development",
+   "doi": "10.1504/ijird.2016.079462",
+   "url": "https://doi.org/10.1504/ijird.2016.079462",
+   "oa_url": "https://kclpure.kcl.ac.uk/portal/en/publications/346ef829-92a9-4e61-8fad-f09b98164bfe",
+   "abstract": "The success of Silicon Valley as a hub for rapid-innovation growth has motivated policy-makers around the world to initiate policies trying to mimic it. These policy initiatives raise the question of whether globalisation should encourage innovation policy-makers to aim for institutional convergence and close imitation, or for institutional hybridisation and local experimentation. This paper explores this question by focusing on venture capital creation policy. Using two national cases, Israel and Taiwan, we show that policy effectiveness is not the result of simple imitation. Instead, policy performance is determined by degree of fit with local financial conditions and the position of the local ICT industry within global production networks. We then consider the implications of our study for understanding the development of national VC industries and the industries they fund. The primary message being that there is no singular model for venture capital market development. Instead, policy-makers need to understand the local context with its assets and liabilities. Of particular importance are local financing conditions, firm capabilities, and the existing position of local firms within the global production networks of the ICT industry.",
+   "cited_by": 31,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "user",
+     "rank": 29,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "semantic",
+     "rank": 10,
+     "weight": 2.0,
+     "sim": 0.249,
+     "raw": 0.8850276922717215
+    }
+   ],
+   "ids": {
+    "openalex": "W2524353067"
+   },
+   "sim": 0.249,
+   "raw_score": 69.43201,
+   "rrf": 0.04317817014446228,
+   "coverage": 0.2721008643925074,
+   "relevance": 0.2780818002365053,
+   "score": 0.12080766131351771
+  },
+  {
+   "title": "PREDICTING FOUNDING SUCCESS AND NEW VENTURE SURVIVAL: A LONGITUDINAL NASCENT ENTREPRENEURSHIP APPROACH",
+   "year": 2012,
+   "authors": [
+    "Alexander; id_orcid 0000-0002-7047-1647 Keßler",
+    "Christian Korunka",
+    "Hermann Frank",
+    "Manfred Lueger"
+   ],
+   "venue": "Journal of Enterprising Culture",
+   "doi": "10.1142/s0218495812500021",
+   "url": "https://doi.org/10.1142/s0218495812500021",
+   "oa_url": "",
+   "abstract": "Based on a model consisting of (1) indicators related to the entrepreneurial person, (2) resource/environment indicators, and (3) founding process indicators, this paper examines founding success (who ultimately started up a business?) and new venture success/failure (which businesses survived?) in nascent businesses. The study analyzes a sample of 227 nascent entrepreneurs in Austria observed over a period of seven years. We find that characteristics of the person (i.e., risk-taking) affect founding success, but not survival. At the same time, resource and environment aspects did not show an effect on founding success or survival. Finally, we find that aspects of the founding process serve to explain both founding success and survival.",
+   "cited_by": 38,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "new venture survival",
+     "kind": "user",
+     "rank": 16,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "new venture survival",
+     "kind": "semantic",
+     "rank": 12,
+     "weight": 2.0,
+     "sim": 0.324,
+     "raw": 0.8959828868281847
+    }
+   ],
+   "ids": {
+    "openalex": "W2084941331"
+   },
+   "sim": 0.324,
+   "raw_score": 112.3106,
+   "rrf": 0.04488304093567251,
+   "coverage": 0.20232648161752234,
+   "relevance": 0.290973625302566,
+   "score": 0.11766023201287681
+  },
+  {
+   "title": "Do Early Words from New Ventures Predict Fundraising? A Comparative View of Social Media Narratives",
+   "year": 2023,
+   "authors": [
+    "Taha Havakhor",
+    "Alireza Golmohammadi",
+    "Rajiv Sabherwal",
+    "Dinesh Kumar Gauri"
+   ],
+   "venue": "MIS Quarterly",
+   "doi": "10.25300/misq/2022/16392",
+   "url": "https://doi.org/10.25300/misq/2022/16392",
+   "oa_url": "",
+   "abstract": "Online equity markets have significantly changed the dynamics of connecting angels and individual equity investors to new ventures that seek early-stage capital. However, for those early-stage investors, information pointing to the success of business-to-business (B2B) new ventures (B2BNVs) is scattered and disconnected. This paper focuses on social media narratives (SMNs) as a source of insight for such investors and proposes that predicting a B2BNV’s likelihood of success requires a comparative view, i.e., a comparison of its SMNs with those of its competitors and customers. We expect that higher (lower) lingual similarity between the SMNs of an early-stage B2BNV and those of its prospective customers (competitors) predict its success. Using a longitudinal panel of 574 B2BNVs resulting in more than 2,700 venture-round observations, we find that a comparative view of a venture’s SMNs can give early-stage investors reliable predictions about the B2BNV’s ability to manage its market presence and its success in later stages. Our models show that a comparative view of SMNs increases the accuracy of predicting a B2BNV’s later-stage fundraising success by an average of 15%. Furthermore, predictive models can reliably point to a successful market presence in later stages, including the landing of customers, the winning of awards and competitions, the receiving of endorsements, the generating of revenue, and the successful patenting of products. [...]",
+   "cited_by": 8,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A regional ocean-innovation network wants a tool that tells its mentors and the ",
+     "kind": "semantic",
+     "rank": 16,
+     "weight": 2.5,
+     "sim": 0.273,
+     "raw": 0.7832387927146378
+    }
+   ],
+   "ids": {
+    "openalex": "W4387193746"
+   },
+   "sim": 0.273,
+   "raw_score": 0.7832387927146378,
+   "rrf": 0.03289473684210526,
+   "coverage": 0.3348568723650452,
+   "relevance": 0.2834421698003754,
+   "score": 0.10944391097327634
+  },
+  {
+   "title": "Optimizing Startup Funding Predictions: Genetic Programming and Machine Learning Synergy",
+   "year": 2023,
+   "authors": [
+    "Gettam Rajgopal, Chandrashekar"
+   ],
+   "venue": "TRAP@NCI (National College of Ireland)",
+   "doi": "",
+   "url": "https://norma.ncirl.ie/7515/1/chandrashekargettamrajgopal.pdf",
+   "oa_url": "https://norma.ncirl.ie/7515/2/chandrashekargettamrajgopalconfigurationmanual.pdf",
+   "abstract": "Startup finance is a vital and significant area that makes a considerable contribution to innovation and economic progress in the startup finance industry. Predicting startup funding accurately is important not just for investors, entrepreneurs and policymakers but also has a significant impact on the shaping economic landscape. This project delves into the application of genetic programming to optimize various machine learning models for the prediction of total funding in startup investments and addresses the difficulty of estimating total funding which is a task made more difficult by the complexity of startup ecosystems by analyzing a comprehensive dataset on startup investments which contains various financial indicators like seed, equity, venture and funding rounds. In this study, different machine learning models like Symbolic Regression, Random Forest, Linear Regression, XGBoost and K-Nearest Neighbors (KNN) are used using Genetic programming, which yields more precise prediction of startup funding forecasts and deeper insights through distinct viewpoints and gaps that have been found. Random Forest has performed better in predicting total funding when compared to other models. This research aims not only to contribute to the academic field of financial predictive analytics but also to provide reasonable tools for stakeholders in the startup and venture capital sectors and eventually aid in more informed decision-making processes.",
+   "cited_by": 0,
+   "kind": "dissertation",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "semantic",
+     "rank": 14,
+     "weight": 2.0,
+     "sim": 0.147,
+     "raw": 0.8545257
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for startup funding prediction",
+     "kind": "semantic",
+     "rank": 12,
+     "weight": 2.0,
+     "sim": 0.165,
+     "raw": 0.8635965
+    },
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in startup funding prediction",
+     "kind": "semantic",
+     "rank": 34,
+     "weight": 2.0,
+     "sim": 0.022,
+     "raw": 0.79932964
+    }
+   ],
+   "ids": {
+    "openalex": "W7051865007"
+   },
+   "sim": 0.165,
+   "raw_score": 0.8545257,
+   "rrf": 0.07608140054948566,
+   "coverage": 0.3010715739349754,
+   "relevance": 0.3269771728232304,
+   "score": 0.10846111953393404
+  },
+  {
+   "title": "“Success by Association”: The Impact of Venture Capital Firm Reputation Trend on Initial Public Offering Valuations",
+   "year": 2019,
+   "authors": [
+    "Salim Chahine",
+    "Igor V. Filatotchev",
+    "Garry D. Bruton",
+    "Mike Wright"
+   ],
+   "venue": "Journal of Management",
+   "doi": "10.1177/0149206319847265",
+   "url": "https://doi.org/10.1177/0149206319847265",
+   "oa_url": "",
+   "abstract": "Organizational theory recognizes reputation as a central element to understanding the firm. Examining investor valuations of 1,676 initial public offerings (IPOs) in the United States from 1990 to 2011, we find that reputation transfer through an association of an IPO firm with a venture capital (VC) firm represents a resource whose value can increase/decrease over time depending on investors’ valuations of prior IPOs funded by a VC firm. We conclude that the impact of reputation transfer through association is not unidirectional but, instead, is to be viewed in the context of prior reputational development of organizations the focal firm is associated with. Furthermore, we find that three “transfer enhancers” can improve the impact of VC firm reputation transfer on IPO valuations, including the VC firm’s past experience intensity, the diversity of IPO experiences, and the number of prior syndicated IPOs involving the VC firm as a lead investor.",
+   "cited_by": 37,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "semantic",
+     "rank": 8,
+     "weight": 2.0,
+     "sim": 0.293,
+     "raw": 0.8938883645964291
+    }
+   ],
+   "ids": {
+    "openalex": "W2944828266"
+   },
+   "sim": 0.293,
+   "raw_score": 0.8938883645964291,
+   "rrf": 0.029411764705882353,
+   "coverage": 0.2776969782458838,
+   "relevance": 0.2664816607079475,
+   "score": 0.10790874321679889
+  },
+  {
+   "title": "Supporting Entrepreneurs at the Local Level: The Effect of Accelerators and Mentors on Early-Stage Firms",
+   "year": 2018,
+   "authors": [
+    "Kathy Qian",
+    "Victor Mulas",
+    "Matt Lerner"
+   ],
+   "venue": "World Bank, Washington, DC eBooks",
+   "doi": "10.1596/30384",
+   "url": "https://doi.org/10.1596/30384",
+   "oa_url": "https://doi.org/10.1596/30384",
+   "abstract": "We investigate the association between entrepreneurship support programs and the likelihood of receiving funding for early-stage firms. We use a novel database of 2,887 early-stage technology companies from nine local ecosystems in eight countries that includes data about the founders’ demographic characteristics, educational background, work experience, and entrepreneurial history; we also use data about the start-ups’ history and evolution that follow their progress through support programs and early-stage funding. We isolate two support interventions—acceleration and mentorship—that the literature has found to have a larger effect on a firm’s performance, and we test if such effect is supported from an ecosystem perspective. After accounting for variations in founder characteristics and business environment, we find a positive association between acceleration and mentorship by experienced founders and the likelihood of receiving funding, whereas other support programs, such as incubation, are negatively correlated with funding. We also find that some founders’ characteristics, such as increased education and experience, have a positive correlation with funding.",
+   "cited_by": 11,
+   "kind": "book",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A regional ocean-innovation network wants a tool that tells its mentors and the ",
+     "kind": "semantic",
+     "rank": 9,
+     "weight": 2.5,
+     "sim": 0.35,
+     "raw": 0.7878528311077906
+    }
+   ],
+   "ids": {
+    "openalex": "W2891285969"
+   },
+   "sim": 0.35,
+   "raw_score": 0.7878528311077906,
+   "rrf": 0.036231884057971016,
+   "coverage": 0.1791685386530773,
+   "relevance": 0.2750211154351333,
+   "score": 0.10693300693944133
+  },
+  {
+   "title": "CONSTRUCTION OF A FUZZY MODEL FOR THE SUCCESS PREDICTION OF HI-TECH COMPANIES WITH A SHORT HISTORY",
+   "year": 2017,
+   "authors": [
+    "Marie Jedlickova",
+    "Petr Kutnar"
+   ],
+   "venue": "",
+   "doi": "",
+   "url": "https://conference.fbm.vutbr.cz/ic/index.php/ic/article/download/36/5",
+   "oa_url": "",
+   "abstract": "There is a significant number of new high technology startup companies being built and failing on current markets every day. High-tech startups, as often abbreviated, are new companies presenting cutting edge technology. They possess the potential to change the way humankind lives and thinks. One of the essential aspects of a new startup is how to fund it. The main source of financing startups are individual investors by venture capital, another possibility is IPO, also known as public offering. Due to the nature of high-tech business it is nearly impossible to predict the success or failure of the examined startup. Investors (or venture capitalists) are often presented with many startups to choose from to fund and therefore how to value a new startups is one of the important questions still left for research to answer. This paper deals with the possibility of using fuzzy logic to bring a tool to evaluate investigating options using key factors of said startups by predicting its success or failure. The focus of this paper in the area of startups is mainly on the cleantech firms, which are companies using renewable resources and energies to provide an added value. The main goal of this paper is to create a viable and consistent fuzzy model that shows promising results for the prediction of new notions on the studied problematics.",
+   "cited_by": 4,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "semantic",
+     "rank": 28,
+     "weight": 2.0,
+     "sim": 0.054,
+     "raw": 0.8371326588605655
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for startup funding prediction",
+     "kind": "semantic",
+     "rank": 34,
+     "weight": 2.0,
+     "sim": 0.021,
+     "raw": 0.8371719374766889
+    },
+    {
+     "source": "openalex",
+     "query": "handling uncertainty, small samples and noisy data in startup funding prediction",
+     "kind": "semantic",
+     "rank": 17,
+     "weight": 2.0,
+     "sim": 0.097,
+     "raw": 0.8106639107826927
+    }
+   ],
+   "ids": {
+    "openalex": "W2922438777"
+   },
+   "sim": 0.097,
+   "raw_score": 0.8371326588605655,
+   "rrf": 0.06997789444597956,
+   "coverage": 0.3684871664458905,
+   "relevance": 0.3063112757060598,
+   "score": 0.1040759711028869
+  },
+  {
+   "title": "Has Europe Been Catching Up? An Industry Level Analysis of Venture Capital Success over 1985–2009",
+   "year": 2013,
+   "authors": [
+    "Roman Kräussl",
+    "Stefan Krause"
+   ],
+   "venue": "European Financial Management",
+   "doi": "10.1111/j.1468-036x.2013.12012.x",
+   "url": "https://doi.org/10.1111/j.1468-036x.2013.12012.x",
+   "oa_url": "https://publications.banque-france.fr/sites/default/files/medias/documents/working-paper_327_2011.pdf",
+   "abstract": "After nearly two decades of US leadership during the 1980s and 1990s, are Europe's venture capital (VC) markets in the 2000s finally catching up regarding the provision of financing and successful exits, or is the performance gap as wide as ever? Are we amid an overall VC performance slump with no encouraging news? We attempt to answer these questions by tracking over 40,000 VC‐backed firms stemming from six industries in 13 European countries and the USA between 1985 and 2009; determining the type of exit – if any – each particular firm's investors choose for the venture.",
+   "cited_by": 31,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "user",
+     "rank": 2,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "semantic",
+     "rank": 11,
+     "weight": 2.0,
+     "sim": 0.246,
+     "raw": 0.8844645427645662
+    }
+   ],
+   "ids": {
+    "openalex": "W2138512639"
+   },
+   "sim": 0.246,
+   "raw_score": 101.93778,
+   "rrf": 0.049136756019990915,
+   "coverage": 0.17776562578866104,
+   "relevance": 0.2619467377033461,
+   "score": 0.10341141282051859
+  },
+  {
+   "title": "Application of Decision Tree Algorithm in Early Entrepreneurial Project Screening",
+   "year": 2022,
+   "authors": [
+    "Yu-Min Wang",
+    "Lin Xue"
+   ],
+   "venue": "Scientific Programming",
+   "doi": "10.1155/2022/3584196",
+   "url": "https://doi.org/10.1155/2022/3584196",
+   "oa_url": "https://downloads.hindawi.com/journals/sp/2022/3584196.pdf",
+   "abstract": "Venture capital firms are always faced with insufficient information and insufficient time when evaluating whether startups are worth investing in. This paper focuses on how to combine the public information of startups with the decision tree algorithm to assist investors in project screening. By extracting the public information of 1104 AI and big data companies from January 2016 to June 2017 and the financing progress in the following 18 months, this paper finds that: the six indicators of having a working background in well-known companies, being reported by well-known media, having patents and being invested by excellent institutions, working experience is highly related to this venture, and having well-known financing consultants can effectively help investors screen out projects that can obtain sustainable financing, that is, high potential projects. Considering the problem of data availability in the real world, combined with industry experience, this paper makes a more detailed variable mining for semistructured information, such as the team resume of start-ups, and selects a decision tree algorithm that is insensitive to missing values and has strong interpretability to amplify the value of fragmented information. [...]",
+   "cited_by": 5,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A regional ocean-innovation network wants a tool that tells its mentors and the ",
+     "kind": "semantic",
+     "rank": 12,
+     "weight": 2.5,
+     "sim": 0.329,
+     "raw": 0.786596850078143
+    }
+   ],
+   "ids": {
+    "openalex": "W4221095428"
+   },
+   "sim": 0.329,
+   "raw_score": 0.786596850078143,
+   "rrf": 0.034722222222222224,
+   "coverage": 0.19942746424414567,
+   "relevance": 0.26931252003582007,
+   "score": 0.09986256842457004
+  },
+  {
+   "title": "The role of skill versus luck in new venture survival",
+   "year": 2021,
+   "authors": [
+    "Aracely Soto‐Simeone",
+    "Charlotta Agneta Sirén",
+    "Torben Antretter"
+   ],
+   "venue": "International Journal of Management Reviews",
+   "doi": "10.1111/ijmr.12262",
+   "url": "https://doi.org/10.1111/ijmr.12262",
+   "oa_url": "https://doi.org/10.1111/ijmr.12262",
+   "abstract": "In our paper ‘New venture survival: A review and extension’ in the International Journal of Management Reviews, we synthesized more than five decades of entrepreneurship, management and sociology research on the reasons why some new ventures survive and others fail. Based on our review and analysis, we provided an up‐to‐date systematization of the literature and a framework that includes important extensions to Stinchcombe's seminal work. Coad and Storey criticized our framework for basing venture outcome on skill—something that can be influenced by entrepreneurs and other stakeholders. In this paper, we argue that: (i) the distinction between survival and performance matters when thinking about the antecedents of these constructs; (ii) gambling is an incompatible analogy for entrepreneurship; and (iii) psychological processes cannot be ignored when studying new ventures’ survival. We also correct some points made by Coad and Storey about our findings. We encourage future studies on new venture survival to be cautious of adopting a view of venturing as a ‘game of chance’—which is, in our perspective, a potentially discouraging view for people pursuing entrepreneurship.",
+   "cited_by": 13,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "new venture survival",
+     "kind": "user",
+     "rank": 8,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "new venture survival",
+     "kind": "semantic",
+     "rank": 14,
+     "weight": 2.0,
+     "sim": 0.267,
+     "raw": 0.8827639105536557
+    }
+   ],
+   "ids": {
+    "openalex": "W3166222775"
+   },
+   "sim": 0.267,
+   "raw_score": 122.325554,
+   "rrf": 0.04614467408585056,
+   "coverage": 0.1453821345903697,
+   "relevance": 0.25392024924046996,
+   "score": 0.09839708835969858
+  },
+  {
+   "title": "Running faster and jumping higher? Survival and growth in international manufacturing new ventures",
+   "year": 2018,
+   "authors": [
+    "Francisco Puig",
+    "Miguel González‐Loureiro",
+    "Pervez Nasim Ghauri"
+   ],
+   "venue": "International Small Business Journal Researching Entrepreneurship",
+   "doi": "10.1177/0266242618777792",
+   "url": "https://doi.org/10.1177/0266242618777792",
+   "oa_url": "http://hdl.handle.net/11093/9819",
+   "abstract": "Going international early is increasingly the choice of new ventures in manufacturing industries. However, does earliness provide a positive outcome for internationalisation? To answer this, we have longitudinally analysed 3181 manufacturing new ventures established between 2002 and 2012. Using Cox regressions, we found that the 124 late internationals had the lowest risk of failure, while the 229 early internationals could not compensate for their mortality risk with significantly higher levels of growth in the post-internationalisation period. We discuss why an early internationalisation is more perilous than beneficial and provide some suggestions for the internationalisation of new ventures in these industries.",
+   "cited_by": 50,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "new venture survival",
+     "kind": "semantic",
+     "rank": 11,
+     "weight": 2.0,
+     "sim": 0.334,
+     "raw": 0.8981645708375853
+    }
+   ],
+   "ids": {
+    "openalex": "W2899224883"
+   },
+   "sim": 0.334,
+   "raw_score": 0.8981645708375853,
+   "rrf": 0.028169014084507043,
+   "coverage": 0.1453821345903697,
+   "relevance": 0.24039963434787712,
+   "score": 0.09837878021805722
+  },
+  {
+   "title": "The survival of business takeovers and new venture start-ups",
+   "year": 2019,
+   "authors": [
+    "Guoqian Xi",
+    "Joern Block",
+    "Frank Lasch",
+    "Frank Robert",
+    "Roy Thurik"
+   ],
+   "venue": "Industrial and Corporate Change",
+   "doi": "10.1093/icc/dtz076",
+   "url": "https://doi.org/10.1093/icc/dtz076",
+   "oa_url": "https://doi.org/10.1093/icc/dtz076",
+   "abstract": "Business takeovers and new venture start-ups are two important and distinct entry modes of entrepreneurship. They differ from resource-based and organizational ecology perspectives. We compare firm survival patterns and determinants associated with the two entry modes. From two large French datasets, we find that business takeovers have a higher survival rate than new venture start-ups. However, these differences in survival probability reduce over the entrepreneurship life cycle and when controlling for different entrepreneur and firm characteristics. Moreover, we identify differences in determinants of survival for the two groups, highlighting a distinction between the two entrepreneurship entry modes. This work contributes to the literature on the relationship between entrepreneurship entry and firm survival, thereby contributing to both entrepreneurship and firm survival research.",
+   "cited_by": 27,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "new venture survival",
+     "kind": "semantic",
+     "rank": 10,
+     "weight": 2.0,
+     "sim": 0.343,
+     "raw": 0.9003182300599877
+    }
+   ],
+   "ids": {
+    "openalex": "W3002135167"
+   },
+   "sim": 0.343,
+   "raw_score": 0.9003182300599877,
+   "rrf": 0.02857142857142857,
+   "coverage": 0.1453821345903697,
+   "relevance": 0.24490227711888807,
+   "score": 0.09653943075309189
+  },
+  {
+   "title": "Machine learning models for early‐stage investment decision making in startups",
+   "year": 2023,
+   "authors": [
+    "Yong Shi",
+    "Ekaterina Eremina",
+    "Wen Long"
+   ],
+   "venue": "Managerial and Decision Economics",
+   "doi": "10.1002/mde.4072",
+   "url": "https://doi.org/10.1002/mde.4072",
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mde.4072",
+   "abstract": "This study demonstrates the efficacy of machine learning techniques for evidence‐based evaluation of early‐stage ventures. Leveraging real‐world data on 24,965 startups across diverse sectors and countries sourced from Crunchbase, we develop predictive models using algorithms including random forest, XGBoost, and support vector machines. Rigorous training and testing on a 70–30 split of the data reveal that the algorithms can effectively classify startups as successful or not, achieving over 90% accuracy. Random forest emerges as the top performer, followed closely by XGBoost. This research demonstrates the immense potential of machine learning techniques in forecasting startup success to inform management practice.",
+   "cited_by": 13,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "semantic",
+     "rank": 15,
+     "weight": 2.0,
+     "sim": 0.145,
+     "raw": 0.8541744663701046
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for startup funding prediction",
+     "kind": "semantic",
+     "rank": 11,
+     "weight": 2.0,
+     "sim": 0.171,
+     "raw": 0.8646427701191495
+    }
+   ],
+   "ids": {
+    "openalex": "W4389675446"
+   },
+   "sim": 0.171,
+   "raw_score": 0.8541744663701046,
+   "rrf": 0.05483568075117371,
+   "coverage": 0.17950405269335568,
+   "relevance": 0.24525133740443156,
+   "score": 0.09598610743561502
+  },
+  {
+   "title": "Interpretable Machine Learning for Predicting Startup Funding, Patenting, and Exits",
+   "year": 2025,
+   "authors": [
+    "Saeid Mashhadi",
+    "Amirhossein Saghezchi",
+    "Vesal Ghassemzadeh Kashani",
+    "Kashani"
+   ],
+   "venue": "arXiv (Cornell University)",
+   "doi": "10.13140/rg.2.2.33495.43681",
+   "url": "https://doi.org/10.13140/rg.2.2.33495.43681",
+   "oa_url": "https://arxiv.org/pdf/2510.09465",
+   "abstract": "This study develops an interpretable machine learning framework to forecast startup outcomes, including funding, patenting, and exit. A firm-quarter panel for 2010-2023 is constructed from Crunchbase and matched to U.S. Patent and Trademark Office (USPTO) data. Three horizons are evaluated: next funding within 12 months, patent-stock growth within 24 months, and exit through an initial public offering (IPO) or acquisition within 36 months. Preprocessing is fit on a development window (2010-2019) and applied without change to later cohorts to avoid leakage. Class imbalance is addressed using inverse-prevalence weights and the Synthetic Minority Oversampling Technique for Nominal and Continuous features (SMOTE-NC). Logistic regression and tree ensembles, including Random Forest, XGBoost, LightGBM, and CatBoost, are compared using the area under the precision-recall curve (PR-AUC) and the area under the receiver operating characteristic curve (AUROC). Patent, funding, and exit predictions achieve AUROC values of 0.921, 0.817, and 0.872, providing transparent and reproducible rankings for innovation finance.",
+   "cited_by": 1,
+   "kind": "preprint",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "user",
+     "rank": 9,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "startup funding prediction",
+     "kind": "semantic",
+     "rank": 31,
+     "weight": 2.0,
+     "sim": 0.04,
+     "raw": 0.8344140971249285
+    },
+    {
+     "source": "openalex",
+     "query": "forecasting and prediction methods for startup funding prediction",
+     "kind": "semantic",
+     "rank": 14,
+     "weight": 2.0,
+     "sim": 0.146,
+     "raw": 0.8601563078631225
+    }
+   ],
+   "ids": {
+    "openalex": "W7214577946"
+   },
+   "sim": 0.146,
+   "raw_score": 38.17317,
+   "rrf": 0.06784562871519394,
+   "coverage": 0.20595443875912306,
+   "relevance": 0.2723686418943261,
+   "score": 0.09120532192873647
+  },
+  {
+   "title": "Beyond social capital: the role of perceived legitimacy and entrepreneurial intensity in achieving funding success and superior venture performance in women-led Russian SMEs",
+   "year": 2011,
+   "authors": [
+    "Tatiana Aleksandrovna Iakovleva",
+    "Jill Richard Kickul"
+   ],
+   "venue": "International Journal of Entrepreneurship and Small Business",
+   "doi": "10.1504/ijesb.2011.042161",
+   "url": "https://doi.org/10.1504/ijesb.2011.042161",
+   "oa_url": "",
+   "abstract": "The growth of the number of women-led enterprises has contributed to the global economy. However, the growth has outpaced the research and understanding of which factors influence the performance and development of individual firms. Our results reveal that social capital influences entrepreneurial perceptions of legitimacy competence and financial competence success. In an indirect but important manner, social capital affects financial performance via perceptions of legitimacy. Moreover, entrepreneurs’ intensity towards the business is associated with their perception of financial competence and firm performance. Results further show that perceived legitimacy plays a key role in signalling to others the credibility of the firm. The paper discusses implications for women in emerging and transitioning economies as more women seek out and leverage their own networks towards their own sustainability.",
+   "cited_by": 32,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "semantic",
+     "rank": 9,
+     "weight": 2.0,
+     "sim": 0.257,
+     "raw": 0.8865604095804146
+    }
+   ],
+   "ids": {
+    "openalex": "W2012104353"
+   },
+   "sim": 0.257,
+   "raw_score": 0.8865604095804146,
+   "rrf": 0.028985507246376812,
+   "coverage": 0.2883580048820385,
+   "relevance": 0.25432384453597967,
+   "score": 0.08726986225591557
+  },
+  {
+   "title": "Forecasting Errors of New Venture Survival",
+   "year": 2014,
+   "authors": [
+    "Ari Hyytinen",
+    "Jukka Lahtonen",
+    "Mika Pajarinen"
+   ],
+   "venue": "Strategic Entrepreneurship Journal",
+   "doi": "10.1002/sej.1187",
+   "url": "https://doi.org/10.1002/sej.1187",
+   "oa_url": "",
+   "abstract": "This article studies entrepreneurs' forecast errors around market entry. Using data on nascent entrepreneurs in the U.S. and start‐ups in F inland, we find that besides being overoptimistic on average in both countries, entrepreneurs' survival expectations can barely distinguish survival from exits. Moreover, about one fourth of the entrepreneurs do not provide an estimate for the survival of a typical venture. However, among those that do provide it, the estimates are less overoptimistic. We also compare the forecast accuracy of entrepreneurs to those of macroeconomic forecasters. Our findings provide guidance for the development of positive theories of entrepreneurial belief formation and overoptimism. Copyright © 2014 S trategic M anagement S ociety.",
+   "cited_by": 34,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "new venture survival",
+     "kind": "user",
+     "rank": 3,
+     "weight": 1.3
+    },
+    {
+     "source": "openalex",
+     "query": "new venture survival",
+     "kind": "semantic",
+     "rank": 15,
+     "weight": 2.0,
+     "sim": 0.246,
+     "raw": 0.8778860679509978
+    }
+   ],
+   "ids": {
+    "openalex": "W2141619951"
+   },
+   "sim": 0.246,
+   "raw_score": 136.18118,
+   "rrf": 0.0473015873015873,
+   "coverage": 0.1453821345903697,
+   "relevance": 0.24811528342738637,
+   "score": 0.08621902113380457
+  },
+  {
+   "title": "Social networks and start-up funding",
+   "year": 2024,
+   "authors": [
+    "Alex Annan Abakah",
+    "Gunchang Kim",
+    "Hyacinthe Yirlier Somé"
+   ],
+   "venue": "Finance research letters",
+   "doi": "10.1016/j.frl.2024.105480",
+   "url": "https://doi.org/10.1016/j.frl.2024.105480",
+   "oa_url": "https://doi.org/10.1016/j.frl.2024.105480",
+   "abstract": "This paper examines whether aggregate social networks influence start-up firms’ access to external funding. We find that start-ups in U.S. counties with higher social proximity to start-up funding (SPF) attract a larger investor base and secure more capital. The results are robust to several alternate specifications. We also show that start-ups in counties with higher SPF have high survival rates and successful exits. Our findings highlight the importance of aggregate social connections in facilitating access to early-stage funding.",
+   "cited_by": 4,
+   "kind": "article",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A regional ocean-innovation network wants a tool that tells its mentors and the ",
+     "kind": "semantic",
+     "rank": 18,
+     "weight": 2.5,
+     "sim": 0.208,
+     "raw": 0.77931347954906
+    }
+   ],
+   "ids": {
+    "openalex": "W4396621049"
+   },
+   "sim": 0.208,
+   "raw_score": 0.77931347954906,
+   "rrf": 0.03205128205128205,
+   "coverage": 0.29253485132144186,
+   "relevance": 0.24285363763881074,
+   "score": 0.08278778574287125
+  },
+  {
+   "title": "Entrepreneurial choices of initial human capital endowments and new venture success",
+   "year": 2016,
+   "authors": [
+    "Vera Catarina Rocha",
+    "Mirjam van Praag",
+    "Timothy Brian Folta",
+    "Anabela Jesus Moreira Carneiro"
+   ],
+   "venue": "CBS Research Portal (Copenhagen Business School)",
+   "doi": "10.13140/rg.2.1.4235.8168",
+   "url": "https://doi.org/10.13140/rg.2.1.4235.8168",
+   "oa_url": "https://research.cbs.dk/en/publications/db7ce35d-2752-4db7-9d36-97e87375530e",
+   "abstract": "The founder (team)'s human capital is a vital determinant of future firm performance. This is a stylized fact. Less is known about the effect of the human capital of the initial workforce hired by the founder(s). We study the performance consequences of a founder's choice of the initial workforce's human capital (quantity and quality), besides the human capital of the founder(s). The analysis is based on matched employer-employee data and covers about 5,300 startups in manufacturing industries founded by individuals coming from employment between 1992 and 2007. We acknowledge that initial hiring decisions are endogenous and correlated with the human capital of the founders and the ownership structure of startups (single founder versus team of founders). Given the stickiness of initial choices, human capital decisions at entry turn out to be a close to irreversible matter with significant implications for post-entry survival and growth of the firm.",
+   "cited_by": 26,
+   "kind": "report",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "venture capital success",
+     "kind": "semantic",
+     "rank": 13,
+     "weight": 2.0,
+     "sim": 0.209,
+     "raw": 0.8769991730357101
+    }
+   ],
+   "ids": {
+    "openalex": "W3123637641"
+   },
+   "sim": 0.209,
+   "raw_score": 0.8769991730357101,
+   "rrf": 0.0273972602739726,
+   "coverage": 0.27990581873068743,
+   "relevance": 0.22902564386474594,
+   "score": 0.08021908894568694
+  },
+  {
+   "title": "Crowd-Based Feedback and Early-Stage Entrepreneurship Performance: Evidence from a Digital Platform",
+   "year": 2022,
+   "authors": [
+    "Aurélien Quignon"
+   ],
+   "venue": "Academy of Management Proceedings",
+   "doi": "10.5465/ambpp.2022.12402abstract",
+   "url": "https://doi.org/10.5465/ambpp.2022.12402abstract",
+   "oa_url": "",
+   "abstract": "The ability to identify early-stage venture potential, which has traditionally relied on experts, is challenging due to the uncertainty of new ideas. However, an alternative judgment from a large number of evaluators can effectively identify promising ventures. This paper empirically studies whether crowd-based information generates informative feedback for entrepreneurs as well as seed investors. Using data on about 701 early-stage founders of new ventures examined by 2,600 evaluators, I estimate the effects of crowd-based ratings on survival and securing seed funds. I find that the rating from the crowd is uncorrelated with subsequent financing events from seed investors but increases a venture’s probability of continuation by 3.1 percentage points. This effect becomes stronger as the number of evaluators increases. This highlights that the aggregation of judgments offers information for nascent founders of ventures.",
+   "cited_by": 0,
+   "kind": "conference-abstract",
+   "tldr": "",
+   "sources": [
+    "openalex"
+   ],
+   "hits": [
+    {
+     "source": "openalex",
+     "query": "A regional ocean-innovation network wants a tool that tells its mentors and the ",
+     "kind": "semantic",
+     "rank": 11,
+     "weight": 2.5,
+     "sim": 0.335,
+     "raw": 0.7869327
+    }
+   ],
+   "ids": {
+    "openalex": "W4286622226"
+   },
+   "sim": 0.335,
+   "raw_score": 0.7869327,
+   "rrf": 0.035211267605633804,
+   "coverage": 0.2788618796590214,
+   "relevance": 0.29663980636116416,
+   "score": 0.07929210117295522
+  }
+ ]
+}
